@@ -52,6 +52,9 @@ module.exports = {
      EXECUTION
   ===================== */
   async execute(interaction) {
+    // ⏳ ACK immédiat (anti Unknown interaction)
+    await interaction.deferReply().catch(() => {});
+
     const perkId = interaction.options.getString("nom");
 
     /* 🔍 AFFICHAGE D’UNE PERK */
@@ -59,9 +62,8 @@ module.exports = {
       const perk = allPerks.find(p => p.id === perkId);
 
       if (!perk) {
-        return interaction.reply({
-          content: "❌ Perk introuvable.",
-          flags: 64
+        return interaction.editReply({
+          content: "❌ Perk introuvable."
         });
       }
 
@@ -85,7 +87,6 @@ module.exports = {
               : "🔵 Perk commune"
         });
 
-      // ✅ AJOUT DU CHAMP SEULEMENT S’IL EXISTE
       if (perk.owner) {
         embed.addFields({
           name: "Propriétaire",
@@ -94,7 +95,9 @@ module.exports = {
         });
       }
 
-      return interaction.reply({ embeds: [embed] });
+      return interaction.editReply({
+        embeds: [embed]
+      });
     }
 
     /* 📚 MENU CATÉGORIES */
@@ -125,7 +128,7 @@ module.exports = {
         .setStyle(ButtonStyle.Danger)
     );
 
-    await interaction.reply({
+    return interaction.editReply({
       embeds: [embed],
       components: [row]
     });
