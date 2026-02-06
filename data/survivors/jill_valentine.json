@@ -1,0 +1,39 @@
+{
+  "id": "jill_valentine",
+  "name": "Jill Valentine",
+  "role": "Membre fondatrice du S.T.A.R.S.",
+  "description": "Une survivante coriace qui a survécu aux pires horreurs de Raccoon City, utilisant ses compétences pour soutenir ses alliés et retourner dans la bataille quand tout semble perdu.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0b/JillValentine.png",
+  "perks": [
+    {
+      "id": "counterforce",
+      "name": "Counterforce",
+      "description_tiers": {
+        "tier1": "Vous purifiez les Totems 25 % plus rapidement. Après avoir purifié un Totem, l’aura du Totem le plus éloigné vous est révélée pendant 10 secondes.",
+        "tier2": "Vous purifiez les Totems 30 % plus rapidement. Après avoir purifié un Totem, l’aura du Totem le plus éloigné vous est révélée pendant 12 secondes.",
+        "tier3": "Vous purifiez les Totems 35 % plus rapidement. Après avoir purifié un Totem, l’aura du Totem le plus éloigné vous est révélée pendant 14 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/Perk_Counterforce.png"
+    },
+    {
+      "id": "resurgence",
+      "name": "Resurgence",
+      "description_tiers": {
+        "tier1": "Après avoir été décroché ou vous être décroché vous-même, vous obtenez 50 % de progression de soins instantanée.",
+        "tier2": "Après avoir été décroché ou vous être décroché vous-même, vous obtenez 60 % de progression de soins instantanée.",
+        "tier3": "Après avoir été décroché ou vous être décroché vous-même, vous obtenez 70 % de progression de soins instantanée."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/Perk_Resurgence.png"
+    },
+    {
+      "id": "blast_mine",
+      "name": "Blast Mine",
+      "description_tiers": {
+        "tier1": "Après avoir réparé des générateurs pour un total de 40 % de progression, Blast Mine s’active. Installe un piège sur un générateur qui dure 100 s. Quand le tueur endommage ce générateur, il est étourdi 4 s et tous les joueurs à moins de 12,5 m sont aveuglés.",
+        "tier2": "Après avoir réparé des générateurs pour un total de 40 % de progression, Blast Mine s’active. Installe un piège sur un générateur qui dure 110 s. Quand le tueur endommage ce générateur, il est étourdi 4 s et tous les joueurs à moins de 12,5 m sont aveuglés.",
+        "tier3": "Après avoir réparé des générateurs pour un total de 40 % de progression, Blast Mine s’active. Installe un piège sur un générateur qui dure 120 s. Quand le tueur endommage ce générateur, il est étourdi 4 s et tous les joueurs à moins de 12,5 m sont aveuglés."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/Perk_BlastMine.png"
+    }
+  ]
+}

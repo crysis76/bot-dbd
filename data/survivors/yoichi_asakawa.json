@@ -1,0 +1,39 @@
+{
+  "id": "yoichi_asakawa",
+  "name": "Yoichi Asakawa",
+  "role": "Biologiste marin médium",
+  "description": "Un survivant marqué par le paranormal, dont les connaissances psychiques lui permettent de dissimuler ses traces, de soutenir ses alliés et d’augmenter leur vitesse quand un totem de bénédiction est actif.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3a/YoichiAsakawa.png",
+  "perks": [
+    {
+      "id": "boon_dark_theory",
+      "name": "Boon: Dark Theory",
+      "description_tiers": {
+        "tier1": "Bénis un totem passif ou hex pour créer un totem de bénédiction. Les survivants dans son aura reçoivent +3 % d’Effet Eile, qui persiste 2 s après avoir quitté la zone.",
+        "tier2": "Bénis un totem passif ou hex pour créer un totem de bénédiction. Les survivants dans son aura reçoivent +3 % d’Effet Eile, qui persiste 3 s après avoir quitté la zone.",
+        "tier3": "Bénis un totem passif ou hex pour créer un totem de bénédiction. Les survivants dans son aura reçoivent +3 % d’Effet Eile, qui persiste 4 s après avoir quitté la zone."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6d/Perk_BoonDarkTheory.png"
+    },
+    {
+      "id": "empathic_connection",
+      "name": "Empathic Connection",
+      "description_tiers": {
+        "tier1": "Ta présence projette psychiquement ton aura aux survivants blessés dans un rayon de 32 mètres et augmente ta vitesse de soins altruistes de 25 %.",
+        "tier2": "Ta présence projette psychiquement ton aura aux survivants blessés dans un rayon de 64 mètres et augmente ta vitesse de soins altruistes de 30 %.",
+        "tier3": "Ta présence projette psychiquement ton aura aux survivants blessés dans un rayon de 96 mètres et augmente ta vitesse de soins altruistes de 35 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0b/Perk_EmpathicConnection.png"
+    },
+    {
+      "id": "parental_guidance",
+      "name": "Parental Guidance",
+      "description_tiers": {
+        "tier1": "Après avoir étourdi le tueur, tes marques d’éraflure, flaque de sang et gémissements de douleur sont dissimulés pendant 5 secondes.",
+        "tier2": "Après avoir étourdi le tueur, tes marques d’éraflure, flaque de sang et gémissements de douleur sont dissimulés pendant 6 secondes.",
+        "tier3": "Après avoir étourdi le tueur, tes marques d’éraflure, flaque de sang et gémissements de douleur sont dissimulés pendant 7 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7e/Perk_ParentalGuidance.png"
+    }
+  ]
+}

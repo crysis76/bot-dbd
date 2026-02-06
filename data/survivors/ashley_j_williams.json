@@ -1,0 +1,39 @@
+{
+  "id": "ashley_j_williams",
+  "name": "Ashley J. Williams",
+  "role": "Loup solitaire débrouillard",
+  "description": "Un survivant coriace et déterminé, prêt à supporter la douleur et à aider ses alliés dans les situations les plus désespérées.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/33/AshleyWilliams.png",
+  "perks": [
+    {
+      "id": "flip_flop",
+      "name": "Flip-Flop",
+      "description_tiers": {
+        "tier1": "Pendant que tu récupères de l’état critique, la moitié de ta progression de récupération est convertie en progression de gigotement à 50 % lorsque tu es ramassé par le tueur.",
+        "tier2": "Pendant que tu récupères de l’état critique, la moitié de ta progression de récupération est convertie en progression de gigotement à 55 % lorsque tu es ramassé par le tueur.",
+        "tier3": "Pendant que tu récupères de l’état critique, la moitié de ta progression de récupération est convertie en progression de gigotement à 60 % lorsque tu es ramassé par le tueur."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/Perk_Flip-Flop.png"
+    },
+    {
+      "id": "buckle_up",
+      "name": "Buckle Up",
+      "description_tiers": {
+        "tier1": "Révèle l’aura des coéquipiers en état critique et leur progression de récupération est indiquée par l’intensité de l’aura. Lorsqu’un survivant blessé est soigné depuis l’état critique, l’aura du tueur est révélée pendant 4 s.",
+        "tier2": "Révèle l’aura des coéquipiers en état critique et leur progression de récupération est indiquée par l’intensité de l’aura. Lorsqu’un survivant blessé est soigné depuis l’état critique, l’aura du tueur est révélée pendant 5 s.",
+        "tier3": "Révèle l’aura des coéquipiers en état critique et leur progression de récupération est indiquée par l’intensité de l’aura. Lorsqu’un survivant blessé est soigné depuis l’état critique, l’aura du tueur est révélée pendant 6 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9d/Perk_BuckleUp.png"
+    },
+    {
+      "id": "mettle_of_man",
+      "name": "Mettle of Man",
+      "description_tiers": {
+        "tier1": "Après avoir reçu trois coups de Protection, gagne l’effet Endurance, empêchant de passer en état critique une fois. Quand tu es complètement guéri, l’aura est révélée au tueur si tu es à plus de 12 mètres.",
+        "tier2": "Après avoir reçu trois coups de Protection, gagne l’effet Endurance, empêchant de passer en état critique une fois. Quand tu es complètement guéri, l’aura est révélée au tueur si tu es à plus de 14 mètres.",
+        "tier3": "Après avoir reçu trois coups de Protection, gagne l’effet Endurance, empêchant de passer en état critique une fois. Quand tu es complètement guéri, l’aura est révélée au tueur si tu es à plus de 16 mètres."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a8/Perk_MettleOfMan.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "nea",
+  "name": "Nea Karlsson",
+  "role": "Artiste urbaine",
+  "description": "Nea est une survivante agile et insaisissable, capable de fuir rapidement grâce à ses réflexes félins et sa capacité à utiliser efficacement les objets.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/14/NeaKarlsson.png",
+  "perks": [
+    {
+      "id": "balanced_landing",
+      "name": "Balanced Landing",
+      "description_tiers": {
+        "tier1": "Après une chute de hauteur, réduit la durée du chancèlement de 75 % et supprime les bruits de chute. Accorde +50 % de vitesse (Haste) pendant 3 s. Cause l’effet Épuisé pendant 60 s.",
+        "tier2": "Après une chute de hauteur, réduit la durée du chancèlement de 75 % et supprime les bruits de chute. Accorde +50 % de vitesse (Haste) pendant 3 s. Cause l’effet Épuisé pendant 50 s.",
+        "tier3": "Après une chute de hauteur, réduit la durée du chancèlement de 75 % et supprime les bruits de chute. Accorde +50 % de vitesse (Haste) pendant 3 s. Cause l’effet Épuisé pendant 40 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/34/Perk_BalancedLanding.png"
+    },
+    {
+      "id": "urban_evasion",
+      "name": "Urban Evasion",
+      "description_tiers": {
+        "tier1": "Augmente la vitesse de déplacement en position accroupie de 90 %.",
+        "tier2": "Augmente la vitesse de déplacement en position accroupie de 95 %.",
+        "tier3": "Augmente la vitesse de déplacement en position accroupie de 100 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/Perk_UrbanEvasion.png"
+    },
+    {
+      "id": "streetwise",
+      "name": "Streetwise",
+      "description_tiers": {
+        "tier1": "Augmente l’efficacité des charges d’objets de 15 % et l’effet s’étend à tous les survivants proches pendant 15 s lorsque votre objet est consommé pour la première fois.",
+        "tier2": "Augmente l’efficacité des charges d’objets de 20 % et l’effet s’étend à tous les survivants proches pendant 15 s lorsque votre objet est consommé pour la première fois.",
+        "tier3": "Augmente l’efficacité des charges d’objets de 25 % et l’effet s’étend à tous les survivants proches pendant 15 s lorsque votre objet est consommé pour la première fois."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8b/Perk_Streetwise.png"
+    }
+  ]
+}

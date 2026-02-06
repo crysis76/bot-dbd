@@ -1,0 +1,39 @@
+{
+  "id": "lara_croft",
+  "name": "Lara Croft",
+  "role": "Tomb Raider",
+  "description": "Une survivante chevronnée dont les nombreuses expéditions ont aiguisé les instincts, ce qui lui permet de survivre et de soutenir son équipe dans les pires situations.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/45/LaraCroft.png",
+  "perks": [
+    {
+      "id": "finesse",
+      "name": "Finesse",
+      "description_tiers": {
+        "tier1": "Lorsque tu es en bonne santé, augmente la vitesse de tes Fast Vaults de +20 %. Cooldown : 40 s.",
+        "tier2": "Lorsque tu es en bonne santé, augmente la vitesse de tes Fast Vaults de +20 %. Cooldown : 35 s.",
+        "tier3": "Lorsque tu es en bonne santé, augmente la vitesse de tes Fast Vaults de +20 %. Cooldown : 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/12/Perk_Finesse.png"
+    },
+    {
+      "id": "hardened",
+      "name": "Hardened",
+      "description_tiers": {
+        "tier1": "Après avoir ouvert un coffre **et** purifié ou béni un totem, Hardened s’active : chaque fois que tu devrais hurler, révèle l’aura du tueur pendant 3 s à la place.",
+        "tier2": "…révèle l’aura du tueur pendant 4 s.",
+        "tier3": "…révèle l’aura du tueur pendant 5 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3d/Perk_Hardened.png"
+    },
+    {
+      "id": "specialist",
+      "name": "Specialist",
+      "description_tiers": {
+        "tier1": "Chaque fois que tu ouvres ou fouilles un coffre, Specialist gagne +1 jeton (max 6). Réussir un Excellent Skill Check sur un générateur consomme tous les jetons : pour chaque jeton, réduit de 2 charges la progression requise.",
+        "tier2": "…pour chaque jeton, réduit de 3 charges la progression requise.",
+        "tier3": "…pour chaque jeton, réduit de 4 charges la progression requise."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/Perk_Specialist.png"
+    }
+  ]
+}

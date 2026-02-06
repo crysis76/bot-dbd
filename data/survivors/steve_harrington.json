@@ -1,0 +1,39 @@
+{
+  "id": "steve_harrington",
+  "name": "Steve Harrington",
+  "role": "Ancien sportif populaire",
+  "description": "Un survivant charismatique et protecteur, prêt à se battre pour ses alliés même dans les situations les plus dangereuses.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/SteveHarrington.png",
+  "perks": [
+    {
+      "id": "babysitter",
+      "name": "Babysitter",
+      "description_tiers": {
+        "tier1": "Lorsque tu décroches un survivant, l’aura du tueur est révélée pendant 8 secondes. Le survivant décroché bénéficie d’un bonus de vitesse Haste de +10 % pendant 20 secondes.",
+        "tier2": "Lorsque tu décroches un survivant, l’aura du tueur est révélée pendant 8 secondes. Le survivant décroché bénéficie d’un bonus de vitesse Haste de +10 % pendant 25 secondes.",
+        "tier3": "Lorsque tu décroches un survivant, l’aura du tueur est révélée pendant 8 secondes. Le survivant décroché bénéficie d’un bonus de vitesse Haste de +10 % pendant 30 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/06/Perk_Babysitter.png"
+    },
+    {
+      "id": "camaraderie",
+      "name": "Camaraderie",
+      "description_tiers": {
+        "tier1": "Lorsque tu es sur un crochet en phase de lutte, si un autre survivant est à moins de 16 m, le minuteur de la phase de lutte est mis en pause pendant 26 secondes.",
+        "tier2": "Lorsque tu es sur un crochet en phase de lutte, si un autre survivant est à moins de 16 m, le minuteur de la phase de lutte est mis en pause pendant 30 secondes.",
+        "tier3": "Lorsque tu es sur un crochet en phase de lutte, si un autre survivant est à moins de 16 m, le minuteur de la phase de lutte est mis en pause pendant 34 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a3/Perk_Camaraderie.png"
+    },
+    {
+      "id": "second_wind",
+      "name": "Second Wind",
+      "description_tiers": {
+        "tier1": "La prochaine fois que tu es décroché ou que tu t’es décroché toi-même, tu subis l’état Brisé, puis tu es automatiquement guéri d’1 état de santé après 28 secondes si tu n’es pas mis en état agonisant.",
+        "tier2": "La prochaine fois que tu es décroché ou que tu t’es décroché toi-même, tu subis l’état Brisé, puis tu es automatiquement guéri d’1 état de santé après 24 secondes si tu n’es pas mis en état agonisant.",
+        "tier3": "La prochaine fois que tu es décroché ou que tu t’es décroché toi-même, tu subis l’état Brisé, puis tu es automatiquement guéri d’1 état de santé après 20 secondes si tu n’es pas mis en état agonisant."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d8/Perk_SecondWind.png"
+    }
+  ]
+}

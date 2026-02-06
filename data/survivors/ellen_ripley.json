@@ -1,0 +1,39 @@
+{
+  "id": "ellen_ripley",
+  "name": "Ellen Ripley",
+  "role": "Nostromo Warrant Officer",
+  "description": "Une survivante pragmatique et ingénieuse, capable d’utiliser son expérience pour tromper le tueur, se déplacer furtivement et aider son équipe à survivre dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/EllenRipley.png",
+  "perks": [
+    {
+      "id": "chemical_trap",
+      "name": "Chemical Trap",
+      "description_tiers": {
+        "tier1": "Après avoir réparé des générateurs pour 20 % de progression, Chemical Trap s’active : installe un piège sur une palette tombée. Si le tueur détruit la palette piégée, le piège explose et inflige au tueur -50 % d’effet Hindered pendant 4 s.",
+        "tier2": "Après avoir réparé des générateurs pour 20 % de progression, Chemical Trap s’active : installe un piège sur une palette tombée. Si le tueur détruit la palette piégée, le piège explose et inflige au tueur -50 % d’effet Hindered pendant 4 s.",
+        "tier3": "Après avoir réparé des générateurs pour 20 % de progression, Chemical Trap s’active : installe un piège sur une palette tombée. Si le tueur détruit la palette piégée, le piège explose et inflige au tueur -50 % d’effet Hindered pendant 4 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f0/Perk_ChemicalTrap.png"
+    },
+    {
+      "id": "light_footed",
+      "name": "Light-Footed",
+      "description_tiers": {
+        "tier1": "Tant que tu es en bonne santé, Light-Footed supprime le son de tes pas lorsque tu cours. Cooldown après une action Rush Vault : 14 s.",
+        "tier2": "Tant que tu es en bonne santé, Light-Footed supprime le son de tes pas lorsque tu cours. Cooldown après une action Rush Vault : 12 s.",
+        "tier3": "Tant que tu es en bonne santé, Light-Footed supprime le son de tes pas lorsque tu cours. Cooldown après une action Rush Vault : 10 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/Perk_Light-Footed.png"
+    },
+    {
+      "id": "lucky_star",
+      "name": "Lucky Star",
+      "description_tiers": {
+        "tier1": "Lorsque tu es cachée dans un casier, Lucky Star supprime les gémissements de douleur. Après être sortie du casier, pendant 30 s : supprime les gémissements et les flaques de sang, révèle les auras des autres survivants et l’aura du générateur le plus proche.",
+        "tier2": "Quand tu es cachée dans un casier, Lucky Star supprime les gémissements de douleur. Après être sortie du casier, pendant 30 s : supprime les gémissements et les flaques de sang, révèle les auras des autres survivants et l’aura du générateur le plus proche.",
+        "tier3": "Quand tu es cachée dans un casier, Lucky Star supprime les gémissements de douleur. Après être sortie du casier, pendant 30 s : supprime les gémissements et les flaques de sang, révèle les auras des autres survivants et l’aura du générateur le plus proche."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/69/Perk_LuckyStar.png"
+    }
+  ]
+}

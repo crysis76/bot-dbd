@@ -1,0 +1,45 @@
+{
+  "id": "the_artist",
+  "name": "L’Artiste",
+  "role": "The Artist",
+  "description": "Carmina Mora est une peintre tourmentée qui s’est tournée vers une force sombre après la mort tragique de son frère. Elle utilise une volée de corbeaux funestes pour traquer, punir et révéler les survivants à travers les Trials.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/The_Artist_Portrait.png",
+
+  "power": {
+    "name": "Oiseaux de Souffrance",
+    "description": "L’Artiste peut invoquer jusqu’à **trois corbeaux funestes** sur le terrain et les **envoyer sur une trajectoire létale**. Ces corbeaux peuvent **révéler, infliger des dégâts** et créer des pressions stratégiques sur les survivants, permettant à l’Artiste d’anticiper les chemins et punir les cibles à distance. Les corbeaux forment une menace mondiale car leur cri se fait entendre sur toute la carte à l’activation de ce pouvoir." 
+  },
+
+  "perks": [
+    {
+      "id": "grim_embrace",
+      "name": "Sombre Étreinte",
+      "description_tiers": {
+        "tier1": "Après avoir accroché un survivant pour la première fois, gagne un jeton. Après avoir accumulé 4 jetons, quand tu es à au moins 16 m du crochet, l’Entité bloque tous les générateurs restants pendant 40 s et l’aura de ton obsession est révélée brièvement.",
+        "tier2": "…lorsque 4 jetons sont obtenus, l’effet dure 45 s.",
+        "tier3": "…lorsque 4 jetons sont obtenus, l’effet dure 50 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7f/Perk_GrimEmbrace.png"
+    },
+    {
+      "id": "scourge_hook_pain_resonance",
+      "name": "Crochet Flagellant : Écho de Douleur",
+      "description_tiers": {
+        "tier1": "Au début de l’essai, 4 crochets deviennent des Scourge Hooks. Quand un survivant est accroché à un Scourge Hook, le générateur avec le plus de progression explose, perd au moins 9 % de progression et régresse.",
+        "tier2": "…perte d’au moins 12 % de progression.",
+        "tier3": "…perte d’au moins 15 % de progression."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8b/Perk_ScourgeHookPainResonance.png"
+    },
+    {
+      "id": "hex_pentimento",
+      "name": "Hex : Pentimento",
+      "description_tiers": {
+        "tier1": "Révèle l’aura des totems bénits. Tu peux exécuter un rituel sur un totem bénit pour le transformer en totem ravivé. 1 totem ravivé réduit la vitesse de réparation de 20 %.",
+        "tier2": "…2 totems ravivés réduisent la vitesse de soins de 20 %.",
+        "tier3": "…3 totems ravivés réduisent la vitesse de récupération des survivants de 20 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d0/Perk_HexPentimento.png"
+    }
+  ]
+}

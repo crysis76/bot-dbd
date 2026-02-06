@@ -1,0 +1,45 @@
+{
+  "id": "skull_merchant",
+  "name": "La Marchande de Crânes",
+  "role": "The Skull Merchant",
+  "description": "Une tueuse tactique rusée et impitoyable capable d’installer des drones de surveillance partout dans l’essai pour détecter les survivants et les traquer avec ses lames jumelles effilées. Son intelligence et sa maîtrise de la technologie lui donnent un avantage stratégique contre ses proies.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1b/The_Skull_Merchant_Portrait.png",
+
+  "power": {
+    "name": "Yeux dans le Ciel",
+    "description": "La Marchande de Crânes commence l’essai avec plusieurs drones dans son inventaire. Elle peut déployer ces drones sur la carte afin qu’ils détectent les survivants dans leur zone. Les survivants détectés peuvent subir des effets de statut et être localisés, tandis que La Marchande de Crânes peut utiliser son radar pour localiser n’importe quel survivant détectable par ses drones. Les drones ont différentes interactions : ils tournent lentement pour détecter, peuvent être rappelés, ou changer le sens de rotation pour repérer des survivants selon la direction souhaitée. :contentReference[oaicite:0]{index=0}"
+  },
+
+  "perks": [
+    {
+      "id": "game_afoot",
+      "name": "Game Afoot",
+      "description_tiers": {
+        "tier1": "Quand tu frappes le survivant ayant passé le plus de temps en poursuite avec une attaque de base, il devient l’Obsession. Tant que tu poursuis l’Obsession, briser ou endommager des objets te donne un effet *Rapidité* de +7 % pendant 8 secondes.",
+        "tier2": "...tant que tu poursuis l’Obsession, briser ou endommager des objets te donne un effet *Rapidité* de +7 % pendant 9 secondes.",
+        "tier3": "...tant que tu poursuis l’Obsession, briser ou endommager des objets te donne un effet *Rapidité* de +7 % pendant 10 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/Perk_GameAfoot.png"
+    },
+    {
+      "id": "thwack",
+      "name": "THWACK!",
+      "description_tiers": {
+        "tier1": "Commence l’essai avec 3 jetons. Quand tu brises un mur destructible ou une palette déposée et consommes 1 jeton, tous les survivants dans un rayon de 36 m hurlent et leurs positions sont révélées pendant 3 secondes. Quand tu accroches un survivant, tu gagnes +1 jeton.",
+        "tier2": "...tous les survivants dans un rayon de 36 m hurlent et leurs positions sont révélées pendant 4 secondes.",
+        "tier3": "...tous les survivants dans un rayon de 36 m hurlent et leurs positions sont révélées pendant 5 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6b/Perk_THWACK.png"
+    },
+    {
+      "id": "leverage",
+      "name": "Leverage",
+      "description_tiers": {
+        "tier1": "Quand un survivant effectue une action de désaccrochage, réduit sa vitesse de soins de 20 % pendant 60 s.",
+        "tier2": "...réduit sa vitesse de soins de 25 % pendant 60 s.",
+        "tier3": "...réduit sa vitesse de soins de 30 % pendant 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/80/Perk_Leverage.png"
+    }
+  ]
+}

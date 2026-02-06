@@ -1,0 +1,45 @@
+{
+  "id": "the_lich",
+  "name": "La Liche",
+  "role": "Killer",
+  "description": "Vecna, l’Archliche, est un maître de la magie sombre dont le pouvoir provient du Livre des Viles Ténèbres. Dans le Royaume du Brouillard, il utilise des sortilèges interdits pour traquer, désorienter et dominer les survivants, les forçant à subir son art obscur et impitoyable.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5c/The_Lich_Portrait.png",
+
+  "power": {
+    "name": "Viles Ténèbres",
+    "description": "Vecna utilise le **Livre des Viles Ténèbres** pour lancer quatre sorts uniques pendant une partie. En maintenant le bouton de capacité secondaire, il ouvre un menu radial qui lui permet de sélectionner l’un des sorts suivants :\n\n* **Vol** : Vecna peut voler librement pendant une courte durée, ignorant palettes et fenêtres avant d’atterrir avec un léger délai avant l’attaque.\n* **Volée des Damnés** : Invoque des entités spectrales traversant les obstacles et révélant les survivants touchés via *Instinct de Tueur*.\n* **Sphère de Dispersion** : Lance une sphère magique rapide et invisible qui révèle les survivants touchés et perturbe leurs objets.\n* **Main de Mage** : Invoque une main magique capable d’interagir avec les palettes, modifiant les déplacements des survivants.\n\nLa polyvalence de ces sorts permet à Vecna d’exercer une pression constante et surnaturelle sur la carte."
+  },
+
+  "perks": [
+    {
+      "id": "dark_arrogance",
+      "name": "Arrogance Ténébreuse",
+      "description_tiers": {
+        "tier1": "Augmente ta vitesse de franchissement de fenêtres de 15 %. Réduit ta vitesse de récupération après un étourdissement par palette et augmente la durée des aveuglements de 15 %.",
+        "tier2": "…vitesse de franchissement +20 %.",
+        "tier3": "…vitesse de franchissement +25 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d9/Perk_Dark_Arrogance.png"
+    },
+    {
+      "id": "languid_touch",
+      "name": "Contact Languide",
+      "description_tiers": {
+        "tier1": "Lorsqu’un corbeau est effrayé dans un rayon de 36 m, le survivant concerné devient *Épuisé* pendant 6 s. Cooldown : 20 s.",
+        "tier2": "…*Épuisé* pendant 8 s.",
+        "tier3": "…*Épuisé* pendant 10 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cb/Perk_Languid_Touch.png"
+    },
+    {
+      "id": "weave_attunement",
+      "name": "Accord de Tissage",
+      "description_tiers": {
+        "tier1": "Lorsqu’un objet de survivant est entièrement consommé pour la première fois, il tombe au sol et révèle son aura ainsi que celles des survivants proches dans un rayon de 8 m. Récupérer un objet inflige *Apathique* pendant 20 s.",
+        "tier2": "…*Apathique* pendant 25 s.",
+        "tier3": "…*Apathique* pendant 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/12/Perk_Weave_Attunement.png"
+    }
+  ]
+}

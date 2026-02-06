@@ -1,0 +1,45 @@
+{
+  "id": "mastermind",
+  "name": "Le Mastermind",
+  "role": "The Mastermind",
+  "description": "Un visionnaire brillant et impitoyable, forgé par l’Umbrella Corporation et gravement infecté par l’Uroboros. Il traque ses proies avec des bonds surhumains et une stratégie froide, déterminé à imposer sa vision d’évolution dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a7/The_Mastermind_Portrait.png",
+
+  "power": {
+    "name": "Bond Virulent",
+    "description": "Le Mastermind utilise le pouvoir **Virulent Bound** pour foncer à grande vitesse sur ses proies, infectant les survivants avec le virus Uroboros et infligeant des dégâts ou contrôlant leur mouvement. Il peut enchaîner deux bonds successifs, franchir automatiquement des palettes et des fenêtres pendant un bond, attraper ou projeter des survivants, et prolonger le blocage des Portes de Sortie après une attaque réussie."
+  },
+
+  "perks": [
+    {
+      "id": "superior_anatomy",
+      "name": "Anatomie Supérieure",
+      "description_tiers": {
+        "tier1": "Quand un survivant effectue un Rush Vault dans un rayon de 12 m, ta prochaine vitesse de vault est augmentée de 30 % (cooldown : 25 s).",
+        "tier2": "…vitesse de vault augmentée de 35 % (cooldown : 25 s).",
+        "tier3": "…vitesse de vault augmentée de 40 % (cooldown : 25 s)."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ab/Perk_SuperiorAnatomy.png"
+    },
+    {
+      "id": "awakened_awareness",
+      "name": "Perception Éveillée",
+      "description_tiers": {
+        "tier1": "Quand tu portes un survivant, les auras des autres survivants dans un rayon de 16 m autour de toi sont révélées.",
+        "tier2": "…rayon de 18 m.",
+        "tier3": "…rayon de 20 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9d/Perk_AwakenedAwareness.png"
+    },
+    {
+      "id": "terminus",
+      "name": "Terminus",
+      "description_tiers": {
+        "tier1": "Quand les Portes de Sortie sont alimentées, tous les survivants blessés, agonisants ou accrochés subissent l’effet *Brisé* jusqu’à ce qu’une Porte s’ouvre, puis encore 35 s.",
+        "tier2": "…l’effet *Brisé* persiste 40 s après l’ouverture d’une Porte.",
+        "tier3": "…l’effet *Brisé* persiste 45 s après l’ouverture d’une Porte."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1f/Perk_Terminus.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "detective_david_tapp",
+  "name": "Detective David Tapp",
+  "role": "Détective acharné",
+  "description": "Un détective obsédé par la justice, déterminé à survivre coûte que coûte et à découvrir les indices les plus enfouis.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8f/DavidTapp.png",
+  "perks": [
+    {
+      "id": "detectives_hunch",
+      "name": "Detective's Hunch",
+      "description_tiers": {
+        "tier1": "À chaque fois qu’un générateur est terminé, révèle les auras des générateurs, coffres et totems dans un rayon de 32 mètres pendant 20 secondes.",
+        "tier2": "À chaque fois qu’un générateur est terminé, révèle les auras des générateurs, coffres et totems dans un rayon de 48 mètres pendant 20 secondes.",
+        "tier3": "À chaque fois qu’un générateur est terminé, révèle les auras des générateurs, coffres et totems dans un rayon de 64 mètres pendant 20 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3c/Perk_DetectivesHunch.png"
+    },
+    {
+      "id": "stake_out",
+      "name": "Stake Out",
+      "description_tiers": {
+        "tier1": "Chaque 15 secondes passées dans le rayon de terreur du tueur sans être poursuivi donne 1 Jeton (max 2). Convertit les Good Skill Checks en Great et leur donne +1 % de progression bonus.",
+        "tier2": "Chaque 15 secondes passées dans le rayon de terreur du tueur sans être poursuivi donne 1 Jeton (max 3). Convertit les Good Skill Checks en Great et leur donne +1 % de progression bonus.",
+        "tier3": "Chaque 15 secondes passées dans le rayon de terreur du tueur sans être poursuivi donne 1 Jeton (max 4). Convertit les Good Skill Checks en Great et leur donne +1 % de progression bonus."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7e/Perk_StakeOut.png"
+    },
+    {
+      "id": "tenacity",
+      "name": "Tenacity",
+      "description_tiers": {
+        "tier1": "Dans l’état agonisant, permet de se relever et de ramper en récupérant et augmente la vitesse de rampe de 30 % tout en réduisant les gémissements de douleur de 75 %.",
+        "tier2": "Dans l’état agonisant, permet de se relever et de ramper en récupérant et augmente la vitesse de rampe de 40 % tout en réduisant les gémissements de douleur de 75 %.",
+        "tier3": "Dans l’état agonisant, permet de se relever et de ramper en récupérant et augmente la vitesse de rampe de 50 % tout en réduisant les gémissements de douleur de 75 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/Perk_Tenacity.png"
+    }
+  ]
+}

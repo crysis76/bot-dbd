@@ -1,0 +1,39 @@
+{
+  "id": "feng_min",
+  "name": "Feng Min",
+  "role": "Compétitrice déterminée",
+  "description": "Une survivante déterminée et concentrée, experte pour repérer le tueur à temps et s’échapper rapidement grâce à ses réflexes et son agilité.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/32/FengMin.png",
+  "perks": [
+    {
+      "id": "alert",
+      "name": "Alert",
+      "description_tiers": {
+        "tier1": "Quand le tueur brise ou endommage un objet, l’aura du tueur est révélée pendant 3 secondes.",
+        "tier2": "Quand le tueur brise ou endommage un objet, l’aura du tueur est révélée pendant 4 secondes.",
+        "tier3": "Quand le tueur brise ou endommage un objet, l’aura du tueur est révélée pendant 5 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/40/Perk_Alert.png"
+    },
+    {
+      "id": "lithe",
+      "name": "Lithe",
+      "description_tiers": {
+        "tier1": "Après un saut précipité, accorde +50 % de vitesse pendant 3 secondes. Cause l’état Épuisé pendant 60 secondes.",
+        "tier2": "Après un saut précipité, accorde +50 % de vitesse pendant 3 secondes. Cause l’état Épuisé pendant 50 secondes.",
+        "tier3": "Après un saut précipité, accorde +50 % de vitesse pendant 3 secondes. Cause l’état Épuisé pendant 40 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2f/Perk_Lithe.png"
+    },
+    {
+      "id": "technician",
+      "name": "Technician",
+      "description_tiers": {
+        "tier1": "Réduit la portée audible des bruits de réparation (-8 m) et supprime l’explosion du générateur après une erreur. Pénalité de progression +5 %.",
+        "tier2": "Réduit la portée audible des bruits de réparation (-8 m) et supprime l’explosion du générateur après une erreur. Pénalité de progression +4 %.",
+        "tier3": "Réduit la portée audible des bruits de réparation (-8 m) et supprime l’explosion du générateur après une erreur. Pénalité de progression +3 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/18/Perk_Technician.png"
+    }
+  ]
+}

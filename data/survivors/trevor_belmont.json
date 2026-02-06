@@ -1,0 +1,39 @@
+{
+  "id": "trevor_belmont",
+  "name": "Trevor Belmont",
+  "role": "Vampire Hunter",
+  "description": "Un chasseur de vampires légendaire issu de l’univers Castlevania, entraîné à traquer les forces du mal même dans les ténèbres les plus profondes. Son expérience face à des créatures surnaturelles fait de lui un survivant déterminé dans la Brume.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8f/TrevorBelmont.png",
+  "perks": [
+    {
+      "id": "exultation",
+      "name": "Exultation",
+      "description_tiers": {
+        "tier1": "Étourdis le tueur avec une palette tout en tenant un objet → Recharge l’objet de +75 % et augmente sa rareté d’un niveau. Cooldown : 40 s.",
+        "tier2": "…Cooldown : 35 s.",
+        "tier3": "…Cooldown : 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e8/Perk_Exultation.png"
+    },
+    {
+      "id": "eyes_of_belmont",
+      "name": "Eyes of Belmont",
+      "description_tiers": {
+        "tier1": "Quand un générateur est terminé, révèle l’aura du tueur pendant 1 s. Toutes les instances d’aura révélée pour toi durent +2 s de plus.",
+        "tier2": "…Quand un générateur est terminé, révèle l’aura du tueur pendant 2 s. Toutes les instances d’aura révélée pour toi durent +2 s de plus.",
+        "tier3": "…Quand un générateur est terminé, révèle l’aura du tueur pendant 3 s. Toutes les instances d’aura révélée pour toi durent +2 s de plus."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5c/Perk_EyesOfBelmont.png"
+    },
+    {
+      "id": "moment_of_glory",
+      "name": "Moment of Glory",
+      "description_tiers": {
+        "tier1": "Après avoir ouvert ou fouillé 2 coffres, Moment of Glory s’active : quand tu deviens blessé, tu subis instantanément l’effet Brisé puis tu guéris 1 état de santé après 80 s (effet annulé si tu passes en état agonisant).",
+        "tier2": "…guéris 1 état de santé après 70 s.",
+        "tier3": "…guéris 1 état de santé après 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a2/Perk_MomentOfGlory.png"
+    }
+  ]
+}

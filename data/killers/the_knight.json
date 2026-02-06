@@ -1,0 +1,45 @@
+{
+  "id": "the_knight",
+  "name": "Le Chevalier",
+  "role": "The Knight",
+  "description": "Un stratège brutal capable d’envoyer ses fidèles Gardes pourchasser les survivants et endommager l’environnement du champ de bataille. Né Tarhos Kovács, il a remporté sa liberté par la violence et a trouvé dans le Brouillard une soif insatiable de domination et de carnage.",  
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/67/The_Knight_Portrait.png",
+
+  "power": {
+    "name": "Guardia Compagnia",
+    "description": "Le Chevalier invoque ses trois fidèles gardes (*The Carnifex*, *The Assassin*, *The Jailer*) pour patrouiller, harceler et intégrer des actions destructrices sur la carte. Il trace une **patrouille** pour un garde qui suivra cette route, effectuera des attaques ou des actions sur des générateurs et traquera les survivants avant de revenir ou d’être remplacé par un autre garde. Ce système stratégique lui permet de maintenir la pression tout en planifiant ses mouvements dans le brouillard."  
+  },
+
+  "perks": [
+    {
+      "id": "nowhere_to_hide",
+      "name": "Nulle Part Où Se Cacher",
+      "description_tiers": {
+        "tier1": "Chaque fois que tu endommages un générateur, révèle l’aura de tous les survivants dans un rayon de 24 m pendant 3 s.",
+        "tier2": "…révèle l’aura pendant 4 s.",
+        "tier3": "…révèle l’aura pendant 5 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/55/Perk_NowhereToHide.png"
+    },
+    {
+      "id": "hex_face_the_darkness",
+      "name": "Sort : Affrontez les Ténèbres",
+      "description_tiers": {
+        "tier1": "Lorsque tu blesses un survivant, si un Totem Dull est encore présent, allume-le et maudis ce survivant. Tant que le Hex est actif, tous les autres survivants hors de ton Terror Radius hurlent toutes les 35 s, révélant leurs positions et leurs auras pendant 2 s.",
+        "tier2": "…les hurlements se produisent toutes les 30 s.",
+        "tier3": "…les hurlements se produisent toutes les 25 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/Perk_HexFaceTheDarkness.png"
+    },
+    {
+      "id": "hubris",
+      "name": "Surnuance",
+      "description_tiers": {
+        "tier1": "Quand tu es stun par un survivant, ce survivant subit l’état *Exposé* pendant 20 s (cooldown : 20 s).",
+        "tier2": "…durée d’*Exposé* 25 s.",
+        "tier3": "…durée d’*Exposé* 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/Perk_Hubris.png"
+    }
+  ]
+}

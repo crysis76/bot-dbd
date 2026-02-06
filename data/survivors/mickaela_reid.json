@@ -1,0 +1,39 @@
+{
+  "id": "mikaela_reid",
+  "name": "Mikaela Reid",
+  "role": "Jeune mystique",
+  "description": "Une conteuse passionnée par l’occulte et la mystique, capable de bénir des Totems et d’apporter confort et protection à ses alliés dans les pires épreuves.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d7/MikaelaReid.png",
+  "perks": [
+    {
+      "id": "boon_circle_of_healing",
+      "name": "Boon: Circle of Healing",
+      "description_tiers": {
+        "tier1": "Bénit un Totem pour créer un Totem de Bénédiction. Les survivants dans un rayon de 24 m guérissent 50 % plus vite sans trousse et l’aura des survivants blessés est révélée aux autres.",
+        "tier2": "Bénit un Totem pour créer un Totem de Bénédiction. Les survivants dans un rayon de 24 m guérissent 75 % plus vite sans trousse et l’aura des survivants blessés est révélée aux autres.",
+        "tier3": "Bénit un Totem pour créer un Totem de Bénédiction. Les survivants dans un rayon de 24 m guérissent 100 % plus vite sans trousse et l’aura des survivants blessés est révélée aux autres."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ea/Perk_BoonCircleOfHealing.png"
+    },
+    {
+      "id": "boon_shadow_step",
+      "name": "Boon: Shadow Step",
+      "description_tiers": {
+        "tier1": "Bénit un Totem pour créer un Totem de Bénédiction. Les survivants dans un rayon de 24 m ne laissent pas de traces et leurs auras ne peuvent pas être lues par le tueur pendant 2 s après avoir quitté l’effet.",
+        "tier2": "Bénit un Totem pour créer un Totem de Bénédiction. Les survivants dans un rayon de 24 m ne laissent pas de traces et leurs auras ne peuvent pas être lues par le tueur pendant 3 s après avoir quitté l’effet.",
+        "tier3": "Bénit un Totem pour créer un Totem de Bénédiction. Les survivants dans un rayon de 24 m ne laissent pas de traces et leurs auras ne peuvent pas être lues par le tueur pendant 4 s après avoir quitté l’effet."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/Perk_BoonShadowStep.png"
+    },
+    {
+      "id": "clairvoyance",
+      "name": "Clairvoyance",
+      "description_tiers": {
+        "tier1": "Après avoir purifié ou béni un Totem, active Clairvoyance quand tu es sans objet. Maintiens la touche d’action pour voir les auras de dizaines d’objets (générateurs, portes, crochets, coffres) dans un rayon de 64 m pendant 8 s.",
+        "tier2": "Après avoir purifié ou béni un Totem, active Clairvoyance quand tu es sans objet. Maintiens la touche d’action pour voir les auras de dizaines d’objets (générateurs, portes, crochets, coffres) dans un rayon de 64 m pendant 9 s.",
+        "tier3": "Après avoir purifié ou béni un Totem, active Clairvoyance quand tu es sans objet. Maintiens la touche d’action pour voir les auras de dizaines d’objets (générateurs, portes, crochets, coffres) dans un rayon de 64 m pendant 10 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b9/Perk_Clairvoyance.png"
+    }
+  ]
+}

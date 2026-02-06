@@ -1,0 +1,39 @@
+{
+  "id": "jane_romero",
+  "name": "Jane Romero",
+  "role": "Icône déterminée",
+  "description": "Une survivante charismatique et confiante qui se bat pour ceux qui l’entourent, utilisant sa force intérieure pour aider et inspirer les autres à survivre.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8f/JaneRomero.png",
+  "perks": [
+    {
+      "id": "head_on",
+      "name": "Head On",
+      "description_tiers": {
+        "tier1": "Après être resté dans un casier pendant 3 secondes, Head On s’active. En sortant précipitamment du casier, étourdit le tueur pendant 3 secondes si celui-ci est à portée. Cause l’état Épuisé pendant 60 secondes en cas de succès.",
+        "tier2": "Après être resté dans un casier pendant 3 secondes, Head On s’active. En sortant précipitamment du casier, étourdit le tueur pendant 3 secondes si celui-ci est à portée. Cause l’état Épuisé pendant 50 secondes en cas de succès.",
+        "tier3": "Après être resté dans un casier pendant 3 secondes, Head On s’active. En sortant précipitamment du casier, étourdit le tueur pendant 3 secondes si celui-ci est à portée. Cause l’état Épuisé pendant 40 secondes en cas de succès."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/96/Perk_HeadOn.png"
+    },
+    {
+      "id": "poised",
+      "name": "Poised",
+      "description_tiers": {
+        "tier1": "Quand un générateur est complété, tu ne laisses aucune trace de pas pendant 20 secondes. De plus, la première réparation entreprise révèle l’aura du tueur pendant 8 secondes.",
+        "tier2": "Quand un générateur est complété, tu ne laisses aucune trace de pas pendant 25 secondes. De plus, la première réparation entreprise révèle l’aura du tueur pendant 8 secondes.",
+        "tier3": "Quand un générateur est complété, tu ne laisses aucune trace de pas pendant 30 secondes. De plus, la première réparation entreprise révèle l’aura du tueur pendant 8 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/58/Perk_Poised.png"
+    },
+    {
+      "id": "solidarity",
+      "name": "Solidarity",
+      "description_tiers": {
+        "tier1": "Quand tu es blessé et que tu soignes un autre survivant sans trousse, tu te soignes passivement à 50 % de la vitesse de guérison altruiste.",
+        "tier2": "Quand tu es blessé et que tu soignes un autre survivant sans trousse, tu te soignes passivement à 60 % de la vitesse de guérison altruiste.",
+        "tier3": "Quand tu es blessé et que tu soignes un autre survivant sans trousse, tu te soignes passivement à 70 % de la vitesse de guérison altruiste."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7f/Perk_Solidarity.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "dwight",
+  "name": "Dwight Fairfield",
+  "role": "Leader nerveux",
+  "description": "Un leader nerveux capable de localiser ses alliés et d’améliorer leur efficacité dans la coopération.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/25/DwightFairfield.png",
+  "perks": [
+    {
+      "id": "bond",
+      "name": "Bond",
+      "description_tiers": {
+        "tier1": "Révèle les auras des autres survivants dans un rayon de 20 mètres.",
+        "tier2": "Révèle les auras des autres survivants dans un rayon de 28 mètres.",
+        "tier3": "Révèle les auras des autres survivants dans un rayon de 36 mètres."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6c/Perk_Bond.png"
+    },
+    {
+      "id": "prove_thyself",
+      "name": "Prove Thyself",
+      "description_tiers": {
+        "tier1": "Augmente la vitesse de réparation de 6 % par autre survivant dans un rayon de 4 mètres (maximum 18 %).",
+        "tier2": "Augmente la vitesse de réparation de 8 % par autre survivant dans un rayon de 4 mètres (maximum 24 %).",
+        "tier3": "Augmente la vitesse de réparation de 10 % par autre survivant dans un rayon de 4 mètres (maximum 30 %)."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/Perk_ProveThyself.png"
+    },
+    {
+      "id": "leader",
+      "name": "Leader",
+      "description_tiers": {
+        "tier1": "Les survivants dans un rayon de 10 mètres ont leurs vitesses d’action augmentées de 20 %.",
+        "tier2": "Les survivants dans un rayon de 10 mètres ont leurs vitesses d’action augmentées de 25 %.",
+        "tier3": "Les survivants dans un rayon de 10 mètres ont leurs vitesses d’action augmentées de 30 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fb/Perk_Leader.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "rick_grimes",
+  "name": "Rick Grimes",
+  "role": "Survivor Leader",
+  "description": "Ancien shérif adjoint plongé dans un monde apocalyptique, Rick a survécu à d’innombrables horreurs et est prêt à tout pour protéger ses alliés et utiliser ses connaissances du terrain pour renverser la situation.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/98/RickGrimes.png",
+  "perks": [
+    {
+      "id": "apocalyptic_ingenuity",
+      "name": "Apocalyptic Ingenuity",
+      "description_tiers": {
+        "tier1": "Après avoir ouvert ou fouillé 2 coffres, tu peux tenir ta Capacité Active près d’une palette brisée pendant 4 s pour la reconstruire en une palette fragile.",
+        "tier2": "Après avoir ouvert ou fouillé 2 coffres, tu peux tenir ta Capacité Active près d’une palette brisée pendant 4 s pour la reconstruire en une palette fragile.",
+        "tier3": "Après avoir ouvert ou fouillé 2 coffres, tu peux tenir ta Capacité Active près d’une palette brisée pendant 4 s pour la reconstruire en une palette fragile."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7a/Perk_ApocalypticIngenuity.png"
+    },
+    {
+      "id": "come_and_get_me",
+      "name": "Come and Get Me!",
+      "description_tiers": {
+        "tier1": "Après avoir décroché un survivant, en étant accroupi et immobile, active ta capacité pour rendre silencieux (pas de grunts, pas de flaques de sang ni de marques d’éraflure) tous les survivants blessés ou en agonisant dans un rayon de 24 m pendant 10 s, mais tu hurleras et révéleras ton aura au tueur pendant 5 s.",
+        "tier2": "… rend silencieux les survivants blessés ou en agonisant dans un rayon de 24 m pendant 12,5 s, hurle et révèle ton aura pendant 5 s.",
+        "tier3": "… rend silencieux les survivants blessés ou en agonisant dans un rayon de 24 m pendant 15 s, hurle et révèle ton aura pendant 5 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f3/Perk_ComeAndGetMe.png"
+    },
+    {
+      "id": "teamwork_toughen_up",
+      "name": "Teamwork: Toughen Up",
+      "description_tiers": {
+        "tier1": "Quand tu es blessé, si un autre survivant dans un rayon de 24 m aveugle ou étourdit le tueur avec une palette, tes grunts de douleur, flaques de sang et marques d’éraflure sont supprimés pendant 20 s.",
+        "tier2": "… ces effets sont supprimés pendant 25 s.",
+        "tier3": "… ces effets sont supprimés pendant 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8f/Perk_TeamworkToughenUp.png"
+    }
+  ]
+}

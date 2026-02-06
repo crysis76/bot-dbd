@@ -1,0 +1,39 @@
+{
+  "id": "haddie_kaur",
+  "name": "Haddie Kaur",
+  "role": "Podcasteuse courageuse et déterminée",
+  "description": "Une survivante qui perçoit et ressent des lieux de grande souffrance, dotée d’un sens aigu du paranormal qui lui permet de traquer survivants et tueurs, d’utiliser les lampes plus efficacement et d’améliorer la réparation des générateurs.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/HaddieKaur.png",
+  "perks": [
+    {
+      "id": "inner_focus",
+      "name": "Inner Focus",
+      "description_tiers": {
+        "tier1": "Tu peux voir les marques d’éraflure des autres survivants. Quand un autre survivant perd un état de santé à moins de 32 m, l’aura du tueur t’est révélée pendant 6 s.",
+        "tier2": "Tu peux voir les marques d’éraflure des autres survivants. Quand un autre survivant perd un état de santé à moins de 32 m, l’aura du tueur t’est révélée pendant 8 s.",
+        "tier3": "Tu peux voir les marques d’éraflure des autres survivants. Quand un autre survivant perd un état de santé à moins de 32 m, l’aura du tueur t’est révélée pendant 10 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/40/Perk_InnerFocus.png"
+    },
+    {
+      "id": "overzealous",
+      "name": "Overzealous",
+      "description_tiers": {
+        "tier1": "Après avoir purifié ou béni un totem, augmente ta vitesse de réparation de 8 % (totem simple) ou 16 % (totem hex) jusqu’à ce que tu perdes un état de santé.",
+        "tier2": "Après avoir purifié ou béni un totem, augmente ta vitesse de réparation de 9 % (totem simple) ou 18 % (totem hex) jusqu’à ce que tu perdes un état de santé.",
+        "tier3": "Après avoir purifié ou béni un totem, augmente ta vitesse de réparation de 10 % (totem simple) ou 20 % (totem hex) jusqu’à ce que tu perdes un état de santé."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3e/Perk_Overzealous.png"
+    },
+    {
+      "id": "residual_manifest",
+      "name": "Residual Manifest",
+      "description_tiers": {
+        "tier1": "Après avoir réussi à aveugler le tueur, il subit l’effet de statut Aveuglement pendant 20 s et tu peux fouiller dans un coffre ouvert une fois par partie pour obtenir une lampe de poche basique.",
+        "tier2": "Après avoir réussi à aveugler le tueur, il subit l’effet de statut Aveuglement pendant 25 s et tu peux fouiller dans un coffre ouvert une fois par partie pour obtenir une lampe de poche basique.",
+        "tier3": "Après avoir réussi à aveugler le tueur, il subit l’effet de statut Aveuglement pendant 30 s et tu peux fouiller dans un coffre ouvert une fois par partie pour obtenir une lampe de poche basique."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/52/Perk_ResidualManifest.png"
+    }
+  ]
+}

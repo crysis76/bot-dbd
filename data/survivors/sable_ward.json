@@ -1,0 +1,39 @@
+{
+  "id": "sable_ward",
+  "name": "Sable Ward",
+  "role": "Occult Investigator",
+  "description": "Une survivante fascinée par l’occulte et la noirceur, capable de manipuler l’énergie du sous-sol pour aider son équipe et réduire la progression requise des générateurs grâce à ses rites et compétences uniques.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1a/SableWard.png",
+  "perks": [
+    {
+      "id": "invocation_weaving_spiders",
+      "name": "Invocation: Weaving Spiders",
+      "description_tiers": {
+        "tier1": "Dans le sous-sol près du cercle, commence une Invocation pendant 60 s. Les autres survivants peuvent se joindre pour accélérer l’incantation. Une fois terminée, réduit définitivement les charges requises de tous les générateurs de 8 et tu deviens Blessé et Brisé pour le reste de l’essai.",
+        "tier2": "…réduit les charges requises de tous les générateurs de 9 et tu deviens Blessé et Brisé pour le reste de l’essai.",
+        "tier3": "…réduit les charges requises de tous les générateurs de 10 et tu deviens Blessé et Brisé pour le reste de l’essai."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ab/Perk_InvocationWeavingSpiders.png"
+    },
+    {
+      "id": "strength_in_shadows",
+      "name": "Strength in Shadows",
+      "description_tiers": {
+        "tier1": "Quand tu es dans le sous-sol, tu peux te soigner sans trousse à 70 % de la vitesse normale. Après avoir terminé une guérison dans le sous-sol, révèle l’aura du tueur pendant 6 s.",
+        "tier2": "…révèle l’aura du tueur pendant 8 s.",
+        "tier3": "…révèle l’aura du tueur pendant 10 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/30/Perk_StrengthInShadows.png"
+    },
+    {
+      "id": "wicked",
+      "name": "Wicked",
+      "description_tiers": {
+        "tier1": "Après avoir été décroché par n’importe quel moyen, révèle l’aura du tueur pendant 16 s.",
+        "tier2": "…révèle l’aura du tueur pendant 18 s.",
+        "tier3": "…révèle l’aura du tueur pendant 20 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5c/Perk_Wicked.png"
+    }
+  ]
+}

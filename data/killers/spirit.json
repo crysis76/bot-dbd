@@ -1,0 +1,45 @@
+{
+  "id": "spirit",
+  "name": "L’Esprit",
+  "role": "The Spirit",
+  "description": "Un tueur fantomatique capable d’entrer dans un plan éthéré et de surprendre les survivants en phase-walk, traquant leurs marques et leurs mouvements pour les punir sans avertissement.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/The_Spirit_Portrait.png",
+
+  "power": {
+    "name": "Hantise de Yamaoka",
+    "description": "L’Esprit fusionne avec l’énergie de ses ancêtres pour entrer dans le plan éthéré via Yamaoka’s Haunting. Elle laisse derrière elle un ‘Husk’ comme leurre et peut se téléporter rapidement sur la carte pour surprendre les survivants, tout en étant invisible pendant la phase-walk. Survivants et Esprit ne peuvent pas se voir mutuellement pendant ce pouvoir ; l’Esprit jugera les survivants d’après leurs marques, bruits et interactions avec l’environnement. "
+  },
+
+  "perks": [
+    {
+      "id": "spirit_fury",
+      "name": "Fureur de l’Esprit",
+      "description_tiers": {
+        "tier1": "Après avoir brisé manuellement 4 palettes, la prochaine palette utilisée pour t’étourdir est instantanément brisée par l’Entité.",
+        "tier2": "Après 3 palettes brisées manuellement, la prochaine palette est instantanément brisée.",
+        "tier3": "Après 2 palettes brisées manuellement, la prochaine palette est instantanément brisée."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/49/Perk_SpiritFury.png"
+    },
+    {
+      "id": "hex_haunted_ground",
+      "name": "Hex : Terrain Hanté",
+      "description_tiers": {
+        "tier1": "Deux Totems Hex ensorcelés apparaissent. Quand l’un d’eux est bénit ou purifié, tous les survivants subissent Exposé pendant 40 s et le second totem devient inactif.",
+        "tier2": "…tous les survivants subissent Exposé pendant 50 s.",
+        "tier3": "…tous les survivants subissent Exposé pendant 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/37/Perk_HexHauntedGround.png"
+    },
+    {
+      "id": "rancor",
+      "name": "Rancœur",
+      "description_tiers": {
+        "tier1": "Chaque fois qu’un générateur est terminé, l’aura de tous les survivants est révélée pour 3 s, et l’Obsédé voit ton aura pendant 5 s.",
+        "tier2": "…l’Obsédé voit ton aura pendant 4 s et les survivants sont révélés pendant 3 s.",
+        "tier3": "…l’Obsédé voit ton aura pendant 3 s et les survivants sont révélés pendant 3 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/28/Perk_Rancor.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "zarina_kassir",
+  "name": "Zarina Kassir",
+  "role": "Documentariste audacieuse",
+  "description": "Une survivante déterminée à découvrir la vérité quelles qu’en soient les conséquences — prête à risquer sa vie pour aider les autres.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cc/ZarinaKassir.png",
+  "perks": [
+    {
+      "id": "off_the_record",
+      "name": "Off the Record",
+      "description_tiers": {
+        "tier1": "Après avoir été décroché ou t’être décroché toi-même, Off the Record s’active pendant 30 secondes : supprime les gémissements de douleur quand tu es blessé et t’accorde l’effet Endurance (annulé si tu fais une action évidente).",
+        "tier2": "Après avoir été décroché ou t’être décroché toi-même, Off the Record s’active pendant 35 secondes : supprime les gémissements de douleur quand tu es blessé et t’accorde l’effet Endurance (annulé si tu fais une action évidente).",
+        "tier3": "Après avoir été décroché ou t’être décroché toi-même, Off the Record s’active pendant 40 secondes : supprime les gémissements de douleur quand tu es blessé et t’accorde l’effet Endurance (annulé si tu fais une action évidente)."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2c/Perk_OffTheRecord.png"
+    },
+    {
+      "id": "red_herring",
+      "name": "Red Herring",
+      "description_tiers": {
+        "tier1": "Après avoir réparé un générateur pendant au moins 1 seconde, l’aura du générateur est mise en surbrillance pour toi. En entrant dans un casier, déclenche une notification de bruit fort sur ce générateur. Cooldown : 25 secondes.",
+        "tier2": "Après avoir réparé un générateur pendant au moins 1 seconde, l’aura du générateur est mise en surbrillance pour toi. En entrant dans un casier, déclenche une notification de bruit fort sur ce générateur. Cooldown : 20 secondes.",
+        "tier3": "Après avoir réparé un générateur pendant au moins 1 seconde, l’aura du générateur est mise en surbrillance pour toi. En entrant dans un casier, déclenche une notification de bruit fort sur ce générateur. Cooldown : 15 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c0/Perk_RedHerring.png"
+    },
+    {
+      "id": "for_the_people",
+      "name": "For the People",
+      "description_tiers": {
+        "tier1": "Tandis que tu es en bonne santé et que tu soignes un autre survivant sans trousse, appuie sur la capacité active pour échanger un état de santé avec eux : tu les soignes d’un état et tu deviens blessé et Brisé pendant 80 secondes.",
+        "tier2": "Tandis que tu es en bonne santé et que tu soignes un autre survivant sans trousse, appuie sur la capacité active pour échanger un état de santé avec eux : tu les soignes d’un état et tu deviens blessé et Brisé pendant 70 secondes.",
+        "tier3": "Tandis que tu es en bonne santé et que tu soignes un autre survivant sans trousse, appuie sur la capacité active pour échanger un état de santé avec eux : tu les soignes d’un état et tu deviens blessé et Brisé pendant 60 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/Perk_ForThePeople.png"
+    }
+  ]
+}

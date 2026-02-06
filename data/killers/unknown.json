@@ -1,0 +1,45 @@
+{
+  "id": "unknown",
+  "name": "L’Inconnu",
+  "role": "The Unknown",
+  "description": "Une entité inhumaine dont la nature reste insaisissable, régnant sur le Brouillard avec des hallucinations, des projectiles toxiques et une capacité à manipuler l’espace autour des survivants. On ne sait presque rien de ce qu’il est réellement, mais affronter L’Inconnu est accepter l’incompréhensible.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/The_Unknown_Portrait.png",
+
+  "power": {
+    "name": "UVX (Unknown Venom X)",
+    "description": "L’Inconnu charge un projectile UVX qu’il peut lancer. Le projectile rebondit avant de créer une **zone d’explosion** : les survivants touchés en plein vol sont ralentis (*Hindered*), et ceux touchés dans la zone deviennent *Weakened*. Une jauge spéciale se remplit avec le temps et en fonction des interactions, permettant à L’Inconnu de créer des **Hallucinations** — leururas sont visibles pour le tueur et les survivants proches — et il peut **se téléporter** vers une hallucination disponible, laissant derrière lui un leurre temporaire. Les survivants peuvent *disperser* une hallucination manuellement, mais échouer déclenche *Killer Instinct* et inflige l’état *Weakened*. Survivors peuvent enlever le statut *Weakened* en regardant l’Inconnu directement pendant un certain temps cumulatif.:contentReference[oaicite:1]{index=1}"
+  },
+
+  "perks": [
+    {
+      "id": "unbound",
+      "name": "Unbound",
+      "description_tiers": {
+        "tier1": "Quand un survivant devient blessé, Unbound s’active pour 24 s. Pendant ce temps, franchir une fenêtre octroie +7 % de *Haste* pendant 10 s.",
+        "tier2": "…s’active pour 27 s.",
+        "tier3": "…s’active pour 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d4/Perk_Unbound.png"
+    },
+    {
+      "id": "undone",
+      "name": "Undone",
+      "description_tiers": {
+        "tier1": "Chaque échec de Skill Check de réparation ou de soin donne +3 jetons (max 18). Quand tu endommages un générateur, tous les jetons sont consommés: il régresse de 1 % par jeton et est bloqué 1 s par jeton. Cooldown : 60 s.",
+        "tier2": "Max 24 jetons.",
+        "tier3": "Max 30 jetons."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a7/Perk_Undone.png"
+    },
+    {
+      "id": "unforeseen",
+      "name": "Unforeseen",
+      "description_tiers": {
+        "tier1": "Après avoir endommagé un générateur, ton Terror Radius est **transféré sur ce générateur** pendant 22 s (rayon 32 m) et tu gagnes *Undetectable*. Cooldown : 30 s.",
+        "tier2": "…durée 26 s.",
+        "tier3": "…durée 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/89/Perk_Unforeseen.png"
+    }
+  ]
+}

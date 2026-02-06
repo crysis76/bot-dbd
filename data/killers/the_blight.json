@@ -1,0 +1,45 @@
+{
+  "id": "the_blight",
+  "name": "Le Fléau",
+  "role": "The Blight",
+  "description": "Un tueur imprévisible et rapide capable de foncer sur les survivants, rebondir sur des obstacles et imposer sa propre maladie physique dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4e/The_Blight_Portrait.png",
+
+  "power": {
+    "name": "Corruption du Fléau",
+    "description": "Talbot Grimes est infecté par un sérum putride qui altère son corps et son esprit, lui donnant des capacités physiques surhumaines. En utilisant sa **Corruption du Fléau**, il peut effectuer des **Ruées** et des **Ruées Mortelles** (Lethal Rush) pour se propulser à grande vitesse, rebondir sur des obstacles et attaquer les survivants avec une attaque rapide. Il commence la partie avec plusieurs jetons, qui sont dépensés pour activer ces mouvements spéciaux. Pendant la Ruée, sa vitesse est immense mais sa manœuvrabilité est réduite, et il entre dans un état de *Fatigue* après avoir terminé ou échoué une série de ruées ». :contentReference[oaicite:0]{index=0}"
+  },
+
+  "perks": [
+    {
+      "id": "dragons_grip",
+      "name": "Dragon’s Grip",
+      "description_tiers": {
+        "tier1": "Après avoir endommagé un générateur, Dragon’s Grip s’active pendant 30 s. Le premier survivant qui interagit avec ce générateur hurle et révèle sa position pendant 4 s et subit l’état Exposé pendant 60 s. Cooldown : 60 s.",
+        "tier2": "…Cooldown : 50 s.",
+        "tier3": "…Cooldown : 40 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/Perk_DragonsGrip.png"
+    },
+    {
+      "id": "hex_blood_favour",
+      "name": "Hex : Faveur de Sang",
+      "description_tiers": {
+        "tier1": "Une Totem Hex actif. Dès qu’un survivant perd un état de santé (blessé ou agonisant), l’Entité empêche tous les palettes dans un rayon de 24 m d’être abaissés pendant 15 s.",
+        "tier2": "…rayon de 28 m.",
+        "tier3": "…rayon de 32 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/85/Perk_HexBloodFavour.png"
+    },
+    {
+      "id": "hex_undying",
+      "name": "Hex : Immortel",
+      "description_tiers": {
+        "tier1": "Quand un autre Totem Hex est purifié, Hex : Immortel se transfère sur un autre Totem Nu encore présent. Les auras des survivants dans un rayon de 2 m autour de chaque Totem Nu sont révélées.",
+        "tier2": "…les auras sont révélées dans un rayon de 3 m.",
+        "tier3": "…les auras sont révélées dans un rayon de 4 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2c/Perk_HexUndying.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "aestri_yazar_baermar_uraz",
+  "name": "Aestri Yazar & Baermar Uraz",
+  "role": "The Troupe",
+  "description": "Deux bardes errants de l’univers de Dungeons & Dragons unis en une seule présence dans le Brouillard — inspirant, créant des illusions et révélant ce qui se cache autour d’eux.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/45/AestriYazar_and_BaermarUraz.png",
+  "perks": [
+    {
+      "id": "bardic_inspiration",
+      "name": "Bardic Inspiration",
+      "description_tiers": {
+        "tier1": "Appuie sur la touche Capacité Active en étant immobile pour commencer une Performance (max 15 s). Lance un d20. Après la Performance, les survivants dans un rayon de 16 m profitent d’un bonus de progression de +1 % (2-10), +2 % (11-19) ou +3 % (20) aux Skill Checks pendant 90 s. Cooldown : 110 s.",
+        "tier2": "…Cooldown réduit à 100 s.",
+        "tier3": "…Cooldown réduit à 90 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ea/Perk_BardicInspiration.png"
+    },
+    {
+      "id": "mirrored_illusion",
+      "name": "Mirrored Illusion",
+      "description_tiers": {
+        "tier1": "Après avoir réparé 20 % de progression de générateurs, Mirrored Illusion s’active une fois : génère une illusion statique qui peut apparaître près d’un Coffre, d’un Totem, d’un Générateur ou d’une Porte de Sortie avant de se désactiver.",
+        "tier2": "Même effet mais peut être déclenché plus rapidement si les priorités sont remplies.",
+        "tier3": "Même effet avec une durée d’illusion légèrement accrue."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/96/Perk_MirroredIllusion.png"
+    },
+    {
+      "id": "still_sight",
+      "name": "Still Sight",
+      "description_tiers": {
+        "tier1": "Après être resté immobile pendant 4 secondes, Still Sight s’active : révèle les auras du tueur, des Générateurs et des Coffres dans un rayon de 24 m jusqu’à ce que tu recommences à bouger.",
+        "tier2": "Activation après 3 secondes d’immobilité.",
+        "tier3": "Activation après 2 secondes d’immobilité."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/30/Perk_StillSight.png"
+    }
+  ]
+}

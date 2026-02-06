@@ -1,0 +1,39 @@
+{
+  "id": "alan_wake",
+  "name": "Alan Wake",
+  "role": "Bestselling Author",
+  "description": "Un auteur à succès plongé dans un cauchemar éveillé, utilisant la lumière et sa perspicacité pour survivre au Brouillard et soutenir ses alliés.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/AlanWake.png",
+  "perks": [
+    {
+      "id": "boon_illumination",
+      "name": "Boon: Illumination",
+      "description_tiers": {
+        "tier1": "Appuie et maintiens la touche d’action sur un totem passif ou ensorcelé pour le bénir et créer un Totem de Bénédiction. Tous les survivants dans un rayon de 24 m bénéficient d’une augmentation de +6 % de vitesse d’action pour bénir et purifier tant qu’un Totem de Bénédiction est actif.",
+        "tier2": "…bénéficient de +8 % de vitesse d’action pour bénir et purifier.",
+        "tier3": "…bénéficient de +10 % de vitesse d’action pour bénir et purifier."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7e/Perk_BoonIllumination.png"
+    },
+    {
+      "id": "champion_of_light",
+      "name": "Champion of Light",
+      "description_tiers": {
+        "tier1": "Lorsque tu éclaires avec une lampe de poche, tu gagnes un effet Haste de +50 %. Après avoir aveuglé le tueur, ce dernier subit un effet Hindered de -20 % pendant 6 secondes. Cooldown : 60 s.",
+        "tier2": "…Cooldown : 50 s.",
+        "tier3": "…Cooldown : 40 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b7/Perk_ChampionOfLight.png"
+    },
+    {
+      "id": "deadline",
+      "name": "Deadline",
+      "description_tiers": {
+        "tier1": "Lorsque tu es blessé, Deadline s’active : augmente la fréquence des tests d’habileté de +6 % pendant les réparations et les soins, les tests apparaissent à des emplacements aléatoires, et réduit la pénalité des échecs de Skill Check de 50 %.",
+        "tier2": "…augmente la fréquence des tests d’habileté de +8 %.",
+        "tier3": "…augmente la fréquence des tests d’habileté de +10 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/Perk_Deadline.png"
+    }
+  ]
+}

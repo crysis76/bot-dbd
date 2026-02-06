@@ -1,0 +1,39 @@
+{
+  "id": "david_king",
+  "name": "David King",
+  "role": "Briseur coriace",
+  "description": "Un survivant rugueux et endurant qui préfère se battre pour survivre plutôt que fuir. Ses compétences reflètent sa ténacité et son instinct de protection envers les autres survivants.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/DavidKing.png",
+  "perks": [
+    {
+      "id": "dead_hard",
+      "name": "Dead Hard",
+      "description_tiers": {
+        "tier1": "Après avoir été décroché ou t’être décroché toi-même, lorsque tu es blessé et en train de courir, appuie sur le bouton d’action pour activer Dead Hard et bénéficier de l’effet Endurance pendant 0,5 seconde. Déclenche l’effet Épuisé pendant 60 secondes.",
+        "tier2": "Après avoir été décroché ou t’être décroché toi-même, lorsque tu es blessé et en train de courir, appuie sur le bouton d’action pour activer Dead Hard et bénéficier de l’effet Endurance pendant 0,5 seconde. Déclenche l’effet Épuisé pendant 50 secondes.",
+        "tier3": "Après avoir été décroché ou t’être décroché toi-même, lorsque tu es blessé et en train de courir, appuie sur le bouton d’action pour activer Dead Hard et bénéficier de l’effet Endurance pendant 0,5 seconde. Déclenche l’effet Épuisé pendant 40 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/85/Perk_DeadHard.png"
+    },
+    {
+      "id": "no_mither",
+      "name": "No Mither",
+      "description_tiers": {
+        "tier1": "Tu souffres du statut Brisé pour toute la partie. Réduit les gémissements de douleur de 25%, augmente la vitesse de récupération de 15% et débloque l’auto-soin complet depuis l’état critique.",
+        "tier2": "Tu souffres du statut Brisé pour toute la partie. Réduit les gémissements de douleur de 50%, augmente la vitesse de récupération de 20% et débloque l’auto-soin complet depuis l’état critique.",
+        "tier3": "Tu souffres du statut Brisé pour toute la partie. Réduit les gémissements de douleur de 75%, augmente la vitesse de récupération de 25% et débloque l’auto-soin complet depuis l’état critique."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7e/Perk_NoMither.png"
+    },
+    {
+      "id": "were_gonna_live_forever",
+      "name": "We're Gonna Live Forever",
+      "description_tiers": {
+        "tier1": "Quand tu soignes un survivant en état critique, ta vitesse de soins est augmentée de 100% et accorde l’effet Endurance pendant 6 secondes (max une fois toutes les 30 secondes).",
+        "tier2": "Quand tu soignes un survivant en état critique, ta vitesse de soins est augmentée de 100% et accorde l’effet Endurance pendant 8 secondes (max une fois toutes les 30 secondes).",
+        "tier3": "Quand tu soignes un survivant en état critique, ta vitesse de soins est augmentée de 100% et accorde l’effet Endurance pendant 10 secondes (max une fois toutes les 30 secondes)."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ed/Perk_WereGonnaLiveForever.png"
+    }
+  ]
+}

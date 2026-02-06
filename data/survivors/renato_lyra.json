@@ -1,0 +1,39 @@
+{
+  "id": "renato_lyra",
+  "name": "Renato Lyra",
+  "role": "Analytical Strategist",
+  "description": "Un survivant réfléchi et méthodique, toujours concentré sur l’objectif malgré les circonstances mortelles du Brouillard. Il utilise son esprit logique pour aider ses alliés et surmonter les épreuves ensemble.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/RenatoLyra.png",
+  "perks": [
+    {
+      "id": "background_player",
+      "name": "Background Player",
+      "description_tiers": {
+        "tier1": "Quand le tueur ramasse un autre survivant en état agonisant, Background Player s’active pendant 10 s. Pendant ce temps, commencer à courir après une poursuite te donne +50 % d’effet Célérité pendant 5 s. Cause Épuisé pendant 30 s après usage.",
+        "tier2": "Quand le tueur ramasse un autre survivant en état agonisant, Background Player s’active pendant 10 s. Pendant ce temps, commencer à courir après une poursuite te donne +50 % d’effet Célérité pendant 5 s. Cause Épuisé pendant 25 s après usage.",
+        "tier3": "Quand le tueur ramasse un autre survivant en état agonisant, Background Player s’active pendant 10 s. Pendant ce temps, commencer à courir après une poursuite te donne +50 % d’effet Célérité pendant 5 s. Cause Épuisé pendant 20 s après usage."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_BackgroundPlayer.png"
+    },
+    {
+      "id": "blood_rush",
+      "name": "Blood Rush",
+      "description_tiers": {
+        "tier1": "Après avoir été décroché ou t’être décroché toi-même, Blood Rush s’active pendant 40 s. Pendant ce temps, appuie sur la touche d’action pour te débarrasser instantanément du statut Épuisé.",
+        "tier2": "… Blood Rush s’active pendant 50 s.",
+        "tier3": "… Blood Rush s’active pendant 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_BloodRush.png"
+    },
+    {
+      "id": "teamwork_collective_stealth",
+      "name": "Teamwork: Collective Stealth",
+      "description_tiers": {
+        "tier1": "Quand un autre survivant te soigne, Teamwork: Collective Stealth s’active. Tant que vous restez à moins de 8 m l’un de l’autre, vos marques d’éraflure sont supprimées. L’effet persiste 4 s après séparation.",
+        "tier2": "… tant que vous restez à moins de 12 m l’un de l’autre.",
+        "tier3": "… tant que vous restez à moins de 16 m l’un de l’autre."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_TeamworkCollectiveStealth.png"
+    }
+  ]
+}

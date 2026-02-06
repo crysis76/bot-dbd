@@ -1,0 +1,45 @@
+{
+  "id": "onryo",
+  "name": "L’Onryō",
+  "role": "The Onryō",
+  "description": "Un esprit vengeur mortel capable de maudire ses proies à travers une cassette maudite et d’apparaître via les télévisions pour traquer les survivants dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1a/The_Onryo_Portrait.png",
+
+  "power": {
+    "name": "Déluge de Peur",
+    "description": "L’Onryō commence la partie dans un état *Demanifesté* où elle est invisible ou à peine perceptible pour les survivants selon la distance. Elle doit *se manifester* pour attaquer ou interagir avec les survivants. Elle peut aussi *projeter* sa présence vers des télévisions allumées pour apparaître instantanément à leurs emplacements et infliger des effets de *Condamné*, accumulant des stacks qui, une fois complétés, permettent des exécutions spéciales."
+  },
+
+  "perks": [
+    {
+      "id": "scourge_hook_floods_of_rage",
+      "name": "Crochet Flagellateur : Flots de Rage",
+      "description_tiers": {
+        "tier1": "Au début de l’essai, jusqu’à 4 crochets aléatoires deviennent des Crochets Flagellateurs. Leur aura t’est révélée en blanc. À chaque fois qu’un survivant est décroché d’un Crochet Flagellateur, les auras de tous les autres survivants sont révélées pendant 5 s.",
+        "tier2": "...les auras des autres survivants sont révélées pendant 6 s.",
+        "tier3": "...les auras des autres survivants sont révélées pendant 7 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/de/Perk_ScourgeHookFloodsOfRage.png"
+    },
+    {
+      "id": "call_of_brine",
+      "name": "Appel de la Mer",
+      "description_tiers": {
+        "tier1": "Après avoir endommagé un générateur, Call of Brine s’active pendant 60 s : le générateur régresse à 115 % de la vitesse normale, son aura t’est révélée en jaune et tu reçois une notification de bruit fort à chaque bon Skill Check sur ce générateur.",
+        "tier2": "Après avoir endommagé un générateur, Call of Brine s’active pendant 60 s : le générateur régresse à 120 % de la vitesse normale, son aura t’est révélée en jaune et tu reçois une notification de bruit fort à chaque bon Skill Check.",
+        "tier3": "Après avoir endommagé un générateur, Call of Brine s’active pendant 60 s : le générateur régresse à 125 % de la vitesse normale, son aura t’est révélée en jaune et tu reçois une notification de bruit fort à chaque bon Skill Check."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/Perk_CallOfBrine.png"
+    },
+    {
+      "id": "merciless_storm",
+      "name": "Tempête Impitoyable",
+      "description_tiers": {
+        "tier1": "Quand un générateur atteint 90 % de progression, Merciless Storm se déclenche : tous les survivants en train de réparer ce générateur sont confrontés à une série de Skill Checks. En cas d’échec ou si la réparation est interrompue, l’Entité bloque le générateur pendant 16 s.",
+        "tier2": "...l’Entité bloque le générateur pendant 18 s.",
+        "tier3": "...l’Entité bloque le générateur pendant 20 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/Perk_MercilessStorm.png"
+    }
+  ]
+}

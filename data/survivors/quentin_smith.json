@@ -1,0 +1,39 @@
+{
+  "id": "quentin_smith",
+  "name": "Quentin Smith",
+  "role": "Marche-rêve déterminé",
+  "description": "Quentin est un survivant résolu, capable d’aider son équipe à survivre et à récupérer dans les situations les plus désespérées grâce à sa persévérance et sa détermination.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/QuentinSmith.png",
+  "perks": [
+    {
+      "id": "pharmacy",
+      "name": "Pharmacy",
+      "description_tiers": {
+        "tier1": "Augmente de 75 % la vitesse de déverrouillage des coffres, réduit la portée audible des bruits de déverrouillage de 12 m et garantit une trousse de soins d’urgence à la fin de l’interaction.",
+        "tier2": "Augmente de 100 % la vitesse de déverrouillage des coffres, réduit la portée audible des bruits de déverrouillage de 12 m et garantit une trousse de soins d’urgence à la fin de l’interaction.",
+        "tier3": "Augmente de 125 % la vitesse de déverrouillage des coffres, réduit la portée audible des bruits de déverrouillage de 12 m et garantit une trousse de soins d’urgence à la fin de l’interaction."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/55/Perk_Pharmacy.png"
+    },
+    {
+      "id": "vigil",
+      "name": "Vigil",
+      "description_tiers": {
+        "tier1": "Augmente de 43 % la vitesse de récupération des effets d’état négatifs et l’effet s’étend à tous les survivants dans un rayon de 16 m.",
+        "tier2": "Augmente de 55 % la vitesse de récupération des effets d’état négatifs et l’effet s’étend à tous les survivants dans un rayon de 16 m.",
+        "tier3": "Augmente de 66 % la vitesse de récupération des effets d’état négatifs et l’effet s’étend à tous les survivants dans un rayon de 16 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c5/Perk_Vigil.png"
+    },
+    {
+      "id": "wake_up",
+      "name": "Wake Up!",
+      "description_tiers": {
+        "tier1": "Une fois que tous les générateurs sont complétés, les auras des interrupteurs de portes de sortie sont révélées dans un rayon de 128 m et, lors de l’ouverture, votre vitesse d’action est augmentée de 8 % pour chaque survivant encore en vie.",
+        "tier2": "Une fois que tous les générateurs sont complétés, les auras des interrupteurs de portes de sortie sont révélées dans un rayon de 128 m et, lors de l’ouverture, votre vitesse d’action est augmentée de 10 % pour chaque survivant encore en vie.",
+        "tier3": "Une fois que tous les générateurs sont complétés, les auras des interrupteurs de portes de sortie sont révélées dans un rayon de 128 m et, lors de l’ouverture, votre vitesse d’action est augmentée de 12.5 % pour chaque survivant encore en vie."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/86/Perk_WakeUp.png"
+    }
+  ]
+}

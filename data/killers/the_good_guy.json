@@ -1,0 +1,45 @@
+{
+  "id": "the_good_guy",
+  "name": "Le Brave Gars",
+  "role": "The Good Guy",
+  "description": "Charles Lee Ray, l'Étrangleur de Lakeshore, s’est réfugié dans le corps d’une poupée Good Guys via un rituel vaudou pour échapper à la mort. Maintenant connu comme Chucky, il se sert de sa petite taille, de ses pas trompeurs et de son couteau pour traquer et surprendre les survivants dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/whatever/The_Good_Guy_Portrait.png",
+
+  "power": {
+    "name": "C’est l’Heure de Jouer (*Playtime’s Over*)",
+    "description": "Charles peut activer son **Hidey-Ho Mode** pour devenir **Indétectable** tout en générant des **bruits de pas illusoires** autour des survivants, les désorientant. Pendant cet état, il peut lancer une **attaque Slice & Dice** augmentant sa vitesse et sa portée de lunge. Il peut aussi utiliser **Scamper** pour passer sous/à travers les palettes et fenêtres lorsqu’il charge une attaque, ce qui lui confère une grande mobilité malgré sa petite taille. :contentReference[oaicite:1]{index=1}"
+  },
+
+  "perks": [
+    {
+      "id": "hex_two_can_play",
+      "name": "Hex : On Peut Jouer à Deux",
+      "description_tiers": {
+        "tier1": "Quand un survivant t’étourdit ou t’aveugle 4 fois, un Totem Dull devient Hex. Tant que ce Totem Hex est actif, les survivants qui t’étourdissent ou t’aveuglent sont eux-mêmes **Aveuglés** pendant 4 s.",
+        "tier2": "…ils sont **Aveuglés** pendant 5 s.",
+        "tier3": "…ils sont **Aveuglés** pendant 6 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/Hex_Two_Can_Play.png"
+    },
+    {
+      "id": "friends_til_the_end",
+      "name": "Amis Pour la Vie",
+      "description_tiers": {
+        "tier1": "Quand tu accroches un survivant qui n’est pas ton Obsession, l’Obsession devient **Exposée** et son aura est révélée pendant 6 s. Quand tu accroches ton Obsession, un survivant aléatoire hurle, révèle sa position et devient la nouvelle Obsession.",
+        "tier2": "…l’aura de l’Obsession est révélée pendant 8 s.",
+        "tier3": "…l’aura de l’Obsession est révélée pendant 10 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/Friends_Til_The_End.png"
+    },
+    {
+      "id": "batteries_included",
+      "name": "Piles Incluses",
+      "description_tiers": {
+        "tier1": "Quand tu es dans un rayon de 12 mètres d’un générateur **terminé**, tu gagnes +5 % d’*Hâte* pendant 1 s après être sorti du rayon.",
+        "tier2": "…tu gagnes de l’*Hâte* pendant 3 s.",
+        "tier3": "…tu gagnes de l’*Hâte* pendant 5 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/Batteries_Included.png"
+    }
+  ]
+}

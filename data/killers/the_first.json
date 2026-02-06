@@ -1,0 +1,45 @@
+{
+  "id": "the_first",
+  "name": "Le Premier",
+  "role": "Killer",
+  "description": "Henry Creel, connu sous le nom de **Le Premier** (ou Vecna/Un), est un ancien sujet de test cruel dont les pouvoirs psychiques ont été aiguisés dans une dimension alternative. Arrivé dans le Royaume du Brouillard après avoir été banni à travers une porte mystique, il met à profit sa manipulation du Temps et des Générateurs pour imposer son plan implacable de domination et de régression des survivants.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/??/The_First_Portrait.png",
+
+  "power": {
+    "name": "Sujet de Test N°001",
+    "description": "Le Premier utilise ses capacités psioniques liées au **Test Subject #001** :\n\n* Il peut charger et projeter des **Vine Attacks (tendrillements)** qui frappent les survivants et génèrent des effets de pression et de tokens spéciaux.\n* Il peut entrer dans le **Upside Down** pour se déplacer rapidement et frapper via des attaques comme **Undergate Attacks**, qui appliquent des tokens *Worldbreaker* aux survivants.\n* Lorsqu’un survivant accumule suffisamment de tokens, **Worldbreaker** s’active, transformant temporairement la partie en une phase où le tueur est plus puissant et peut infliger des dégâts directs avec ses attaques psioniques supplémentaires.\n\nCette combinaison de mobilité, zones d’effet et d’effets de contrôle positionnel fait du Premier un tueur stratégique axé sur la manipulation de l’espace et des interactions avec les survivants." 
+  },
+
+  "perks": [
+    {
+      "id": "hex_hive_mind",
+      "name": "Sort : Esprit Collectif",
+      "description_tiers": {
+        "tier1": "Les générateurs sont mis en évidence et l’intensité de leurs Auras révèle leur progression. Une fois 4 générateurs terminés : tous les générateurs restants explosent, perdent 6 % de progression et régresse. Le Totem associé devient terne.",
+        "tier2": "…les générateurs perdent 8 % de progression.",
+        "tier3": "…les générateurs perdent 10 % de progression."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5e/Perk_Hex_Hive_Mind.png"
+    },
+    {
+      "id": "secret_project",
+      "name": "Projet Secret",
+      "description_tiers": {
+        "tier1": "Quand un Totem est béni ou purifié, un générateur non bloqué est bloqué pendant 20 s. Quand un ou plusieurs générateurs deviennent bloqués, tu gagnes *Indétectable* pendant 30 s.",
+        "tier2": "…générateur bloqué pendant 25 s.",
+        "tier3": "…générateur bloqué pendant 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a0/Perk_Secret_Project.png"
+    },
+    {
+      "id": "turn_back_the_clock",
+      "name": "Remonter le Temps",
+      "description_tiers": {
+        "tier1": "Après avoir accroché un survivant, pendant 40 s, tu peux activer ta capacité pour faire exploser un générateur ciblé dans un rayon de 20 m : il perd 10 % de progression et régresse.",
+        "tier2": "…pendant 50 s.",
+        "tier3": "…pendant 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/19/Perk_Turn_Back_The_Clock.png"
+    }
+  ]
+}

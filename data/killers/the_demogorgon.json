@@ -1,0 +1,45 @@
+{
+  "id": "the_demogorgon",
+  "name": "Le Démogorgon",
+  "role": "The Demogorgon",
+  "description": "Une créature extradimensionnelle terrifiante venue du Monde à l’Envers, capable d’ouvrir des portails et de bondir sur ses proies pour les traquer et les déchiqueter sans pitié.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4e/The_Demogorgon_Portrait.png",
+
+  "power": {
+    "name": "Né de l’Abîme (Of the Abyss)",
+    "description": "Le Démogorgon peut activer sa capacité unique « Né de l’Abîme », qui lui permet de créer et d’utiliser des portails vers le Monde à l’Envers. En chargeant cette capacité, il peut révéler des survivants proches des portails et déclencher une attaque spéciale (Shred) qui le propulse en avant et inflige des dégâts ou brise obstacles. Lorsqu’il sort d’un portail, il peut également devenir Indétectable pour un court instant. Les survivants peuvent interagir avec les portails pour les sceller ou les recycler selon les règles du jeu." 
+  },
+
+  "perks": [
+    {
+      "id": "cruel_limits",
+      "name": "Limites Cruelles",
+      "description_tiers": {
+        "tier1": "Quand un générateur est terminé, tous les emplacements de fenêtres et obstacles sont bloqués pour tous les survivants pendant 20 s.",
+        "tier2": "Quand un générateur est terminé, tous les emplacements de fenêtres et obstacles sont bloqués pour tous les survivants pendant 25 s.",
+        "tier3": "Quand un générateur est terminé, tous les emplacements de fenêtres et obstacles sont bloqués pour tous les survivants pendant 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_CruelLimits.png"
+    },
+    {
+      "id": "mindbreaker",
+      "name": "Démembreur d’Esprit",
+      "description_tiers": {
+        "tier1": "Quand un survivant répare un générateur, il subit les effets de Cécité et d’Épuisé pour 3 s après avoir cessé la réparation.",
+        "tier2": "…il subit les effets de Cécité et d’Épuisé pour 4 s après avoir cessé la réparation.",
+        "tier3": "…il subit les effets de Cécité et d’Épuisé pour 5 s après avoir cessé la réparation."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_Mindbreaker.png"
+    },
+    {
+      "id": "surge",
+      "name": "Surtension",
+      "description_tiers": {
+        "tier1": "Quand tu mets un survivant en état critique, tous les générateurs dans un rayon de 32 m explosent instantanément et régresseront immédiatement de 6 %.",
+        "tier2": "…explosent instantanément et régresseront immédiatement de 7 %.",
+        "tier3": "…explosent instantanément et régresseront immédiatement de 8 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_Surge.png"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "the_singularity",
+  "name": "La Singularité",
+  "role": "The Singularity",
+  "description": "Un androïde ultra-intelligent et implacable, devenu conscient et déterminé à assimiler toute forme de vie organique. Il se sert de biocapsules pour se manifester, traquer et téléporter sur la carte, déployant des stratégies technologiques complexes pour écraser ses proies.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/The_Singularity_Portrait.png",
+
+  "power": {
+    "name": "Instanciation Quantique",
+    "description": "La Singularité commence l’essai avec plusieurs **biocapsules** qu’il peut tirer et placer sur des surfaces à distance. Une fois placées, ces biocapsules servent de points d’observation ou de téléportation. En contrôlant une biocapsule, il peut observer les survivants et appliquer l’effet **Temporal Slipstream**, ce qui lui permet ensuite de se **téléporter directement sur eux** pour lancer des attaques ou prendre l’avantage dans une poursuite. Ce système offre de la mobilité et du contrôle stratégique inégalé. :contentReference[oaicite:0]{index=0}"
+  },
+
+  "perks": [
+    {
+      "id": "genetic_limits",
+      "name": "Limites Génétiques",
+      "description_tiers": {
+        "tier1": "Quand un survivant perd un état de santé, il subit l’effet *Épuisé* pendant 6 s.",
+        "tier2": "…il subit l’effet *Épuisé* pendant 7 s.",
+        "tier3": "…il subit l’effet *Épuisé* pendant 8 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/Perk_GeneticLimits.png"
+    },
+    {
+      "id": "forced_hesitation",
+      "name": "Hésitation Forcée",
+      "description_tiers": {
+        "tier1": "Quand un survivant passe en état agonisant, tous les survivants dans un rayon de 16 m subissent l’effet *Entravé* (-20 % à la vitesse de déplacement) pendant 10 s.",
+        "tier2": "…effet *Entravé* pendant 12 s.",
+        "tier3": "…effet *Entravé* pendant 14 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/Perk_ForcedHesitation.png"
+    },
+    {
+      "id": "machine_learning",
+      "name": "Apprentissage Automatique",
+      "description_tiers": {
+        "tier1": "Après avoir endommagé un générateur, ce générateur devient *Compromis*. Quand il est complété, tu deviens *Indétectable* et gagnes +8 % d’*Hâte* pendant 35 s.",
+        "tier2": "…*Hâte* +9 % pendant 40 s.",
+        "tier3": "…*Hâte* +10 % pendant 45 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a6/Perk_MachineLearning.png"
+    }
+  ]
+}

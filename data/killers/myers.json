@@ -1,0 +1,45 @@
+{
+  "id": "myers",
+  "name": "La Silhouette",
+  "role": "The Shape",
+  "description": "Un tueur obsédé par la traque : il gagne en puissance en suivant ses victimes, devenant de plus en plus dangereux à mesure que l’essai progresse.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/27/The_Shape_Portrait.png",
+
+  "power": {
+    "name": "Mal Intérieur",
+    "description": "Michael Myers peut accumuler de la puissance malveillante en traquant les survivants. Plus il traque, plus il progresse dans la montée de son pouvoir, changeant sa vitesse, son rayon de terreur et lui donnant la capacité de frapper mortellement."
+  },
+
+  "perks": [
+    {
+      "id": "save_the_best_for_last",
+      "name": "Garder le Meilleur pour la Fin",
+      "description_tiers": {
+        "tier1": "Dommager un survivant autre que ton Obsession te donne un Jeton. Chaque Jeton réduit le temps de récupération de tes attaques de base de 4 %, jusqu’à un max de 24 %. Si tu blesses ton Obsession, tu perds 2 Jetons.",
+        "tier2": "…chaque Jeton réduit le temps de récupération de tes attaques de base de 4 %, jusqu’à un max de 28 %.",
+        "tier3": "…chaque Jeton réduit le temps de récupération de tes attaques de base de 4 %, jusqu’à un max de 32 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e5/Perk_SaveTheBestForLast.png"
+    },
+    {
+      "id": "play_with_your_food",
+      "name": "Jouer avec ta Nourriture",
+      "description_tiers": {
+        "tier1": "Quand tu poursuis ton Obsession et la laisses s’échapper, tu obtiens 1 Jeton (max 3). Chaque Jeton te donne +3 % d’Effet Rapidité. Attaquer consomme 1 Jeton.",
+        "tier2": "…chaque Jeton te donne +4 % d’Effet Rapidité.",
+        "tier3": "…chaque Jeton te donne +5 % d’Effet Rapidité."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/Perk_PlayWithYourFood.png"
+    },
+    {
+      "id": "dying_light",
+      "name": "Lumière Mourante",
+      "description_tiers": {
+        "tier1": "Chaque fois que tu accroches un survivant autre que ton Obsession, tu gagnes 1 Jeton. Tant que ton Obsession est en vie, tous les autres survivants subissent -2 % à la vitesse de Réparation, de Soins et de Sabotage par Jeton (max 22 %).",
+        "tier2": "…malus de -2.5 % par Jeton (max 27.5 %).",
+        "tier3": "…malus de -3 % par Jeton (max 33 %)."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5a/Perk_DyingLight.png"
+    }
+  ]
+}

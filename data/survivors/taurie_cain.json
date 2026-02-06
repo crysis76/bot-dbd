@@ -1,0 +1,39 @@
+{
+  "id": "taurie_cain",
+  "name": "Taurie Cain",
+  "role": "Black Talon Disciple",
+  "description": "Élevée dans la mystérieuse secte de la Black Talon, Taurie Cain combine sacrifice et dévotion pour soutenir ses alliés et manipuler les forces occultes du Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/TaurieCain.png",
+  "perks": [
+    {
+      "id": "clean_break",
+      "name": "Clean Break",
+      "description_tiers": {
+        "tier1": "Après avoir terminé de soigner un autre survivant, quand un survivant te soigne à son tour, tu peux activer Clean Break : tu subis l’état Brisé et tu seras **soigné automatiquement d’un niveau de santé après 80 s** (annulé si tu passes en état agonisant).",
+        "tier2": "…tu seras soigné automatiquement après 70 s.",
+        "tier3": "…tu seras soigné automatiquement après 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/28/Perk_CleanBreak.png"
+    },
+    {
+      "id": "invocation_treacherous_crows",
+      "name": "Invocation: Treacherous Crows",
+      "description_tiers": {
+        "tier1": "Dans le sous-sol près du cercle, commence l’Invocation. Elle prend 60 s à compléter. Pendant l’invocation, ton aura est révélée à tous les survivants et ils peuvent accélérer l’incantation. Une fois terminée, tu deviens Blessée et Brisée pour le reste de l’essai.",
+        "tier2": "Même effet, mais l’invocation peut être accélérée plus efficacement par d’autres survivants.",
+        "tier3": "Même effet avec une durée d’invocation légèrement réduite."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cb/Perk_InvocationTreacherousCrows.png"
+    },
+    {
+      "id": "shoulder_the_burden",
+      "name": "Shoulder the Burden",
+      "description_tiers": {
+        "tier1": "Une fois par essai, tant que tu n’es pas sur un crochet, active Shoulder the Burden devant un survivant accroché : **échange un niveau de crochet avec lui pour son bénéfice**, tu pousses un cri et subis l’état Exposé pendant 60 s.",
+        "tier2": "…tu subis l’état Exposé pendant 50 s.",
+        "tier3": "…tu subis l’état Exposé pendant 40 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0a/Perk_ShoulderTheBurden.png"
+    }
+  ]
+}

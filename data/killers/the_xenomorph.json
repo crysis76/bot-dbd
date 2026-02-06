@@ -1,0 +1,45 @@
+{
+  "id": "the_xenomorph",
+  "name": "Le Xénomorphe",
+  "role": "The Xenomorph",
+  "description": "Une créature extraterrestre parfaite née pour la chasse : rapide, furtive et implacable, elle traque ses proies à travers des tunnels et frappe avec une queue meurtrière. Sa présence inspire la peur et la mort dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/The_Xenomorph_Portrait.png",
+
+  "power": {
+    "name": "Poursuite Cachée",
+    "description": "Le Xénomorphe utilise un réseau de **tunnels souterrains** accessibles depuis des Contrôles Station dispersés sur la carte. En entrant dans les tunnels, il devient **Indétectable**, gagne une vitesse accrue et peut remonter à la surface à proximité d’un Contrôle Station pour surprendre ou localiser des survivants via *Instinct du Tueur*. En dehors des tunnels, il charge sa **Mode Rampant** qui lui permet de se déplacer à quatre pattes et effectuer une **attaque spéciale de queue (*Tail Strike*)** avec une grande portée. Des tourelles à flamme placées par les survivants peuvent le contrecarrer en l’immobilisant ou en le forçant à quitter ce mode.:contentReference[oaicite:1]{index=1}"
+  },
+
+  "perks": [
+    {
+      "id": "alien_instinct",
+      "name": "Instinct Alien",
+      "description_tiers": {
+        "tier1": "Quand tu accroches un survivant, l’aura du survivant le plus éloigné dans un état blessé est révélée pendant 8 s, et il subit l’effet *Oblivious* pendant 40 s.",
+        "tier2": "…il subit *Oblivious* pendant 50 s.",
+        "tier3": "…il subit *Oblivious* pendant 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.../Perk_AlienInstinct.png"
+    },
+    {
+      "id": "rapid_brutality",
+      "name": "Brutalité Rapide",
+      "description_tiers": {
+        "tier1": "Tu ne peux plus gagner l’état *Bloodlust*. Frappes basiques réussies te donnent +5 % d’*Hâte* pendant 8 s.",
+        "tier2": "…+5 % d’*Hâte* pendant 9 s.",
+        "tier3": "…+5 % d’*Hâte* pendant 10 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.../Perk_RapidBrutality.png"
+    },
+    {
+      "id": "ultimate_weapon",
+      "name": "Arme Ultime",
+      "description_tiers": {
+        "tier1": "Quand tu fouilles un casier, tous les survivants dans un rayon de 32 m hurlent, révèlent leur position et subissent l’état *Aveuglé* pendant 30 s. Cooldown : 80 s.",
+        "tier2": "…Cool-down réduit à 70 s.",
+        "tier3": "…Cool-down réduit à 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.../Perk_UltimateWeapon.png"
+    }
+  ]
+}

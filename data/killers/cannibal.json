@@ -1,0 +1,45 @@
+{
+  "id": "cannibal",
+  "name": "Le Cannibale",
+  "role": "The Cannibal",
+  "description": "Un tueur brutal armé d’une tronçonneuse qui fauche tout survivant sur son passage, instillant la peur et semant la destruction dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/The_Cannibal_Portrait.png",
+
+  "power": {
+    "name": "Tronçonneuse de Bubba",
+    "description": "Bubba Sawyer manie une tronçonneuse lourde et puissante. En chargeant sa tronçonneuse, il effectue une balayage mortelle qui peut renverser instantanément un survivant — et même plusieurs à la fois. La tronçonneuse utilise des Tokens qui se rechargent lorsqu’elle n’est pas utilisée, et permet également d’exécuter des Dashs ou de déclencher des Tantrums puissants selon l’usage des tokens." 
+  },
+
+  "perks": [
+    {
+      "id": "barbecue_and_chilli",
+      "name": "Barbecue & Chilli",
+      "description_tiers": {
+        "tier1": "Après avoir accroché un survivant, révèle les auras des survivants situés à **au moins 60 mètres** de ce crochet pendant 5 s.",
+        "tier2": "Après avoir accroché un survivant, révèle les auras des survivants situés à **au moins 50 mètres** de ce crochet pendant 5 s.",
+        "tier3": "Après avoir accroché un survivant, révèle les auras des survivants situés à **au moins 40 mètres** de ce crochet pendant 5 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a4/Perk_BarbecueAndChilli.png"
+    },
+    {
+      "id": "franklins_demise",
+      "name": "Trépas de Franklin",
+      "description_tiers": {
+        "tier1": "Les survivants touchés par tes attaques de base laissent tomber l’objet qu’ils tiennent. Les objets lâchés perdent **% charge** sur 90 s et leurs auras sont révélées à 32 m.",
+        "tier2": "…Les objets lâchés perdent **% charge** sur 120 s et leurs auras sont révélées à 48 m.",
+        "tier3": "…Les objets lâchés perdent **% charge** sur 150 s et leurs auras sont révélées à 64 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7e/Perk_FranklinsDemise.png"
+    },
+    {
+      "id": "knock_out",
+      "name": "K.O.",
+      "description_tiers": {
+        "tier1": "Lorsqu’un survivant passe en état agonisant à l’aide d’une attaque de base, ceux qui sont à plus de 32 m ne peuvent plus entendre leurs gémissements ni voir leurs marques.",
+        "tier2": "…à plus de 24 m.",
+        "tier3": "…à plus de 16 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6b/Perk_KnockOut.png"
+    }
+  ]
+}

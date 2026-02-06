@@ -1,0 +1,39 @@
+{
+  "id": "ada_wong",
+  "name": "Ada Wong",
+  "role": "Mystérieuse agente secrète",
+  "description": "Une survivante énigmatique et experte en espionnage, utilisant ses talents pour aider son équipe tout en restant toujours un pas devant le danger.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/AdaWong.png",
+  "perks": [
+    {
+      "id": "low_profile",
+      "name": "Low Profile",
+      "description_tiers": {
+        "tier1": "Lorsque tu es le seul survivant encore non incapacité (pas accroché, pas transporté, pas chuté), supprime tes grunts de douleur, flaques de sang et marques d’éraflure pendant 70 secondes.",
+        "tier2": "… supprime tes grunts de douleur, flaques de sang et marques d’éraflure pendant 80 secondes.",
+        "tier3": "… supprime tes grunts de douleur, flaques de sang et marques d’éraflure pendant 90 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a2/Perk_LowProfile.png"
+    },
+    {
+      "id": "reactive_healing",
+      "name": "Reactive Healing",
+      "description_tiers": {
+        "tier1": "Quand un autre survivant dans un rayon de 32 m perd un état de santé alors que tu es blessé, tu gagnes immediatement 40 % de ta progression de soins manquante.",
+        "tier2": "… tu gagnes immediatement 45 % de ta progression de soins manquante.",
+        "tier3": "… tu gagnes immediatement 50 % de ta progression de soins manquante."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/Perk_ReactiveHealing.png"
+    },
+    {
+      "id": "wiretap",
+      "name": "Wiretap",
+      "description_tiers": {
+        "tier1": "Une fois 40 % de progression de générateur atteinte, Wiretap s’active. Interagis avec un générateur pour installer un dispositif d’écoute pendant 100 s : si le tueur s’approche à moins de 14 m, son aura est révélée à tous les survivants. Le dispositif est désactivé si le générateur est endommagé.",
+        "tier2": "… le dispositif d’écoute dure 110 s.",
+        "tier3": "… le dispositif d’écoute dure 120 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2c/Perk_Wiretap.png"
+    }
+  ]
+}

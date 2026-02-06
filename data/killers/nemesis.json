@@ -1,0 +1,45 @@
+{
+  "id": "nemesis",
+  "name": "Le Nemesis",
+  "role": "The Nemesis",
+  "description": "Une arme bio-organique implacable créée par Umbrella Corporation, infectée par le T-Virus et déterminée à traquer et éliminer ses cibles sans relâche dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a7/The_Nemesis_Portrait.png",
+
+  "power": {
+    "name": "Virus T",
+    "description": "Le Nemesis est infecté par le T-Virus et renforce sa puissance à mesure qu’il Contamine les survivants. Il dispose d’une attaque spéciale Tentacle Strike qui lui permet d’attaquer à moyenne distance et de gagner des points de Mutation. Les points de Mutation augmentent sa portée, la vitesse de mouvement pendant l’attaque et permettent à sa Tentacle Strike de détruire palettes et murs. De plus, deux Zombies contrôlés par l’IA patrouillent sur la carte pour mettre la pression sur les survivants et contaminer davantage la zone." 
+  },
+
+  "perks": [
+    {
+      "id": "lethal_pursuer",
+      "name": "Poursuivant Meurtrier",
+      "description_tiers": {
+        "tier1": "Au début de l’essai, les auras de tous les survivants sont révélées pendant 3 s.",
+        "tier2": "Au début de l’essai, les auras de tous les survivants sont révélées pendant 4 s.",
+        "tier3": "Au début de l’essai, les auras de tous les survivants sont révélées pendant 5 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/18/Perk_LethalPursuer.png"
+    },
+    {
+      "id": "hysteria",
+      "name": "Hystérie",
+      "description_tiers": {
+        "tier1": "Quand tu blesses un survivant sain, tous les survivants blessés subissent l’état *Oblivious* pendant 30 s.",
+        "tier2": "Quand tu blesses un survivant sain, tous les survivants blessés subissent l’état *Oblivious* pendant 35 s.",
+        "tier3": "Quand tu blesses un survivant sain, tous les survivants blessés subissent l’état *Oblivious* pendant 40 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cf/Perk_Hysteria.png"
+    },
+    {
+      "id": "eruption",
+      "name": "Éruption",
+      "description_tiers": {
+        "tier1": "Dommage un générateur pour le marquer. Quand un survivant passe en état agonisant, les générateurs marqués explosent, perdent 10 % de progression et régresseront. Les survivants en train de les réparer hurlent et deviennent *Incapacitated* pendant 8 s. Cooldown : 30 s.",
+        "tier2": "…les survivants en train de les réparer deviennent *Incapacitated* pendant 10 s. Cooldown : 30 s.",
+        "tier3": "…les survivants en train de les réparer deviennent *Incapacitated* pendant 12 s. Cooldown : 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/Perk_Eruption.png"
+    }
+  ]
+}

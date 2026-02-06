@@ -1,0 +1,39 @@
+{
+  "id": "vittorio_toscano",
+  "name": "Vittorio Toscano",
+  "role": "Endless Wanderer",
+  "description": "Un voyageur ancien qui a erré dans la Brume pendant des siècles, cherchant désespérément ses secrets et tirant parti de son expérience pour soutenir ses alliés et optimiser leur réparation.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/14/VittorioToscano.png",
+  "perks": [
+    {
+      "id": "fogwise",
+      "name": "Fogwise",
+      "description_tiers": {
+        "tier1": "Après un Excellent Test d’habileté en réparant un générateur, révèle l’aura du tueur pendant 4 secondes.",
+        "tier2": "Après un Excellent Test d’habileté en réparant un générateur, révèle l’aura du tueur pendant 5 secondes.",
+        "tier3": "Après un Excellent Test d’habileté en réparant un générateur, révèle l’aura du tueur pendant 6 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/55/Perk_Fogwise.png"
+    },
+    {
+      "id": "potential_energy",
+      "name": "Potential Energy",
+      "description_tiers": {
+        "tier1": "Pendant que tu répares un générateur, appuie sur la touche d’Action pour Stocker l’Énergie Potentielle après une courte réparation ininterrompue : les charges de réparation ne progressent plus le générateur et sont converties en jetons (1 % → 1 jeton, max 10). Ensuite, relâche ces jetons pour progresser instantanément un générateur (+1 % par jeton). Perk désactivée après usage ou blessure.",
+        "tier2": "Même effet, mais max 15 jetons.",
+        "tier3": "Même effet, mais max 20 jetons."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d6/Perk_PotentialEnergy.png"
+    },
+    {
+      "id": "quick_gambit",
+      "name": "Quick Gambit",
+      "description_tiers": {
+        "tier1": "Tandis que tu es poursuivi par le tueur, les auras des autres survivants te sont révélées et **leur vitesse de réparation est augmentée de 3 %**.",
+        "tier2": "Tandis que tu es poursuivi par le tueur, les auras des autres survivants te sont révélées et **leur vitesse de réparation est augmentée de 4 %**.",
+        "tier3": "Tandis que tu es poursuivi par le tueur, les auras des autres survivants te sont révélées et **leur vitesse de réparation est augmentée de 5 %**."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9a/Perk_QuickGambit.png"
+    }
+  ]
+}

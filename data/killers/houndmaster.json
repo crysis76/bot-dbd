@@ -1,0 +1,45 @@
+{
+  "id": "houndmaster",
+  "name": "La Maîtresse des Molosses",
+  "role": "Killer",
+  "description": "Portia Maye, surnommée La Maîtresse des Molosses, est une tueuse résolue et implacable du Chapitre 34 : Doomed Course. Ayant survécu à un naufrage avec son fidèle chien Snug, elle traque désormais les survivants accompagnée de ce compagnon canin, usant de stratégies de chasse afin de semer peur et domination dans le Royaume du Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8e/The_Houndmaster_Portrait.png",
+
+  "power": {
+    "name": "Fumet du Sang",
+    "description": "La Maîtresse des Molosses utilise **Fumet du Sang** pour commander son chien fidèle, Snug :\n\n* **Chase Command** : Portia trace à l’avance un chemin de poursuite que Snug suivra à grande vitesse. Si le chien rencontre un survivant, il le saisit, inflige un effet *Hindered* et le tire vers elle avant de le relâcher.\n* **Redirect Chase** : Après avoir envoyé Snug, Portia peut prendre le contrôle du chien pour rediriger sa trajectoire vers un nouvel objectif.\n* **Search Command** : Portia envoie Snug vers une zone ciblée pour rechercher des survivants ou marquer des générateurs terminés (leurs auras sont révélées). Snug émet alors *Houndsense* pour repérer les survivants proches, révélant leurs auras et modifiant certains de leurs états.\n\nCette capacité unique repose sur la coordination entre Portia et Snug pour localiser, traquer et capturer des survivants dans le Royaume du Brouillard."
+  },
+
+  "perks": [
+    {
+      "id": "all_shaking_thunder",
+      "name": "Coup de Tonnerre",
+      "description_tiers": {
+        "tier1": "Après une chute, Coup de Tonnerre s’active pendant 15 s et augmente la distance de ton attaque plongeante de +75 %. Cooldown : 5 s.",
+        "tier2": "…s’active pendant 20 s.",
+        "tier3": "…s’active pendant 25 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ab/Perk_All-Shaking_Thunder.png"
+    },
+    {
+      "id": "scourge_hook_jagged_compass",
+      "name": "Crochet Flagellateur : Boussole de Douleur",
+      "description_tiers": {
+        "tier1": "Au début de l’Épreuve, 4 Crochets deviennent des Crochets Flagellateurs dont l’aura est révélée en blanc. Accrocher un survivant à un Crochet Flagellateur révèle l’aura du générateur le plus avancé pendant 6 s.",
+        "tier2": "…pendant 8 s.",
+        "tier3": "…pendant 10 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/Perk_Scourge_Hook_Jagged_Compass.png"
+    },
+    {
+      "id": "no_quarter",
+      "name": "Pas de Quartier",
+      "description_tiers": {
+        "tier1": "Quand un survivant atteint 75 % de progression en se soignant, il subit une série de Tests d’Habileté jusqu’à la fin du soin. En cas d’échec ou interruption, il reçoit l’état *Brisé* pendant 20 s.",
+        "tier2": "…*Brisé* pendant 25 s.",
+        "tier3": "…*Brisé* pendant 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c2/Perk_No_Quarter.png"
+    }
+  ]
+}

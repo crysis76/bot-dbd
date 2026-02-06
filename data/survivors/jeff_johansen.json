@@ -1,0 +1,39 @@
+{
+  "id": "jeff_johansen",
+  "name": "Jeffrey \"Jeff\" Johansen",
+  "role": "Artiste silencieux",
+  "description": "Un survivant discret et observateur, capable d’utiliser sa compréhension des autres survivants et sa capacité à cacher son aura pour survivre et aider son équipe.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/JeffJohansen.png",
+  "perks": [
+    {
+      "id": "breakdown",
+      "name": "Breakdown",
+      "description_tiers": {
+        "tier1": "Chaque fois que tu es décroché ou que tu t’es décroché toi-même, le crochet se brise et l’aura du tueur t’est révélée pendant 4 secondes.",
+        "tier2": "Chaque fois que tu es décroché ou que tu t’es décroché toi-même, le crochet se brise et l’aura du tueur t’est révélée pendant 5 secondes.",
+        "tier3": "Chaque fois que tu es décroché ou que tu t’es décroché toi-même, le crochet se brise et l’aura du tueur t’est révélée pendant 6 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/88/Perk_Breakdown.png"
+    },
+    {
+      "id": "aftercare",
+      "name": "Aftercare",
+      "description_tiers": {
+        "tier1": "Montre les auras des 1 Survivant qui t’a aidé ou que tu as aidé en soins ou sauvetage. Ils voient aussi ton aura. Réinitialise après un crochet.",
+        "tier2": "Montre les auras des 2 Survivants qui t’ont aidé ou que tu as aidés en soins ou sauvetage. Ils voient aussi ton aura. Réinitialise après un crochet.",
+        "tier3": "Montre les auras des 3 Survivants qui t’ont aidé ou que tu as aidés en soins ou sauvetage. Ils voient aussi ton aura. Réinitialise après un crochet."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7a/Perk_Aftercare.png"
+    },
+    {
+      "id": "distortion",
+      "name": "Distortion",
+      "description_tiers": {
+        "tier1": "Commence le procès avec 1 jeton. Quand ton aura devrait être lue par le tueur, Distortion s’active pendant 8 secondes et empêche la lecture de ton aura.",
+        "tier2": "Commence le procès avec 1 jeton. Quand ton aura devrait être lue par le tueur, Distortion s’active pendant 10 secondes et empêche la lecture de ton aura.",
+        "tier3": "Commence le procès avec 1 jeton. Quand ton aura devrait être lue par le tueur, Distortion s’active pendant 12 secondes et empêche la lecture de ton aura."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ee/Perk_Distortion.png"
+    }
+  ]
+}

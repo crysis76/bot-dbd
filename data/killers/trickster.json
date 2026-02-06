@@ -1,0 +1,45 @@
+{
+  "id": "trickster",
+  "name": "Le Farceur",
+  "role": "The Trickster",
+  "description": "Une figure obsédée par le spectacle et la foule, transformée en tueur par sa soif de reconnaissance et son besoin de faire entendre les cris de ses victimes comme une symphonie macabre. Armé de lames, il inonde ses proies d’une pluie de couteaux, transformant la fuite en mise en scène sanglante.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/The_Ghost_Face_Portrait.png",  
+
+  "power": {
+    "name": "Showstopper",
+    "description": "Le Farceur commence l’essai avec un nombre considérable de **lames**. En entrant dans l’état de lancer (*Throw State*), il peut jeter une pluie de lames à grande vitesse sur les survivants. Les survivants touchés accumulent des charges de **Laceration** : une fois leur jauge remplie, ils perdent un état de santé et subissent l’effet qui en découle. Il peut aussi activer l’état **Main Event**, ce qui lui permet de lancer des lames sans limite pendant quelques secondes et de renforcer sa cadence de lancer, récompensant ainsi les attaques successives. Les lames peuvent être rechargées en fouillant les casiers, révélés automatiquement si le Farceur en est proche."
+  },
+
+  "perks": [
+    {
+      "id": "hex_crowd_control",
+      "name": "Hex : Contrôle de Foule",
+      "description_tiers": {
+        "tier1": "Un totem Hex apparaît au début de l’essai. Quand un survivant effectue un vault rapide sur une fenêtre, cette fenêtre est bloquée par l’Entité. Peut affecter jusqu’à 3 fenêtres à la fois.",
+        "tier2": "…peut affecter jusqu’à 4 fenêtres à la fois.",
+        "tier3": "…peut affecter jusqu’à 5 fenêtres à la fois."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_HexCrowdControl.png"
+    },
+    {
+      "id": "no_way_out",
+      "name": "Pas de Sortie",
+      "description_tiers": {
+        "tier1": "Chaque survivant accroché pour la première fois te donne un jeton. Une fois les portes activées, quand un survivant interagit avec un interrupteur de porte de sortie, un bruit fort apparaît et l’Entité bloque les deux interrupteurs de porte de sortie pendant 12 s + 6 s par jeton (max 36 s).",
+        "tier2": "…une fois les portes activées, la durée de blocage est 12 s + 9 s par jeton (max 48 s).",
+        "tier3": "…la durée de blocage est 12 s + 12 s par jeton (max 60 s)."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_NoWayOut.png"
+    },
+    {
+      "id": "starstruck",
+      "name": "Étoile Éblouissante",
+      "description_tiers": {
+        "tier1": "Quand tu portes un survivant, les autres survivants dans ton rayon de terreur subissent l’état Exposé pendant 26 s après qu’ils quittent ce rayon ou que l’effet s’arrête.",
+        "tier2": "…l’effet Exposé dure 28 s.",
+        "tier3": "…l’effet Exposé dure 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_Starstruck.png"
+    }
+  ]
+}

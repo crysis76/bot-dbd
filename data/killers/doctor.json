@@ -1,0 +1,45 @@
+{
+  "id": "doctor",
+  "name": "Le Docteur",
+  "role": "The Doctor",
+  "description": "Un tueur obsédé par la folie, utilisant des chocs électriques pour corrompre l’esprit des survivants et provoquer la panique et les hallucinations.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6d/The_Doctor_Portrait.png",
+
+  "power": {
+    "name": "Étincelle de Carter",
+    "description": "Herman Carter génère des chocs électroconvulsifs avec sa capacité spéciale, augmentant progressivement le niveau de folie des survivants. Plus un survivant accumule de folie, plus il souffre de ses effets néfastes (cris, hallucinations, incapacité à interagir)."
+  },
+
+  "perks": [
+    {
+      "id": "monitor_and_abuse",
+      "name": "Surveillance et Abus",
+      "description_tiers": {
+        "tier1": "Réduit ton Terror Radius de 15 % quand tu n'es pas en poursuite.",
+        "tier2": "Réduit ton Terror Radius de 20 % quand tu n'es pas en poursuite.",
+        "tier3": "Réduit ton Terror Radius de 25 % quand tu n'es pas en poursuite."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a4/Perk_MonitorAndAbuse.png"
+    },
+    {
+      "id": "overcharge",
+      "name": "Surcharge",
+      "description_tiers": {
+        "tier1": "Après avoir endommagé un générateur, le prochain survivant effectue un Skill Check difficile. En cas d’échec, le générateur régresse de 2 % supplémentaires et régresse plus rapidement pendant 30 s.",
+        "tier2": "…le générateur régresse de 3 % supplémentaires et régresse plus rapidement pendant 30 s.",
+        "tier3": "…le générateur régresse de 4 % supplémentaires et régresse plus rapidement pendant 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/Perk_Overcharge.png"
+    },
+    {
+      "id": "overwhelming_presence",
+      "name": "Présence Écrasante",
+      "description_tiers": {
+        "tier1": "Lorsqu’un survivant utilise un objet dans un rayon de 32 m, il devient Épuisé pendant 15 s. Quand un survivant est épuisé dans ce rayon, son aura est révélée pendant 2 s.",
+        "tier2": "…l’état Épuisé dure 20 s et l’aura est révélée pendant 3 s.",
+        "tier3": "…l’état Épuisé dure 25 s et l’aura est révélée pendant 4 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8e/Perk_OverwhelmingPresence.png"
+    }
+  ]
+}

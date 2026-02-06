@@ -1,0 +1,39 @@
+{
+  "id": "felix_richter",
+  "name": "Felix Richter",
+  "role": "Architecte visionnaire",
+  "description": "Un survivant déterminé et ingénieux, capable d’organiser des actions soigneusement planifiées même sous pression pour aider son équipe à survivre et s’échapper.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/49/FelixRichter.png",
+  "perks": [
+    {
+      "id": "built_to_last",
+      "name": "Built to Last",
+      "description_tiers": {
+        "tier1": "Lorsque tu te caches dans un casier avec un objet épuisé, après 12 secondes l’objet récupère 99 % de ses charges. Les utilisations suivantes restaurent respectivement 66 % puis 33 %. Après la 3e utilisation, Built to Last ne fonctionne plus pour le reste de l’essai.",
+        "tier2": "Lorsque tu te caches dans un casier avec un objet épuisé, après 10 secondes l’objet récupère 99 % de ses charges. Les utilisations suivantes restaurent respectivement 66 % puis 33 %. Après la 3e utilisation, Built to Last ne fonctionne plus pour le reste de l’essai.",
+        "tier3": "Lorsque tu te caches dans un casier avec un objet épuisé, après 8 secondes l’objet récupère 99 % de ses charges. Les utilisations suivantes restaurent respectivement 66 % puis 33 %. Après la 3e utilisation, Built to Last ne fonctionne plus pour le reste de l’essai."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b7/Perk_BuiltToLast.png"
+    },
+    {
+      "id": "desperate_measures",
+      "name": "Desperate Measures",
+      "description_tiers": {
+        "tier1": "Quand un survivant (toi inclus) est blessé, agonisant ou accroché, tu gagnes +16 % de vitesse d’action pour les soins et les désaccrochages par survivant affecté, jusqu’à un maximum de +64 %.",
+        "tier2": "Quand un survivant (toi inclus) est blessé, agonisant ou accroché, tu gagnes +18 % de vitesse d’action pour les soins et les désaccrochages par survivant affecté, jusqu’à un maximum de +72 %.",
+        "tier3": "Quand un survivant (toi inclus) est blessé, agonisant ou accroché, tu gagnes +20 % de vitesse d’action pour les soins et les désaccrochages par survivant affecté, jusqu’à un maximum de +80 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7b/Perk_DesperateMeasures.png"
+    },
+    {
+      "id": "visionary",
+      "name": "Visionary",
+      "description_tiers": {
+        "tier1": "Révèle les auras des générateurs dans un rayon de 32 mètres tant que Visionary n’est pas désactivé. Après qu’un générateur est réparé, Visionary est désactivé pendant 20 secondes.",
+        "tier2": "Révèle les auras des générateurs dans un rayon de 32 mètres tant que Visionary n’est pas désactivé. Après qu’un générateur est réparé, Visionary est désactivé pendant 18 secondes.",
+        "tier3": "Révèle les auras des générateurs dans un rayon de 32 mètres tant que Visionary n’est pas désactivé. Après qu’un générateur est réparé, Visionary est désactivé pendant 16 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/Perk_Visionary.png"
+    }
+  ]
+}

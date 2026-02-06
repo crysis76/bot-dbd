@@ -1,0 +1,3726 @@
+{
+  "trapper": [
+    {
+      "id": "bear_oil",
+      "name": "Huile d’ours",
+      "rarity": "common",
+      "description": "De la graisse animale fondue qui lubrifie les articulations grinçantes des pièges à ours.\n\n• Poser un piège à ours est silencieux.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/Bear_Oil.png"
+    },
+    {
+      "id": "makeshift_wrap",
+      "name": "Bandage de fortune",
+      "rarity": "common",
+      "description": "Une attelle usée faite d’une peau animale épaisse et durcie.\n\n• Vous ne pouvez plus vous prendre dans vos propres pièges à ours.\n• Vos pièges se désarment automatiquement à la place.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2c/Makeshift_Wrap.png"
+    },
+    {
+      "id": "padded_jaws",
+      "name": "Mâchoires matelassées",
+      "rarity": "common",
+      "description": "Ces mâchoires matelassées sont conçues pour retenir sans blesser.\n\n• Les pièges à ours n’infligent plus de dégâts.\n• Les survivants piégés sont immobilisés.\n• +100 % de points de sang pour l’événement Piège.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/Padded_Jaws.png"
+    },
+    {
+      "id": "trapper_gloves",
+      "name": "Gants du trappeur",
+      "rarity": "common",
+      "description": "Des gants en cuir rembourrés pour manipuler les pièges plus rapidement.\n\n• Augmente la vitesse de pose des pièges à ours de 30 %.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8f/Trapper_Gloves.png"
+    },
+    {
+      "id": "tar_bottle",
+      "name": "Bouteille de goudron",
+      "rarity": "uncommon",
+      "description": "Une substance noire, mate et collante qui rend les pièges à ours beaucoup moins visibles.\n\n• Assombrit les pièges à ours.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/69/Tar_Bottle.png"
+    },
+    {
+      "id": "4_coil_spring_kit",
+      "name": "Kit de ressorts à 4 bobines",
+      "rarity": "uncommon",
+      "description": "Un kit de remplacement qui renforce considérablement la prise du piège.\n\n• Augmente de 25 % le temps nécessaire pour se libérer d’un piège.\n• Augmente la vitesse de pose des pièges de 50 %.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/57/4-Coil_Spring_Kit.png"
+    },
+    {
+      "id": "secondary_coil",
+      "name": "Bobine secondaire",
+      "rarity": "rare",
+      "description": "Une bobine de secours qui maintient le piège fonctionnel.\n\n• Augmente de 50 % le temps nécessaire pour désarmer un piège à ours.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9a/Secondary_Coil.png"
+    },
+    {
+      "id": "rusted_jaws",
+      "name": "Mâchoires rouillées",
+      "rarity": "rare",
+      "description": "Des mâchoires couvertes de rouille tranchante.\n\n• Les survivants blessés par un piège subissent l’effet Maladresse pendant 70 secondes.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e6/Rusted_Jaws.png"
+    },
+    {
+      "id": "bloody_coil",
+      "name": "Bobine sanglante",
+      "rarity": "very_rare",
+      "description": "Un mécanisme dangereux recouvert d’un liquide visqueux.\n\n• Lorsqu’un survivant en bonne santé désarme un piège, il devient blessé.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/18/Bloody_Coil.png"
+    },
+    {
+      "id": "trapper_bag",
+      "name": "Sac du trappeur",
+      "rarity": "very_rare",
+      "description": "Un sac de taille en cuir épais.\n\n• Permet de transporter 1 piège à ours supplémentaire.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3e/Trapper_Bag.png"
+    },
+    {
+      "id": "iridescent_stone",
+      "name": "Pierre iridescente",
+      "rarity": "iridescent",
+      "description": "Des pièges imprégnés d’une énergie étrange.\n\n• Toutes les 30 secondes, un piège à ours désarmé aléatoire se réarme automatiquement.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/Iridescent_Stone.png"
+    }
+  ],
+  "wraith": [
+    {
+      "id": "the_beast_soot",
+      "name": "« La Bête » – Soot",
+      "rarity": "common",
+      "description": "Votre rayon de terreur n’est plus supprimé lorsque vous êtes invisible et vous gagnez +100 % de points de sang bonus pour les événements de traque et attaque surprise.",
+      "icon": ""
+    },
+    {
+      "id": "the_ghost_soot",
+      "name": "« Le Fantôme » – Soot",
+      "rarity": "common",
+      "description": "Votre rayon de terreur et votre trace rouge sont supprimés encore 6 secondes après que vous soyez sorti de l’invisibilité.",
+      "icon": ""
+    },
+    {
+      "id": "the_hound_soot",
+      "name": "« Le Chien » – Soot",
+      "rarity": "common",
+      "description": "Lorsque vous êtes invisible, les flaques de sang apparaissent en rouge vif, facilitant leur repérage.",
+      "icon": ""
+    },
+    {
+      "id": "the_serpent_soot",
+      "name": "« Le Serpent » – Soot",
+      "rarity": "common",
+      "description": "Casser des murs ou palettes, ou endommager des générateurs alors que vous êtes invisible provoque automatiquement la fin de l’invisibilité.",
+      "icon": ""
+    },
+    {
+      "id": "blind_warrior_white",
+      "name": "« Guerrier Aveugle » – White",
+      "rarity": "rare",
+      "description": "Les survivants touchés par une attaque surprise subissent les effets d’Hémorragie et Maladresse pendant 70 secondes.",
+      "icon": ""
+    },
+    {
+      "id": "blink_white",
+      "name": "« Clignement » – White",
+      "rarity": "rare",
+      "description": "Réduit le temps nécessaire pour devenir visible après avoir été invisible.",
+      "icon": ""
+    },
+    {
+      "id": "shadow_dance_white",
+      "name": "« Danse des Ombres » – White",
+      "rarity": "rare",
+      "description": "Augmente la vitesse d’action (casser murs et palettes, endommager générateurs, franchir fenêtres) lorsque vous êtes invisible.",
+      "icon": ""
+    },
+    {
+      "id": "swift_hunt_blood",
+      "name": "« Chasse Agile » – Blood",
+      "rarity": "very_rare",
+      "description": "Réduit significativement le temps nécessaire pour redevenir visible après l’invisibilité.",
+      "icon": ""
+    },
+    {
+      "id": "windstorm_blood",
+      "name": "« Tempête de Vent » – Blood",
+      "rarity": "very_rare",
+      "description": "Augmente votre vitesse de déplacement lorsque vous êtes invisible.",
+      "icon": ""
+    },
+    {
+      "id": "all_seeing_blood",
+      "name": "« L’Omniscient » – Blood",
+      "rarity": "very_rare",
+      "description": "Quand vous êtes invisible, les auras des survivants à moins de 8 mètres sont révélées.",
+      "icon": ""
+    },
+    {
+      "id": "bone_clapper",
+      "name": "Cloche à os",
+      "rarity": "iridescent",
+      "description": "Empêche les survivants de discerner la distance et la direction du son de la cloche de lamentations.",
+      "icon": ""
+    },
+    {
+      "id": "coxcombed_clapper",
+      "name": "Cloche gainée",
+      "rarity": "iridescent",
+      "description": "Silence complètement le son de la cloche de lamentations, rendant vos sorties d’invisibilité bien plus imprévisibles.",
+      "icon": ""
+    }
+  ],
+    "hillbilly": [
+    {
+      "id": "steel_toe_boots",
+      "name": "Bottes à embout d'acier",
+      "rarity": "common",
+      "description": "Des bottes robustes avec des embouts renforcés.\n\n• Réduit légèrement le temps de récupération après avoir heurté un objet avec la tronçonneuse.",
+      "icon": ""
+    },
+    {
+      "id": "discarded_air_filter",
+      "name": "Filtre à air abandonné",
+      "rarity": "common",
+      "description": "Un filtre à air fissuré et encrassé qui fonctionne encore mieux que le modèle de base.\n\n• Augmente légèrement le délai de déclin du compteur d’Overdrive.",
+      "icon": ""
+    },
+    {
+      "id": "counterweight",
+      "name": "Contrepoids",
+      "rarity": "uncommon",
+      "description": "Un poids ajouté au corps de base pour stabiliser la tronçonneuse.\n\n• Réduit le taux de virage initial de la tronçonneuse pendant le sprint.",
+      "icon": ""
+    },
+    {
+      "id": "cracked_primer_bulb",
+      "name": "Ampoule d’amorçage fissurée",
+      "rarity": "uncommon",
+      "description": "Un bouton qui purge l’air des conduites de carburant.\n\n• Augmente le taux de charge du compteur d’Overdrive et dégâts de tronçonneuse limités.",
+      "icon": ""
+    },
+    {
+      "id": "engine_oil",
+      "name": "Huile moteur",
+      "rarity": "rare",
+      "description": "De l’huile moteur bon marché pour lubrifier les chaînes bruyantes.\n\n• Réduit légèrement le bruit émis par la tronçonneuse.",
+      "icon": ""
+    },
+    {
+      "id": "speed_limiter",
+      "name": "Limiteur de vitesse",
+      "rarity": "rare",
+      "description": "Un dispositif mécanique qui régule la quantité de carburant.\n\n• Empêche les attaques avec la tronçonneuse de mettre en Agonie et augmente les points de sang obtenus.",
+      "icon": ""
+    },
+    {
+      "id": "adjusted_air_filter",
+      "name": "Filtre à air ajusté",
+      "rarity": "very_rare",
+      "description": "Un filtre bien réglé qui augmente la vitesse de refroidissement de la tronçonneuse.\n\n• Augmente la vitesse de refroidissement entre les sprintes de tronçonneuse.",
+      "icon": ""
+    },
+    {
+      "id": "low_recoil_chain",
+      "name": "Chaîne à faible recul",
+      "rarity": "very_rare",
+      "description": "Une chaîne spéciale qui réduit le recul lors des impacts.\n\n• Diminue considérablement la pénalité après une collision avec un obstacle.",
+      "icon": ""
+    },
+    {
+      "id": "silenced_muffler",
+      "name": "Silencieux perfectionné",
+      "rarity": "iridescent",
+      "description": "Un silencieux magistralement conçu pour la tronçonneuse.\n\n• La tronçonneuse devient silencieuse hors du rayon de terreur.",
+      "icon": ""
+    },
+    {
+      "id": "opacity_brick",
+      "name": "Brique opalescente",
+      "rarity": "iridescent",
+      "description": "Une brique opalescente qui confère un étrange effet à la tronçonneuse.\n\n• Après 2 s de sprint de tronçonneuse, vous gagnez l’état *Niveaumètre Invisible* jusqu’à la fin du sprint.",
+      "icon": ""
+    }
+  ],
+    "nurse": [
+    {
+      "id": "metal_spoon",
+      "name": "Cuillère en métal",
+      "rarity": "common",
+      "description": "Une cuillère métallique terne et tachée de rouille, confisquée au patient de la chambre 202.\n\n• Les survivants touchés par une attaque téléportée ont +50 % de volume de gémissements de douleur pendant 60 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/Metal_Spoon.png"
+    },
+    {
+      "id": "plaid_flannel",
+      "name": "Morceau de flanelle",
+      "rarity": "common",
+      "description": "Un morceau de flanelle rouge et noir déchiré.\n\n• Permet de **voir la zone d’atterrissage du Blink**.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9b/Plaid_Flannel.png"
+    },
+    {
+      "id": "white_nit_comb",
+      "name": "Peigne à lentes blanc",
+      "rarity": "common",
+      "description": "Un peigne parasitaire provenant de la clinique.\n\n• +100 % de points de sang bonus pour les événements d’attaque Blink.\n• Réduit la durée d’allonge des attaques spéciales de -0,15 s (-50 % de portée).",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/17/White_Nit_Comb.png"
+    },
+    {
+      "id": "wooden_horse",
+      "name": "Cheval en bois",
+      "rarity": "common",
+      "description": "Un jouet en bois non peint sculpté grossièrement.\n\n• Réduit la pénalité de fatigue consécutive à une attaque téléportée ratée.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/Wooden_Horse.png"
+    },
+    {
+      "id": "torn_bookmark",
+      "name": "Signet déchiré",
+      "rarity": "uncommon",
+      "description": "Un morceau de ruban blanc provenant d’un livre sacré.\n\n• +1 emploi de Power Token (nombre de téléportations). • Recharge de pouvoir augmentée à 130 %.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c3/Torn_Bookmark.png"
+    },
+    {
+      "id": "matchbox",
+      "name": "Boîte d’allumettes",
+      "rarity": "uncommon",
+      "description": "Une boîte contenant une collection étrange de boutons.\n\n• Augmente la vitesse de mouvement à 4,4 m/s pour toute la partie. • Limite le pouvoir à **1 Blink uniquement**.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/Matchbox.png"
+    },
+    {
+      "id": "pocket_watch",
+      "name": "Montre de poche",
+      "rarity": "uncommon",
+      "description": "Une vieille montre carbonisée et brisée avec des pièces oscillantes.\n\n• Augmente la durée de la fenêtre de Chain Blink de +0,2 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/Pocket_Watch.png"
+    },
+    {
+      "id": "atoxic_respiration",
+      "name": "Respiration ataxique",
+      "rarity": "rare",
+      "description": "La respiration irrégulière et affaiblie recueillie sur le « Garçon catatonique ».\n\n• Réduit la durée de la fatigue de -7 %.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/10/Ataxic_Respiration.png"
+    },
+    {
+      "id": "fragile_wheeze",
+      "name": "Respiration fragile",
+      "rarity": "rare",
+      "description": "Respiration sifflante et haletante volée au Père Campbell.\n\n• Les attaques téléportées infligent l’effet *Estropié* pendant 70 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/Fragile_Wheeze.png"
+    },
+    {
+      "id": "heavy_panting",
+      "name": "Halètement intense",
+      "rarity": "rare",
+      "description": "Un souffle lourd et puissant qui augmente la durée de l’allonge des attaques.\n\n• Augmente la durée de l’attaque Blink et donc la portée de l’attaque spéciale.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d9/Heavy_Panting.png"
+    },
+    {
+      "id": "bad_mans_last_breath",
+      "name": "Dernier souffle du Méchant",
+      "rarity": "very_rare",
+      "description": "Le dernier souffle collecté du « méchant » du couloir.\n\n• Après une attaque téléportée réussie, vous gagnez *Undetectable* pendant 25 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7f/Bad_Mans_Last_Breath.png"
+    },
+    {
+      "id": "campbells_last_breath",
+      "name": "Dernier souffle de Campbell",
+      "rarity": "very_rare",
+      "description": "Le dernier souffle puissant arraché au Père Campbell, prêtre de l’asile.\n\n• Après un Blink complètement chargé, vous téléportez immédiatement avec une charge complète dans la direction ciblée.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/Campbells_Last_Breath.png"
+    },
+    {
+      "id": "jenners_last_breath",
+      "name": "Dernier souffle de Jenner",
+      "rarity": "very_rare",
+      "description": "Le dernier souffle puissant de Mary Jenner, patiente de l’asile.\n\n• Après avoir utilisé toutes les téléportations, appuyer sur la capacité active téléporte immédiatement à votre position de départ et recharge 1 charge.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/90/Jenners_Last_Breath.png"
+    },
+    {
+      "id": "kavanaghs_last_breath",
+      "name": "Dernier souffle de Kavanagh",
+      "rarity": "very_rare",
+      "description": "Un dernier souffle arraché à Harvey Kavanagh, aide-soignant de l’asile.\n\n• Quand vous entrez en fatigue, tous les survivants dans un rayon de 8 m subissent *Aveuglement* pendant 60 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/18/Kavanaghs_Last_Breath.png"
+    }
+  ],
+  "myers": [
+    {
+      "id": "blond_hair",
+      "name": "Cheveu blond",
+      "rarity": "common",
+      "description": "Un cheveu blond légèrement ondulé.\n\n• Augmente la durée du Mal Intérieur III de +10 secondes et augmente le seuil pour atteindre Mal Intérieur III la première fois à 150 %.",
+      "icon": ""
+    },
+    {
+      "id": "boyfriends_memo",
+      "name": "Note du petit ami",
+      "rarity": "common",
+      "description": "Une note « romantique », si un peu légère, laissée pour attirer l’attention d’une amante.\n\n• Augmente la portée des attaques Lunge en Mal Intérieur I de +50 %.",
+      "icon": ""
+    },
+    {
+      "id": "memorial_flower",
+      "name": "Fleur commémorative",
+      "rarity": "uncommon",
+      "description": "Une fleur séchée et partiellement fanée ramassée sur une pierre tombale.\n\n• Augmente le taux de progression du Stalking de +11 %.",
+      "icon": ""
+    },
+    {
+      "id": "tacky_earrings",
+      "name": "Boucles d’oreilles bon marché",
+      "rarity": "uncommon",
+      "description": "Un petit bijou en plastique peint pour ressembler à du matériel précieux.\n\n• Augmente votre vitesse de déplacement pendant le Stalking de +10 %.",
+      "icon": ""
+    },
+    {
+      "id": "dead_rabbit",
+      "name": "Lapin mort",
+      "rarity": "rare",
+      "description": "Un lapin gris ouvert du cou à la queue.\n\n• Augmente le nombre de Power Tokens de +1.",
+      "icon": ""
+    },
+    {
+      "id": "j_myers_memorial",
+      "name": "Mémorial de J. Myers",
+      "rarity": "rare",
+      "description": "Une page brillante arrachée à l’annuaire de 1965 de la Haddonfield High School, dédiée à la mémoire de Judith Myers.\n\n• Augmente le taux de progression du Stalking sur votre Obsession de +40 %.",
+      "icon": ""
+    },
+    {
+      "id": "judiths_journal",
+      "name": "Journal de Judith",
+      "rarity": "very_rare",
+      "description": "Un journal appartenant à Judith M. Myers, dont la plupart des pages sont maculées de dessins effrayants.\n\n• Augmente votre taux de progression de Stalk de +25 %.",
+      "icon": ""
+    },
+    {
+      "id": "mirror_shard",
+      "name": "Éclat de miroir",
+      "rarity": "very_rare",
+      "description": "Un grand éclat de miroir tranchant.\n\n• Les auras des survivants sont révélées pendant 5 s après les avoir stalkés au moins 1 s pendant Mal Intérieur II.",
+      "icon": ""
+    },
+    {
+      "id": "lock_of_hair",
+      "name": "Mèche de cheveux",
+      "rarity": "very_rare",
+      "description": "Une mèche de cheveux blonds attachée avec un élastique.\n\n• Augmente la durée de Mal Intérieur III et le seuil à atteindre pour y parvenir.",
+      "icon": ""
+    },
+    {
+      "id": "tombstone_piece",
+      "name": "Éclat de pierre tombale",
+      "rarity": "iridescent",
+      "description": "Un fragment graniteux issu d’une pierre tombale brisée.\n\n• Vous permet de tuer les survivants en bonne santé ou blessés de votre propre main en Mal Intérieur III.",
+      "icon": ""
+    },
+    {
+      "id": "judiths_tombstone",
+      "name": "Pierre tombale de Judith",
+      "rarity": "iridescent",
+      "description": "Une grande pierre tombale lourde volée au cimetière de Mt. Sinclair.\n\n• Comme Éclat de pierre tombale mais avec un seuil augmenté pour entrer en Mal Intérieur III et un léger malus de vitesse.",
+      "icon": ""
+    }
+  ],
+    "hag": [
+    {
+      "id": "bog_water",
+      "name": "Eau de marais",
+      "rarity": "common",
+      "description": "Eau trouble de marécage conditionnée dans une petite bouteille en verre.\n\n• Augmente légèrement la portée à laquelle les Phantasm Traps sont efficaces.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0b/Bog_Water.png"
+    },
+    {
+      "id": "dead_fly_mud",
+      "name": "Boue de mouches mortes",
+      "rarity": "common",
+      "description": "Un amas de boue sombre contenant les restes de mouches.\n\n• Augmente légèrement la distance à laquelle la Hag peut se téléporter vers ses pièges.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/20/Dead_Fly_Mud.png"
+    },
+    {
+      "id": "powdered_eggshell",
+      "name": "Coquille d’œuf pulvérisée",
+      "rarity": "common",
+      "description": "Fragments microscopiques de coquille d’œuf dorée.\n\n• Augmente légèrement la durée pendant laquelle un Phantasm Trap reste déclenché.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/79/Powdered_Eggshell.png"
+    },
+    {
+      "id": "rope_necklet",
+      "name": "Collier de corde",
+      "rarity": "common",
+      "description": "Un collier rigide fait de plantes mortes tressées.\n\n• Réduit légèrement le temps nécessaire pour poser un Phantasm Trap.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a2/Rope_Necklet.png"
+    },
+    {
+      "id": "bloodied_water",
+      "name": "Eau sanglante",
+      "rarity": "uncommon",
+      "description": "Eau souillée contenue dans une feuille de nénuphar.\n\n• Augmente modérément la portée des Phantasm Traps.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/31/Bloodied_Water.png"
+    },
+    {
+      "id": "cypress_necklet",
+      "name": "Collier de cyprès",
+      "rarity": "uncommon",
+      "description": "Un collier rigide orné d’écorce de cyprès et de mousse de marais.\n\n• Réduit modérément le temps de pose des pièges.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6c/Cypress_Necklet.png"
+    },
+    {
+      "id": "dragonfly_wings",
+      "name": "Ailes de libellule",
+      "rarity": "uncommon",
+      "description": "Un ensemble d’ailes jaunes, sèches et fragiles.\n\n• Augmente modérément la distance à laquelle la Hag peut se téléporter vers ses pièges.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/49/Dragonfly_Wings.png"
+    },
+    {
+      "id": "half_eggshell",
+      "name": "Demi coquille d’œuf",
+      "rarity": "uncommon",
+      "description": "Un demi-œuf parfaitement rond évidé.\n\n• Augmente modérément la durée des traps déclenchés.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/28/Half_Eggshell.png"
+    },
+    {
+      "id": "pussy_willow_catkins",
+      "name": "Chatons de saule",
+      "rarity": "uncommon",
+      "description": "Petites grappes de fleurs couvertes d’un duvet doux.\n\n• Révèle l’aura du survivant pendant 3 s lorsqu’il déclenche un piège.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e6/Pussy_Willow_Catkins.png"
+    },
+    {
+      "id": "bloodied_mud",
+      "name": "Boue ensanglantée",
+      "rarity": "rare",
+      "description": "Une poignée de boue aux veines profondément rouges.\n\n• Augmente considérablement la portée des Phantasm Traps.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/Bloodied_Mud.png"
+    },
+    {
+      "id": "cracked_turtle_egg",
+      "name": "Œuf de tortue fêlé",
+      "rarity": "rare",
+      "description": "Un œuf de tortue pâle et fissuré.\n\n• Augmente considérablement la durée des pièges déclenchés.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/Cracked_Turtle_Egg.png"
+    },
+    {
+      "id": "dried_cicada",
+      "name": "Cigale séchée",
+      "rarity": "rare",
+      "description": "Une grande cigale recouverte d’une fine couche de cendres.\n\n• Augmente considérablement la distance de téléportation vers les pièges.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/Dried_Cicada.png"
+    },
+    {
+      "id": "swamp_orchid_necklet",
+      "name": "Collier d’orchidée de marais",
+      "rarity": "rare",
+      "description": "Orné de pétales d’orchidées fanées, ce collier ancien confère agilité et précision.\n\n• Réduit considérablement le temps nécessaire pour poser les pièges.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/72/Swamp_Orchid_Necklet.png"
+    },
+    {
+      "id": "willow_wreath",
+      "name": "Couronne de saule",
+      "rarity": "rare",
+      "description": "Trois brindilles de saule attachées formant une couronne frêle.\n\n• Révèle l’aura des survivants pendant 5 s lorsqu’ils déclenchent un piège.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b9/Willow_Wreath.png"
+    },
+    {
+      "id": "disfigured_ear",
+      "name": "Oreille déformée",
+      "rarity": "very_rare",
+      "description": "L’oreille d’un garçon sourd du village cannibale.\n\n• Les survivants qui déclenchent un piège subissent l’état *Défié* pendant 6 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/46/Disfigured_Ear.png"
+    },
+    {
+      "id": "granmas_heart",
+      "name": "Cœur de grand-mère",
+      "rarity": "very_rare",
+      "description": "Le cœur glacé du doyen du village cannibale.\n\n• Supprime le rayon de terreur quand un piège est déclenché et augmente le rayon fictif des mud phantasms.\n\n• Survivants subissent *Hindered* dans la zone.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3d/Grandmas_Heart.png"
+    },
+    {
+      "id": "rusty_shackles",
+      "name": "Entraves rouillées",
+      "rarity": "very_rare",
+      "description": "Chaînes rouillées utilisées autrefois pour retenir prisonniers.\n\n• Les pièges n’émettent aucun signe lorsqu’ils sont déclenchés.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/Rusty_Shackles.png"
+    },
+    {
+      "id": "scarred_hand",
+      "name": "Main balafrée",
+      "rarity": "very_rare",
+      "description": "La main mutilée du boucher du village cannibale.\n\n• Les phantasms de boue ont collision avec les survivants.\n• +300 % de points de sang de perfidie.\n• Vous ne pouvez plus vous téléporter vers vos pièges.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8e/Scarred_Hand.png"
+    },
+    {
+      "id": "mint_rag",
+      "name": "Chiffon mentholé",
+      "rarity": "iridescent",
+      "description": "Petit fragment de coton tiré de la robe de Lisa Sherwood le jour de sa disparition.\n\n• Permet de se téléporter vers **n’importe quel piège** sur la carte (cooldown 15 s).",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1e/Mint_Rag.png"
+    },
+    {
+      "id": "waterlogged_shoe",
+      "name": "Chaussure imbibée d’eau",
+      "rarity": "iridescent",
+      "description": "Une chaussure d’enfant perdue dans l’eau des marais.\n\n• Les survivants dans la zone sont *Hindered*.\n• Augmente légèrement votre vitesse de déplacement.\n• Supprime la capacité de vous téléporter vers vos pièges.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/28/Waterlogged_Shoe.png"
+    }
+  ],
+  "doctor": [
+    {
+      "id": "calm_class_i",
+      "name": "Calme – Classe I",
+      "rarity": "common",
+      "description": "Une procédure ECT utilisant une longueur d’onde profonde qui apaise diverses maladies mentales.\n\n• Augmente ton rayon de terreur de +4 m quand Static Blast est disponible et le diminue de -4 m en recharge.",
+      "icon": ""
+    },
+    {
+      "id": "order_class_i",
+      "name": "Ordre – Classe I",
+      "rarity": "common",
+      "description": "Une procédure ECT conventionnelle faisant partie de la routine quotidienne.\n\n• Réduit la durée de rechargement de Static Blast.",
+      "icon": ""
+    },
+    {
+      "id": "maple_knight",
+      "name": "Chevalier d’érable",
+      "rarity": "uncommon",
+      "description": "Une pièce de style chevalier sculptée en érable.\n\n• Permet de voir la zone d’effet de l’attaque de Shock Therapy.",
+      "icon": ""
+    },
+    {
+      "id": "mouldy_electrode",
+      "name": "Électrode moisie",
+      "rarity": "uncommon",
+      "description": "Une électrode moisie qui conduit toujours un courant faible.\n\n• Étend la zone d’effet de l’attaque Shock Therapy de +2 m.",
+      "icon": ""
+    },
+    {
+      "id": "calm_class_ii",
+      "name": "Calme – Classe II",
+      "rarity": "rare",
+      "description": "Une procédure ECT à ondes profondes à risque modéré.\n\n• Augmente ton rayon de terreur de +6 m quand Static Blast est prêt et le diminue de -6 m en recharge.",
+      "icon": ""
+    },
+    {
+      "id": "discipline_class_ii",
+      "name": "Discipline – Classe II",
+      "rarity": "rare",
+      "description": "Une procédure ECT de haut voltage provoquant paranoïa.\n\n• Réduit le délai de déclenchement de Shock Therapy et applique l’affliction Discipline aux survivants affectés par Madness.",
+      "icon": ""
+    },
+    {
+      "id": "order_class_ii",
+      "name": "Ordre – Classe II",
+      "rarity": "rare",
+      "description": "Une version expérimentale de la procédure d’ordre.\n\n• Réduit encore davantage la rechargement de Static Blast et cause l’affliction Order aux survivants.",
+      "icon": ""
+    },
+    {
+      "id": "restraint_class_ii",
+      "name": "Contrôle – Classe II",
+      "rarity": "rare",
+      "description": "Une procédure expérimentale développée dans le Brouillard.\n\n• Révèle l’aura des survivants dont le Madness augmente, et active l’affliction Restraint.",
+      "icon": ""
+    },
+    {
+      "id": "calm_carters_notes",
+      "name": "Calme – Notes de Carter",
+      "rarity": "very_rare",
+      "description": "Version expérimentale annotée par Herman Carter.\n\n• Augmente fortement ton rayon de terreur quand Static Blast est prêt, diminue quand il recharge, et applique une forme intense de l’affliction Calme.",
+      "icon": ""
+    },
+    {
+      "id": "discipline_carters_notes",
+      "name": "Discipline – Notes de Carter",
+      "rarity": "very_rare",
+      "description": "Notes expérimentales annotées par Carter pour un voltage élevé.\n\n• Réduit encore plus le délai de déclenchement de Shock Therapy et applique une forme accrue de l’affliction Discipline.",
+      "icon": ""
+    },
+    {
+      "id": "order_carters_notes",
+      "name": "Ordre – Notes de Carter",
+      "rarity": "very_rare",
+      "description": "Une version expérimentale annotée de la procédure d’ordre.\n\n• Réduit significativement le rechargement de Static Blast et applique l’affliction Order.",
+      "icon": ""
+    },
+    {
+      "id": "restraint_carters_notes",
+      "name": "Contrôle – Notes de Carter",
+      "rarity": "very_rare",
+      "description": "Procédure expérimentale annotée provoquant de fortes hallucinations.\n\n• Révèle l’aura des survivants plus longtemps quand leur Madness augmente et active l’affliction Restraint.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_king",
+      "name": "Roi irisé",
+      "rarity": "iridescent",
+      "description": "Un roi en verre étrange façonné par le Brouillard.\n\n• Survivants frappés par Shock Therapy reçoivent une affliction aléatoire parmi Calme, Discipline, Order ou Restraint, chacune avec effets spécifiques.",
+      "icon": ""
+    }
+  ],
+  "huntress": [
+    {
+      "id": "bandaged_haft",
+      "name": "Manche bandé",
+      "rarity": "common",
+      "description": "Pansements de premiers soins enroulés et attachés fermement au manche de la hachette.\n\n• Réduit de 10 % le temps de recharge entre les lancers de hachette.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Bandaged_Haft.png"
+    },
+    {
+      "id": "coarse_stone",
+      "name": "Pierre grossière",
+      "rarity": "common",
+      "description": "Cette pierre est trop grossière pour être utilisée normalement. Une lame ainsi endommagée inflige des blessures ouvertes.\n\n• Les survivants touchés par les hachettes ont +50 % de volume de gémissements jusqu’à guérison.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Coarse_Stone.png"
+    },
+    {
+      "id": "yellowed_cloth",
+      "name": "Tissu jauni",
+      "rarity": "common",
+      "description": "Un simple morceau de textile permettant d’essuyer et soigner les boursouflures.\n\n• +10 % de vitesse de lancer des hachettes.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Yellowed_Cloth.png"
+    },
+    {
+      "id": "amanita_toxin",
+      "name": "Toxine d’amanite",
+      "rarity": "uncommon",
+      "description": "Une toxine appliquée sur la lame de la hachette qui engourdit l’esprit.\n\n• Les hachettes infligent l’état *Aveuglement* pendant 60 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Amanita_Toxin.png"
+    },
+    {
+      "id": "leather_loop",
+      "name": "Boucle en cuir",
+      "rarity": "uncommon",
+      "description": "Une bande de cuir nouée en boucle qui facilite le transport des outils.\n\n• Les frappes de hachettes donnent 2 % d’état *Rapidité* pendant 5 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Leather_Loop.png"
+    },
+    {
+      "id": "oak_haft",
+      "name": "Manche en chêne",
+      "rarity": "uncommon",
+      "description": "Un manche poli qui permet un maniement plus rapide et sournois.\n\n• Réduit de 20 % le temps de recharge du lancer de hachette.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Oak_Haft.png"
+    },
+    {
+      "id": "manna_grass_braid",
+      "name": "Tresse de glycérie",
+      "rarity": "rare",
+      "description": "Une tresse décorative circulaire en glycérie, souvenir d’une petite perdue qui augmente la rage et la concentration.\n\n• Réduit de 5 % le temps de préparation du lancer de hachette.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Manna_Grass_Braid.png"
+    },
+    {
+      "id": "weighted_head",
+      "name": "Tête lestée",
+      "rarity": "rare",
+      "description": "Une tête de hachette étrangement lestée, conçue pour porter un coup violent.\n\n• Les hachettes infligent l’état *Immobilisé* pendant 10 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Weighted_Head.png"
+    },
+    {
+      "id": "shiny_pin",
+      "name": "Épingle brillante",
+      "rarity": "very_rare",
+      "description": "Une épingle en cuivre abîmée mais extrêmement lustrée, pillée sur une proie coriace.\n\n• +5 % de vitesse de mouvement de la Chasseuse lorsqu’elle vise ou prépare un lancer.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Shiny_Pin.png"
+    },
+    {
+      "id": "venomous_concoction",
+      "name": "Concoction vénéneuse",
+      "rarity": "very_rare",
+      "description": "Une concoction toxique dérivée de venin de vipère péliade, appliquée sur la lame.\n\n• Les hachettes infligent l’état *Épuisement* pendant 5 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Venomous_Concoction.png"
+    },
+    {
+      "id": "deerskin_gloves",
+      "name": "Gants en peau de daim",
+      "rarity": "very_rare",
+      "description": "Des gants en cuir tanné qui protègent les mains et assurent une meilleure prise.\n\n• Réduit de 20 % le temps de recharge des hachettes dans les casiers.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Deerskin_Gloves.png"
+    },
+    {
+      "id": "infantry_belt",
+      "name": "Ceinturon d’infanterie",
+      "rarity": "iridescent",
+      "description": "Un ceinturon robuste pillé sur un soldat, utile pour transporter des outils.\n\n• La Chasseuse se déplace à 4,6 m/s quand elle n’a plus de hachettes.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Infantry_Belt.png"
+    },
+    {
+      "id": "iridescent_head",
+      "name": "Tête iridescente",
+      "rarity": "iridescent",
+      "description": "Une tête de hachette semblable à du verre, moulée à partir du Brouillard.\n\n• Les coups de hachette réussis plongent immédiatement les survivants en **État Critique**.\n• Limite le nombre max de hachettes à 1.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/Iridescent_Head.png"
+    }
+  ],
+  "cannibal": [
+    {
+      "id": "chainsaw_file",
+      "name": "Lime de tronçonneuse",
+      "rarity": "common",
+      "description": "Un fichier dont le but est d’aiguiser les chaînes de tronçonneuse.\n\n• Réduit la durée d’un Tantrum de -0,25 s.",
+      "icon": ""
+    },
+    {
+      "id": "spark_plug",
+      "name": "Bougie d’allumage",
+      "rarity": "common",
+      "description": "Une bougie d’allumage propre pour une tronçonneuse.\n\n• Réduit le temps de recharge du pouvoir de -0,5 s.",
+      "icon": ""
+    },
+    {
+      "id": "speed_limiter",
+      "name": "Limiteur de vitesse",
+      "rarity": "uncommon",
+      "description": "Un dispositif mécanique qui limite la quantité de carburant.\n\n• +100 % de points de sang bonus pour les événements de balayage de tronçonneuse dans la catégorie Perfidie.\n• Les survivants touchés par la tronçonneuse ne reçoivent de dégâts que d’un seul état de santé.",
+      "icon": ""
+    },
+    {
+      "id": "vegetable_oil",
+      "name": "Huile végétale",
+      "rarity": "uncommon",
+      "description": "Une huile rance utilisée comme lubrifiant de mauvaise qualité.\n\n• Réduit de -0,3 s la durée de rechargement de la tronçonneuse.",
+      "icon": ""
+    },
+    {
+      "id": "chilli",
+      "name": "Chili",
+      "rarity": "rare",
+      "description": "Un grand bol de chili brûlant pour rester fort.\n\n• Augmente la durée du Dash de tronçonneuse de +0,15 s par charge consommée et la fenêtre du Dash de +0,15 s.",
+      "icon": ""
+    },
+    {
+      "id": "homemade_muffler",
+      "name": "Silencieux artisanal",
+      "rarity": "rare",
+      "description": "Un système d’échappement bricolé pour réduire le bruit.\n\n• Réduit la durée d’un Tantrum de -0,5 s.",
+      "icon": ""
+    },
+    {
+      "id": "knife_scratches",
+      "name": "Rayures de couteau",
+      "rarity": "rare",
+      "description": "Des marques sur la tronçonneuse causées par une lame ardente.\n\n• Augmente la vitesse de déplacement lors d’un Dash de +1,5 %.\n• Augmente le temps de charge du pouvoir de +10 %.",
+      "icon": ""
+    },
+    {
+      "id": "long_guide_bar",
+      "name": "Guide long",
+      "rarity": "rare",
+      "description": "Une barre de guidage robuste pour de longues chaînes.\n\n• Augmente le seuil avant qu’un revving n’engage un Tantrum de +2 s.",
+      "icon": ""
+    },
+    {
+      "id": "primer_bulb",
+      "name": "Ampoule d’amorçage",
+      "rarity": "very_rare",
+      "description": "Pompe plus d’essence dans l’allumage pour un démarrage puissant.\n\n• Réduit le temps de recharge du pouvoir de -1 s.",
+      "icon": ""
+    },
+    {
+      "id": "begrimed_chains",
+      "name": "Chaînes souillées",
+      "rarity": "very_rare",
+      "description": "Cette chaîne est couverte d’une substance malfaisante qui affaiblit quiconque la touche.\n\n• Les survivants touchés par la tronçonneuse laissent tomber tout objet qu’ils portent.",
+      "icon": ""
+    },
+    {
+      "id": "grisly_chains",
+      "name": "Chaînes horribles",
+      "rarity": "very_rare",
+      "description": "Une chaîne aux dents lourdes qui laisse les victimes mutilées.\n\n• Les survivants touchés par la tronçonneuse subissent l’état *Maladresse* pendant 70 s.",
+      "icon": ""
+    },
+    {
+      "id": "shop_lubricant",
+      "name": "Lubrifiant d’atelier",
+      "rarity": "very_rare",
+      "description": "Une huile spécialement formulée pour tronçonneuse.\n\n• Les auras des survivants renversés par la tronçonneuse sont cachées aux autres survivants pendant 20 s si aucun autre survivant n’est dans le rayon de terreur.",
+      "icon": ""
+    },
+    {
+      "id": "the_beasts_marks",
+      "name": "Marques de la Bête",
+      "rarity": "very_rare",
+      "description": "Des marques dentelées couvrent la tronçonneuse, rappel de la bête sombre qui vit dans le Brouillard.\n\n• +2 % de vitesse de mouvement de Dash de tronçonneuse.\n• +12 % de temps nécessaire pour charger la tronçonneuse.",
+      "icon": ""
+    },
+    {
+      "id": "the_grease",
+      "name": "La graisse",
+      "rarity": "very_rare",
+      "description": "Une épaisse substance lubrifiante concoctée par la famille Sawyer.\n\n• Augmente le seuil avant qu’un revving n’engage un Tantrum de +3 s.",
+      "icon": ""
+    },
+    {
+      "id": "award_winning_chilli",
+      "name": "Chili primé",
+      "rarity": "very_rare",
+      "description": "Un grand bol de chili épicé célèbre pour sa viande de première qualité.\n\n• Augmente la durée du Dash de tronçonneuse de +0,2 s par charge et la fenêtre du Dash de +0,2 s.",
+      "icon": ""
+    },
+    {
+      "id": "depth_gauge_rake",
+      "name": "Râteau à jauge de profondeur",
+      "rarity": "very_rare",
+      "description": "Un outil qui augmente l’angle de la jauge de profondeur.\n\n• Augmente les Charges de pouvoir de +1.\n• Réduit la vitesse de charge de -18 %.\n• Réduit la vitesse de mouvement durant le Dash de -2 %.",
+      "icon": ""
+    },
+    {
+      "id": "light_chassis",
+      "name": "Châssis léger",
+      "rarity": "very_rare",
+      "description": "Un châssis de tronçonneuse léger et durable avec guide plus court.\n\n• Les auras des survivants dans un rayon de 8 m sont révélées quand vous vrombez la tronçonneuse.",
+      "icon": ""
+    },
+    {
+      "id": "rusted_chains",
+      "name": "Chaînes rouillées",
+      "rarity": "iridescent",
+      "description": "Des chaînes couvertes de taches de rouille qui rendent les blessures particulièrement difficiles à guérir.\n\n• Les survivants touchés par la tronçonneuse subissent l’état *Blessure grave* pendant 90 s.",
+      "icon": ""
+    },
+    {
+      "id": "carburettor_tuning_guide",
+      "name": "Guide de réglage du carburateur",
+      "rarity": "iridescent",
+      "description": "Un guide grossièrement dessiné pour ajuster et régler un carburateur.\n\n• Lancer un Dash consomme automatiquement toutes les Charges disponibles, combinant leurs durées : +0,5 s par Charge.\n• Réduit la vitesse de mouvement durant le Dash de -2 %.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_flesh",
+      "name": "Chair iridescente",
+      "rarity": "iridescent",
+      "description": "Une fine tranche de chair lisse dont les veines scintillent d’une lumière étrange.\n\n• Réinitialise instantanément toutes les Charges de pouvoir après avoir touché un survivant.\n• Réduit la durée maximale d’un Tantrum à 3 s.",
+      "icon": ""
+    }
+  ],
+  "nightmare": [
+    {
+      "id": "garden_rake",
+      "name": "Râteau de jardin",
+      "rarity": "common",
+      "description": "Un petit râteau à griffes, indispensable pour tout jardinier accompli.\n\n• Augmente légèrement la taille des zones affectées par les pièges oniriques (Dream Snares / Palettes).",
+      "icon": ""
+    },
+    {
+      "id": "kids_drawing",
+      "name": "Dessin d’enfant",
+      "rarity": "common",
+      "description": "Un dessin non signé manifestement réalisé par un jeune enfant.\n\n• Augmente légèrement l’effet du Microsommeil généré par les pièges oniriques.",
+      "icon": ""
+    },
+    {
+      "id": "sheep_block",
+      "name": "Bloc de mouton",
+      "rarity": "uncommon",
+      "description": "Un bloc en bois blanc et bleu représentant deux moutons.\n\n• Augmente légèrement le temps de récupération des Réveils (Alarm Clocks) utilisés par les survivants dans la partie.",
+      "icon": ""
+    },
+    {
+      "id": "wool_shirt",
+      "name": "Chemise en laine",
+      "rarity": "uncommon",
+      "description": "Une petite chemise orange et jaune d’un garçon, identifiée par une étiquette au nom de « Jesse ».\n\n• Réduit légèrement le délai avant que les palettes oniriques se déclenchent quand elles sont posées.",
+      "icon": ""
+    },
+    {
+      "id": "cat_block",
+      "name": "Bloc de chat",
+      "rarity": "rare",
+      "description": "Un bloc en bois blanc et violet représentant un chat endormi et la lettre « C ».\n\n• Réduit modérément le délai de récupération de l’aptitude de projection onirique (*Dream Projection*).",
+      "icon": ""
+    },
+    {
+      "id": "green_dress",
+      "name": "Robe verte",
+      "rarity": "rare",
+      "description": "Une petite robe verte ornée d’un ruban blanc soyeux.\n\n• Réduit légèrement le temps que les survivants mettent pour sombrer dans le monde onirique lorsqu’ils interagissent avec les pièges oniriques.",
+      "icon": ""
+    }
+  ],
+    "pig": [
+    {
+      "id": "combat_straps",
+      "name": "Sangles de combat",
+      "rarity": "common",
+      "description": "Des sangles en cuir qui maintiennent le tissu en place pour des mouvements plus agiles.\n\n• Augmente légèrement la vitesse de transition en position accroupie.",
+      "icon": ""
+    },
+    {
+      "id": "johns_medical_file",
+      "name": "Dossier médical de John",
+      "rarity": "common",
+      "description": "Le dossier médical d’un homme atteint d’un cancer, remplissant le lecteur de peur et d’imprudence.\n\n• Augmente la vitesse d’attache des Pièges à Ours Inversés.",
+      "icon": ""
+    },
+    {
+      "id": "shattered_syringe",
+      "name": "Seringue brisée",
+      "rarity": "common",
+      "description": "Symbole d’un mode de vie brisé qui renforce la détermination de celui qui s’en souvient.\n\n• Réduit légèrement le délai de récupération après une Attaque Embuscade ratée.",
+      "icon": ""
+    },
+    {
+      "id": "workshop_grease",
+      "name": "Graisse d’atelier",
+      "rarity": "common",
+      "description": "Un tube de graisse utilisé dans l’atelier.\n\n• Augmente légèrement les chances de Skill Check durant la recherche des Boîtes de Jigsaw.",
+      "icon": ""
+    },
+    {
+      "id": "face_mask",
+      "name": "Masque facial",
+      "rarity": "uncommon",
+      "description": "Modification du Piège à Ours Inversé : un lourd masque de tissu imbibé de sédatif.\n\n• Les survivants pris dans un Piège à Ours Inversé subissent l’état *Aveuglement*.",
+      "icon": ""
+    },
+    {
+      "id": "amandas_secret",
+      "name": "Secret d’Amanda",
+      "rarity": "very_rare",
+      "description": "Boîte métallique noire contenant un couteau et du matériel médical, dont des compresses.\n\n• Quand un survivant retire un Piège à Ours Inversé, il génère un Fort Bruit d’Alerte et son aura est révélée pendant quelques secondes.",
+      "icon": ""
+    },
+    {
+      "id": "crate_of_gears",
+      "name": "Caisse de rouages",
+      "rarity": "very_rare",
+      "description": "Collection de pièces mécaniques permettant de créer des Boîtes de Jigsaw plus complexes et des Pièges à Ours Inversés plus difficiles.\n\n• Augmente la vitesse d’attache des Pièges à Ours Inversés et réduit la vitesse de recherche des Boîtes de Jigsaw.",
+      "icon": ""
+    },
+    {
+      "id": "jigsaws_sketch",
+      "name": "Croquis de Jigsaw",
+      "rarity": "very_rare",
+      "description": "Un dessin détaillé d’un piège ingénieux, esquissé sur une feuille de papier.\n\n• Augmente le nombre de Boîtes de Jigsaw disponibles dans la partie.",
+      "icon": ""
+    },
+    {
+      "id": "tampered_timer",
+      "name": "Minuteur trafiqué",
+      "rarity": "very_rare",
+      "description": "Un ressort dans le mécanisme accélère la rotation des rouages.\n\n• Réduit le temps avant que les Pièges à Ours Inversés ne se déclenchent automatiquement.",
+      "icon": ""
+    },
+    {
+      "id": "amandas_letter",
+      "name": "Lettre d’Amanda",
+      "rarity": "ultra_rare",
+      "description": "Une lettre de chantage destinée à Amanda.\n\n• Quand elle est accroupie, les auras des survivants dans un certain rayon sont révélées et le nombre de Pièges à Ours Inversés disponibles est réduit.",
+      "icon": ""
+    },
+    {
+      "id": "rules_set_no_2",
+      "name": "Règle n° 2",
+      "rarity": "ultra_rare",
+      "description": "Un vieux lecteur audio avec un enregistrement à l’intérieur.\n\n• Les survivants ne voient plus les auras des Boîtes de Jigsaw jusqu’à ce que leurs Pièges à Ours Inversés soient activés.",
+      "icon": ""
+    },
+    {
+      "id": "video_tape",
+      "name": "Cassette vidéo",
+      "rarity": "rare",
+      "description": "Enregistrement de Jigsaw expliquant les règles du jeu à Amanda.\n\n• Tous les survivants commencent la partie avec un Piège à Ours Inversé déjà attaché.",
+      "icon": ""
+    }
+  ],
+      "clown": [
+    {
+      "id": "fingerless_parade_gloves",
+      "name": "Gants de parade sans doigts",
+      "rarity": "common",
+      "description": "Partie intégrante de la tenue du Clown, les doigts coupés permettent une manipulation plus précise.\n\n• Augmente la vitesse de lancer des bouteilles de +25 % et réduit l’angle de lancer de -15 °.",
+      "icon": ""
+    },
+    {
+      "id": "party_bottle",
+      "name": "Bouteille de fête",
+      "rarity": "common",
+      "description": "La vie de la fête dans une bouteille !\n\n• Les bouteilles émettent des confettis en éclatant et frapper un survivant directement donne +100 points de sang de la catégorie Perfide.",
+      "icon": ""
+    },
+    {
+      "id": "robin_feather",
+      "name": "Plume de rouge-gorge",
+      "rarity": "uncommon",
+      "description": "Une plume orange chaude et douce au toucher.\n\n• Réduit la durée de rechargement entre deux lancers de bouteille de -40 %.",
+      "icon": ""
+    },
+    {
+      "id": "vhs_porn",
+      "name": "Cassette VHS pornographique",
+      "rarity": "uncommon",
+      "description": "Un classique intemporel.\n\n• Inverse les couleurs des nuages de gaz, échangeant leurs effets habituels.",
+      "icon": ""
+    },
+    {
+      "id": "cheap_gin_bottle",
+      "name": "Bouteille de gin bon marché",
+      "rarity": "uncommon",
+      "description": "Quand la nuit est rude, un peu de gin donne un coup de fouet.\n\n• Augmente la force de l’effet de Hâte des nuages d’antidote de +3 %.",
+      "icon": ""
+    },
+    {
+      "id": "cigar_box",
+      "name": "Boîte de cigares",
+      "rarity": "rare",
+      "description": "Une boîte grinçante contenant des doigts incomplets.\n\n• Les survivants dans un rayon de 16 m ont leurs auras révélées aux joueurs vivants sous l’effet d’Invigoration pendant 6 s.",
+      "icon": ""
+    },
+    {
+      "id": "ether_15_vol",
+      "name": "Éther 15 Vol %",
+      "rarity": "rare",
+      "description": "Un composé organique volatil et toxique à cette concentration.\n\n• Augmente la durée de l’intoxication de +1 s.",
+      "icon": ""
+    },
+    {
+      "id": "garish_make_up_kit",
+      "name": "Trousse de maquillage criard",
+      "rarity": "rare",
+      "description": "Un composé inconnu intensifiant l’effet de l’antidote.\n\n• Augmente la durée de l’effet d’Invigoration de +2 s.",
+      "icon": ""
+    },
+    {
+      "id": "redheads_pinkie_finger",
+      "name": "Auriculaire de rousse",
+      "rarity": "very_rare",
+      "description": "L’auriculaire précieux d’une rousse, légèrement parfumé.\n\n• Les survivants touchés directement par une bouteille subissent l’état *Exposé* tant qu’ils sont intoxiqués. • Réduit le nombre de bouteilles portées à 1.",
+      "icon": ""
+    },
+    {
+      "id": "tattoos_middle_finger",
+      "name": "Majeur tatoué",
+      "rarity": "very_rare",
+      "description": "Le majeur d’un homme fortement tatoué, au goût d’huile de machine.\n\n• Les auras des survivants affectés par l’Intoxication ou l’Invigoration sont révélées au Clown pendant 6 s.",
+      "icon": ""
+    }
+  ],
+        "spirit": [
+    {
+      "id": "gifted_bamboo_comb",
+      "name": "Peigne en bambou offert",
+      "rarity": "common",
+      "description": "Un peigne étroit en bambou pour démêler délicatement les cheveux épars.\n\n• Augmente la vitesse de charge du pouvoir Yamaoka’s Haunting de +15 %.",
+      "icon": ""
+    },
+    {
+      "id": "origami_crane",
+      "name": "Grue en origami",
+      "rarity": "common",
+      "description": "Une des mille grues de papier réalisées pour voir un vœu se réaliser.\n\n• Augmente le taux de recharge de Yamaoka’s Haunting de +20 %.",
+      "icon": ""
+    },
+    {
+      "id": "shiawase_amulet",
+      "name": "Amulette Shiawase",
+      "rarity": "uncommon",
+      "description": "Un talisman qui apporte enthousiasme et bonheur.\n\n• Augmente légèrement la durée d’un Phase-Walk (+0,5 s).",
+      "icon": ""
+    },
+    {
+      "id": "zori",
+      "name": "Zōri",
+      "rarity": "uncommon",
+      "description": "Une paire de sandales confortables qui s’enfilent facilement.\n\n• Augmente la vitesse de déplacement pendant un Phase-Walk de +5 %.",
+      "icon": ""
+    },
+    {
+      "id": "juniper_bonsai",
+      "name": "Bonsaï de genièvre",
+      "rarity": "uncommon",
+      "description": "Un bonsaï feuillu autrefois symbole de tradition familiale.\n\n• Réduit le cooldown de Passive Phasing de -1 s et augmente sa durée de +50 %.",
+      "icon": ""
+    },
+    {
+      "id": "kaiun_talisman",
+      "name": "Talisman de chance",
+      "rarity": "rare",
+      "description": "Un talisman pour attirer la chance de ton côté.\n\n• Augmente la durée du Phase-Walk de +1 s.",
+      "icon": ""
+    },
+    {
+      "id": "muddy_sports_day_cap",
+      "name": "Casquette de sport boueuse",
+      "rarity": "rare",
+      "description": "Une casquette boueuse avec le logo de l’école, marquée du nom « Rin ».\n\n• Augmente ta vitesse pendant un Phase-Walk de +10 %.",
+      "icon": ""
+    },
+    {
+      "id": "rins_broken_watch",
+      "name": "Montre brisée de Rin",
+      "rarity": "rare",
+      "description": "Une montre-bracelet avec le verre fissuré, gravée du nom de Rin.\n\n• Augmente le taux de recharge de Yamaoka’s Haunting de +30 %.",
+      "icon": ""
+    },
+    {
+      "id": "white_hair_ribbon",
+      "name": "Ruban blanc pour cheveux",
+      "rarity": "rare",
+      "description": "Un ruban de soie pour discipliner les cheveux indisciplinés.\n\n• Augmente la vitesse de charge de Yamaoka’s Haunting de +20 %.",
+      "icon": ""
+    },
+    {
+      "id": "mothers_glasses",
+      "name": "Lunettes de mère",
+      "rarity": "very_rare",
+      "description": "Des lunettes appartenant à une mère aimante atteinte de maladie chronique.\n\n• Les survivants à moins de 2 m de ton Husk durant un Phase-Walk déclenchent *Killer Instinct*.",
+      "icon": ""
+    },
+    {
+      "id": "rusty_flute",
+      "name": "Flûte rouillée",
+      "rarity": "very_rare",
+      "description": "Une flûte transverse dont le son résonne d’une manière inquiétante.\n\n• Augmente le taux de recharge de Yamaoka’s Haunting de +40 %.",
+      "icon": ""
+    },
+    {
+      "id": "senko_hanabi",
+      "name": "Sparklers Senko Hanabi",
+      "rarity": "very_rare",
+      "description": "Des étincelles minces qui illuminent les nuits d’été.\n\n• Quand un Phase-Walk se termine, le Husk explose, bloquant les emplacements de vault dans un rayon de 4 m pendant 5 s.",
+      "icon": ""
+    },
+    {
+      "id": "uchiwa",
+      "name": "Éventail Uchiwa",
+      "rarity": "very_rare",
+      "description": "Un éventail décoré d’un motif de koi pour créer une brise agréable.\n\n• Recharge instantanément Yamaoka’s Haunting après avoir été étourdi par une palette.",
+      "icon": ""
+    },
+    {
+      "id": "dried_cherry_blossom",
+      "name": "Fleur de cerisier séchée",
+      "rarity": "very_rare",
+      "description": "Une fleur de cerisier séchée, symbole de mortalité.\n\n• Entrer à moins de 3 m d’un survivant durant un Phase-Walk déclenche *Killer Instinct* mais les marques de griffes ne sont plus visibles pendant le Phase-Walk.",
+      "icon": ""
+    },
+    {
+      "id": "furin",
+      "name": "Furin",
+      "rarity": "iridescent",
+      "description": "Une petite cloche qui tinte doucement au vent chaud de l’été.\n\n• Tous les survivants entendent l’audio cue du Phase-Walk.",
+      "icon": ""
+    },
+    {
+      "id": "wakizashi_saya",
+      "name": "Saya de wakizashi",
+      "rarity": "iridescent",
+      "description": "Le fourreau d’une lame ancestrale forgée pour la famille Yamaoka.\n\n• Appuyer sur la touche d’activation pendant un Phase-Walk te fait réapparaître instantanément à l’emplacement du Husk.",
+      "icon": ""
+    },
+    {
+      "id": "yakuyoke_amulet",
+      "name": "Amulette Yakuyoke",
+      "rarity": "iridescent",
+      "description": "Un puissant talisman pour protéger tes efforts contre les circonstances suspects.\n\n• Augmente la durée du Phase-Walk de +3,5 s mais réduit ta vitesse de déplacement de -15 % pendant celui-ci.",
+      "icon": ""
+    },
+    {
+      "id": "kintsugi_teacup",
+      "name": "Tasse Kintsugi",
+      "rarity": "iridescent",
+      "description": "Une tasse réparée avec de la poudre d’or, symbole de reconstruction.\n\n• Recharge instantanément Yamaoka’s Haunting après avoir cassé un mur ou une palette.",
+      "icon": ""
+    },
+    {
+      "id": "mother_daughter_ring",
+      "name": "Bague Mère-Fille",
+      "rarity": "iridescent",
+      "description": "Une bague argentée gravée “pour ma précieuse fille”.\n\n• Augmente ta vitesse pendant un Phase-Walk de +25 % mais les marques de griffes ne sont plus visibles pendant le Phase-Walk.",
+      "icon": ""
+    }
+  ],
+  "legion": [
+    {
+      "id": "friendship_bracelet",
+      "name": "Bracelet d’amitié",
+      "rarity": "common",
+      "description": "Un bracelet tressé gris et rouge portant l’inscription « F. J. S. J. ».\n\n• Augmente légèrement la durée des Feral Slashes, augmentant la portée des attaques.",
+      "icon": ""
+    },
+    {
+      "id": "mischief_list",
+      "name": "Liste de méfaits",
+      "rarity": "common",
+      "description": "Une liste de missions de méfaits, souvenirs de jours plus joyeux.\n\n• Augmente la durée de Feral Frenzy de +2 s.",
+      "icon": ""
+    },
+    {
+      "id": "scratched_ruler",
+      "name": "Règle entaillée",
+      "rarity": "uncommon",
+      "description": "Une règle en bois profondément marquée de griffes.\n\n• Réduit le temps de récupération de Feral Frenzy de -5 s.",
+      "icon": ""
+    },
+    {
+      "id": "smiley_face_pin",
+      "name": "Badge visage souriant",
+      "rarity": "uncommon",
+      "description": "Un bouton jaune au visage souriant, utilisé de manière sarcastique.\n\n• Les survivants subissent l’état *Aveuglement* pendant 60 s après s’être soignés.",
+      "icon": ""
+    },
+    {
+      "id": "defaced_smiley_pin",
+      "name": "Badge visage souriant défiguré",
+      "rarity": "rare",
+      "description": "Un badge visage souriant défiguré.\n\n• Augmente fortement la durée de Feral Frenzy et ajoute un bonus de points pour les Feral Slashes.",
+      "icon": ""
+    },
+    {
+      "id": "joeys_mix_tape",
+      "name": "Cassette de musique de Joey",
+      "rarity": "rare",
+      "description": "Une mixtape pleine de rythmes puissants.\n\n• Les survivants subissent l’état *Hémorragie* après s’être soignés et ajoute une couche sonore dans le rayon de terreur.",
+      "icon": ""
+    },
+    {
+      "id": "stolen_sketch_book",
+      "name": "Carnet de croquis volé",
+      "rarity": "rare",
+      "description": "Un carnet créatif quelque peu étrange.\n\n• Les survivants touchés par les Feral Slashes laissent tomber tout objet qu’ils portent.",
+      "icon": ""
+    },
+    {
+      "id": "stylish_sunglasses",
+      "name": "Lunettes de soleil stylées",
+      "rarity": "rare",
+      "description": "Des lunettes ovale élégantes avec des verres colorés.\n\n• Les auras des survivants qui se soignent à moins de 24 m sont révélées.",
+      "icon": ""
+    },
+    {
+      "id": "susies_mix_tape",
+      "name": "Cassette de musique de Susie",
+      "rarity": "very_rare",
+      "description": "Une mixtape énergique et rythmée.\n\n• Augmente le rayon de *Killer Instinct* de +20 m et ajoute une couche sonore dans le rayon de terreur.",
+      "icon": ""
+    },
+    {
+      "id": "legion_pin",
+      "name": "Badge de la Légion",
+      "rarity": "very_rare",
+      "description": "Un badge fait main avec le visage de la Légion.\n\n• Les survivants subissent l’état *Brisé* pendant 60 s après s’être soignés.",
+      "icon": ""
+    },
+    {
+      "id": "bffs",
+      "name": "Amis pour la vie",
+      "rarity": "iridescent",
+      "description": "Un collier en argent divisé en quatre, un pour chaque meilleur ami.\n\n• Accorde des jetons selon les Feral Slashes enchaînés et offre un bonus permanent d’état *Rapidité* une fois les Portes alimentées si suffisamment de jetons sont obtenus.",
+      "icon": ""
+    }
+  ],
+    "plague": [
+    {
+      "id": "healing_salve",
+      "name": "Baume de soins",
+      "rarity": "common",
+      "description": "Une pâte de racines broyées à l’odeur amère, marinée dans de la saumure et du vin.\n\n• Réduit le temps de recharge de Purge d’Infamie et de Purge de Corruption de 0,25 s.",
+      "icon": ""
+    },
+    {
+      "id": "limestone_seal",
+      "name": "Sceau calcaire",
+      "rarity": "common",
+      "description": "Un sceau cylindrique en pierre poreuse représentant une scène rituelle avec des divinités ailées.\n\n• Augmente la durée d’infection des objets touchés par Purge d’Infamie de +20 s.",
+      "icon": ""
+    },
+    {
+      "id": "olibanum_incense",
+      "name": "Oliban",
+      "rarity": "uncommon",
+      "description": "Résine précieuse utilisée pendant les cérémonies pour son parfum citrique doux.\n\n• Les survivants se purifiant à un Bassin de Dévotion révèlent leur aura pendant 4 s.",
+      "icon": ""
+    },
+    {
+      "id": "prayer_tablet_fragment",
+      "name": "Fragment de tablette de prière",
+      "rarity": "rare",
+      "description": "Une tablette en pierre fragmentée d’une incantation corrompue.\n\n• Purge d’Infamie n’affecte plus directement les survivants.\n• Augmente de +40 s l’infection des objets et de +100 % l’infection gagnée par interactions ; +100 % points de sang en Sournoiserie.",
+      "icon": ""
+    },
+    {
+      "id": "prophylactic_amulet",
+      "name": "Amulette prophylactique",
+      "rarity": "rare",
+      "description": "Une amulette gravée d’une divinité ailée censée repousser la maladie.\n\n• Réduit de 2 le nombre total de Bassins de Dévotion dans l’épreuve.",
+      "icon": ""
+    },
+    {
+      "id": "blessed_apple",
+      "name": "Pomme bénie",
+      "rarity": "uncommon",
+      "description": "Un fruit mûr pour rompre le jeûne ceremonial.\n\n• Commence l’épreuve avec +1 Bassin de Devotion déjà corrompu.",
+      "icon": ""
+    },
+    {
+      "id": "potent_tincture",
+      "name": "Teinture forte",
+      "rarity": "common",
+      "description": "Un liquide aromatique d’herbes et d’alcool.\n\n• Réduit de -0,4 s le temps de recharge de Purge d’Infamie et de Purge de Corruption.",
+      "icon": ""
+    },
+    {
+      "id": "emetic_potion",
+      "name": "Potion vomitive",
+      "rarity": "uncommon",
+      "description": "Un sirop à base d’eau de moutarde qui provoque des vomissements.\n\n• Augmente l’efficacité de Purge d’Infamie (gain d’infection) de +30 %.",
+      "icon": ""
+    },
+    {
+      "id": "haematite_seal",
+      "name": "Sceau d’hématite",
+      "rarity": "rare",
+      "description": "Sceau forgé dans une pierre dure métallique et gravé de figures ailées.\n\n• Augmente de +30 s la durée d’infection des objets touchés par Purge d’Infamie.",
+      "icon": ""
+    },
+    {
+      "id": "rubbing_oil",
+      "name": "Huile de massage",
+      "rarity": "very_rare",
+      "description": "Un becher d’huile expectorante au parfum de laurier et de romarin.\n\n• Augmente la vitesse de charge de Purge d’Infamie et de Purge de Corruption de +50 %.",
+      "icon": ""
+    },
+    {
+      "id": "ashen_apple",
+      "name": "Pomme grisâtre",
+      "rarity": "very_rare",
+      "description": "Une pomme épluchée et recouverte de cendres sanctifiées.\n\n• Commence l’épreuve avec +1 Bassin de Devotion déjà corrompu et +1 Bassin supplémentaire.",
+      "icon": ""
+    },
+    {
+      "id": "incensed_ointment",
+      "name": "Onguent odorant",
+      "rarity": "rare",
+      "description": "Pâte cireuse imprégnée de sève de cèdre appliquée sur peau infectée.\n\n• L’ingestion de corruption à un Bassin de Devotion fait crier tous les survivants dans ton rayon de terreur et révèle leur position.",
+      "icon": ""
+    },
+    {
+      "id": "black_incense",
+      "name": "Encens noir",
+      "rarity": "very_rare",
+      "description": "Une pâte sombre faite de copeaux osseux affilés.\n\n• Les auras des survivants te sont révélées pendant 3 s quand ils vomissent.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_seal",
+      "name": "Sceau irisé",
+      "rarity": "iridescent",
+      "description": "Un sceau translucide moulé à partir du Brouillard.\n\n• Purge de Corruption s’active automatiquement à la fin d’un générateur.\n• Réduit la durée de Purge de Corruption de -20 s.",
+      "icon": ""
+    },
+    {
+      "id": "infected_emetic",
+      "name": "Vomi infecté",
+      "rarity": "rare",
+      "description": "Un sirop immonde provoquant des vomissements rapides.\n\n• Augmente l’efficacité de Purge d’Infamie de +40 %.",
+      "icon": ""
+    },
+    {
+      "id": "devotees_amulet",
+      "name": "Amulette de l’adepte",
+      "rarity": "very_rare",
+      "description": "Une amulette de pierre de sang gravée de l’effigie du dieu de la peste.\n\n• Augmente la durée de Purge de Corruption de +20 s.",
+      "icon": ""
+    },
+    {
+      "id": "severed_toe",
+      "name": "Orteil tranché",
+      "rarity": "very_rare",
+      "description": "L’orteil en décomposition d’Adiris porté en amulette.\n\n• Augmente la vitesse d’infection des survivants lors d’interactions de +50 %.",
+      "icon": ""
+    },
+    {
+      "id": "worship_tablet",
+      "name": "Tablette d’adoration",
+      "rarity": "iridescent",
+      "description": "Tablette décorée contenant des incantations corrompues.\n\n• Augmente la vitesse d’ingestion de la corruption de +100 % et ta vitesse de déplacement lors de Purge de Corruption.",
+      "icon": ""
+    }
+  ],
+  "ghost_face": [
+    {
+      "id": "philly",
+      "name": "« Philly »",
+      "rarity": "common",
+      "description": "Une caméra volée à une victime à Philadelphie, filmant sa dernière nuit dans la ville.\n\n• Réduit le temps nécessaire pour marquer un survivant.",
+      "icon": ""
+    },
+    {
+      "id": "cheap_cologne",
+      "name": "Eau de Cologne Bon Marché",
+      "rarity": "common",
+      "description": "Une eau de Cologne au parfum d’alcool bon marché que le Ghost Face porte pour se faire remarquer.\n\n• Augmente la durée du statut *Marqué*.",
+      "icon": ""
+    },
+    {
+      "id": "headline_cut_outs",
+      "name": "Découpures de Titres",
+      "rarity": "uncommon",
+      "description": "Découpes d’articles de journaux couvrant des affaires non résolues.\n\n• Augmente la vitesse de déplacement lors du *Stalking*.",
+      "icon": ""
+    },
+    {
+      "id": "walleyes_matchbook",
+      "name": "Carnet d’allumettes de Walleye",
+      "rarity": "uncommon",
+      "description": "Un carnet d’allumettes griffonné trouvé dans un bar de Northern Roseville.\n\n• Réduit le temps de recharge du pouvoir *Night Shroud*.",
+      "icon": ""
+    },
+    {
+      "id": "cinch_straps",
+      "name": "Sangles de Serrage",
+      "rarity": "uncommon",
+      "description": "Des sangles noires qui maintiennent tout en place lors de la traque.\n\n• Le *Night Shroud* reste actif même après une attaque de base ratée.",
+      "icon": ""
+    },
+    {
+      "id": "marked_map",
+      "name": "Carte Annotée",
+      "rarity": "rare",
+      "description": "Une carte annotée de Roseville montrant les victimes.\n\n• Augmente la durée du *Killer Instinct*.",
+      "icon": ""
+    },
+    {
+      "id": "olsens_address_book",
+      "name": "Carnet d’adresses d’Olsen",
+      "rarity": "rare",
+      "description": "Le carnet de Rosenville rempli d’adresses de victimes.\n\n• Les survivants *marqués* effectuant une action rapide ont leur aura révélée.",
+      "icon": ""
+    },
+    {
+      "id": "olsens_journal",
+      "name": "Journal d’Olsen",
+      "rarity": "rare",
+      "description": "Un carnet spiralé décrivant les méthodes de traque.\n\n• Les survivants *marqués* subissent l’effet *Oblivious*.",
+      "icon": ""
+    },
+    {
+      "id": "telephoto_lens",
+      "name": "Objectif Téléobjectif",
+      "rarity": "very_rare",
+      "description": "Un objectif de mise au point manuelle utilisé pour rester discret.\n\n• Après avoir été révélé, les survivants subissent l’état *Exhausted*. )",
+      "icon": ""
+    },
+    {
+      "id": "chewed_pen",
+      "name": "Stylo Mâché",
+      "rarity": "very_rare",
+      "description": "Un stylo bleu mâché contenant l’ADN du Ghost Face.\n\n• Allonge le temps nécessaire pour qu’un survivant *désespéré* te révèle.",
+      "icon": ""
+    },
+    {
+      "id": "knife_belt_clip",
+      "name": "Clip de Ceinture pour Couteau",
+      "rarity": "very_rare",
+      "description": "Un clip de ceinture pour transporter facilement le couteau tactique.\n\n• Réduit fortement ton rayon de terreur quand tu t’accroupis.",
+      "icon": ""
+    },
+    {
+      "id": "lasting_perfume",
+      "name": "Parfum Persistant",
+      "rarity": "very_rare",
+      "description": "Un parfum musqué puissant porté par le Ghost Face.\n\n• Après qu’un survivant soit hameçonné, prolonge le temps requis pour qu’il te révèle.",
+      "icon": ""
+    },
+    {
+      "id": "olsens_wallet",
+      "name": "Portefeuille d’Olsen",
+      "rarity": "very_rare",
+      "description": "Le portefeuille de Danny contenant des preuves et de l’argent.\n\n• Recharge instantanément *Night Shroud* après avoir détruit un mur ou palette.",
+      "icon": ""
+    },
+    {
+      "id": "drivers_license",
+      "name": "Permis de Conduire",
+      "rarity": "iridescent",
+      "description": "Le permis de conduire révélant l’identité de Danny Johnson.\n\n• Les générateurs explosent et perdent une partie de leur progression quand un survivant *marqué* les répare.",
+      "icon": ""
+    },
+    {
+      "id": "drop_leg_knife_sheath",
+      "name": "Étui de Couteau à Jambe",
+      "rarity": "iridescent",
+      "description": "Un étui facilitant les mouvements libres.\n\n• Tu gagnes un effet de *Haste* après avoir *marqué* un survivant.",
+      "icon": ""
+    },
+    {
+      "id": "night_vision_monocular",
+      "name": "Monoculaire de Vision Nocturne",
+      "rarity": "iridescent",
+      "description": "Un capteur permettant de voir dans le noir lors du *Night Shroud*.\n\n• Les survivants subissent l’état *Exhausted* après te dévoiler.",
+      "icon": ""
+    },
+    {
+      "id": "victims_detailed_routine",
+      "name": "Routine détaillée de la victime",
+      "rarity": "iridescent",
+      "description": "Une feuille de routine de la première victime d’Olsen.\n\n• Les survivants subissent l’état *Exhausted* après être *marqués*. ",
+      "icon": ""
+    },
+    {
+      "id": "ghost_face_caught_on_tape",
+      "name": "Ghost Face Capturé en Vidéo",
+      "rarity": "iridescent",
+      "description": "Une cassette qui terrorisa Roseville quand elle fut diffusée.\n\n• Recharge instantanément *Night Shroud* après avoir mis un survivant en état agonisant avec une attaque de base.",
+      "icon": ""
+    },
+    {
+      "id": "outdoor_security_camera",
+      "name": "Caméra de sécurité extérieure",
+      "rarity": "iridescent",
+      "description": "Une caméra qui filma le Ghost Face alors qu’il s’introduisait dans une maison.\n\n• Les auras de tous les survivants te sont révélées après avoir mis *marqué* un survivant en état agonisant.",
+      "icon": ""
+    }
+  ],
+  "demogorgon": [
+    {
+      "id": "black_heart",
+      "name": "Cœur noir",
+      "rarity": "common",
+      "description": "Un cœur noir fermenté arraché de la poitrine d’une créature tentaculaire du Monde à l’Envers.\n\n• Réduit le temps de recharge des attaques Déchiqueter réussies.",
+      "icon": ""
+    },
+    {
+      "id": "rat_liver",
+      "name": "Foie de rat",
+      "rarity": "common",
+      "description": "Un tas de foie mou salé et visqueux.\n\n• Augmente la vitesse de déplacement pendant que vous tenez le pouvoir Né de l’Abîme.",
+      "icon": ""
+    },
+    {
+      "id": "rat_tail",
+      "name": "Queue de rat",
+      "rarity": "common",
+      "description": "Une queue de rat caoutchouteuse à consommer.\n\n• Augmente la vitesse d’ouverture des Portails.",
+      "icon": ""
+    },
+    {
+      "id": "rotten_pumpkin",
+      "name": "Citrouille pourrie",
+      "rarity": "uncommon",
+      "description": "Chair de citrouille infectée par le sol putride de Hawkins.\n\n• Le portail par lequel vous commencez votre téléportation se scelle automatiquement et octroie des points bonus.",
+      "icon": ""
+    },
+    {
+      "id": "barbs_glasses",
+      "name": "Lunettes de Barb cassées",
+      "rarity": "uncommon",
+      "description": "Une paire de lunettes cassées qui ont voyagé jusqu’au Monde à l’Envers.\n\n• Réduit le temps de recharge des attaques Déchiqueter après avoir brisé un mur destructible ou une palette.",
+      "icon": ""
+    },
+    {
+      "id": "mews_guts",
+      "name": "Boyaux de Miaou",
+      "rarity": "uncommon",
+      "description": "Les entrailles d’une victime malheureuse.\n\n• Réduit le temps de recharge des attaques ratées et augmente le nombre total de Portails disponibles.",
+      "icon": ""
+    },
+    {
+      "id": "rotten_green_tripe",
+      "name": "Tripes vertes décomposées",
+      "rarity": "rare",
+      "description": "Des tripes décomposées qui revigorent le Démogorgon.\n\n• Augmente la vitesse de Téléportation dans le Monde à l’Envers.",
+      "icon": ""
+    },
+    {
+      "id": "sticky_lining",
+      "name": "Revêtement gluant",
+      "rarity": "rare",
+      "description": "Un revêtement fétide qui étend les tunnels inter-dimensionnels.\n\n• Augmente la zone d’effet des Portails actifs.",
+      "icon": ""
+    },
+    {
+      "id": "viscous_webbing",
+      "name": "Toile visqueuse",
+      "rarity": "rare",
+      "description": "Des toiles humides et élastiques qui élargissent les tunnels inter-dimensionnels.\n\n• Augmente le temps nécessaire aux survivants pour sceller un Portail.",
+      "icon": ""
+    },
+    {
+      "id": "brass_case_lighter",
+      "name": "Briquet en laiton",
+      "rarity": "rare",
+      "description": "Un briquet utilisé pour semer le trouble.\n\n• Les survivants subissent l’état *Aveuglement* quand ils ferment un Portail (dure 60 s).",
+      "icon": ""
+    },
+    {
+      "id": "deer_lung",
+      "name": "Poumon de biche",
+      "rarity": "very_rare",
+      "description": "Un poumon caoutchouteux qui revigore le Démogorgon.\n\n• Augmente la vitesse de Téléportation dans le Monde à l’Envers et réduit le nombre de Portails disponibles.",
+      "icon": ""
+    },
+    {
+      "id": "elevens_soda",
+      "name": "Soda d’Eleven",
+      "rarity": "very_rare",
+      "description": "Une canette de soda chargée d’énergie psychique.\n\n• Les générateurs en cours de réparation sont mis en surbrillance en jaune pendant la traversée du Monde à l’Envers.",
+      "icon": ""
+    },
+    {
+      "id": "thorny_vines",
+      "name": "Lianes épineuses",
+      "rarity": "very_rare",
+      "description": "D’épaisses lianes qui renforcent les tunnels.\n\n• Augmente encore le temps de scellage des Portails et la zone à partir de laquelle les survivants sont détectés.",
+      "icon": ""
+    },
+    {
+      "id": "violet_waxcap",
+      "name": "Champignon violet cireux",
+      "rarity": "very_rare",
+      "description": "Un champignon permettant de tromper télépathiquement les sens.\n\n• Augmente la durée de l’effet *Indétectable* après sortir d’un Portail.",
+      "icon": ""
+    },
+    {
+      "id": "upside_down_resin",
+      "name": "Résine Sens dessus dessous",
+      "rarity": "iridescent",
+      "description": "Résine gluante inflammable du Monde à l’Envers.\n\n• Augmente fortement le temps requis pour que les survivants scellent un Portail.",
+      "icon": ""
+    },
+    {
+      "id": "lifeguard_whistle",
+      "name": "Sifflet de maître-nageur",
+      "rarity": "iridescent",
+      "description": "Un sifflet en métal rouillé qui donnait le ton autrefois.\n\n• Les survivants près des Portails activés sont révélés sans nécessiter de charger *Né de l’Abîme*, mais la zone de détection est réduite.",
+      "icon": ""
+    },
+    {
+      "id": "leprose_lichen",
+      "name": "Lichen lépreux",
+      "rarity": "iridescent",
+      "description": "Un puissant lichen du Monde à l’Envers.\n\n• Révèle les auras de tous les survivants pendant la traversée du Monde à l’Envers (l’effet persiste quelques secondes autour des Portails).",
+      "icon": ""
+    },
+    {
+      "id": "red_moss",
+      "name": "Mousse rouge",
+      "rarity": "iridescent",
+      "description": "Une mousse psychédélique qui pousse sur l’écorce des arbres.\n\n• Augmente la durée de l’effet *Indétectable* après la sortie d’un Portail, et la sortie d’un Portail ne fait **plus de bruit**.",
+      "icon": ""
+    }
+  ],
+  "oni": [
+    {
+      "id": "blackened_toenail",
+      "name": "Ongle d’orteil noirci",
+      "rarity": "common",
+      "description": "Tombé lors de l’une des centaines de randonnées hivernales de Kazan vers le temple.\n\n• Augmente ta vitesse de déplacement en mode d’absorption de +0,4 m/s.",
+      "icon": ""
+    },
+    {
+      "id": "cracked_sakazuki",
+      "name": "Sakazuki fêlé",
+      "rarity": "common",
+      "description": "Un gobelet de cérémonie de mariage de Kazan, endommagé avant même la fin de la nuit.\n\n• Réduit de -0,5 s le temps de transition vers et hors de la Fureur Sanguinaire.",
+      "icon": ""
+    },
+    {
+      "id": "paper_lantern",
+      "name": "Lanterne en papier",
+      "rarity": "common",
+      "description": "Peut-être un souvenir de périodes plus simples, avant que la rage ne l’envahisse complètement.\n\n• Augmente la vitesse des orbes de sang flottant vers toi de +4 m/s en mode absorption.",
+      "icon": ""
+    },
+    {
+      "id": "rotting_rope",
+      "name": "Corde en décomposition",
+      "rarity": "common",
+      "description": "Si cette corde avait été plus solide, elle aurait sans doute retenu Kazan.\n\n• Augmente la portée de lecture d’auras des orbes de sang de +2 mètres.",
+      "icon": ""
+    },
+    {
+      "id": "bloody_sash",
+      "name": "Ceinture ensanglantée",
+      "rarity": "uncommon",
+      "description": "Ceinture tachée de sang d’un garçon qui traita Kazan de « noble imposteur ».\n\n• Augmente ta vitesse de déplacement en mode absorption de +0,7 m/s.",
+      "icon": ""
+    },
+    {
+      "id": "childs_wooden_sword",
+      "name": "Épée en bois d’enfant",
+      "rarity": "uncommon",
+      "description": "L’épée d’entraînement d’Akito, presque inutile après sa blessure.\n\n• Augmente la portée de lecture d’auras des orbes de sang de +3 mètres.",
+      "icon": ""
+    },
+    {
+      "id": "chipped_saihai",
+      "name": "Saïhaï ébréché",
+      "rarity": "uncommon",
+      "description": "Un bâton ayant appartenu à Renjiro, volé par Kazan.\n\n• Augmente la durée de la Fureur Sanguinaire de +6 secondes.",
+      "icon": ""
+    },
+    {
+      "id": "ink_lion",
+      "name": "Lion d’encre",
+      "rarity": "uncommon",
+      "description": "Peinture d’encre autrefois accrochée au domaine Yamaoka.\n\n• Réduit le temps de transition vers et hors de la Fureur Sanguinaire de -0,5 s et réduit la pénalité de jauge quand tu renverses un survivant.",
+      "icon": ""
+    },
+    {
+      "id": "yamaoka_sashimono",
+      "name": "Yamaoka Sashimono",
+      "rarity": "rare",
+      "description": "La bannière de la famille Yamaoka, dont Kazan tirait une grande fierté.\n\n• Augmente la durée de la Fureur Sanguinaire de +8 secondes.",
+      "icon": ""
+    },
+    {
+      "id": "akitos_crutch",
+      "name": "Béquille d’Akito",
+      "rarity": "rare",
+      "description": "La béquille utilisée par le fils de Kazan après une chute.\n\n• Augmente ta vitesse de déplacement lors d’une Ruée Démoniaque de +1 m/s.",
+      "icon": ""
+    },
+    {
+      "id": "lion_fang",
+      "name": "Croc de lion",
+      "rarity": "rare",
+      "description": "Une dent achetée chez un vendeur d’objets exotiques, symbole de puissance.\n\n• Augmente la durée de la Fureur Sanguinaire de +10 secondes.",
+      "icon": ""
+    },
+    {
+      "id": "splintered_hull",
+      "name": "Coque éclatée",
+      "rarity": "rare",
+      "description": "Fragments d’un navire ayant transporté Renjiro Yamaoka.\n\n• Augmente notablement la fréquence à laquelle les survivants lâchent des orbes de sang.",
+      "icon": ""
+    },
+    {
+      "id": "akitos_wooden_amulet",
+      "name": "Amulette en bois d’Akito",
+      "rarity": "very_rare",
+      "description": "Un pendentif en bois que Kazan garda en souvenir de son fils.\n\n• Augmente encore plus la vitesse de déplacement lors d’une Ruée Démoniaque.",
+      "icon": ""
+    },
+    {
+      "id": "family_crest_iridescent",
+      "name": "Blason de famille irisé",
+      "rarity": "iridescent",
+      "description": "Un blason indiquant l’appartenance à la famille Yamaoka.\n\n• Si une attaque chargée rate pendant la Fureur Sanguinaire, frappe le sol et révèle les survivants autour de toi pendant quelques secondes.",
+      "icon": ""
+    },
+    {
+      "id": "bloody_gauntlet",
+      "name": "Gant sanglant de Renjiro",
+      "rarity": "iridescent",
+      "description": "Le gant que Renjiro gardait sur lui après sa blessure.\n\n• Tous les survivants peuvent voir les orbes de sang à n’importe quelle distance et les auras des survivants sont révélées quand ils entrent en contact avec ces orbes.",
+      "icon": ""
+    }
+  ],
+  "deathslinger": [
+    {
+      "id": "spit_polish_rag",
+      "name": "Chiffon de polissage",
+      "rarity": "common",
+      "description": "Un chiffon imprégné d’un produit de polissage rudimentaire.\n\n• Réduit légèrement le temps de rechargement après un tir manqué avec *Le Rédempteur*.",
+      "icon": ""
+    },
+    {
+      "id": "modified_ammo_belt",
+      "name": "Ceinture de munitions modifiée",
+      "rarity": "common",
+      "description": "Une ceinture de munitions adaptée pour un rechargement plus efficace.\n\n• Réduit légèrement le temps de rechargement de *Le Rédempteur*.",
+      "icon": ""
+    },
+    {
+      "id": "snake_oil",
+      "name": "Huile de serpent",
+      "rarity": "common",
+      "description": "Un flacon d’huile bizarrement parfumée trouvé dans les plaines.\n\n• Augmente légèrement la vitesse de rembobinage de *Le Rédempteur*.",
+      "icon": ""
+    },
+    {
+      "id": "jaw_smasher",
+      "name": "Écrase-mâchoire",
+      "rarity": "common",
+      "description": "Une balle logée dans la mâchoire de Caleb, souvenir d’un duel passé.\n\n• Réduit légèrement la durée d’étourdissement lorsque les survivants se libèrent de *Le Rédempteur*.",
+      "icon": ""
+    },
+    {
+      "id": "poison_oak_leaves",
+      "name": "Feuilles de chêne-poison",
+      "rarity": "uncommon",
+      "description": "Feuilles imprégnées de résine irritante.\n\n• Augmente légèrement le temps nécessaire aux survivants pour se soigner après avoir été touchés par *Le Rédempteur*.",
+      "icon": ""
+    },
+    {
+      "id": "marshal_badge",
+      "name": "Badge de marshall",
+      "rarity": "uncommon",
+      "description": "Un badge d’argent récupéré sur un shérif tombé.\n\n• Réduit légèrement ton rayon de terreur lorsque tu vises avec *Le Rédempteur*.",
+      "icon": ""
+    },
+    {
+      "id": "rusted_spike",
+      "name": "Clou de chemin de fer rouillé",
+      "rarity": "uncommon",
+      "description": "Un clou rouillé provenant des rails qu’il a modifiés.\n\n• Les survivants blessés par *Le Rédempteur* subissent l’état *Mutilé* pendant un certain temps.",
+      "icon": ""
+    },
+    {
+      "id": "chewing_tobacco",
+      "name": "Tabac à chiquer",
+      "rarity": "uncommon",
+      "description": "Une boîte de tabac à chiquer qui aide à rester concentré.\n\n• Réduit légèrement la durée d’étourdissement lorsqu’un survivant se libère de *Le Rédempteur*.",
+      "icon": ""
+    },
+    {
+      "id": "bayshore_gold_tooth",
+      "name": "Dent en or de Bayshore",
+      "rarity": "rare",
+      "description": "Une dent en or arrachée à Henry Bayshore durant les combats.\n\n• Augmente les points de sang obtenus lorsque tu enfonces un survivant avec *Le Rédempteur*.",
+      "icon": ""
+    },
+    {
+      "id": "prison_chain",
+      "name": "Chaîne de prison",
+      "rarity": "rare",
+      "description": "Une lourde chaîne utilisée autrefois comme contrainte.\n\n• Augmente légèrement le nombre de points de sang pour certains événements liés à *Le Rédempteur*. ",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_coin",
+      "name": "Pièce iridescente",
+      "rarity": "iridescent",
+      "description": "Une pièce moulée à partir du Brouillard lui-même.\n\n• Les survivants subissent l’état *Exposé* lorsqu’ils sont embrochés par *Le Rédempteur* à une certaine distance.",
+      "icon": ""
+    }
+  ],
+   "executioner": [
+    {
+      "id": "lead_ring",
+      "name": "Anneau de plomb",
+      "rarity": "common",
+      "description": "Un anneau gravé d’un visage grotesque trouvé dans un réfrigérateur.\n\n• Augmente la durée pendant laquelle les traces de tourment restent dans l’environnement.",
+      "icon": ""
+    },
+    {
+      "id": "dead_butterfly",
+      "name": "Papillon mort",
+      "rarity": "common",
+      "description": "Un fragile papillon trouvé sur un lit, presque détruit au toucher.\n\n• Réduit le temps de recharge de Rites du Jugement.",
+      "icon": ""
+    },
+    {
+      "id": "copper_ring",
+      "name": "Anneau de cuivre",
+      "rarity": "common",
+      "description": "Un anneau de cuivre gravé, trouvé dans le sous-sol d’un hôpital.\n\n• Augmente la durée du pouvoir Rites du Jugement.",
+      "icon": ""
+    },
+    {
+      "id": "black_strap",
+      "name": "Sangle noire",
+      "rarity": "common",
+      "description": "Une sangle de nylon utilisée pour attacher une victime à un cadre.\n\n• Augmente légèrement la portée des attaques de Châtiment des damnés.",
+      "icon": ""
+    },
+    {
+      "id": "wax_doll",
+      "name": "Poupée de cire",
+      "rarity": "uncommon",
+      "description": "Une poupée sculptée dans la cire, fabriquée par un prisonnier.\n\n• Augmente la portée de Châtiment des damnés.",
+      "icon": ""
+    },
+    {
+      "id": "spearhead",
+      "name": "Pointe de lance",
+      "rarity": "uncommon",
+      "description": "La pointe rouillée d’une lance couverte de sang séché.\n\n• Augmente la durée du pouvoir Rites du Jugement.",
+      "icon": ""
+    },
+    {
+      "id": "leopard_print_fabric",
+      "name": "Tissu à imprimé léopard",
+      "rarity": "uncommon",
+      "description": "Un morceau de tissu rose à motifs léopard.\n\n• Augmente la durée de *Killer Instinct* déclenchée par Rites du Jugement.",
+      "icon": ""
+    },
+    {
+      "id": "forgotten_videotape",
+      "name": "Vidéocassette oubliée",
+      "rarity": "uncommon",
+      "description": "Une vieille cassette vidéo abandonnée dans un hôtel.\n\n• Réduit davantage le temps de recharge de Rites du Jugement.",
+      "icon": ""
+    },
+    {
+      "id": "cinderella_music_box",
+      "name": "Boîte à musique Cendrillon",
+      "rarity": "uncommon",
+      "description": "Une boîte à musique ornée d’une figurine inspirée de Cendrillon.\n\n• Augmente modérément la durée des traces de tourment.",
+      "icon": ""
+    },
+    {
+      "id": "valtiel_sect_photograph",
+      "name": "Photographie de la secte Valtiel",
+      "rarity": "rare",
+      "description": "Une photographie représentant deux figures encapuchonnées.\n\n• Réduit fortement le temps de recharge de Rites du Jugement.",
+      "icon": ""
+    },
+    {
+      "id": "tablet_of_the_oppressor",
+      "name": "Tablette de l’oppressé",
+      "rarity": "rare",
+      "description": "Une tablette en métal gravée de figures aztèques.\n\n• Augmente la durée du pouvoir Rites du Jugement.",
+      "icon": ""
+    },
+    {
+      "id": "misty_day_remains_of_judgement",
+      "name": "Vestiges du Jugement par Jour Brumeux",
+      "rarity": "rare",
+      "description": "Vestiges mystérieux du rituel de jugement.\n\n• Augmente le temps pendant lequel les survivants sont visibles après avoir touché les traces de tourment.",
+      "icon": ""
+    },
+    {
+      "id": "mannequin_foot",
+      "name": "Pied de mannequin",
+      "rarity": "rare",
+      "description": "Le pied d’un mannequin arraché brutalement.\n\n• Augmente significativement la durée des traces de tourment.",
+      "icon": ""
+    },
+    {
+      "id": "burning_man_painting",
+      "name": "Peinture de l’homme brûlé",
+      "rarity": "rare",
+      "description": "Une peinture représentant un homme en flammes.\n\n• Augmente la portée de Châtiment des damnés.",
+      "icon": ""
+    },
+    {
+      "id": "scarlet_egg",
+      "name": "Œuf écarlate",
+      "rarity": "very_rare",
+      "description": "Un œuf rouge vif.\n\n• Augmente encore la durée de *Killer Instinct* déclenchée par Rites du Jugement.",
+      "icon": ""
+    },
+    {
+      "id": "rust_colored_egg",
+      "name": "Œuf de couleur rouille",
+      "rarity": "very_rare",
+      "description": "Un œuf couvert de taches oxydées.\n\n• Les survivants touchés par Rites du Jugement subissent l’état *Aveuglement* pendant un certain temps.",
+      "icon": ""
+    },
+    {
+      "id": "lost_memories_book",
+      "name": "Livre des souvenirs perdus",
+      "rarity": "very_rare",
+      "description": "Un livre ancien contenant des souvenirs brisés.\n\n• Les survivants touchés par les traces de tourment subissent l’état *Oubli* pendant un certain temps.",
+      "icon": ""
+    },
+    {
+      "id": "crimson_ceremony_book",
+      "name": "Livre de la cérémonie cramoisie",
+      "rarity": "very_rare",
+      "description": "Un livre cérémonial couvert de motifs cramoisis.\n\n• Les survivants blessés et touchés par les traces subissent l’état *Hémorragie* jusqu’à leur guérison.",
+      "icon": ""
+    },
+    {
+      "id": "obsidian_goblet",
+      "name": "Calice d’obsidienne",
+      "rarity": "iridescent",
+      "description": "Un calice sombre sculpté dans l’obsidienne.\n\n• Pyramid Head gagne l’état *Indétectable* lorsqu’il se tient sur une trace de tourment.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_seal_of_metatron",
+      "name": "Sceau iridescent de Métraton",
+      "rarity": "iridescent",
+      "description": "Un sceau mystique lié à Métraton.\n\n• Quand un survivant tourmenté est envoyé dans une Cage d’Expiation, les auras de tous les survivants tourmentés sont révélées pendant quelques secondes.",
+      "icon": ""
+    }
+  ],
+  "blight": [
+    {
+      "id": "chipped_monocle",
+      "name": "Monocle ébréché",
+      "rarity": "common",
+      "description": "Un monocle que Talbot utilisait rarement malgré sa faible vue.\n\n• Affiche l’emplacement cible d’un Impact.",
+      "icon": ""
+    },
+    {
+      "id": "compound_seven",
+      "name": "Composé N° 7",
+      "rarity": "common",
+      "description": "Cet échantillon des premiers jours ne donna pas les résultats escomptés mais produisit des effets surprenants.\n\n• Après un Impact, te fait automatiquement faire face au survivant le plus proche dans un rayon de 16 m. ",
+      "icon": ""
+    },
+    {
+      "id": "foxglove",
+      "name": "Digitale",
+      "rarity": "uncommon",
+      "description": "Une plante toxique qui éveilla l’intérêt de Talbot pour la chimie.\n\n• Réduit la durée de Fatigue de -0,25 s.",
+      "icon": ""
+    },
+    {
+      "id": "placebo_tablet",
+      "name": "Comprimé placebo",
+      "rarity": "uncommon",
+      "description": "Une pilule totalement inefficace… ou pas.\n\n• Réduit ta vitesse de déplacement durant une Ruée de -15 % et accorde +100 % de points de sang pour les événements de Ruée.",
+      "icon": ""
+    },
+    {
+      "id": "rose_tonic",
+      "name": "Tonic aux roses",
+      "rarity": "rare",
+      "description": "Un mélange fait avec des roses séchées du très rare Bouquet de Nouvelle Lune.\n\n• Augmente la durée de la Fenêtre de Ruée en chaîne de +1 s.",
+      "icon": ""
+    },
+    {
+      "id": "umbra_salts",
+      "name": "Sels d’ombre",
+      "rarity": "rare",
+      "description": "Du sel de mer ordinaire ayant traversé le Monde des Esprits, altérant ses propriétés.\n\n• Augmente ta vitesse de rotation lors d’une Ruée de +15 %.",
+      "icon": ""
+    },
+    {
+      "id": "alchemists_ring",
+      "name": "Anneau d’alchimiste",
+      "rarity": "rare",
+      "description": "Un anneau remis aux chimistes diplômés de l’école de médecine de Londres.\n\n• Augmente la durée de Ruée de +20 % pour chaque Ruée mortelle consécutive.",
+      "icon": ""
+    },
+    {
+      "id": "soul_chemical",
+      "name": "Substance de l’âme",
+      "rarity": "very_rare",
+      "description": "Substance extraite de la glande pinéale d’un survivant récemment décédé.\n\n• Augmente la vitesse de départ de la Ruée de +5 %.",
+      "icon": ""
+    },
+    {
+      "id": "summoning_stone",
+      "name": "Pierre d’invocation",
+      "rarity": "very_rare",
+      "description": "Pierre que Talbot utilisa pour graver ce qu’il croyait être ses recherches.\n\n• Augmente la durée initiale d’une Ruée de +0,5 s.",
+      "icon": ""
+    },
+    {
+      "id": "vigos_journal",
+      "name": "Journal de Vigo",
+      "rarity": "very_rare",
+      "description": "Le journal d’un homme affirmant être revenu du Néant.\n\n• Accorde l’état *Indétectable* lors d’une Ruée.",
+      "icon": ""
+    },
+    {
+      "id": "compound_thirty_three",
+      "name": "Composé N° 33",
+      "rarity": "very_rare",
+      "description": "Avant-dernière tentative de Talbot pour concevoir un sérum.\n\n• Corruption du Fléau est plafonnée à 5 Jetons, augmente la durée de Ruée de +11 % et la vitesse de rotation de +11 %.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_blight_tag",
+      "name": "Étiquette iridescente du Fléau",
+      "rarity": "iridescent",
+      "description": "Une étiquette de laboratoire ressemblant à du verre et moulée à partir du Brouillard lui-même.\n\n• Corruption du Fléau est plafonnée à 3 Jetons, +10 % de vitesse en Ruée et +20 ° d’angle de vision maximal en Ruée.",
+      "icon": ""
+    }
+  ],
+    "the_twins": [
+    {
+      "id": "forest_stew",
+      "name": "Potage des bois",
+      "rarity": "common",
+      "description": "Un potage de légumes sauvages assortis de mousse et d’écorce.\n\n• Augmente de +0,6 m/s la vitesse de mouvement de Victor lorsque tu le contrôles.",
+      "icon": ""
+    },
+    {
+      "id": "spinning_top",
+      "name": "Toupie",
+      "rarity": "common",
+      "description": "Une toupie en bois partagée entre les Jumeaux, mais Victor la voulait pour lui.\n\n• Faire un Bond avec Victor force les survivants touchés à lâcher tout objet qu’ils portent.",
+      "icon": ""
+    },
+    {
+      "id": "victors_soldier",
+      "name": "Soldat de Victor",
+      "rarity": "rare",
+      "description": "Un petit soldat en jouet auquel Victor s’agrippait quand il avait peur.\n\n• Après avoir **écrasé Victor** quand Charlotte le contrôle, les auras des survivants sont révélées pendant 6 s.",
+      "icon": ""
+    },
+    {
+      "id": "drop_of_perfume",
+      "name": "Goutte de parfum",
+      "rarity": "uncommon",
+      "description": "Un flacon de parfum de luxe évoquant des souvenirs plus doux.\n\n• Quand tu contrôles Charlotte, les survivants subissent *Oblivious* dans la zone du cri de Victor.",
+      "icon": ""
+    },
+    {
+      "id": "silencing_cloth",
+      "name": "Bâillon",
+      "rarity": "rare",
+      "description": "Une bande de tissu rêche que Charlotte utilisait enfant pour se faire taire.\n\n• Après son **état Dormant**, Charlotte obtient *Indétectable* pendant 20 s.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_pendant",
+      "name": "Pendentif iridescent",
+      "rarity": "iridescent",
+      "description": "Un pendentif semblable à du verre moulé à partir du Brouillard, avec un portrait perturbant de Madeleine Deshayes.\n\n• Chaque fois que Victor blesse un survivant, la vitesse de déplacement de Victor et de Charlotte augmente temporairement (effet cumulable jusqu’à un certain maximum).",
+      "icon": ""
+    },
+    {
+      "id": "exposed_pendant",
+      "name": "Pendentif exposé",
+      "rarity": "iridescent",
+      "description": "Un pendentif étrange portant une effigie inquiétante.\n\n• Quand Victor est **écrasé** sous le contrôle de Charlotte, le survivant concerné subit l’état *Exposed* pendant 45 s.",
+      "icon": ""
+    }
+  ],
+      "trickster": [
+    {
+      "id": "jiwoons_autograph",
+      "name": "Autographe de Ji-Woon",
+      "rarity": "common",
+      "description": "Le signature d’une célébrité avidement collectionnée par les fans.\n\n• Augmente le temps avant la fin d’une combo pendant l’Événement Principal.",
+      "icon": ""
+    },
+    {
+      "id": "melodious_murder",
+      "name": "Meurtre mélodieux",
+      "rarity": "common",
+      "description": "Enregistrement sonore d’un cri parfaitement clair capturé pendant un meurtre.\n\n• Réduit le temps de rechargement aux casiers.",
+      "icon": ""
+    },
+    {
+      "id": "inferno_wires",
+      "name": "Fils d’enfer",
+      "rarity": "uncommon",
+      "description": "Des fils brûlés provenant du feu qui tua quatre membres de NO SPIN.\n\n• Prolonge la durée de l’Événement Principal.",
+      "icon": ""
+    },
+    {
+      "id": "edge_of_revival_album",
+      "name": "Album *Edge of Revival*",
+      "rarity": "uncommon",
+      "description": "Le premier album du Farceur, acclamé malgré sa tonalité brutale.\n\n• Les lames se brisent en touchant l’environnement, ajoutant des charges de lacération aux survivants proches.",
+      "icon": ""
+    },
+    {
+      "id": "diamond_cufflinks",
+      "name": "Boutons de manchette en diamant",
+      "rarity": "rare",
+      "description": "Boutons de manchette incrustés dans les yeux d’un fan trop zélé.\n\n• Les auras des survivants à un coup de la lacération maximale sont révélées pendant quelques secondes.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_photocard",
+      "name": "Photocarte iridescente",
+      "rarity": "very_rare",
+      "description": "Une carte photo semblable à du verre formée à partir de la Brume.\n\n• Accorde un effet *Hâte* cumulable pour chaque coup de lame consécutif (jusqu’à un max).",
+      "icon": ""
+    },
+    {
+      "id": "trick_blades",
+      "name": "Lames truquées",
+      "rarity": "very_rare",
+      "description": "Lames spéciales qui rebondissent sur l’environnement avant de toucher les survivants.\n\n• Les lames ricochent sur l’environnement plusieurs fois.",
+      "icon": ""
+    },
+    {
+      "id": "caged_heart_shoes",
+      "name": "Chaussures Caged Heart",
+      "rarity": "uncommon",
+      "description": "Chaussures qu’il portait dans un clip, permettant des mouvements plus fluides.\n\n• Augmente la vitesse de déplacement dans l’État de Lancer.",
+      "icon": ""
+    }
+  ],
+        "nemesis": [
+    {
+      "id": "brians_intestine",
+      "name": "Intestin de Brian",
+      "rarity": "common",
+      "description": "L’intestin grêle de Brian Irons, chef du RPD, devenu un festin pour zombies.\n\n• Augmente la vitesse de déplacement des zombies de +0,25 m/s.",
+      "icon": ""
+    },
+    {
+      "id": "damaged_syringe",
+      "name": "Seringue endommagée",
+      "rarity": "common",
+      "description": "Équipement médical qui a mal résisté au chaos de Raccoon City.\n\n• Augmente le temps nécessaire pour injecter un vaccin de +5 secondes.",
+      "icon": ""
+    },
+    {
+      "id": "stars_field_combat_manual",
+      "name": "Manuel de combat rapproché S.T.A.R.S.",
+      "rarity": "uncommon",
+      "description": "Un manuel compilé par Chris Redfield sur les techniques de combat rapproché.\n\n• Les auras des zombies sont mises en surbrillance en jaune pendant 6 s lorsque ceux-ci touchent un survivant.",
+      "icon": ""
+    },
+    {
+      "id": "visitor_wristband",
+      "name": "Bracelet visiteur",
+      "rarity": "uncommon",
+      "description": "Un bracelet électronique d’Umbrella destiné aux visiteurs, doublé d’un traceur.\n\n• Augmente de +2 m la portée de détection des survivants par les zombies.\n• Augmente de +10° l’angle de vision des zombies.",
+      "icon": ""
+    },
+    {
+      "id": "admin_wristband",
+      "name": "Bracelet administrateur",
+      "rarity": "rare",
+      "description": "Un bracelet électronique d’Umbrella pour le personnel administratif.\n\n• Augmente encore la portée de détection des survivants et l’angle de vision des zombies.",
+      "icon": ""
+    }
+  ],
+          "cenobite": [
+    {
+      "id": "leather_strip",
+      "name": "Lanière de cuir",
+      "rarity": "common",
+      "description": "Des bandes de cuir coupées de l’uniforme d’un Cénobite.\n\n• Réduit légèrement le temps de recharge de l’aptitude Invocations douloureuses.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "lively_crickets",
+      "name": "Criquets vivants",
+      "rarity": "common",
+      "description": "Des insectes qui ont échappé de justesse à un étrange vagabond.\n\n• Augmente légèrement la capacité de virage des chaînes possédées.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "burning_candle",
+      "name": "Bougie allumée",
+      "rarity": "uncommon",
+      "description": "Une bougie allumée lors d’un rituel fatal.\n\n• Réduit modérément le temps d’activation de la Chasse aux chaînes.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "bent_nail",
+      "name": "Clou tordu",
+      "rarity": "uncommon",
+      "description": "Un clou qui a profondément entaillé la main de Larry Cotton.\n\n• +100 % de points de sang pour les événements de chaînes attachées.\n• Les attaques avec les chaînes possédées ne génèrent qu’une seule chaîne supplémentaire.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "wriggling_maggots",
+      "name": "Maggots se tortillant",
+      "rarity": "rare",
+      "description": "Des larves extraites de la bouche d’un cadavre.\n\n• Augmente modérément la capacité de virage des chaînes possédées.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "spoiled_meal",
+      "name": "Repas avarié",
+      "rarity": "rare",
+      "description": "Un tas de moisissure mangé par un cafard.\n\n• Augmente légèrement la distance maximale de déplacement des chaînes possédées.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "skewered_rat",
+      "name": "Rat embroché",
+      "rarity": "very_rare",
+      "description": "Un rat embroché capturé dans les lieux sinistres.\n\n• Réduit modérément le temps de recharge de l’aptitude Invocations douloureuses.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "liquified_gore",
+      "name": "Gore liquéfié",
+      "rarity": "very_rare",
+      "description": "Résidu indescriptible issu de l’invocation des Cénobites.\n\n• Augmente modérément le temps de résolution de la Configuration des lamentations.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "flickering_television",
+      "name": "Télévision vacillante",
+      "rarity": "very_rare",
+      "description": "Une télévision qui vacillait étrangement à l’arrivée des Cénobites.\n\n• Augmente modérément la distance maximale de projection de la passerelle.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "torture_pillar",
+      "name": "Pilier de torture",
+      "rarity": "very_rare",
+      "description": "Un pilier couvert des restes sanguinolents de victimes passées.\n\n• Réduit considérablement le temps d’activation de la Chasse aux chaînes.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "slice_of_frank",
+      "name": "Tranche de Frank",
+      "rarity": "very_rare",
+      "description": "Un lambeau du visage torturé de Frank.\n\n• Les survivants portant la Configuration des lamentations subissent le statut *Exhausted*. ",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "larrys_remains",
+      "name": "Restes de Larry",
+      "rarity": "iridescent",
+      "description": "Les restes squelettiques de Larry Cotton, couverts de sang épais.\n\n• Augmente considérablement le temps de résolution de la Configuration des lamentations.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "larrys_blood",
+      "name": "Sang de Larry",
+      "rarity": "iridescent",
+      "description": "Le sang de Larry Cotton, ayant partiellement ressuscité son frère.\n\n• Augmente modérément la distance maximale de déplacement des chaînes possédées.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "original_pain",
+      "name": "Douleur originelle",
+      "rarity": "iridescent",
+      "description": "Le premier clou enfoncé dans le crâne de Pinhead.\n\n• Les survivants qui se libèrent des chaînes possédées subissent l’état *Deep Wound*. ",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "impaling_wire",
+      "name": "Fil d’empalement",
+      "rarity": "iridescent",
+      "description": "Un fil qui transperce les joues d’un Cénobite.\n\n• Si un survivant utilise l’environnement pour briser une chaîne, une chaîne supplémentaire est invoquée.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "greasy_black_lens",
+      "name": "Lens noir gras",
+      "rarity": "iridescent",
+      "description": "Une lentille provenant des lunettes d’un Cénobite obèse.\n\n• Révèle les survivants touchés par des chaînes possédées pendant 6 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "chatterers_tooth",
+      "name": "Dent du bavardeur",
+      "rarity": "iridescent",
+      "description": "Une dent provenant d’un Cénobite dont la bouche cliquette sans cesse.\n\n• Révèle la Configuration des lamentations au Cénobite.\n• Ramasser la configuration désactive une Chasse aux chaînes en cours et accorde *Indétectable* pendant 25 s.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "iridescent_lament_configuration",
+      "name": "Configuration des lamentations iridescente",
+      "rarity": "iridescent",
+      "description": "Une réplique en verre de la boîte puzzle imprégnée par le Brouillard.\n\n• Tant qu’une Chasse aux chaînes est inactive, les survivants au-delà de 24 m de la configuration ne peuvent pas voir son aura.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    },
+    {
+      "id": "engineers_fang",
+      "name": "Crochet de l’ingénieur",
+      "rarity": "iridescent",
+      "description": "Une dent acérée d’une créature qui accompagne parfois les Cénobites.\n\n• Les chaînes possédées blessent les survivants en bonne santé sans les lier ni générer de chaînes supplémentaires.\n• Augmente légèrement le temps de fermeture de la passerelle après une attaque.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.."
+    }
+  ],
+  "artist": [
+    {
+      "id": "ink_egg",
+      "name": "Œuf d’encre",
+      "rarity": "common",
+      "description": "Un œuf inhabituel semblant n’être rien d’autre qu’une masse d’encre semi-solide.\n\n• Augmente le nombre de Corbeaux funestes que tu peux invoquer de +1.\n• Réduit de 2 s le temps avant que les Corbeaux funestes inactifs ne se désintègrent.",
+      "icon": ""
+    },
+    {
+      "id": "matias_baby_shoes",
+      "name": "Chaussures de bébé de Matías",
+      "rarity": "common",
+      "description": "Un triste souvenir pour Carmina, rappelant que Matías veille toujours sur elle.\n\n• Les auras des survivants situés dans un rayon de 5 m autour d’un Corbeau funeste inactif sont révélées pendant 3 s.",
+      "icon": ""
+    },
+    {
+      "id": "severed_hands",
+      "name": "Mains coupées",
+      "rarity": "uncommon",
+      "description": "Les mains de Carmina, coupées de ses bras peu avant sa mort, éveillent une colère pure en elle et ses corbeaux.\n\n• Tout survivant situé à proximité d’un survivant déjà entouré par des Corbeaux funestes devient lui aussi entouré.",
+      "icon": ""
+    },
+    {
+      "id": "severed_tongue",
+      "name": "Langue coupée",
+      "rarity": "uncommon",
+      "description": "La langue de Carmina, coupée peu avant sa mort, inspire rage et fureur aux corbeaux.\n\n• Réduit de 0,5 s le temps de ralentissement de Carmina après le lancement des Corbeaux funestes.",
+      "icon": ""
+    },
+    {
+      "id": "garden_of_rot",
+      "name": "Jardin de la pourriture",
+      "rarity": "rare",
+      "description": "Un autoportrait nu où Carmina dépeint une obscurité putride qui se propage de l’intérieur vers l’extérieur.\n\n• Quand un survivant repousse une attaque de Corbeaux funestes, il subit l’état *Exposé* pendant 4 s.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_feather",
+      "name": "Plume iridescente",
+      "rarity": "iridescent",
+      "description": "Une plume semblable à du verre, moulée à partir de la Nébuleuse elle-même, symbole de ceux qui veillent sur Carmina.\n\n• Accorde l’état *Indétectable* quand Aves de tourment est en recharge et que tu ne tiens aucun Corbeau funeste.\n• Réduit de 1 le nombre maximal de Corbeaux funestes invoquables.",
+      "icon": ""
+    }
+  ],
+    "onryo": [
+    {
+      "id": "videotape_copy",
+      "name": "Copie de cassette vidéo",
+      "rarity": "common",
+      "description": "Une copie de la cassette mortelle sur laquelle Sadako imprimait sa colère.\n\n• Étend le rayon autour des télévisions dans lequel les survivants gagnent *Condamnation* de +2 m.",
+      "icon": ""
+    },
+    {
+      "id": "mothers_mirror",
+      "name": "Miroir de la mère",
+      "rarity": "common",
+      "description": "Un miroir provenant de la maison de la mère de Sadako.\n\n• Augmente de +2 s la durée de l’invisibilité intermittente après la Manifestation.",
+      "icon": ""
+    },
+    {
+      "id": "cabin_sign",
+      "name": "Panneau du chalet",
+      "rarity": "uncommon",
+      "description": "Le panneau du chalet où la cassette mortelle fut regardée par Tomoko et Reiko.\n\n• Réduit de -4,5 s le temps nécessaire pour que les TV se rallument après Projection.",
+      "icon": ""
+    },
+    {
+      "id": "old_newspaper",
+      "name": "Vieux journal",
+      "rarity": "uncommon",
+      "description": "Un journal relatant une femme qui prédit une éruption volcanique, indice utilisé pour trouver Sadako.\n\n• Augmente la durée de l’invisibilité complète après Manifestation de +33 %.",
+      "icon": ""
+    },
+    {
+      "id": "clump_of_hair",
+      "name": "Mèche de cheveux",
+      "rarity": "rare",
+      "description": "Une touffe de cheveux emmêlés, vestige de la terrible expérience de Sadako.\n\n• Réduit la distance nécessaire pour être pleinement invisible en étant Démanifestée de -6 m.",
+      "icon": ""
+    },
+    {
+      "id": "reikos_watch",
+      "name": "Montre de Reiko",
+      "rarity": "rare",
+      "description": "La montre laissée par Reiko à son fils Yoichi.\n\n• Augmente la durée de l’invisibilité complète en étant Démanifestée de +25 %.",
+      "icon": ""
+    },
+    {
+      "id": "sea_soaked_cloth",
+      "name": "Tissu trempé d’eau de mer",
+      "rarity": "rare",
+      "description": "Un tissu imbibé d’eau de mer provenant du visionnage de la cassette.\n\n• Les survivants dans un rayon de 8 m autour d’une TV allumée subissent *Aveuglement* (l’effet persiste 7 s après extinction).",
+      "icon": ""
+    },
+    {
+      "id": "well_stone",
+      "name": "Pierre du puits",
+      "rarity": "rare",
+      "description": "Fragment du puits où Sadako fut piégée, gravé dans l’esprit de ceux qui ont vu la cassette.\n\n• Réduit de -7 s le temps nécessaire pour que les TV se rallument après avoir été éteintes par un survivant ou une Projection.",
+      "icon": ""
+    },
+    {
+      "id": "yoichis_fishing_net",
+      "name": "Filet de pêche de Yoichi",
+      "rarity": "very_rare",
+      "description": "Le filet que Yoichi utilisait en pêchant avec son grand-père.\n\n• Après avoir gagné au moins 4 niveaux de *Condamnation*, les survivants subissent *Aveuglement*.",
+      "icon": ""
+    },
+    {
+      "id": "bloody_fingernails",
+      "name": "Ongles sanglants",
+      "rarity": "very_rare",
+      "description": "Les ongles sanglants que Sadako perdit en essayant de s’extirper du puits.\n\n• Augmente la durée du bonus de vitesse après une Projection de +50 %.",
+      "icon": ""
+    },
+    {
+      "id": "mothers_comb",
+      "name": "Peigne de la mère",
+      "rarity": "very_rare",
+      "description": "Le peigne que la mère de Sadako utilisait dans la cassette.\n\n• Révèle en jaune l’aura de toutes les télévisions éteintes. De plus, éteindre une TV génère une Forte Notification de bruit.",
+      "icon": ""
+    },
+    {
+      "id": "distorted_photo",
+      "name": "Photo déformée",
+      "rarity": "very_rare",
+      "description": "Les survivants découvrent que toutes leurs photos sont déformées après avoir vu la cassette.\n\n• Tous les survivants dans un rayon de 16 m de ta position lorsqu’ils assistent à ta Manifestation hurlent et révèlent leurs auras pendant 4 s.",
+      "icon": ""
+    },
+    {
+      "id": "ring_drawing",
+      "name": "Dessin de l’anneau",
+      "rarity": "iridescent",
+      "description": "Une représentation du cercle vu depuis l’intérieur du puits, dessinée par le jeune Yoichi.\n\n• Hooker un survivant portant une cassette VHS fera gagner à tous les autres survivants +1 niveau de *Condamnation*.",
+      "icon": ""
+    },
+    {
+      "id": "well_water",
+      "name": "Eau du puits",
+      "rarity": "iridescent",
+      "description": "Eau trouble et noire provenant du puits où Sadako fut laissée pour mourir.\n\n• Augmente de +2 s la durée de l’effet *Indétectable* après Manifestation par n’importe quel moyen.",
+      "icon": ""
+    },
+    {
+      "id": "tape_editing_deck",
+      "name": "Table de montage de cassettes",
+      "rarity": "iridescent",
+      "description": "La table utilisée par Reiko et Ryuji pour analyser et copier la cassette.\n\n• Tous les survivants commencent l’Épreuve avec une **VHS Tape**.\n• Tous les survivants doivent apporter leur cassette VHS à la télévision la plus éloignée de leur position actuelle.\n• Les auras des survivants insérant une cassette dans une TV te sont révélées pendant 6 s.",
+      "icon": ""
+    },
+    {
+      "id": "telephone",
+      "name": "Téléphone",
+      "rarity": "iridescent",
+      "description": "Un téléphone qui sonna après que les victimes eurent visionné la cassette.\n\n• Lorsque tu te manifestes à moins de 7 m d’un survivant, il subit l’état *Entravé* (-3 %) pendant 3 s.",
+      "icon": ""
+    },
+    {
+      "id": "vcr",
+      "name": "Magnétoscope",
+      "rarity": "iridescent",
+      "description": "Le magnétoscope original sur lequel la cassette de Sadako fut lue.\n\n• Toutes les TV joueront les effets de Projection lorsque tu te projettes vers elles.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_videotape",
+      "name": "Cassette vidéo iridescente",
+      "rarity": "iridescent",
+      "description": "La cassette originelle contenant la malédiction de Sadako.\n\n• La Projection **ne désactive plus les TV** mais n’applique plus de *Condamnation*.\n• Augmente de +20 % le temps nécessaire pour que les TV s’allument après avoir été éteintes par les survivants.",
+      "icon": ""
+    }
+  ],
+  "dredge": [
+    {
+      "id": "caffeine_tablets",
+      "name": "Pilules de caféine",
+      "rarity": "common",
+      "description": "Les fidèles de Stamper évitaient de dormir pour ne pas attirer sa colère.\n\n• Les aura des casiers verrouillés sont mises en surbrillance en jaune pendant que tu charges The Gloaming ou que tu te téléportes.",
+      "icon": ""
+    },
+    {
+      "id": "followers_cowl",
+      "name": "Cagoule du disciple",
+      "rarity": "common",
+      "description": "On croyait que ces cagoules prouvaient leur illumination, mais elles ne faisaient qu’obscurcir davantage.\n\n• Revenir au reliquat déclenche *Killer Instinct* pendant le jour.",
+      "icon": ""
+    },
+    {
+      "id": "mortar_and_pestle",
+      "name": "Mortier et pilon",
+      "rarity": "common",
+      "description": "Les fidèles de l’île devaient se débrouiller avec la flore locale.\n\n• Après téléportation vers le reliquat, tu émerges dans la direction vers laquelle tu te déplaçais lors de la téléportation.",
+      "icon": ""
+    },
+    {
+      "id": "wooden_plank",
+      "name": "Planches de bois",
+      "rarity": "uncommon",
+      "description": "Planche en bois tirée de la scène où Otto Stamper fit un sacrifice.\n\n• Augmente la quantité de charges ajoutées au compteur de Nightfall quand tu accroches des survivants de +25 %.",
+      "icon": ""
+    },
+    {
+      "id": "air_freshener",
+      "name": "Désodorisant",
+      "rarity": "uncommon",
+      "description": "Trouvé parmi les biens retournés à Haddie par la police.\n\n• Augmente le nombre de jetons de pouvoir disponibles à 4.",
+      "icon": ""
+    },
+    {
+      "id": "burnt_letters",
+      "name": "Lettres brûlées",
+      "rarity": "uncommon",
+      "description": "Des lettres de fidèles écrites à leur famille, que Stamper fit brûler.\n\n• Augmente la charge de Nightfall obtenue en blessant des survivants de +25 %.",
+      "icon": ""
+    },
+    {
+      "id": "fallen_shingle",
+      "name": "Bardeau tombé",
+      "rarity": "rare",
+      "description": "Après que les Ottomariens furent engloutis, le manoir se détériora.\n\n• Augmente le taux de charge du compteur de Nightfall pendant l’utilisation de Reign of Darkness de +15 % par seconde.",
+      "icon": ""
+    },
+    {
+      "id": "haddies_calendar",
+      "name": "Calendrier d’Haddie",
+      "rarity": "rare",
+      "description": "Le calendrier qu’Haddie voulait remplir jusqu’au jour où ses parents devaient venir la chercher.\n\n• Réduit le temps de sortie des casiers verrouillés de -0,4 s.",
+      "icon": ""
+    },
+    {
+      "id": "malthinkers_skull",
+      "name": "Crâne du penseur mort",
+      "rarity": "rare",
+      "description": "Les dissidents disparurent mystérieusement… puis The Dredge les ramena.\n\n• Augmente le taux de charge du compteur de Nightfall quand des survivants sont blessés de +25 % par seconde.",
+      "icon": ""
+    },
+    {
+      "id": "destroyed_pillow",
+      "name": "Oreiller détruit",
+      "rarity": "rare",
+      "description": "Les leaders Ottomariens déchiraient les fournitures de sommeil pour empêcher leurs fidèles de faire la sieste.\n\n• Réduit le temps de recharge de Reign of Darkness de -2,5 s pendant la Nightfall.",
+      "icon": ""
+    },
+    {
+      "id": "ottomarian_writing",
+      "name": "Écrit ottomarien",
+      "rarity": "very_rare",
+      "description": "Les écrits d’Otto Stamper étaient les seuls disponibles à lire.\n\n• Réduit le temps de recharge de Reign of Darkness de -2 s pendant le jour.",
+      "icon": ""
+    },
+    {
+      "id": "boat_key",
+      "name": "Clé de bateau",
+      "rarity": "very_rare",
+      "description": "La clé du seul bateau qui permettait de quitter l’île.\n\n• Augmente ta vitesse de téléportation pendant le jour de +3 m/s.",
+      "icon": ""
+    },
+    {
+      "id": "field_recorder",
+      "name": "Magnétophone de terrain",
+      "rarity": "very_rare",
+      "description": "Haddie a documenté ses excursions près des zones de chevauchement.\n\n• Fait commencer l’épreuve en Nightfall et le Nightfall s’active automatiquement une fois le dernier générateur réparé.\n• Les survivants souffrent de l’état *Exhausted* pendant 15 s après contact avec le reliquat.",
+      "icon": ""
+    },
+    {
+      "id": "lavalier_microphone",
+      "name": "Micro lavalier",
+      "rarity": "very_rare",
+      "description": "Un micro permettant d’enregistrer les sentiments profonds sous stress.\n\n• Les auras de tous les survivants sont révélées pendant 3 s après avoir consommé le dernier jeton de pouvoir.\n• Tous les casiers dans un rayon de 6 m des survivants s’ouvrent et claquent leurs portes lorsqu’on y entre par téléportation.",
+      "icon": ""
+    },
+    {
+      "id": "tilling_blade",
+      "name": "Lame de labour",
+      "rarity": "iridescent",
+      "description": "Les Ottomariens cultivaient eux-mêmes leurs terres.\n\n• Les survivants blessés pendant Nightfall subissent les états *Blindness*, *Haemorrhage* et *Mangled* pendant 80 s.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_wooden_plank",
+      "name": "Planche en bois iridescente",
+      "rarity": "iridescent",
+      "description": "Une planche teintée par le sang du journaliste qui déclencha tout.\n\n• Les survivants subissent l’état *Exposed* pendant les 12 dernières secondes de Nightfall.",
+      "icon": ""
+    },
+    {
+      "id": "sacrificial_knife",
+      "name": "Couteau sacrificiel",
+      "rarity": "iridescent",
+      "description": "Le couteau utilisé par un journaliste pour avertir les Ottomariens.\n\n• Bloque tous les emplacements de vault dans un rayon de 16 m du casier d’émergence pendant 5 s.",
+      "icon": ""
+    }
+  ],
+  "mastermind": [
+    {
+      "id": "jewel_beetle",
+      "name": "Bupreste",
+      "rarity": "common",
+      "description": "Un insecte beau et précieux, difficile à capturer mais valant son pesant d’or.\n\n• Accorde +100 % de points de sang bonus pour les événements liés à Bond Virulent.\n• Réduit de 50 % la durée restante d’un Bond après avoir percuté un survivant.",
+      "icon": ""
+    },
+    {
+      "id": "rpd_shoulder_walkie",
+      "name": "Talkie-épaule des R.P.D.",
+      "rarity": "uncommon",
+      "description": "Un talkie récupéré auprès des forces de Raccoon City.\n\n• Réduit la durée du premier Bond de -20 %.\n• Augmente la durée du second Bond de +20 %.",
+      "icon": ""
+    },
+    {
+      "id": "unicorn_medallion",
+      "name": "Médaille de licorne",
+      "rarity": "uncommon",
+      "description": "Un ancien médaillon représentant une licorne majestueuse, resté en stockage des années durant.\n\n• Augmente la durée du premier Bond de +20 %.\n• Réduit la durée du second Bond de -20 %.",
+      "icon": ""
+    },
+    {
+      "id": "uroboros_tendril",
+      "name": "Tendrille d’Uroboros",
+      "rarity": "rare",
+      "description": "Résultat de décennies de recherche sur les armes biologiques.\n\n• Augmente ta vitesse de déplacement pendant que tu charges Bond Virulent de +5 %.",
+      "icon": ""
+    },
+    {
+      "id": "helicopter_stick",
+      "name": "Bâton d’hélicoptère",
+      "rarity": "rare",
+      "description": "Débris provenant d’un crash d’hélicoptère.\n\n• Les survivants voient leur aura révélée pendant 8 s après avoir utilisé un Spray de Premiers Secours.",
+      "icon": ""
+    },
+    {
+      "id": "dark_sunglasses",
+      "name": "Lunettes de soleil sombres",
+      "rarity": "rare",
+      "description": "Lunettes améliorées par RA qui donnent un avantage considérable.\n\n• Wesker gagne l’état *Indétectable* pendant 20 s lorsqu’un survivant atteint l’infection critique.",
+      "icon": ""
+    },
+    {
+      "id": "uroboros_virus",
+      "name": "Virus Uroboros",
+      "rarity": "very_rare",
+      "description": "Pour certains, la puissance et la résistance valaient le prix à payer.\n\n• Les survivants commencent l’Épreuve déjà infectés par Uroboros.\n• Les survivants souffrent de l’état *À découvert* pendant 30 s quand ils sont Critiquement Infectés.",
+      "icon": ""
+    },
+    {
+      "id": "lab_photo",
+      "name": "Photo de laboratoire",
+      "rarity": "very_rare",
+      "description": "Wesker était autant chercheur que cobaye pour les armes biologiques d’Umbrella.\n\n• Permet de détruire les murs destructibles et les palettes en les percutant lors de Bond Virulent.\n• Tu ne peux plus franchir des palettes avec Bond Virulent.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_uroboros_vial",
+      "name": "Flacon d’Uroboros irisé",
+      "rarity": "iridescent",
+      "description": "L’arme biologique parfaite, obtenue après des décennies de recherche.\n\n• Tous les survivants commencent l’Épreuve infectés par Uroboros.\n• Quand un survivant atteint l’infection critique, il subit l’état *À découvert* pendant 30 s.",
+      "icon": ""
+    }
+  ],
+    "knight": [
+    {
+      "id": "gritty_lump",
+      "name": "Bloc compact",
+      "rarity": "common",
+      "description": "Un morceau dense et dur qui alimentait les gardes même dans les pires jours.\n\n• Augmente la vitesse de déplacement des Gardes durant la phase de patrouille de +9 %.",
+      "icon": ""
+    },
+    {
+      "id": "map_of_the_realm",
+      "name": "Carte du royaume",
+      "rarity": "common",
+      "description": "Cartes en cuir rares arrachées aux ennemis pour guider les patrouilles.\n\n• Augmente la portée de vision d’un Garde de +2 m pendant la patrouille.",
+      "icon": ""
+    },
+    {
+      "id": "pillaged_mead",
+      "name": "Hydromel pillé",
+      "rarity": "uncommon",
+      "description": "Boisson prise aux victimes ; douce mais éphémère.\n\n• Réduit de -10 % la durée des actions de bris ou de dégâts des Gardes.",
+      "icon": ""
+    },
+    {
+      "id": "tattered_tabard",
+      "name": "Tabard en lambeaux",
+      "rarity": "uncommon",
+      "description": "Tissu lourd qui protégeait autrefois les Gardes de l’environnement.\n\n• Prolonge la durée de la phase de patrouille de +8 secondes.",
+      "icon": ""
+    },
+    {
+      "id": "battle_axe_head",
+      "name": "Tête de hache de combat",
+      "rarity": "rare",
+      "description": "Une tête de hache massive issue d’un Garde puissant.\n\n• Les survivants blessés par un Garde durant une Chasse subissent l’état *Brisé* pendant 60 s.",
+      "icon": ""
+    },
+    {
+      "id": "flint_and_steel",
+      "name": "Silex et amadou",
+      "rarity": "rare",
+      "description": "Outils primitifs pour enflammer la peur.\n\n• Summoner un Carnifex révèle les auras des survivants autour des palettes non brisées pour 8 s.",
+      "icon": ""
+    },
+    {
+      "id": "healing_poultice",
+      "name": "Pommade de soins",
+      "rarity": "rare",
+      "description": "On disait que l’approche des Gardes faisait plier même les plus courageux.\n\n• Après avoir invoqué un Assassin, les aura des survivants dans 8 m du point d’apparition sont révélées pendant 8 s.",
+      "icon": ""
+    },
+    {
+      "id": "jailers_chimes",
+      "name": "Carillon du geôlier",
+      "rarity": "very_rare",
+      "description": "Cloche symbolisant la fin des tentatives d’évasion.\n\n• Les aura des survivants traversant le chemin de patrouille du Jailer sont révélées pendant 8 s.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_company_banner",
+      "name": "Bannière d’entreprise iridescente",
+      "rarity": "iridescent",
+      "description": "Là où cette bannière est plantée, la peur règne.\n\n• Les fenêtres sur le chemin de patrouille sont bloquées 25 s après invocation d’un Garde.\n• Toutes les fenêtres franchies par le survivant traqué sont bloquées pendant la Chasse.\n• Les Portes de sortie sont bloquées pour le survivant traqué pendant la Chasse.",
+      "icon": ""
+    },
+    {
+      "id": "knights_contract",
+      "name": "Contrat du chevalier",
+      "rarity": "iridescent",
+      "description": "Le contrat original liant Tarhos à ses engagements de violence.\n\n• Un Garde persiste 8 s après avoir exécuté un ordre et déclenche une Chasse s’il détecte un survivant.",
+      "icon": ""
+    }
+  ],
+      "skull_merchant": [
+    {
+      "id": "prototype_rotor",
+      "name": "Rotor prototype",
+      "rarity": "common",
+      "description": "Un rotor de drone de conception avancée permettant des scans plus rapides.\n\n• Augmente la vitesse de rotation des lignes de scan des drones de +10 %.",
+      "icon": ""
+    },
+    {
+      "id": "randomised_strobes",
+      "name": "Stroboscopes aléatoires",
+      "rarity": "common",
+      "description": "Des lumières clignotantes installées autour du champ de bataille pour désorienter.\n\n• Les lumières clignotent aléatoirement, rendant plus difficile l’approche discrète des survivants.",
+      "icon": ""
+    },
+    {
+      "id": "expired_batteries",
+      "name": "Batteries usées",
+      "rarity": "rare",
+      "description": "Des batteries usées fournies avec les drones.\n\n• Prolonge la durée de l’effet d’Entrave appliqué aux survivants détectés par les drones de +1 seconde.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_unpublished_manuscript",
+      "name": "Manuscrit inachevé irisé",
+      "rarity": "iridescent",
+      "description": "Le manuscrit non publié du père d’Adriana, imprégné d’une étrange énergie.\n\n• Lorsqu’un drone entre dans l’état « désactivé », il émet un faux Rayon de Terreur de 32 m pendant 15 secondes.",
+      "icon": ""
+    }
+  ],
+        "singularity": [
+    {
+      "id": "broken_security_key",
+      "name": "Clé de sécurité cassée",
+      "rarity": "common",
+      "description": "De nombreuses mesures de sécurité de l’équipement étaient déjà en mauvais état.\n\n• Réduit le temps de redémarrage des biocapsules désactivées de -15 %.",
+      "icon": ""
+    },
+    {
+      "id": "diagnostic_tool_repair",
+      "name": "Outil de diagnostic (Réparation)",
+      "rarity": "common",
+      "description": "Un appareil capable de repérer les défauts dans des objets construits.\n\n• Augmente la portée de ciblage des biocapsules de +4 m.",
+      "icon": ""
+    },
+    {
+      "id": "heavy_water",
+      "name": "Eau lourde",
+      "rarity": "uncommon",
+      "description": "Un sous-produit des réacteurs micro-fissionnels alimentant le cryo et le support de vie.\n\n• Réduit la portée de révélation des caisses de ravitaillement de -8 m.",
+      "icon": ""
+    },
+    {
+      "id": "nutritional_slurry",
+      "name": "Purée nutritive",
+      "rarity": "rare",
+      "description": "Une concoction faite pour les organiques qui nourrit efficacement toute matière.\n\n• Augmente le nombre de biocapsules que La Singularité peut porter de +2.",
+      "icon": ""
+    },
+    {
+      "id": "android_arm",
+      "name": "Bras d’androïde",
+      "rarity": "very_rare",
+      "description": "La destruction des autres unités HUX fournit des pièces supplémentaires à utiliser.\n\n• Augmente la portée d’infection du Flux Parasite entre survivants de +2 m et augmente sa propagation de +25 %.",
+      "icon": ""
+    }
+  ],
+          "xenomorph": [
+    {
+      "id": "cereal_rations",
+      "name": "Rations de céréales",
+      "rarity": "common",
+      "description": "Contient 100 % de l’apport quotidien recommandé en vitamine A… mais c’est infect.\n\n• Les auras des tourelles à flamme déployées te sont révélées lorsque tu es dans les tunnels (effet persiste 3 s après sortie).",
+      "icon": ""
+    },
+    {
+      "id": "drinking_bird",
+      "name": "Oiseau buveur",
+      "rarity": "common",
+      "description": "Un bibelot récupéré dans les quartiers du Nostromo qui apporte une touche d’absurdité.\n\n• Augmente la durée de *Killer Instinct* après être sorti des Tunnels de +3 s.",
+      "icon": ""
+    },
+    {
+      "id": "ovomorph",
+      "name": "Ovomorphe",
+      "rarity": "uncommon",
+      "description": "Apparemment inoffensif à l’extérieur, mais cache des horreurs.\n\n• Augmente le taux de charge du Mode *Crawler* quand tu es **hors des Tunnels** de +25 %.",
+      "icon": ""
+    },
+    {
+      "id": "ripleys_watch",
+      "name": "Montre de Ripley",
+      "rarity": "uncommon",
+      "description": "Sur un vaisseau aussi vaste que le Nostromo, se synchroniser était essentiel.\n\n• Les tourelles à flamme auto-déployées s’autodétruisent après t’avoir expulsé du Mode *Crawler* et augmentent leur temps d’inactivité de +3 s.",
+      "icon": ""
+    },
+    {
+      "id": "emergency_helmet",
+      "name": "Casque d’urgence",
+      "rarity": "rare",
+      "description": "Un casque de secours réservé aux grandes urgences.\n\n• Augmente ta résistance aux tourelles à flamme avant d’être expulsé du Mode *Crawler* de +15 %.",
+      "icon": ""
+    },
+    {
+      "id": "kanes_helmet",
+      "name": "Casque de Kane",
+      "rarity": "rare",
+      "description": "Une mince couche de verre séparait l’inconfort d’un désastre pour Kane.\n\n• Les survivants touchés par une **attaque de queue** subissent l’état *Mutilé* pendant 70 s.",
+      "icon": ""
+    },
+    {
+      "id": "moulted_skin",
+      "name": "Peau perdue",
+      "rarity": "rare",
+      "description": "Le Xénomorphe mue souvent en grandissant.\n\n• Après avoir déployé une tourelle à flamme, les survivants subissent l’état *Exhausted* pendant 30 s.",
+      "icon": ""
+    },
+    {
+      "id": "multipurpose_hatchet",
+      "name": "Hache multifonction",
+      "rarity": "very_rare",
+      "description": "Utile pour la réparation… et la destruction.\n\n• Les survivants touchés par une **attaque de queue** subissent l’état *Hémorragie* jusqu’à guérison complète.",
+      "icon": ""
+    },
+    {
+      "id": "parkers_headband",
+      "name": "Bandeau de Parker",
+      "rarity": "very_rare",
+      "description": "Un bandeau audacieux qui gardait la sueur hors des yeux.\n\n• Tu gagnes +5 % de *Hâte* pendant 3 s après être sorti des Tunnels.",
+      "icon": ""
+    },
+    {
+      "id": "cat_carrier",
+      "name": "Transporteur de chat",
+      "rarity": "very_rare",
+      "description": "Sauver un chat est un noble objectif… et distrayant.\n\n• Quand une tourelle à flamme te fait sortir du Mode *Crawler*, tu gagnes *Indétectable* pendant 30 s.",
+      "icon": ""
+    },
+    {
+      "id": "self_destruct_bolt",
+      "name": "Boulon auto-destructeur",
+      "rarity": "very_rare",
+      "description": "Ils devaient être retirés pour commencer… et remplacés pour finir.\n\n• Augmente la vitesse de franchissement en Mode *Crawler* de +30 %.",
+      "icon": ""
+    },
+    {
+      "id": "semiotic_keyboard",
+      "name": "Clavier sémiotique",
+      "rarity": "iridescent",
+      "description": "Ses symboles sont conçus pour être universellement reconnaissables.\n\n• Les générateurs dans un rayon de 16 m d’une tourelle à flamme montrent leur progression de réparation via leur aura.",
+      "icon": ""
+    },
+    {
+      "id": "acidic_blood",
+      "name": "Sang acide",
+      "rarity": "iridescent",
+      "description": "Quand il est blessé, la physiologie unique du Xénomorphe le rend encore plus mortel.\n\n• En Mode *Crawler*, si un survivant te met *Étourdi* dans les 20 s suivant ta sortie des Tunnels, il subit l’état *Deep Wound*.",
+      "icon": ""
+    },
+    {
+      "id": "improvised_cattle_prod",
+      "name": "Taser improvisé",
+      "rarity": "iridescent",
+      "description": "Une arme brutale et bruyante, peut-être plus efficace contre du bétail.\n\n• Quand un générateur est terminé, pendant 15 s, les aura de tous survivants dans 10 m d’une station de contrôle te sont révélées.",
+      "icon": ""
+    },
+    {
+      "id": "harpoon_gun",
+      "name": "Harpon",
+      "rarity": "iridescent",
+      "description": "À peine une arme, utilisable seulement en cas de dernier recours.\n\n• Si tu touches un survivant dans les 30 s suivant ta sortie des Tunnels, tous les autres survivants à plus de 16 m hurlent et révèlent leur position.",
+      "icon": ""
+    }
+  ],
+  "good_guy": [
+    {
+      "id": "good_guy_box",
+      "name": "Boîte Good Guy",
+      "rarity": "common",
+      "description": "La fameuse boîte des poupées Good Guy que Chucky a répandue partout.\n\n• Réduit la durée de recharge après une attaque *Slice & Dice* réussie à 93 % de la durée par défaut.",
+      "icon": ""
+    },
+    {
+      "id": "doll_eyes",
+      "name": "Yeux de poupée",
+      "rarity": "common",
+      "description": "Les yeux brillants d’une poupée Good Guy, retrouvés après un carnage.\n\n• Lorsque tu es en mode *Hidey-Ho*, les auras des fenêtres et des palettes abaissées jusqu’à 20 m sont révélées.",
+      "icon": ""
+    },
+    {
+      "id": "running_shoes",
+      "name": "Chaussures de course",
+      "rarity": "uncommon",
+      "description": "Des chaussures usées mais encore efficaces pour courir après des survivants.\n\n• Réduit légèrement la recharge du pouvoir après une attaque ou action liée au pouvoir.",
+      "icon": ""
+    },
+    {
+      "id": "hard_hat",
+      "name": "Casque de chantier",
+      "rarity": "uncommon",
+      "description": "Un casque retrouvé sur un chantier, un peu cabossé.\n\n• Améliore légèrement la vitesse ou le confort de certaines actions du pouvoir (effet mineur).",
+      "icon": ""
+    },
+    {
+      "id": "electric_carving_knife",
+      "name": "Couteau électrique à découper",
+      "rarity": "rare",
+      "description": "Un couteau électrique tranchant provenant d’un vieux film d’horreur.\n\n• Les survivants touchés par certaines attaques subissent des effets de problème d’état (risque de *Saignement* ou similaire).",
+      "icon": ""
+    },
+    {
+      "id": "strobing_light",
+      "name": "Lumière stroboscopique",
+      "rarity": "rare",
+      "description": "Un dispositif de lumière clignotante qui perturbe les survivants.\n\n• Peut désorienter ou perturber temporairement les survivants proches lors de certaines interactions du pouvoir.",
+      "icon": ""
+    },
+    {
+      "id": "tiny_scalpel",
+      "name": "Scalpel minuscule",
+      "rarity": "very_rare",
+      "description": "Un petit scalpel jadis utilisé pour des « opérations » peu conventionnelles.\n\n• Améliore les chances d’appliquer des états négatifs sur les survivants après certaines attaques liées au pouvoir.",
+      "icon": ""
+    },
+    {
+      "id": "power_drill",
+      "name": "Perceuse électrique",
+      "rarity": "very_rare",
+      "description": "Une perceuse lourde utilisée par Chucky dans plusieurs films.\n\n• Après toucher un survivant avec *Slice & Dice*, ta recharge de pouvoir est partiellement remboursée.",
+      "icon": ""
+    },
+    {
+      "id": "rat_poison",
+      "name": "Poison pour rats",
+      "rarity": "very_rare",
+      "description": "Poison utilisé pour tuer les rongeurs, ici renversé sur le plan de jeu.\n\n• Les survivants traversant ta zone d’action peuvent subir un état négatif temporaire (p.ex. *Affaibli* ou autre).",
+      "icon": ""
+    },
+    {
+      "id": "automatic_screwdriver",
+      "name": "Tournevis automatique",
+      "rarity": "iridescent",
+      "description": "Un outil électrique qui réduit encore plus la durée de recharge du pouvoir quand tu rate un *Slice & Dice*.\n\n• Réduit le temps de recharge du pouvoir après un *Slice & Dice* non réussi.",
+      "icon": ""
+    },
+    {
+      "id": "pile_of_nails",
+      "name": "Tas de clous",
+      "rarity": "iridescent",
+      "description": "Un tas de clous récupéré après un massacre... pratique pour certains effets.\n\n• Peut ajouter un effet supplémentaire de perturbation autour des survivants affectés par ton pouvoir.",
+      "icon": ""
+    },
+    {
+      "id": "portable_tv",
+      "name": "Télévision portable",
+      "rarity": "iridescent",
+      "description": "Une petite télévision qui diffuse des images perturbantes.\n\n• Lorsqu’elle est utilisée avec le pouvoir, révèle les auras des survivants dans une zone autour de l’impact.",
+      "icon": ""
+    },
+    {
+      "id": "silk_pillow",
+      "name": "Oreiller en soie",
+      "rarity": "iridescent",
+      "description": "Un oreiller doux, mais macabre dans ce contexte.\n\n• Peut augmenter légèrement la vitesse de certaines actions ou réduire une pénalité associée au pouvoir.",
+      "icon": ""
+    },
+    {
+      "id": "mirror_shards",
+      "name": "Éclats de miroir",
+      "rarity": "iridescent",
+      "description": "Des fragments de miroir brillants et dangereux.\n\n• Les survivants proches de ton pouvoir pourraient être affectés par un effet de statut temporaire ou une révélation d’aura.",
+      "icon": ""
+    },
+    {
+      "id": "bloodied_amulet",
+      "name": "Amulette sanglante",
+      "rarity": "iridescent",
+      "description": "Un pendentif imprégné d’une énergie sinistre.\n\n• Augmente la puissance globale des effets du pouvoir et/ou des autres add-ons disponibles.",
+      "icon": ""
+    }
+  ],
+  "unknown": [
+    {
+      "id": "blurry_photo",
+      "name": "Photo floue",
+      "rarity": "common",
+      "description": "Une photo légèrement floue trouvée dans un camping abandonné.\n\n• Après une téléportation, ta vitesse de mouvement complète est récupérée plus rapidement (+15 %).",
+      "icon": ""
+    },
+    {
+      "id": "punctured_eyeball",
+      "name": "Œil perforé",
+      "rarity": "uncommon",
+      "description": "Un globe oculaire percé laissé sur une scène dérangeante.\n\n• Si un survivant dissipe une hallucination alors qu’il est *Blessé* et *Affaibli*, il subit l’état *Deep Wound*.",
+      "icon": ""
+    },
+    {
+      "id": "rabbit_foot",
+      "name": "Patte de lapin",
+      "rarity": "uncommon",
+      "description": "Une patte de lapin porte-bonheur trouvée au pied d’un arbre sinistre.\n\n• Pendant la charge d’UVX, des flaques de sang apparaissent autour de toi (effet visuel).",
+      "icon": ""
+    },
+    {
+      "id": "homemade_mask",
+      "name": "Masque fait maison",
+      "rarity": "rare",
+      "description": "Un masque bricolé et effrayant.\n\n• Quand un survivant dissipe une hallucination, il subit *Aveuglement* pendant 60 s.",
+      "icon": ""
+    },
+    {
+      "id": "obscure_game_cartridge",
+      "name": "Cartouche de jeu obscure",
+      "rarity": "rare",
+      "description": "Une vieille cartouche de jeu vidéo étrange aux effets imprévisibles.\n\n• Augmente la vitesse d’action (+30 %) pour certaines interactions pendant 20 s après une téléportation.",
+      "icon": ""
+    },
+    {
+      "id": "serum_vial",
+      "name": "Ampoule de sérum",
+      "rarity": "very_rare",
+      "description": "Un sérum mystérieux synthétisé en laboratoire.\n\n• Les survivants entrant dans l’aura d’une hallucination subissent le statut *Exhausted* pendant 10 s.",
+      "icon": ""
+    },
+    {
+      "id": "captured_by_the_dark",
+      "name": "Capturé par les ténèbres",
+      "rarity": "iridescent",
+      "description": "Un documentaire étrange suggérant un lien avec les disparitions locales.\n\n• Tous les survivants commencent l’Épreuve dans l’état *Affaibli*.\n• Réduit de -1 le nombre maximum d’hallucinations simultanées.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_oss_report",
+      "name": "Rapport OSS irisé",
+      "rarity": "iridescent",
+      "description": "Un rapport d’archives hautement censuré devenu presque illisible.\n\n• Réduit la durée de recharge de l’aptitude de téléportation de -5 s.\n• Augmente la durée de vie des leurres de +10 s.\n• Imprègne les leurres d’un rayon de terreur et d’une traînée rouge.",
+      "icon": ""
+    }
+  ],
+    "lich": [
+    {
+      "id": "crystal_ball",
+      "name": "Boule de cristal",
+      "rarity": "common",
+      "description": "Utilisée par les lanceurs de sorts depuis des siècles pour scruter amis et ennemis.\n\n• Quand la Sphère de Dissipation révèle un survivant, la durée de *Killer Instinct* est augmentée de +1 seconde.",
+      "icon": ""
+    },
+    {
+      "id": "ravens_feather",
+      "name": "Plume du corbeau",
+      "rarity": "common",
+      "description": "Un composant souvent utilisé pour le sort de *Vol*.\n\n• Augmente la durée de *Vol* de +0,5 seconde.",
+      "icon": ""
+    },
+    {
+      "id": "tattered_headband",
+      "name": "Bandeau en lambeaux",
+      "rarity": "uncommon",
+      "description": "Un accessoire enchanté ayant appartenu à un puissant invocateur.\n\n• Augmente la portée de *Volée des Damnés* de +4 mètres.",
+      "icon": ""
+    },
+    {
+      "id": "tricksters_glove",
+      "name": "Gant du farceur",
+      "rarity": "uncommon",
+      "description": "Gant ayant appartenu à un maître de la *Main de Mage*.\n\n• La *Main de Mage* retient les palettes abaissées plus longtemps lorsqu’elle les bloque.",
+      "icon": ""
+    },
+    {
+      "id": "ring_of_spell_storing",
+      "name": "Anneau de conservation des sorts",
+      "rarity": "rare",
+      "description": "Un anneau magique qui stocke de la puissance.\n\n• Réduit la durée de recharge de tous les sorts.",
+      "icon": ""
+    },
+    {
+      "id": "pearl_of_power",
+      "name": "Perle de puissance",
+      "rarity": "rare",
+      "description": "Une perle imprégnée d’énergie.\n\n• Réduit le temps de recharge des sorts après une attaque réussie.",
+      "icon": ""
+    },
+    {
+      "id": "bag_of_holding",
+      "name": "Sac sans fond",
+      "rarity": "very_rare",
+      "description": "Un sac magique capable de contenir l’infini.\n\n• Garantit que 2 coffres au trésor ouvrés donnent 1 sur le dé. Ouvrir un coffre ainsi cause *Oblivious* chez le survivant pendant un temps.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_book_of_vile_darkness",
+      "name": "Livre iridescent des Ténèbres viles",
+      "rarity": "iridescent",
+      "description": "La compilation ultime de cruauté et de dépravation.\n\n• Les fenêtres traversées avec *Vol* sont bloquées 45 s.\n• Réduit la hauteur de *Vol* et diminue le nombre d’entités volantes invoquées par *Volée des Damnés*.",
+      "icon": ""
+    },
+    {
+      "id": "vorpal_sword",
+      "name": "Épée vorpale",
+      "rarity": "iridescent",
+      "description": "Un artefact magique dont la lame sépare la tête du corps.\n\n• Les survivants blessés entrant dans le rayon de la Sphère de Dissipation subissent *Brisé* pendant 30 s.\n• La *Main de Mage* casse les palettes plutôt que de les lever.",
+      "icon": ""
+    },
+    {
+      "id": "boots_of_speed",
+      "name": "Bottes de vitesse",
+      "rarity": "rare",
+      "description": "Bottes enchantées améliorant l’agilité.\n\n• La *Main de Mage* accorde +5 % de *Hâte* pendant 2 s après utilisation.",
+      "icon": ""
+    },
+    {
+      "id": "potion_of_speed",
+      "name": "Potion de vitesse",
+      "rarity": "uncommon",
+      "description": "Une potion accélérant les actions magiques.\n\n• Réduit le délai de récupération après *Vol* de quelques fractions de seconde.",
+      "icon": ""
+    }
+  ],
+      "dark_lord": [
+    {
+      "id": "cerberus_talon",
+      "name": "Griffe du Cerbère",
+      "rarity": "common",
+      "description": "Un souvenir acéré provenant d’un des gardiens les plus terrifiants de Dracula.\n\n• Augmente de +100 % la distance de révélation des auras des Orbes de Parfum.",
+      "icon": ""
+    },
+    {
+      "id": "clock_tower_gear",
+      "name": "Engrenage de la tour de l’horloge",
+      "rarity": "common",
+      "description": "Un morceau de la grande horloge, rappel de l’inévitabilité du temps.\n\n• Réduit le temps de recharge de l’aptitude *Changeling* de -10 %.",
+      "icon": ""
+    },
+    {
+      "id": "ruby_circlet",
+      "name": "Circlet de rubis",
+      "rarity": "common",
+      "description": "Une coiffe enchantée qui canalise la puissance des flammes.\n\n• Réduit la durée de recharge du sort *Feu infernal* de -10 %.",
+      "icon": ""
+    },
+    {
+      "id": "travellers_hat",
+      "name": "Chapeau du voyageur",
+      "rarity": "common",
+      "description": "Un large chapeau ayant appartenu à un homme bien voyagé.\n\n• Réduit le temps de transition entre les formes de -10 %.",
+      "icon": ""
+    },
+    {
+      "id": "blood_filled_goblet",
+      "name": "Goblet rempli de sang",
+      "rarity": "uncommon",
+      "description": "Le sang de ses victimes le soutient et le rend encore plus redoutable.\n\n• Prolonge la durée de vie des Orbes de Parfum de +50 %.",
+      "icon": ""
+    },
+    {
+      "id": "magical_ticket",
+      "name": "Billet magique",
+      "rarity": "uncommon",
+      "description": "Un artefact étrange utilisé pour se transporter à travers le château de Dracula.\n\n• Augmente la vitesse de téléportation de +10 %.",
+      "icon": ""
+    },
+    {
+      "id": "moonstone_necklace",
+      "name": "Collier de pierre lunaire",
+      "rarity": "rare",
+      "description": "Un simple collier dont la puissance se révèle dans l’obscurité.\n\n• Réduit le rayon de terreur en Forme de Vampire et de Loup de -4 mètres.",
+      "icon": ""
+    },
+    {
+      "id": "white_wolf_medallion",
+      "name": "Médaillon du Loup blanc",
+      "rarity": "rare",
+      "description": "Un talisman autrefois utilisé pour invoquer un esprit guide.\n\n• Augmente la durée de *Killer Instinct* en Forme de Loup de +40 %.",
+      "icon": ""
+    },
+    {
+      "id": "winged_boots",
+      "name": "Bottes ailées",
+      "rarity": "rare",
+      "description": "Longtemps utilisées pour se déplacer rapidement.\n\n• Augmente la portée de l’aptitude de téléportation de +20 %.",
+      "icon": ""
+    },
+    {
+      "id": "force_of_echo",
+      "name": "Force de l’écho",
+      "rarity": "rare",
+      "description": "Un artefact qui accorde une meilleure perception dans l’obscurité.\n\n• Augmente le taux de spawn des Orbes de Parfum de +17 %.",
+      "icon": ""
+    },
+    {
+      "id": "killer_doll",
+      "name": "Poupée démoniaque",
+      "rarity": "very_rare",
+      "description": "L’un des sbires de Dracula, rappel que tous sont ses jouets.\n\n• Augmente de +50 % la réduction de temps de recharge de l’attaque de Pounce après la collecte d’un Orbe de Parfum.",
+      "icon": ""
+    },
+    {
+      "id": "pocket_watch",
+      "name": "Montre à gousset",
+      "rarity": "very_rare",
+      "description": "Un outil qui plie les règles du temps lui-même.\n\n• Briser une palette recharge instantanément l’aptitude de téléportation.",
+      "icon": ""
+    },
+    {
+      "id": "sunglasses",
+      "name": "Lunettes de soleil",
+      "rarity": "very_rare",
+      "description": "Elles protègent des lumières vives, tout en ayant du style.\n\n• Augmente le nombre de Piliers de Flammes de +1, mais augmente le temps de charge du *Feu infernal* de +25 %.",
+      "icon": ""
+    },
+    {
+      "id": "sylph_feather",
+      "name": "Plume de Sylphide",
+      "rarity": "very_rare",
+      "description": "Une plume enchantée conférant une grande agilité.\n\n• Briser des palettes donne +1 Jeton (jusqu’à 5). Réduit la durée de recharge du sort *Feu infernal* de -5 % par jeton (jusqu’à -25 %).",
+      "icon": ""
+    },
+    {
+      "id": "cube_of_zoe",
+      "name": "Cube de Zoé",
+      "rarity": "very_rare",
+      "description": "Une étrange boîte dont la présence crée quelque chose à partir de rien.\n\n• À chaque fois qu’un générateur est terminé, des Piliers de Flammes apparaissent aléatoirement autour du Seigneur des Ténèbres pendant 10 secondes.",
+      "icon": ""
+    },
+    {
+      "id": "lapis_lazuli",
+      "name": "Lapis-Lazuli",
+      "rarity": "iridescent",
+      "description": "Pierre censée apporter chance à son porteur ou l’emporter de ses ennemis.\n\n• Bloque l’endroit du *vault* où tu t’es téléporté pendant 15 s.",
+      "icon": ""
+    },
+    {
+      "id": "medusas_hair",
+      "name": "Cheveux de Méduse",
+      "rarity": "iridescent",
+      "description": "Un souvenir de l’un de ses plus anciens et terrifiants serviteurs.\n\n• Tous les survivants dans 12 m de ta destination de téléportation subissent *Maladresse* (effet ralentissant) pendant une courte durée.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_ring_of_vlad",
+      "name": "Anneau iridescent de Vlad",
+      "rarity": "iridescent",
+      "description": "Une relique unique appartenant à Dracula.\n\n• Le sort *Feu infernal* poursuit les survivants proches.\n• Réduit le nombre de Piliers de Flammes de -1.",
+      "icon": ""
+    }
+  ],
+  "houndmaster": [
+    {
+      "id": "creatures_bone",
+      "name": "Os de créature",
+      "rarity": "common",
+      "description": "Contrairement à tout ce qu’elle avait déjà vu, la moelle de cet os était délicieuse.\n\n• Réduit de 50 % la durée pendant laquelle le Chien est étourdi lorsqu’il est assommé.",
+      "icon": ""
+    },
+    {
+      "id": "sticky_pitch",
+      "name": "Goudron collant",
+      "rarity": "common",
+      "description": "Une ressource indispensable pour garder un navire en bon état.\n\n• Augmente la vitesse de mouvement bonus de la Maîtresse des Molosses lorsqu’elle marche le long du Chemin de Recherche de +2 %.",
+      "icon": ""
+    },
+    {
+      "id": "trainers_book",
+      "name": "Livre d’entraîneur",
+      "rarity": "uncommon",
+      "description": "Certains conseils qu’il contient ont renforcé leur lien.\n\n• Augmente la durée de *Houndsense* de +35 secondes.",
+      "icon": ""
+    },
+    {
+      "id": "young_coconut",
+      "name": "Noix de coco jeune",
+      "rarity": "uncommon",
+      "description": "Son premier repas en tant qu’épave, qu’elle partagea avec son fidèle compagnon.\n\n• Augmente la vitesse de poursuite du Chien (+5 %) lorsqu’il l’attrape ou la poursuit.",
+      "icon": ""
+    },
+    {
+      "id": "barley_meal",
+      "name": "Bouillie d’orge",
+      "rarity": "rare",
+      "description": "L’ingrédient clé d’une bouillie fade mais revitalisante.\n\n• Augmente la distance du Chemin de Poursuite initial de +20 mètres.",
+      "icon": ""
+    },
+    {
+      "id": "fatty_meat",
+      "name": "Viande grasse",
+      "rarity": "rare",
+      "description": "Une friandise étrange et irrésistible pour un ami canin.\n\n• Les Survivants affectés par *Houndsense* poussent périodiquement des cris toutes les 15 secondes sans révéler leur position.",
+      "icon": ""
+    },
+    {
+      "id": "torn_novel",
+      "name": "Roman déchiré",
+      "rarity": "very_rare",
+      "description": "Un livre donné par son père, presque détruit après un raid.\n\n• Pendant que tu contrôles le Chien (*Chase Commande*), les auras des Survivants dans un rayon de 10 m autour du Chien sont révélées pendant 2 secondes après la commande.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_wheel_handle",
+      "name": "Poignée de roue iridescente",
+      "rarity": "iridescent",
+      "description": "Autrefois utilisée pour guider un grand navire à travers le large.\n\n• Augmente de +20 s la durée pendant laquelle le Chien reste à l’Emplacement Cible du Chemin de Recherche, et te confère *Indétectable* tant que le Chien accomplit le Chemin de Recherche (*le statut est retiré si tu touches le Chemin*).",
+      "icon": ""
+    }
+  ],
+    "ghoul": [
+    {
+      "id": "anteiku_apron",
+      "name": "Tablier d'Anteiku",
+      "rarity": "common",
+      "description": "L’uniforme standard d’un petit café charmant.\n\n• Réduit de 50 % la glissade après un Saut Kagune.",
+      "icon": ""
+    },
+    {
+      "id": "kanekis_wallet",
+      "name": "Portefeuille de Kaneki",
+      "rarity": "common",
+      "description": "Perdu après une étrange collision dans la rue.\n\n• Augmente de +3 s la fenêtre pour effectuer des Sauts Kagune consécutifs.",
+      "icon": ""
+    },
+    {
+      "id": "taiyaki",
+      "name": "Taiyaki",
+      "rarity": "uncommon",
+      "description": "Les goules ne mangent pas de nourriture humaine, mais peuvent faire semblant.\n\n• Prolonge le compte à rebours du Mode Enragé de +5 s.",
+      "icon": ""
+    },
+    {
+      "id": "black_goats_egg",
+      "name": "Œuf du Chèvre Noire",
+      "rarity": "rare",
+      "description": "Le livre qu’il utilisait pour se lier avec une femme importante.\n\n• Réussir l’Événement de Capture accorde +100 % de points de sang bonus.",
+      "icon": ""
+    },
+    {
+      "id": "blood_stained_handkerchief",
+      "name": "Mouchoir taché de sang",
+      "rarity": "rare",
+      "description": "Même une seule goutte de sang peut exciter les sens du gourmet.\n\n• Augmente la portée maximale des Sauts Kagune de +1 mètre.",
+      "icon": ""
+    },
+    {
+      "id": "broken_chain",
+      "name": "Chaîne brisée",
+      "rarity": "rare",
+      "description": "Rien ne peut le retenir une fois qu’il a embrassé son plein potentiel.\n\n• Réduit la durée de récupération du Saut Kagune de -1,4 s par jeton lorsque le Mode Enragé n’est pas actif.",
+      "icon": ""
+    },
+    {
+      "id": "hide_headphones",
+      "name": "Casque d’Hide",
+      "rarity": "very_rare",
+      "description": "Ceux de son meilleur ami, portés pour le protéger.\n\n• Les survivants marqués subissent *Inconscience* jusqu’à ce que la Marque soit retirée.",
+      "icon": ""
+    },
+    {
+      "id": "kaneki_bag",
+      "name": "Sac de Kaneki",
+      "rarity": "very_rare",
+      "description": "Essentiels de tout étudiant essayant d’être à jour dans ses études.\n\n• Augmente la vitesse de mouvement après un troisième saut Kagune consécutif de +4,2 m/s.",
+      "icon": ""
+    },
+    {
+      "id": "hinami_umbrella",
+      "name": "Parapluie d’Hinami",
+      "rarity": "very_rare",
+      "description": "Le jour où on lui a arraché sa mère, il pleuvait.\n\n• Réduit de -10 s le temps de récupération après un Saut Kagune terminé.",
+      "icon": ""
+    },
+    {
+      "id": "amon_tie",
+      "name": "Cravate d’Amon",
+      "rarity": "iridescent",
+      "description": "Froid, calculateur et précis.\n\n• Quand tu vises à mi-parcours d’un Saut Kagune, tu gagnes un bonus de *Hâte* temporaire.",
+      "icon": ""
+    },
+    {
+      "id": "hell_flower",
+      "name": "Fleur de l’enfer",
+      "rarity": "iridescent",
+      "description": "Les fleurs blanches se teintent de rouge sang.\n\n• En Mode Fureur, les Attaques de Base appliquent *Hémorragie* pendant 60 s.",
+      "icon": ""
+    },
+    {
+      "id": "mado_glove",
+      "name": "Gant de Mado",
+      "rarity": "iridescent",
+      "description": "Un gant d’un enquêteur de goules.\n\n• Quand la Marque Kagune disparaît, les survivants subissent *Hâte* pendant 15 s.",
+      "icon": ""
+    },
+    {
+      "id": "rize_sunglasses",
+      "name": "Lunettes de Rize",
+      "rarity": "iridescent",
+      "description": "Elle donnait une apparence innocente… jusqu’à ce que ça change.\n\n• En Mode Fureur, révèle les auras des survivants indemnes réparant un générateur pendant 8 s.",
+      "icon": ""
+    },
+    {
+      "id": "aogiri_tree_robes",
+      "name": "Tunique de l’arbre Aogiri",
+      "rarity": "iridescent",
+      "description": "Portée par une organisation de goules antihumaines.\n\n• Si un générateur est terminé durant le Mode Fureur, accorde *Indétectable* pendant 20 s.",
+      "icon": ""
+    },
+    {
+      "id": "torture_apparatus",
+      "name": "Appareil de torture",
+      "rarity": "iridescent",
+      "description": "Outil pour couper des membres chaque fois qu’ils repoussent.\n\n• À la fin du Mode Fureur, gagne +5 % de *Hâte* pendant 6 s.",
+      "icon": ""
+    }
+  ],
+  "krasue": [
+    {
+      "id": "blood_pearl",
+      "name": "Perle de sang",
+      "rarity": "uncommon",
+      "description": "Une perle sombre éveillant votre soif de sang.\n\n• Augmente légèrement le taux d’apparition des globes de sang, facilitant l’activation de votre pouvoir.",
+      "icon": ""
+    },
+    {
+      "id": "ancestral_mask",
+      "name": "Masque ancestral",
+      "rarity": "uncommon",
+      "description": "Un masque ancien qui guide vos instincts bestiaux.\n\n• Réduit légèrement le temps nécessaire avant de pouvoir détacher votre tête.",
+      "icon": ""
+    },
+    {
+      "id": "spirit_offering",
+      "name": "Offrande d’esprit",
+      "rarity": "rare",
+      "description": "Une offrande respectée par les esprits qui vous accompagnent.\n\n• Augmente modérément la portée d’attaque en forme Ethereal, améliorant votre capacité à toucher les survivants.",
+      "icon": ""
+    },
+    {
+      "id": "floating_silk",
+      "name": "Soie flottante",
+      "rarity": "rare",
+      "description": "Une étoffe légère portée par les vents mortels.\n\n• Augmente modérément la vitesse de mouvement en mode tête, vous permettant de fermer les distances plus vite.",
+      "icon": ""
+    },
+    {
+      "id": "cursed_amulet",
+      "name": "Amulette maudite",
+      "rarity": "very_rare",
+      "description": "Un talisman imprégné d’une énergie sinistre et instable.\n\n• Augmente considérablement la portée d’attaque en forme Ethereal, vous donnant une meilleure zone de pression.",
+      "icon": ""
+    },
+    {
+      "id": "blessed_incense",
+      "name": "Encens béni",
+      "rarity": "very_rare",
+      "description": "Des fumées sacrées qui galvanisent votre esprit déchaîné.\n\n• Augmente considérablement la vitesse de mouvement de la tête détachée, améliorant les poursuites rapides.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_entrails",
+      "name": "Viscères iridescents",
+      "rarity": "iridescent",
+      "description": "Fragments scintillants de chair maudite pulsant d’énergie surnaturelle.\n\n• Prolonge significativement la durée de votre pouvoir et amplifie certains de ses effets pour dominer les survivants.",
+      "icon": ""
+    }
+  ],
+    "first": [
+    {
+      "id": "bead_maze",
+      "name": "Labyrinthe de perles",
+      "rarity": "common",
+      "description": "Un jouet de développement utilisé pour enrichir l’esprit des enfants captifs.\n\n• La deuxième phase du temporisateur Worldbreaker est augmentée de 3 secondes par survivant vivant.",
+      "icon": ""
+    },
+    {
+      "id": "orderly_id",
+      "name": "Carte d’infirmier",
+      "rarity": "common",
+      "description": "Porte le visage d’Henry Creel tel qu’il était avant d’être changé par une autre dimension.\n\n• Lorsque vous n’êtes pas en mode Worldbreaker, la portée de visée de l’attaque Vine est augmentée de 2 mètres.",
+      "icon": ""
+    },
+    {
+      "id": "shattered_wrist_rocket",
+      "name": "Fusée poignet brisée",
+      "rarity": "uncommon",
+      "description": "Une fronde autrefois puissante, maintenant réduite en ruine.\n\n• Modifie l’attaque Undergate (effet spécifique dépend du design interne).",
+      "icon": ""
+    },
+    {
+      "id": "stained_glass_mural",
+      "name": "Fresque en vitrail",
+      "rarity": "rare",
+      "description": "Un motif autrefois trouvé sur la porte de la famille Creel, désormais assombrit celle d’une autre dimension.\n\n• Lorsque The Upside Down est en recharge, briser des palettes ou des murs destructibles diminue cette récupération de 12 secondes.",
+      "icon": ""
+    },
+    {
+      "id": "bloody_roller_skate",
+      "name": "Patin à roulettes ensanglanté",
+      "rarity": "very_rare",
+      "description": "Un souvenir de la furie qu’Eleven était capable d’infliger.\n\n• Modifie certains aspects des interactions physiques avec les survivants (effet spécifique dépend du design interne).",
+      "icon": ""
+    }
+  ],
+  "animatronic": [
+    {
+      "id": "rusty_servo",
+      "name": "Servo rouillé",
+      "rarity": "common",
+      "description": "Un servo grinçant provenant d’un animatronique usé.\n\n• Réduit légèrement le bruit émis lors des déplacements.",
+      "icon": ""
+    },
+    {
+      "id": "cracked_faceplate",
+      "name": "Plaque faciale fissurée",
+      "rarity": "common",
+      "description": "Une plaque faciale fissurée laissant apparaître les engrenages internes.\n\n• Les survivants proches entendent des grincements perturbants.",
+      "icon": ""
+    },
+    {
+      "id": "loose_wires",
+      "name": "Câbles desserrés",
+      "rarity": "common",
+      "description": "Des fils mal isolés qui crépitent dangereusement.\n\n• Réduit légèrement le temps nécessaire pour activer l’effet de repos.",
+      "icon": ""
+    },
+    {
+      "id": "grease_stained_joints",
+      "name": "Articulations graisseuses",
+      "rarity": "common",
+      "description": "Graisse ancienne appliquée de manière grossière sur les articulations.\n\n• Augmente légèrement la vitesse de rotation de la caméra.",
+      "icon": ""
+    },
+    {
+      "id": "security_badge",
+      "name": "Badge de sécurité",
+      "rarity": "uncommon",
+      "description": "Un ancien badge trouvé dans une pizzeria abandonnée.\n\n• Augmente la portée de détection des survivants effrayés de +2 m.",
+      "icon": ""
+    },
+    {
+      "id": "broken_music_box",
+      "name": "Boîte à musique brisée",
+      "rarity": "uncommon",
+      "description": "Une mélodie enfantine déformée qui résonne encore.\n\n• Les survivants effrayés subissent un léger ralentissement de vitesse.",
+      "icon": ""
+    },
+    {
+      "id": "fazbear_mask",
+      "name": "Masque de Fazbear",
+      "rarity": "uncommon",
+      "description": "Un masque emblématique taché de larmes et de sang.\n\n• Augmente légèrement la durée de l’effet de terreur après une apparition.",
+      "icon": ""
+    },
+    {
+      "id": "springlock_parts",
+      "name": "Pièces à ressort",
+      "rarity": "rare",
+      "description": "Des mécanismes à ressort instables rappelant de vieilles technologies.\n\n• Les survivants effrayés ont une probabilité accrue de faire un bruit fort.",
+      "icon": ""
+    },
+    {
+      "id": "flickering_eyes",
+      "name": "Yeux vacillants",
+      "rarity": "rare",
+      "description": "Des optiques défectueuses qui projetent une lumière inquiétante.\n\n• Augmente l’intensité des effets visuels de peur autour de toi.",
+      "icon": ""
+    },
+    {
+      "id": "bloodstained_endoskeleton",
+      "name": "Endosquelette ensanglanté",
+      "rarity": "rare",
+      "description": "Un endosquelette partiellement visible sous le métal.\n\n• Les survivants effrayés voient moins distinctement leur environnement.",
+      "icon": ""
+    },
+    {
+      "id": "purple_uniform",
+      "name": "Tenue violette",
+      "rarity": "very_rare",
+      "description": "La célèbre tenue que portait autrefois William Afton.\n\n• Augmente considérablement la durée des effets de peur.\n• Les survivants effrayés laissent des traces plus visibles.",
+      "icon": ""
+    },
+    {
+      "id": "haunted_circuitry",
+      "name": "Circuits hantés",
+      "rarity": "very_rare",
+      "description": "Des circuits animés par une force surnaturelle.\n\n• Les survivants effrayés souffrent d’hallucinations temporaires.",
+      "icon": ""
+    },
+    {
+      "id": "crescendo_chime",
+      "name": "Carillon crescendo",
+      "rarity": "very_rare",
+      "description": "Un carillon qui s’intensifie jusqu’à faire hurler ceux qui l’entendent.\n\n• Lorsque vous lancez votre attaque spéciale, une vibration sonore révèle les survivants proches pendant 3 s.",
+      "icon": ""
+    },
+    {
+      "id": "iridescent_crescent_key",
+      "name": "Clé croissante iridescente",
+      "rarity": "iridescent",
+      "description": "Une clé étrange imprégnée de lumière spectrale.\n\n• Les survivants proches d’une faille d’apparition voient leurs auras révélées pendant 4 s.\n• Réduit le cooldown de votre pouvoir.",
+      "icon": ""
+    },
+    {
+      "id": "soul_reverberator",
+      "name": "Réverbérateur d’âme",
+      "rarity": "iridescent",
+      "description": "Un artefact hanté qui amplifie la peur.\n\n• Lorsque vous effrayez un survivant, tous les autres survivants dans 8 m sont révélés 2 s.",
+      "icon": ""
+    }
+  ]
+}

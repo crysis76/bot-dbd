@@ -1,0 +1,45 @@
+{
+  "id": "the_legion",
+  "name": "La Légion",
+  "role": "The Legion",
+  "description": "Un groupe de quatre ados devenus tueurs impitoyables, capables d’entrer dans une Frénésie Animale qui lacère leurs proies et récompense les attaques en chaîne par une pression constante.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4e/The_Legion_Portrait.png",
+
+  "power": {
+    "name": "Frénésie Animale",
+    "description": "La Légion peut entrer dans une Frénésie Animale (Feral Frenzy), un sprint rapide qui permet d’enchaîner des attaques spéciales contre les survivants. Les attaques successives rechargent la jauge de pouvoir et révèlent les positions des survivants proches, tout en autorisant des sauts par-dessus fenêtres et palettes."
+  },
+
+  "perks": [
+    {
+      "id": "discordance",
+      "name": "Discordance",
+      "description_tiers": {
+        "tier1": "Tout générateur en cours de réparation par 2 survivants ou plus dans un rayon de 64 m est marqué, révélant son aura et générant un bruit d’alerte.",
+        "tier2": "Tout générateur en cours de réparation par 2 survivants ou plus dans un rayon de 96 m est marqué, révélant son aura et générant un bruit d’alerte.",
+        "tier3": "Tout générateur en cours de réparation par 2 survivants ou plus dans un rayon de 128 m est marqué, révélant son aura et générant un bruit d’alerte."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/Perk_Discordance.png"
+    },
+    {
+      "id": "mad_grit",
+      "name": "Mad Grit",
+      "description_tiers": {
+        "tier1": "Quand tu transportes un survivant, les attaques manquées n’engendrent pas de temps de récupération et chaque attaque réussie suspend la progression de gigotement de 2 s.",
+        "tier2": "…chacune suspend la progression de gigotement de 3 s.",
+        "tier3": "…chacune suspend la progression de gigotement de 4 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/26/Perk_MadGrit.png"
+    },
+    {
+      "id": "iron_maiden",
+      "name": "Iron Maiden",
+      "description_tiers": {
+        "tier1": "Tu ouvres les casiers 30 % plus vite. Les survivants qui en sortent souffrent de l’état Exposé pendant 30 s et leur aura est révélée pendant 4 s.",
+        "tier2": "Tu ouvres les casiers 40 % plus vite. Les survivants qui en sortent souffrent de l’état Exposé pendant 30 s et leur aura est révélée pendant 4 s.",
+        "tier3": "Tu ouvres les casiers 50 % plus vite. Les survivants qui en sortent souffrent de l’état Exposé pendant 30 s et leur aura est révélée pendant 4 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/Perk_IronMaiden.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "michonne_grimes",
+  "name": "Michonne Grimes",
+  "role": "Relentless Protector",
+  "description": "Une protectrice acharnée qui ne lâche jamais prise, même face aux pires horreurs. Michonne utilise sa détermination et ses compétences pour aider ses alliés, retourner la situation et créer des opportunités de survie.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/MichonneGrimes.png",
+  "perks": [
+    {
+      "id": "conviction",
+      "name": "Conviction",
+      "description_tiers": {
+        "tier1": "Après avoir soigné un autre survivant, quand tu es dans l’état agonisant et que tu as au moins 25 % de progression de récupération, tu peux activer Conviction pour te **récupérer instantanément**. Tu deviens Brisée et retournes en état agonisant après 20 s si tu n’es pas soignée.",
+        "tier2": "… après 25 s.",
+        "tier3": "… après 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e1/Perk_Conviction.png"
+    },
+    {
+      "id": "last_stand",
+      "name": "Last Stand",
+      "description_tiers": {
+        "tier1": "Après être restée dans le Rayon de Terreur du tueur sans être en poursuite pendant 120 s, Last Stand s’active. Tant qu’il est actif, effectuer un *Rush Vault* près du tueur étourdit ce dernier pendant 3 s (si à moins de 2,5 m). Perk désactivée après usage.",
+        "tier2": "…après 105 s.",
+        "tier3": "…après 90 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/Perk_LastStand.png"
+    },
+    {
+      "id": "teamwork_throw_down",
+      "name": "Teamwork: Throw Down",
+      "description_tiers": {
+        "tier1": "Quand tu **étourdis ou aveugles** le tueur avec une palette, les autres survivants blessés dans un rayon de 24 m gagnent l’effet **Endurance** et voient l’aura du tueur pendant 6 s.",
+        "tier2": "… pendant 8 s.",
+        "tier3": "… pendant 10 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/11/Perk_TeamworkThrowDown.png"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "dredge",
+  "name": "Le Dragueur",
+  "role": "The Dredge",
+  "description": "Le Dragueur est une entité maléfique du Brouillard, capable de traverser les murs et d'apparaître n'importe où dans la carte. Il crée des portails à travers lesquels il peut se manifester et traquer ses victimes.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/The_Dredge_Portrait.png",
+
+  "power": {
+    "name": "Le Portail de l’Obscurité",
+    "description": "Le Dragueur utilise des portails d'ombre pour traverser la carte rapidement. Il peut ouvrir des portails sur des surfaces spécifiques et se téléporter à leur emplacement. Il peut également créer des portails dans des endroits que les survivants peuvent utiliser pour se cacher."
+  },
+
+  "perks": [
+    {
+      "id": "darkness_revealed",
+      "name": "Obscurité Révélée",
+      "description_tiers": {
+        "tier1": "Quand tu es à moins de 16 mètres d'un survivant qui utilise un portail, tu vois leur aura pendant 6 secondes.",
+        "tier2": "…tu vois l’aura des survivants pendant 8 secondes.",
+        "tier3": "…tu vois l’aura des survivants pendant 10 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ef/Perk_DarknessRevealed.png"
+    },
+    {
+      "id": "smash_hit",
+      "name": "Coup de Massue",
+      "description_tiers": {
+        "tier1": "Après avoir blessé un survivant avec une attaque de base, ta vitesse de déplacement augmente de 6 % pendant 10 secondes.",
+        "tier2": "…ta vitesse de déplacement augmente de 8 % pendant 12 secondes.",
+        "tier3": "…ta vitesse de déplacement augmente de 10 % pendant 14 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a5/Perk_SmashHit.png"
+    },
+    {
+      "id": "repressed_allocation",
+      "name": "Allocation Réprimée",
+      "description_tiers": {
+        "tier1": "Les générateurs que tu endommages sont marqués pendant 60 secondes. Quand un survivant répare un générateur marqué, le générateur régresse de 2 % par seconde pendant 10 secondes.",
+        "tier2": "…le générateur régresse de 3 % par seconde pendant 10 secondes.",
+        "tier3": "…le générateur régresse de 4 % par seconde pendant 10 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a7/Perk_RepressedAllocation.png"
+    }
+  ]
+}

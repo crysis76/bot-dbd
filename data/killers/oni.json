@@ -1,0 +1,45 @@
+{
+  "id": "oni",
+  "name": "L’Oni",
+  "role": "The Oni",
+  "description": "Un guerrier samouraï déchu devenu un démon sanguinaire, absorbant l’énergie de ses victimes pour se transformer en une force brutale capable de foncer et écraser ses proies sans avertissement.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4e/The_Oni_Portrait.png",
+
+  "power": {
+    "name": "Yamaoka’s Wrath",
+    "description": "L’Oni accumule de la Colère en absorbant les Orbes de Sang laissés par les survivants blessés. Une fois sa jauge pleine, il peut entrer en Fureur Sanglante (Blood Fury), lui permettant d’utiliser des capacités spéciales telles que la Ruée Démoniaque et la Frappe Démoniaque pour couvrir de longues distances et infliger des dégâts massifs à ses adversaires."
+  },
+
+  "perks": [
+    {
+      "id": "zanshin_tactics",
+      "name": "Tactiques de Zanshin",
+      "description_tiers": {
+        "tier1": "Lorsqu’un survivant laisse tomber une palette, son aura est révélée pendant 3 s.",
+        "tier2": "…son aura est révélée pendant 4 s.",
+        "tier3": "…son aura est révélée pendant 5 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/Perk_ZanshinTactics.png"
+    },
+    {
+      "id": "blood_echo",
+      "name": "Écho de Sang",
+      "description_tiers": {
+        "tier1": "Quand tu accroches un survivant, tous les survivants blessés subissent les effets Épuisé et Hémorragie pendant 20 s.",
+        "tier2": "…pendant 25 s.",
+        "tier3": "…pendant 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/Perk_BloodEcho.png"
+    },
+    {
+      "id": "nemesis",
+      "name": "Némésis",
+      "description_tiers": {
+        "tier1": "Quand un survivant autre que ton Obsession te aveugle ou te stun avec une palette ou un casier, il devient ton Obsession. Quand l’Obsession change, ce survivant subit l’état Oblivious pendant 40 s.",
+        "tier2": "…l’état Oblivious dure 50 s.",
+        "tier3": "…l’état Oblivious dure 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/93/Perk_Nemesis.png"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "the_clown",
+  "name": "Le Clown",
+  "role": "The Clown",
+  "description": "Un tueur stratégique qui utilise des concoctions gazeuses pour contrôler les survivants, ralentir leurs mouvements et les désorienter dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/The_Clown_Portrait.png",
+
+  "power": {
+    "name": "The Afterpiece Tonic",
+    "description": "Le Clown lance des bouteilles de gaz depuis son Afterpiece Tonic et son Antidote. Le gaz toxique désoriente les survivants, réduit leur vitesse de déplacement et empêche les Fast Vaults, tandis que l’antidote crée un nuage qui donne un effet Haste. Les deux types de gaz peuvent également se neutraliser mutuellement."
+  },
+
+  "perks": [
+    {
+      "id": "bamboozle",
+      "name": "Bamboozle",
+      "description_tiers": {
+        "tier1": "Après avoir sauté une fenêtre, Bamboozle invoque l’Entité pour bloquer cette fenêtre pendant 8 s et augmente ta vitesse de vault de 5 %.",
+        "tier2": "…bloque cette fenêtre pendant 12 s et augmente ta vitesse de vault de 10 %.",
+        "tier3": "…bloque cette fenêtre pendant 16 s et augmente ta vitesse de vault de 15 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/53/Perk_Bamboozle.png"
+    },
+    {
+      "id": "coulrophobia",
+      "name": "Coulrophobia",
+      "description_tiers": {
+        "tier1": "Pour tous les survivants dans ton Terror Radius, la vitesse de soin est réduite de 30 % et la vitesse des Skill Checks de rotation augmente de 50 %.",
+        "tier2": "…réduit la vitesse de soin de 40 % et augmente la vitesse des Skill Checks de rotation de 50 %.",
+        "tier3": "…réduit la vitesse de soin de 50 % et augmente la vitesse des Skill Checks de rotation de 50 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4b/Perk_Coulrophobia.png"
+    },
+    {
+      "id": "pop_goes_the_weasel",
+      "name": "Pop Goes the Weasel",
+      "description_tiers": {
+        "tier1": "Après avoir accroché un survivant, Pop Goes the Weasel s’active pendant 35 s. Endommager un générateur régresse instantanément ce générateur de 20 % de sa progression actuelle.",
+        "tier2": "…s’active pendant 40 s et régresse le générateur de 20 %.",
+        "tier3": "…s’active pendant 45 s et régresse le générateur de 20 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/76/Perk_PopGoesTheWeasel.png"
+    }
+  ]
+}

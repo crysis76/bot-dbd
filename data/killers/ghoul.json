@@ -1,0 +1,46 @@
+{
+  "id": "ghoul",
+  "name": "La Goule",
+  "role": "Killer",
+  "description": "Ken Kaneki, devenu La Goule dans le Royaume du Brouillard, est un être mi-humain mi-monstre dont la faim insatiable le pousse à traquer sans relâche ses proies. Tiré de l’univers de Tokyo Ghoul, il incarne une version altérée et terrifiante dont les pouvoirs biomorphes et l’agilité mortelle lui permettent d’assaillir les survivants avec une férocité implacable.",
+
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/dd/The_Ghoul_Portrait.png",
+
+  "power": {
+    "name": "Terreur Œil-Unique",
+    "description": "La Goule commence la partie avec 2 jetons de pouvoir. En chargeant son **Saut Kagune**, il peut se propulser vers une surface ou un survivant, attachant ses tentacules et le tirant rapidement vers lui. Après un saut, une fenêtre de 5 s permet d’enchaîner un second saut si des jetons restent disponibles. Ce pouvoir fait de La Goule un tueur extrêmement mobile, capable de surprendre et submerger les survivants dans des attaques rapides et imprévisibles – chaque saut consomme un jeton de pouvoir. La mécanique de ce pouvoir offre à La Goule des **saisies à longue portée** et une pression agressive constante sur les survivants pendant les poursuites." 
+  },
+
+  "perks": [
+    {
+      "id": "forever_entwined",
+      "name": "À Jamais Liés",
+      "description_tiers": {
+        "tier1": "Quand un survivant est blessé, gagne +1 jeton (max 6). Chaque jeton augmente les vitesses d’action de lâcher, accrocher et soulever un survivant de +4 %, cumulable jusqu’à +24 %.",
+        "tier2": "…max 7 jetons pour +28 %.",
+        "tier3": "…max 8 jetons pour +32 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4d/Perk_Forever_Entwined.png"
+    },
+    {
+      "id": "hex_nothing_but_misery",
+      "name": "Hex : Que du Malheur",
+      "description_tiers": {
+        "tier1": "Après avoir blessé des survivants 8 fois avec des attaques de base, un totem terne devient un Hex ToTem qui maudit tous les survivants : ceux blessés par une attaque de base subissent -5 % d’effet *Entravé* pendant 10 s.",
+        "tier2": "…pendant 12,5 s.",
+        "tier3": "…pendant 15 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5e/Perk_Hex_Nothing_But_Misery.png"
+    },
+    {
+      "id": "none_are_free",
+      "name": "Personne N'est Libre",
+      "description_tiers": {
+        "tier1": "Quand tu accroches un survivant pour la première fois, gagne +1 jeton (max 4). Après que tous les générateurs sont terminés, bloque toutes les fenêtres et palettes debout pour 12 s par jeton.",
+        "tier2": "…14 s par jeton.",
+        "tier3": "…16 s par jeton."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/Perk_None_Are_Free.png"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "survivor": {
+    "end_game": [
+      {
+        "name": "End Game classique",
+        "perks": [
+          "adrenaline",
+          "hope",
+          "wake_up",
+          "borrowed_time"
+        ]
+      }
+    ],
+    "anti_slug": [
+      {
+        "name": "Anti Slug",
+        "perks": [
+          "unbreakable",
+          "boon_exponential",
+          "tenacity",
+          "soul_guard"
+        ]
+      }
+    ]
+  },
+  "killer": {
+    "anti_loop": [
+      {
+        "name": "Anti Loop",
+        "perks": [
+          "bamboozle",
+          "enduring",
+          "spirit_fury",
+          "brutal_strength"
+        ]
+      }
+    ],
+    "fun": [
+      {
+        "name": "Fun chaos",
+        "perks": [
+          "dark_devotion",
+          "trail_of_torment",
+          "hysteria",
+          "forced_penance"
+        ]
+      }
+    ]
+  }
+}

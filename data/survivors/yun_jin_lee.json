@@ -1,0 +1,39 @@
+{
+  "id": "yun_jin_lee",
+  "name": "Yun-Jin Lee",
+  "role": "Productrice musicale pragmatique",
+  "description": "Une survivante ambitieuse et réaliste, qui utilise l’expérience acquise dans l’industrie musicale pour tirer le meilleur parti des moments les plus difficiles et progresser face à l’adversité.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9d/Yun-Jin_Lee.png",
+  "perks": [
+    {
+      "id": "fast_track",
+      "name": "Fast Track",
+      "description_tiers": {
+        "tier1": "Chaque fois qu’un autre survivant que toi est accroché, gagne 1 jeton (maximum 9). Réussir un Great Skill Check consomme tous les jetons et augmente la progression de réparation de +1 % par jeton consommé.",
+        "tier2": "Chaque fois qu’un autre survivant que toi est accroché, gagne 2 jetons (maximum 18). Réussir un Great Skill Check consomme tous les jetons et augmente la progression de réparation de +1 % par jeton consommé.",
+        "tier3": "Chaque fois qu’un autre survivant que toi est accroché, gagne 3 jetons (maximum 27). Réussir un Great Skill Check consomme tous les jetons et augmente la progression de réparation de +1 % par jeton consommé."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/Perk_FastTrack.png"
+    },
+    {
+      "id": "self_preservation",
+      "name": "Self-Preservation",
+      "description_tiers": {
+        "tier1": "Quand un autre survivant est frappé par une attaque à moins de 16 m de toi, les flaques de sang, les gémissements et les marques sont supprimés pendant 6 secondes.",
+        "tier2": "Quand un autre survivant est frappé par une attaque à moins de 16 m de toi, les flaques de sang, les gémissements et les marques sont supprimés pendant 8 secondes.",
+        "tier3": "Quand un autre survivant est frappé par une attaque à moins de 16 m de toi, les flaques de sang, les gémissements et les marques sont supprimés pendant 10 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/55/Perk_Self-Preservation.png"
+    },
+    {
+      "id": "smash_hit",
+      "name": "Smash Hit",
+      "description_tiers": {
+        "tier1": "Quand tu étourdis le tueur avec une palette, Smash Hit s’active et t’accorde l’effet Épuisé pendant 30 secondes.",
+        "tier2": "Quand tu étourdis le tueur avec une palette, Smash Hit s’active et t’accorde l’effet Épuisé pendant 25 secondes.",
+        "tier3": "Quand tu étourdis le tueur avec une palette, Smash Hit s’active et t’accorde l’effet Épuisé pendant 20 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d6/Perk_SmashHit.png"
+    }
+  ]
+}

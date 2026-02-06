@@ -1,0 +1,45 @@
+{
+  "id": "executioner",
+  "name": "Le Bourreau",
+  "role": "The Executioner",
+  "description": "Une incarnation sadique de la justice qui manipule le terrain pour tourmenter ses proies et infliger la peine ultime. Né des cauchemars de Silent Hill, il traque les survivants à travers le Brouillard en semant la souffrance et la peur.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4e/The_Executioner_Portrait.png",
+
+  "power": {
+    "name": "Rites du Jugement",
+    "description": "Le Bourreau peut tracer un **Chemin de Tourment** dans le sol avec son Grand Couteau. Ce pouvoir lui permet de manipuler l’environnement pour piéger les survivants, devenir **indétectable** temporairement et utiliser son attaque spéciale « Châtiment des Damnés » qui inflige des dégâts même à travers les obstacles."
+  },
+
+  "perks": [
+    {
+      "id": "deathbound",
+      "name": "Lien Mortel",
+      "description_tiers": {
+        "tier1": "Quand un survivant soigne un autre survivant pour l’équivalent d’un État de Santé, le soigneur hurle et révèle sa position. Tant que Deathbound est actif, quand il est à plus de 12 m de l’autre survivant, il subit l’état *Inconscient*. L’effet se termine quand le soigneur perd un État de Santé.",
+        "tier2": "…la distance seuil passe à 8 m avant qu’il subisse *Inconscient*.",
+        "tier3": "…la distance seuil passe à 4 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7a/Perk_Deathbound.png"
+    },
+    {
+      "id": "forced_penance",
+      "name": "Pénitence Forcée",
+      "description_tiers": {
+        "tier1": "Les survivants qui subissent un *Coup de Protection* souffrent de l’état *Brisé* pendant 60 s.",
+        "tier2": "…pendant 70 s.",
+        "tier3": "…pendant 80 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9c/Perk_ForcedPenance.png"
+    },
+    {
+      "id": "trail_of_torment",
+      "name": "Piste de Souffrance",
+      "description_tiers": {
+        "tier1": "Après avoir endommagé un générateur, *Piste de Souffrance* s’active. Tu gagnes l’état *Indétectable* jusqu’à ce que le générateur cesse de régresser. L’aura du générateur endommagé est révélée aux survivants en jaune. Cooldown : 60 s.",
+        "tier2": "…Cooldown : 45 s.",
+        "tier3": "…Cooldown : 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e8/Perk_TrailOfTorment.png"
+    }
+  ]
+}

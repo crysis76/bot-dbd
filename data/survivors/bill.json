@@ -1,0 +1,39 @@
+{
+  "id": "bill",
+  "name": "Bill Overbeck",
+  "role": "Vieux soldat",
+  "description": "Endurci par des années d'expérience, Bill sait que la survie vient rarement sans sacrifice. Il fera tout ce qu’il faut pour garantir que ses alliés survivent un jour de plus.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/BillOverbeck.png",
+  "perks": [
+    {
+      "id": "borrowed_time",
+      "name": "Borrowed Time",
+      "description_tiers": {
+        "tier1": "Après avoir décroché un allié, prolonge la durée de l’effet Endurance de 6 secondes et de l’effet Célérity de 10 secondes.",
+        "tier2": "Après avoir décroché un allié, prolonge la durée de l’effet Endurance de 8 secondes et de l’effet Célérity de 10 secondes.",
+        "tier3": "Après avoir décroché un allié, prolonge la durée de l’effet Endurance de 10 secondes et de l’effet Célérity de 10 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/45/Perk_BorrowedTime.png"
+    },
+    {
+      "id": "left_behind",
+      "name": "Left Behind",
+      "description_tiers": {
+        "tier1": "Quand vous êtes le dernier survivant encore vivant, révèle l’aura de la trappe dans un rayon de 24 mètres.",
+        "tier2": "Quand vous êtes le dernier survivant encore vivant, révèle l’aura de la trappe dans un rayon de 28 mètres.",
+        "tier3": "Quand vous êtes le dernier survivant encore vivant, révèle l’aura de la trappe dans un rayon de 32 mètres."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/Perk_LeftBehind.png"
+    },
+    {
+      "id": "unbreakable",
+      "name": "Unbreakable",
+      "description_tiers": {
+        "tier1": "Quand vous êtes en état critique, augmente la vitesse de récupération de 25 % et permet de récupérer complètement une fois par partie.",
+        "tier2": "Quand vous êtes en état critique, augmente la vitesse de récupération de 30 % et permet de récupérer complètement une fois par partie.",
+        "tier3": "Quand vous êtes en état critique, augmente la vitesse de récupération de 35 % et permet de récupérer complètement une fois par partie."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/Perk_Unbreakable.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "rebecca_chambers",
+  "name": "Rebecca Chambers",
+  "role": "Gifted Medic",
+  "description": "Une médecin de terrain expérimentée qui soigne ses alliés avec précision, booste leurs actions et excelle dans les tests d’habileté même sous pression.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/RebeccaChambers.png",
+  "perks": [
+    {
+      "id": "better_than_new",
+      "name": "Better than New",
+      "description_tiers": {
+        "tier1": "Après avoir soigné un autre survivant, il reçoit un bonus de vitesse d’action pour Soigner, Bénir, Purifier et Déverrouiller de 12 % jusqu’à ce qu’il subisse des dégâts.",
+        "tier2": "… bonus de vitesse de 14 % jusqu’à ce qu’il subisse des dégâts.",
+        "tier3": "… bonus de vitesse de 16 % jusqu’à ce qu’il subisse des dégâts."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/89/Perk_BetterThanNew.png"
+    },
+    {
+      "id": "hyperfocus",
+      "name": "Hyperfocus",
+      "description_tiers": {
+        "tier1": "Après un Excellent Test d’Habileté en réparant ou en soignant, gagne 1 Jeton (max 6). Chaque Jeton augmente la fréquence des tests, la vitesse de rotation du pointeur de +4 % et le bonus de progression des tests de +10 % par Jeton.",
+        "tier2": "… augmente le bonus de progression des tests de +20 % par Jeton.",
+        "tier3": "… augmente le bonus de progression des tests de +30 % par Jeton."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a6/Perk_Hyperfocus.png"
+    },
+    {
+      "id": "reassurance",
+      "name": "Reassurance",
+      "description_tiers": {
+        "tier1": "Quand tu es à moins de 6 m d’un survivant accroché, active pour **mettre en pause le processus de sacrifice** pendant 20 s (y compris les Tests d’Habileté en phase de lutte).",
+        "tier2": "… met en pause le processus de sacrifice pendant 25 s.",
+        "tier3": "… met en pause le processus de sacrifice pendant 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9d/Perk_Reassurance.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "jake",
+  "name": "Jake Park",
+  "role": "Survivaliste solitaire",
+  "description": "Un survivant discret et ingénieux, habitué à survivre en pleine nature et à perturber les plans du tueur par ses talents uniques.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/JakePark.png",
+  "perks": [
+    {
+      "id": "iron_will",
+      "name": "Iron Will",
+      "description_tiers": {
+        "tier1": "Réduit le volume des gémissements de douleur de 80 % quand vous êtes blessé.",
+        "tier2": "Réduit le volume des gémissements de douleur de 90 % quand vous êtes blessé.",
+        "tier3": "Réduit le volume des gémissements de douleur de 100 % quand vous êtes blessé."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2a/Perk_IronWill.png"
+    },
+    {
+      "id": "calm_spirit",
+      "name": "Calm Spirit",
+      "description_tiers": {
+        "tier1": "Les corbeaux ne s’envolent plus quand vous approchez, sauf si vous êtes très proche.",
+        "tier2": "Les corbeaux et autres animaux sont moins sensibles à votre présence, et vous hurlez moins souvent quand vous êtes blessé.",
+        "tier3": "Les corbeaux, animaux et effets externes sont fortement moins sensibles à votre présence, et vous n’émettez presque pas de hurlements quand vous êtes blessé."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/60/Perk_CalmSpirit.png"
+    },
+    {
+      "id": "saboteur",
+      "name": "Saboteur",
+      "description_tiers": {
+        "tier1": "Quand un tueur porte un survivant, révèle l’aura des crochets dans un rayon autour de la zone. Permet de saboter sans boîte à outils (+30% vitesse).",
+        "tier2": "Quand un tueur porte un survivant, révèle les auras des crochets à distance plus grande. Permet de saboter sans boîte à outils (+35% vitesse).",
+        "tier3": "Quand un tueur porte un survivant, révèle les auras des crochets à très grande distance. Permet de saboter sans boîte à outils (+40% vitesse)."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a8/Perk_Saboteur.png"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "cenobite",
+  "name": "Le Cénobite",
+  "role": "The Cenobite",
+  "description": "Une créature extra-dimensionnelle inspirée de la franchise Hellraiser™ capable de tourmenter les survivants grâce à des chaînes possédées et à la Lament Configuration, instaurant une souffrance ininterrompue dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a7/The_Nemesis_Portrait.png",
+
+  "power": {
+    "name": "Invocations de Douleur",
+    "description": "Le Cénobite peut invoquer une **Configuration des Lamentations** sur le terrain et **posséder des chaînes** via cette invocation. En contrôlant une chaîne possédée, il peut **lier les survivants**, réduire leur vitesse de déplacement, les rendre incapables de courir et activer des effets persistants même après que toutes les chaînes sont brisées."
+  },
+
+  "perks": [
+    {
+      "id": "deadlock",
+      "name": "Deadlock",
+      "description_tiers": {
+        "tier1": "Après qu’un générateur est réparé, l’Entité bloque le générateur avec le plus de progression pendant 15 s et révèle son aura.",
+        "tier2": "…le bloque pendant 20 s.",
+        "tier3": "…le bloque pendant 25 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/18/Perk_LethalPursuer.png"
+    },
+    {
+      "id": "hex_plaything",
+      "name": "Hex : Plaything",
+      "description_tiers": {
+        "tier1": "Un Totem Hex apparaît. Quand un survivant purifie un totem, il devient maudit et subit un effet négatif jusqu’à ce que le totem soit purifié.",
+        "tier2": "…l’effet négatif dure plus longtemps.",
+        "tier3": "…l’effet négatif dure encore plus longtemps."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/37/Perk_HexHauntedGround.png"
+    },
+    {
+      "id": "scourge_hook_gift_of_pain",
+      "name": "Scourge Hook : Gift of Pain",
+      "description_tiers": {
+        "tier1": "Au début de l’essai, 4 crochets aléatoires deviennent des Scourge Hooks. Quand un survivant est décroché de ces crochets, il subit Hémorragie et Estropiement, puis après avoir été soigné il subit une pénalité de 10 % à la vitesse de soins et réparations jusqu’à être de nouveau blessé.",
+        "tier2": "…pénalité de 13 % à la vitesse de soins et réparations.",
+        "tier3": "…pénalité de 16 % à la vitesse de soins et réparations."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/Perk_ScourgeHookGiftOfPain.png"
+    }
+  ]
+}

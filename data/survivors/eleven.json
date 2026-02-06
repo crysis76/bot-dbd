@@ -1,0 +1,39 @@
+{
+  "id": "eleven",
+  "name": "Eleven",
+  "role": "Former Test Subject",
+  "description": "Une survivante dotée de capacités extrasensorielles lui permettant de détecter son environnement, réduire le bruit et révéler le tueur à elle et à ses alliés dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/17/Eleven.png",
+  "perks": [
+    {
+      "id": "extrasensory_perception",
+      "name": "Extrasensory Perception",
+      "description_tiers": {
+        "tier1": "Accroupis-toi et reste immobile pendant 4 s pour activer cette perk. Tant qu’elle est active, tu gagnes les états Elusive et Oblivious. Quand tu arrêtes de t’accroupir ou après 11 s, les effets se terminent et la perk entre en cooldown de 60 s.",
+        "tier2": "…Cooldown de 50 s.",
+        "tier3": "…Cooldown de 40 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/39/Perk_ExtrasensoryPerception.png"
+    },
+    {
+      "id": "teamwork_soft_spoken",
+      "name": "Teamwork: Soft-Spoken",
+      "description_tiers": {
+        "tier1": "Pour chaque autre survivant réparant un générateur avec toi, la portée à laquelle le bruit de réparation est entendu est réduite de 15 %. Tant que tu répares avec au moins un autre survivant, ta vitesse de réparation est augmentée de 5 %.",
+        "tier2": "…réduction de bruit de réparation de 20 %.",
+        "tier3": "…réduction de bruit de réparation de 25 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/80/Perk_TeamworkSoft-Spoken.png"
+    },
+    {
+      "id": "we_see_you",
+      "name": "We See You",
+      "description_tiers": {
+        "tier1": "Quand tu atteins 4 jetons, ils sont tous consommés et l’aura du tueur est révélée pour toi et tous les autres survivants pendant 10 s. Cette perk a un cooldown de 10 s pour gagner des jetons.",
+        "tier2": "…l’aura du tueur est révélée pendant 12,5 s.",
+        "tier3": "…l’aura du tueur est révélée pendant 15 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/Perk_WeSeeYou.png"
+    }
+  ]
+}

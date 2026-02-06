@@ -1,0 +1,371 @@
+{
+  "survivor": {
+    "meta": [
+      {
+        "name": "Meta SoloQ Safe",
+        "perks": [
+          "dead_hard",
+          "windows_of_opportunity",
+          "kindred",
+          "adrenaline"
+        ]
+      },
+      {
+        "name": "Meta Loop",
+        "perks": [
+          "dead_hard",
+          "resilience",
+          "windows_of_opportunity",
+          "lithe"
+        ]
+      },
+      {
+        "name": "Meta Anti Tunnel",
+        "perks": [
+          "off_the_record",
+          "decisive_strike",
+          "dead_hard",
+          "windows_of_opportunity"
+        ]
+      },
+      {
+        "name": "Meta Compétitif",
+        "perks": [
+          "dead_hard",
+          "adrenaline",
+          "resilience",
+          "windows_of_opportunity"
+        ]
+      },
+      {
+        "name": "Meta Solo Clutch",
+        "perks": [
+          "dead_hard",
+          "hope",
+          "adrenaline",
+          "windows_of_opportunity"
+        ]
+      }
+    ],
+
+    "anti_slug": [
+      {
+        "name": "Anti Slug Total",
+        "perks": [
+          "unbreakable",
+          "boon_exponential",
+          "tenacity",
+          "soul_guard"
+        ]
+      },
+      {
+        "name": "Anti Slug SoloQ",
+        "perks": [
+          "unbreakable",
+          "tenacity",
+          "kindred",
+          "resilience"
+        ]
+      },
+      {
+        "name": "Anti Slug Clutch",
+        "perks": [
+          "unbreakable",
+          "plot_twist",
+          "soul_guard",
+          "tenacity"
+        ]
+      },
+      {
+        "name": "Anti Slug Meme",
+        "perks": [
+          "no_mither",
+          "tenacity",
+          "unbreakable",
+          "resilience"
+        ]
+      },
+      {
+        "name": "Anti Slug Fin de Partie",
+        "perks": [
+          "unbreakable",
+          "soul_guard",
+          "hope",
+          "adrenaline"
+        ]
+      }
+    ],
+
+    "aura": [
+      {
+        "name": "Aura Full Info",
+        "perks": [
+          "kindred",
+          "bond",
+          "open_handed",
+          "windows_of_opportunity"
+        ]
+      },
+      {
+        "name": "Aura Équipe",
+        "perks": [
+          "bond",
+          "empathy",
+          "kindred",
+          "open_handed"
+        ]
+      },
+      {
+        "name": "Aura Chase",
+        "perks": [
+          "alert",
+          "windows_of_opportunity",
+          "resilience",
+          "lithe"
+        ]
+      },
+      {
+        "name": "Aura Générateur",
+        "perks": [
+          "visionary",
+          "kindred",
+          "windows_of_opportunity",
+          "resilience"
+        ]
+      },
+      {
+        "name": "Aura SoloQ",
+        "perks": [
+          "kindred",
+          "alert",
+          "windows_of_opportunity",
+          "dead_hard"
+        ]
+      }
+    ],
+
+    "end_game": [
+      {
+        "name": "End Game Classique",
+        "perks": [
+          "adrenaline",
+          "hope",
+          "wake_up",
+          "borrowed_time"
+        ]
+      },
+      {
+        "name": "End Game Sauvetage",
+        "perks": [
+          "borrowed_time",
+          "guardian",
+          "we_ll_make_it",
+          "hope"
+        ]
+      },
+      {
+        "name": "End Game Solo",
+        "perks": [
+          "adrenaline",
+          "wake_up",
+          "sole_survivor",
+          "hope"
+        ]
+      },
+      {
+        "name": "End Game Greed",
+        "perks": [
+          "hope",
+          "resilience",
+          "adrenaline",
+          "dead_hard"
+        ]
+      },
+      {
+        "name": "End Game No One Left",
+        "perks": [
+          "borrowed_time",
+          "off_the_record",
+          "guardian",
+          "hope"
+        ]
+      }
+    ],
+
+    "fun": [
+      {
+        "name": "Fun Head On",
+        "perks": [
+          "head_on",
+          "quick_and_quiet",
+          "flashbang",
+          "windows_of_opportunity"
+        ]
+      },
+      {
+        "name": "Fun Casier",
+        "perks": [
+          "head_on",
+          "inner_healing",
+          "deception",
+          "quick_and_quiet"
+        ]
+      },
+      {
+        "name": "Fun Chaos",
+        "perks": [
+          "diversion",
+          "plot_twist",
+          "boil_over",
+          "tenacity"
+        ]
+      },
+      {
+        "name": "Fun Troll",
+        "perks": [
+          "no_mither",
+          "self_care",
+          "boil_over",
+          "tenacity"
+        ]
+      },
+      {
+        "name": "Fun Flashlight",
+        "perks": [
+          "background_player",
+          "residual_manifest",
+          "windows_of_opportunity",
+          "dead_hard"
+        ]
+      }
+    ]
+  },
+
+  "killer": {
+    "meta": [
+      {
+        "name": "Meta Slowdown Lourd",
+        "perks": [
+          "pain_resonance",
+          "deadlock",
+          "corrupt_intervention",
+          "pop_goes_the_weasel"
+        ]
+      },
+      {
+        "name": "Meta Info",
+        "perks": [
+          "lethal_pursuer",
+          "pain_resonance",
+          "deadlock",
+          "nowhere_to_hide"
+        ]
+      },
+      {
+        "name": "Meta Agressif",
+        "perks": [
+          "pain_resonance",
+          "deadlock",
+          "no_way_out",
+          "bamboozle"
+        ]
+      },
+      {
+        "name": "Meta Snowball",
+        "perks": [
+          "lethal_pursuer",
+          "pain_resonance",
+          "infectious_fright",
+          "deadlock"
+        ]
+      }
+    ],
+
+    "anti_loop": [
+      {
+        "name": "Anti Loop Classique",
+        "perks": [
+          "bamboozle",
+          "enduring",
+          "spirit_fury",
+          "brutal_strength"
+        ]
+      },
+      {
+        "name": "Anti Loop Rapide",
+        "perks": [
+          "bamboozle",
+          "superior_anatomy",
+          "brutal_strength",
+          "crowd_control"
+        ]
+      },
+      {
+        "name": "Anti Loop Brutal",
+        "perks": [
+          "enduring",
+          "spirit_fury",
+          "brutal_strength",
+          "hubris"
+        ]
+      },
+      {
+        "name": "Anti Loop Chase",
+        "perks": [
+          "bamboozle",
+          "save_the_best_for_last",
+          "enduring",
+          "brutal_strength"
+        ]
+      }
+    ],
+
+    "fun": [
+      {
+        "name": "Fun Chaos",
+        "perks": [
+          "dark_devotion",
+          "trail_of_torment",
+          "hysteria",
+          "forced_penance"
+        ]
+      },
+      {
+        "name": "Fun Jumpscare",
+        "perks": [
+          "tinkerer",
+          "dark_devotion",
+          "nowhere_to_hide",
+          "fearmonger"
+        ]
+      },
+      {
+        "name": "Fun Meme",
+        "perks": [
+          "noed",
+          "remember_me",
+          "iron_grasp",
+          "mad_grit"
+        ]
+      },
+      {
+        "name": "Fun End Game",
+        "perks": [
+          "noed",
+          "blood_warden",
+          "no_way_out",
+          "remember_me"
+        ]
+      },
+      {
+        "name": "Fun Terror Radius",
+        "perks": [
+          "distressing",
+          "unnerving_presence",
+          "overwhelming_presence",
+          "coulrophobia"
+        ]
+      }
+    ]
+  }
+}

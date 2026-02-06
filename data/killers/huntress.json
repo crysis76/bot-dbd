@@ -1,0 +1,45 @@
+{
+  "id": "huntress",
+  "name": "La Chasseuse",
+  "role": "The Huntress",
+  "description": "Un tueur à distance terrifiant capable de lancer des hachettes mortelles avec précision et patience, menaçant les survivants même à grande distance.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/95/The_Huntress_Portrait.png",
+
+  "power": {
+    "name": "Hachettes de Chasse",
+    "description": "La Chasseuse manie des hachettes tranchantes qu’elle peut lancer pour blesser les survivants à distance. Maîtriser la visée et la cadence de lancer est essentiel pour infliger des dégâts avant d’engager une poursuite rapprochée."
+  },
+
+  "perks": [
+    {
+      "id": "beast_of_prey",
+      "name": "Beast of Prey",
+      "description_tiers": {
+        "tier1": "Après un certain temps hors poursuite, la prochaine attaque spéciale rend Le Chasseur Indétectable pendant 8 s.",
+        "tier2": "…Indétectable pendant 10 s.",
+        "tier3": "…Indétectable pendant 12 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5f/Perk_BeastOfPrey.png"
+    },
+    {
+      "id": "territorial_imperative",
+      "name": "Territorial Imperative",
+      "description_tiers": {
+        "tier1": "Après avoir quitté une zone de sous-sol, les survivants ont leurs auras révélées pendant 3 s.",
+        "tier2": "…leurs auras révélées pendant 4 s.",
+        "tier3": "…leurs auras révélées pendant 5 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/Perk_TerritorialImperative.png"
+    },
+    {
+      "id": "hex_huntress_lullaby",
+      "name": "Hex: Huntress Lullaby",
+      "description_tiers": {
+        "tier1": "Quand un survivant manque un Skill Check de réparation ou de soins, ce générateur/soin régresse de 2 %. Chaque survivant accroché confère 1 jeton à cette Hex (max 5).",
+        "tier2": "…la régression est de 4 %.",
+        "tier3": "…la régression est de 6 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2f/Perk_HexHuntressLullaby.png"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "plague",
+  "name": "L'Épidémie",
+  "role": "The Plague",
+  "description": "Une prêtresse dévouée devenue tueuse infâme, capable de propager une infection mortelle et d’infecter survivants et objets pour étendre sa contagion dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7f/The_Plague_Portrait.png",
+
+  "power": {
+    "name": "Purge Infecte",
+    "description": "L'Épidémie utilise sa Purge Infecte pour infecter les survivants et l’environnement. La bile infectieuse augmente la jauge d’infection des survivants, qui peuvent vomir et répandre l’infection. Les survivants doivent se purifier dans un Bassin de Dévotion pour contrer l'effet, mais cela corrompt le bassin, que la tueuse peut ingérer pour augmenter encore sa puissance et infliger des dégâts directs."
+  },
+
+  "perks": [
+    {
+      "id": "corrupt_intervention",
+      "name": "Intervention Impure",
+      "description_tiers": {
+        "tier1": "Au début de l’essai, les trois générateurs les plus éloignés sont bloqués pendant 30 s.",
+        "tier2": "Au début de l’essai, les trois générateurs les plus éloignés sont bloqués pendant 40 s.",
+        "tier3": "Au début de l’essai, les trois générateurs les plus éloignés sont bloqués pendant 50 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/60/Perk_CorruptIntervention.png"
+    },
+    {
+      "id": "infectious_fright",
+      "name": "Peur Contagieuse",
+      "description_tiers": {
+        "tier1": "Quand un survivant plonge en état critique, les autres survivants dans ton rayon de terreur crient et révèlent leur position pendant 4 s.",
+        "tier2": "Quand un survivant plonge en état critique, les autres survivants dans ton rayon de terreur crient et révèlent leur position pendant 5 s.",
+        "tier3": "Quand un survivant plonge en état critique, les autres survivants dans ton rayon de terreur crient et révèlent leur position pendant 6 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/Perk_InfectiousFright.png"
+    },
+    {
+      "id": "dark_devotion",
+      "name": "Sombre Dévotion",
+      "description_tiers": {
+        "tier1": "Quand ton Obsession perd un état de santé, ton rayon de terreur se transfère sur elle pendant 20 s et tu deviens indétectable.",
+        "tier2": "Quand ton Obsession perd un état de santé, ton rayon de terreur se transfère sur elle pendant 25 s et tu deviens indétectable.",
+        "tier3": "Quand ton Obsession perd un état de santé, ton rayon de terreur se transfère sur elle pendant 30 s et tu deviens indétectable."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/30/Perk_DarkDevotion.png"
+    }
+  ]
+}

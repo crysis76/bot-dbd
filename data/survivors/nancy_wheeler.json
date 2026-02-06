@@ -1,0 +1,39 @@
+{
+  "id": "nancy_wheeler",
+  "name": "Nancy Wheeler",
+  "role": "Aspiring Journalist",
+  "description": "Une journaliste en herbe déterminée à dévoiler la vérité où qu’elle se cache, utilisant sa perspicacité et son courage pour aider son équipe en Trial.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1a/NancyWheeler.png",
+  "perks": [
+    {
+      "id": "better_together",
+      "name": "Better Together",
+      "description_tiers": {
+        "tier1": "Alors que tu répares un générateur, son aura est révélée à tous les survivants proches. Si le tueur terrasse un survivant pendant que tu répares, toutes les auras des survivants sont révélées pendant 20 secondes.",
+        "tier2": "Alors que tu répares un générateur, son aura est révélée à tous les survivants proches. Si le tueur terrasse un survivant pendant que tu répares, toutes les auras des survivants sont révélées pendant 25 secondes.",
+        "tier3": "Alors que tu répares un générateur, son aura est révélée à tous les survivants proches. Si le tueur terrasse un survivant pendant que tu répares, toutes les auras des survivants sont révélées pendant 30 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3f/Perk_BetterTogether.png"
+    },
+    {
+      "id": "fixated",
+      "name": "Fixated",
+      "description_tiers": {
+        "tier1": "Ta vitesse de marche est augmentée de 10 % et tu vois tes propres marques d’égratignure.",
+        "tier2": "Ta vitesse de marche est augmentée de 15 % et tu vois tes propres marques d’égratignure.",
+        "tier3": "Ta vitesse de marche est augmentée de 20 % et tu vois tes propres marques d’égratignure."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/50/Perk_Fixated.png"
+    },
+    {
+      "id": "inner_strength",
+      "name": "Inner Strength",
+      "description_tiers": {
+        "tier1": "Après avoir purifié un totem, Inner Strength s’active. En te cachant dans un casier pendant 10 secondes alors que tu es blessé ou avec Deep Wound, tu te soignes complètement d’un état de santé (ne fonctionne pas si tu es Brisé).",
+        "tier2": "Après avoir purifié un totem, Inner Strength s’active. En te cachant dans un casier pendant 9 secondes alors que tu es blessé ou avec Deep Wound, tu te soignes complètement d’un état de santé (ne fonctionne pas si tu es Brisé).",
+        "tier3": "Après avoir purifié un totem, Inner Strength s’active. En te cachant dans un casier pendant 8 secondes alors que tu es blessé ou avec Deep Wound, tu te soignes complètement d’un état de santé (ne fonctionne pas si tu es Brisé)."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/60/Perk_InnerStrength.png"
+    }
+  ]
+}

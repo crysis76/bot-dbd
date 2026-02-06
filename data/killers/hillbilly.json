@@ -1,0 +1,45 @@
+{
+  "id": "hillbilly",
+  "name": "Le Montagnard",
+  "role": "The Hillbilly",
+  "description": "Un tueur brutal qui parcourt le Brouillard avec sa tronçonneuse surpuissante, capable de terrasser instantanément les survivants grâce à sa vitesse de sprint et sa force surhumaine.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/21/The_Hillbilly_Portrait.png",
+
+  "power": {
+    "name": "Tronçonneuse",
+    "description": "Max Thompson Jr. utilise une tronçonneuse mortelle qui lui permet d’entrer en sprint à haute vitesse et de mettre instantanément un survivant en état critique lorsqu'il le touche. La tronçonneuse se charge avant d’être utilisée et peut surchauffer si mal gérée."
+  },
+
+  "perks": [
+    {
+      "id": "enduring",
+      "name": "Endurant",
+      "description_tiers": {
+        "tier1": "Réduit la durée des étourdissements causés par les palettes de 40 %.",
+        "tier2": "Réduit la durée des étourdissements causés par les palettes de 45 %.",
+        "tier3": "Réduit la durée des étourdissements causés par les palettes de 50 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7f/Perk_Enduring.png"
+    },
+    {
+      "id": "lightborn",
+      "name": "Adapté à la lumière",
+      "description_tiers": {
+        "tier1": "Les survivants qui tentent de t’aveugler te révèlent leur aura pendant 6 s.",
+        "tier2": "Les survivants qui tentent de t’aveugler te révèlent leur aura pendant 8 s.",
+        "tier3": "Les survivants qui tentent de t’aveugler te révèlent leur aura pendant 10 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/Perk_Lightborn.png"
+    },
+    {
+      "id": "tinkerer",
+      "name": "Bidouilleur",
+      "description_tiers": {
+        "tier1": "Quand un générateur atteint 70 % de progression, tu reçois une notification sonore et l’effet Undetectable pendant 12 s.",
+        "tier2": "Quand un générateur atteint 70 % de progression, tu reçois une notification sonore et l’effet Undetectable pendant 14 s.",
+        "tier3": "Quand un générateur atteint 70 % de progression, tu reçois une notification sonore et l’effet Undetectable pendant 16 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1e/Perk_Tinkerer.png"
+    }
+  ]
+}

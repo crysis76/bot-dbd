@@ -1,0 +1,39 @@
+{
+  "id": "yui_kimura",
+  "name": "Yui Kimura",
+  "role": "Pilote de rue intrépide",
+  "description": "Une survivante sauvage qui prend des décisions rapides et utilise tout ce qui est à portée pour survivre et aider son équipe, même dans les pires situations.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a7/YuiKimura.png",
+  "perks": [
+    {
+      "id": "lucky_break",
+      "name": "Lucky Break",
+      "description_tiers": {
+        "tier1": "Lorsque tu es blessée, tes flaques de sang et marques d’éraflure sont supprimées pendant 40 s. Pendant ce temps, chaque seconde passée à soigner un autre survivant recharge Lucky Break de 1 s (jusqu’à la durée max).",
+        "tier2": "Lorsque tu es blessée, tes flaques de sang et marques d’éraflure sont supprimées pendant 50 s. Pendant ce temps, chaque seconde passée à soigner un autre survivant recharge Lucky Break de 1 s (jusqu’à la durée max).",
+        "tier3": "Lorsque tu es blessée, tes flaques de sang et marques d’éraflure sont supprimées pendant 60 s. Pendant ce temps, chaque seconde passée à soigner un autre survivant recharge Lucky Break de 1 s (jusqu’à la durée max)."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/59/Perk_LuckyBreak.png"
+    },
+    {
+      "id": "any_means_necessary",
+      "name": "Any Means Necessary",
+      "description_tiers": {
+        "tier1": "Appuie et maintiens la touche d’action pendant 5 s lorsque tu es à côté d’une palette renversée pour la remettre à l’endroit. L’aura de toutes les palettes renversées mais non détruites est révélée.",
+        "tier2": "Appuie et maintiens la touche d’action pendant 4 s lorsque tu es à côté d’une palette renversée pour la remettre à l’endroit. L’aura de toutes les palettes renversées mais non détruites est révélée.",
+        "tier3": "Appuie et maintiens la touche d’action pendant 3 s lorsque tu es à côté d’une palette renversée pour la remettre à l’endroit. L’aura de toutes les palettes renversées mais non détruites est révélée."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/84/Perk_AnyMeansNecessary.png"
+    },
+    {
+      "id": "breakout",
+      "name": "Breakout",
+      "description_tiers": {
+        "tier1": "Quand tu es à moins de 5 mètres d’un survivant que le tueur transporte, tu obtiens +6 % d’effet Célérité et la vitesse de gigotement du survivant transporté est augmentée de 25 %.",
+        "tier2": "Quand tu es à moins de 5 mètres d’un survivant que le tueur transporte, tu obtiens +8 % d’effet Célérité et la vitesse de gigotement du survivant transporté est augmentée de 25 %.",
+        "tier3": "Quand tu es à moins de 5 mètres d’un survivant que le tueur transporte, tu obtiens +10 % d’effet Célérité et la vitesse de gigotement du survivant transporté est augmentée de 25 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6b/Perk_Breakout.png"
+    }
+  ]
+}

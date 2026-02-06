@@ -1,0 +1,39 @@
+{
+  "id": "jonah_vasquez",
+  "name": "Jonah Vasquez",
+  "role": "Génie des mathématiques",
+  "description": "Un survivant logique et analytique dont l’esprit mathématique lui permet d’aider son équipe à survivre en recalculant les chances et en optimisant ses actions sous pression.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3a/JonahVasquez.png",
+  "perks": [
+    {
+      "id": "boon_exponential",
+      "name": "Boon: Exponential",
+      "description_tiers": {
+        "tier1": "Bénit un Totem Simple ou Hex pour créer un Totem de Bénédiction. Tous les survivants dans un rayon de 24 m bénéficient de +90 % de vitesse de récupération et peuvent se soigner complètement depuis l’état agonisant.",
+        "tier2": "Bénit un Totem Simple ou Hex pour créer un Totem de Bénédiction. Tous les survivants dans un rayon de 24 m bénéficient de +95 % de vitesse de récupération et peuvent se soigner complètement depuis l’état agonisant.",
+        "tier3": "Bénit un Totem Simple ou Hex pour créer un Totem de Bénédiction. Tous les survivants dans un rayon de 24 m bénéficient de +100 % de vitesse de récupération et peuvent se soigner complètement depuis l’état agonisant."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f2/Perk_BoonExponential.png"
+    },
+    {
+      "id": "corrective_action",
+      "name": "Corrective Action",
+      "description_tiers": {
+        "tier1": "Commence le trial avec 1 jeton. Chaque Great Skill Check réussi ajoute +1 jeton (jusqu’à 5). Lorsque n’importe quel survivant déclenche un Skill Check, un jeton est consommé pour convertir un échec en Good et révèle son aura pendant 6 s.",
+        "tier2": "Commence le trial avec 2 jetons. Chaque Great Skill Check réussi ajoute +1 jeton (jusqu’à 5). Lorsque n’importe quel survivant déclenche un Skill Check, un jeton est consommé pour convertir un échec en Good et révèle son aura pendant 6 s.",
+        "tier3": "Commence le trial avec 3 jetons. Chaque Great Skill Check réussi ajoute +1 jeton (jusqu’à 5). Lorsque n’importe quel survivant déclenche un Skill Check, un jeton est consommé pour convertit un échec en Good et révèle son aura pendant 6 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/53/Perk_CorrectiveAction.png"
+    },
+    {
+      "id": "overcome",
+      "name": "Overcome",
+      "description_tiers": {
+        "tier1": "Quand tu passes de sain à blessé, augmente la durée du bonus de vitesse à l’impact de +2 s. Applique l’état Épuisé pendant 60 s (ne peut pas être utilisé si déjà Épuisé).",
+        "tier2": "Quand tu passes de sain à blessé, augmente la durée du bonus de vitesse à l’impact de +2 s. Applique l’état Épuisé pendant 50 s (ne peut pas être utilisé si déjà Épuisé).",
+        "tier3": "Quand tu passes de sain à blessé, augmente la durée du bonus de vitesse à l’impact de +2 s. Applique l’état Épuisé pendant 40 s (ne peut pas être utilisé si déjà Épuisé)."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d1/Perk_Overcome.png"
+    }
+  ]
+}

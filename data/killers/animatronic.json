@@ -1,0 +1,45 @@
+{
+  "id": "animatronic",
+  "name": "L’Animatronique",
+  "role": "Killer",
+  "description": "William Afton, désormais piégé à jamais dans le costume mécanique connu sous le nom de Springtrap, est un meurtrier infâme disparu de l’univers de Freddy Fazbear’s Pizza. Tourmenté par les fantômes de ses victimes et consumé par la volonté de tuer, il a été arraché à la mort pour servir l’Entité dans le Royaume du Brouillard, utilisant sa terrifiante présence et ses compétences uniques pour semer peur et destruction parmi les survivants. :contentReference[oaicite:0]{index=0}",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8f/The_Animatronic_Portrait.png",
+
+  "power": {
+    "name": "Frousse de Fazbear",
+    "description": "L’Animatronique est armé d’une **Hache d’incendie** qu’il peut charger puis lancer. Lorsqu’elle touche une cible, elle s’y plante, infligeant des *statuts* ou créant des zones d’effet selon la cible. De plus, il **génère des Portes de Sécurité** aléatoirement dans l’environnement. En utilisant ces portes, il peut se téléporter à travers plusieurs portes de sécurité à travers la carte, et s’il entre dans une porte déjà utilisée par un survivant, il peut automatiquement **saisir ce survivant**. Ce pouvoir unique mêle mobilité stratégique et pression permanente, reflétant le thème des caméras et des passages secrets inspiré du lieu Fazbear’s Fright. :contentReference[oaicite:1]{index=1}"
+  },
+
+  "perks": [
+    {
+      "id": "help_wanted",
+      "name": "Help Wanted",
+      "description_tiers": {
+        "tier1": "Après avoir endommagé un générateur, il devient compromis. Quand ce générateur compromis est complété, les temps de récupération de tes Attaques de Base réussies sont augmentés de +25 % pendant 40 s.",
+        "tier2": "…+25 % pendant 50 s.",
+        "tier3": "…+25 % pendant 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/Perk_Help_Wanted.png"
+    },
+    {
+      "id": "phantom_fear",
+      "name": "Frayeur Fantôme",
+      "description_tiers": {
+        "tier1": "Quand un survivant dans ton Rayon de Terreur te regarde, il hurle et son aura est révélée pendant 2 s. Cooldown : 80 s.",
+        "tier2": "…Cooldown : 70 s.",
+        "tier3": "…Cooldown : 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/Perk_Phantom_Fear.png"
+    },
+    {
+      "id": "haywire",
+      "name": "Détraqué",
+      "description_tiers": {
+        "tier1": "Si un survivant cesse d’ouvrir une porte de sortie après avoir atteint au moins 50 % de progression, elle régresse à 40 % de la vitesse normale d’ouverture et les lumières au-dessus clignotent aléatoirement.",
+        "tier2": "…régresse à 45 % de la vitesse.",
+        "tier3": "…régresse à 50 % de la vitesse."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/94/Perk_Haywire.png"
+    }
+  ]
+}

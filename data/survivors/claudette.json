@@ -1,0 +1,39 @@
+{
+  "id": "claudette",
+  "name": "Claudette Morel",
+  "role": "Botaniste studieuse",
+  "description": "Une survivante experte en soins, utilisant sa connaissance de la botanique pour améliorer la survie de son équipe et la sienne.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/ClaudetteMorel.png",
+  "perks": [
+    {
+      "id": "empathy",
+      "name": "Empathy",
+      "description_tiers": {
+        "tier1": "Les auras des survivants blessés ou en état critique sont révélées dans un rayon de 64 mètres.",
+        "tier2": "Les auras des survivants blessés ou en état critique sont révélées dans un rayon de 96 mètres.",
+        "tier3": "Les auras des survivants blessés ou en état critique sont révélées dans un rayon de 128 mètres."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f2/Perk_Empathy.png"
+    },
+    {
+      "id": "botany_knowledge",
+      "name": "Botany Knowledge",
+      "description_tiers": {
+        "tier1": "Augmente votre vitesse de soins de 30 % et réduit l’efficacité des trousses de soins de -20 %.",
+        "tier2": "Augmente votre vitesse de soins de 40 % et réduit l’efficacité des trousses de soins de -20 %.",
+        "tier3": "Augmente votre vitesse de soins de 50 % et réduit l’efficacité des trousses de soins de -20 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3c/Perk_BotanyKnowledge.png"
+    },
+    {
+      "id": "self-care",
+      "name": "Self-Care",
+      "description_tiers": {
+        "tier1": "Débloque l’aptitude Auto-Soins vous permettant de vous soigner sans trousse à 25 % de la vitesse de soins normale.",
+        "tier2": "Débloque l’aptitude Auto-Soins vous permettant de vous soigner sans trousse à 30 % de la vitesse de soins normale.",
+        "tier3": "Débloque l’aptitude Auto-Soins vous permettant de vous soigner sans trousse à 35 % de la vitesse de soins normale."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/69/Perk_Self-Care.png"
+    }
+  ]
+}

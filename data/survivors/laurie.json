@@ -1,0 +1,39 @@
+{
+  "id": "laurie",
+  "name": "Laurie Strode",
+  "role": "Déterminée survivante",
+  "description": "La survivante emblématique qui fait face au danger avec détermination, utilisant une connexion étrange avec le tueur pour survivre encore et encore.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/31/LaurieStrode.png",
+  "perks": [
+    {
+      "id": "decisive_strike",
+      "name": "Decisive Strike",
+      "description_tiers": {
+        "tier1": "Après avoir été décroché ou t’être décroché toi-même, Decisive Strike s’active pendant 40 secondes. Si le tueur t’empoigne, réussis un Test d’Habilité pour te libérer et l’étourdir pendant 4 secondes.",
+        "tier2": "Après avoir été décroché ou t’être décroché toi-même, Decisive Strike s’active pendant 50 secondes. Si le tueur t’empoigne, réussis un Test d’Habilité pour te libérer et l’étourdir pendant 4 secondes.",
+        "tier3": "Après avoir été décroché ou t’être décroché toi-même, Decisive Strike s’active pendant 60 secondes. Si le tueur t’empoigne, réussis un Test d’Habilité pour te libérer et l’étourdir pendant 4 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/71/Perk_DecisiveStrike.png"
+    },
+    {
+      "id": "object_of_obsession",
+      "name": "Object of Obsession",
+      "description_tiers": {
+        "tier1": "Une connexion surnaturelle te lie au tueur. Quand le tueur regarde ton Aura, tu peux voir l’Aura du tueur et tu gagnes +2% de vitesse sur certaines actions.",
+        "tier2": "Une connexion surnaturelle te lie au tueur. Quand le tueur regarde ton Aura, tu peux voir l’Aura du tueur et tu gagnes +4% de vitesse sur certaines actions.",
+        "tier3": "Une connexion surnaturelle te lie au tueur. Quand le tueur regarde ton Aura, tu peux voir l’Aura du tueur et tu gagnes +6% de vitesse sur certaines actions."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e6/Perk_ObjectOfObsession.png"
+    },
+    {
+      "id": "sole_survivor",
+      "name": "Sole Survivor",
+      "description_tiers": {
+        "tier1": "Chaque fois qu’un autre survivant est sacrifié ou tué, Sole Survivor gagne un jeton jusqu’à 3. Cela rend ton Aura immune aux capacités de lecture d’Aura du tueur dans un rayon de 20 mètres par jeton.",
+        "tier2": "Chaque fois qu’un autre survivant est sacrifié ou tué, Sole Survivor gagne un jeton jusqu’à 3. Cela rend ton Aura immune aux capacités de lecture d’Aura du tueur dans un rayon de 22 mètres par jeton.",
+        "tier3": "Chaque fois qu’un autre survivant est sacrifié ou tué, Sole Survivor gagne un jeton jusqu’à 3. Cela rend ton Aura immune aux capacités de lecture d’Aura du tueur dans un rayon de 24 mètres par jeton."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3b/Perk_SoleSurvivor.png"
+    }
+  ]
+}

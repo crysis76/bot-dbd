@@ -1,0 +1,45 @@
+{
+  "id": "twins",
+  "name": "Les Jumeaux",
+  "role": "The Twins",
+  "description": "Charlotte et Victor Deshayes sont deux âmes liées par le sang et la tragédie. Ensemble, ils chassent en tant que duo : Charlotte peut délier son frère Victor pour qu’il fonce sur les survivants avec des bonds violents, pendant qu’elle observe, prête à reprendre le contrôle et punir quiconque survit à l’assaut de Victor.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.../The_Twins_Portrait.png",
+
+  "power": {
+    "name": "Lien du Sang",
+    "description": "Charlotte peut déchaîner son frère siamois Victor et lui laisser contrôler les poursuites. Pendant que Victor est libre, Charlotte entre dans un état dormant, perdant son Terror Radius et sa tache rouge, tandis que Victor se déplace rapidement et peut attaquer avec des Bonds étendus. Si Victor touche un survivant en bonne santé, il s’y accroche et doit être retiré de force avant que Charlotte ne puisse accrocher le survivant au crochet. Only Charlotte can hook Survivors. 📌"
+  },
+
+  "perks": [
+    {
+      "id": "hoarder",
+      "name": "Amasseur",
+      "description_tiers": {
+        "tier1": "Recevez une notification quand des survivants ouvrent un coffre ou ramassent un objet à proximité. Faire apparaître jusqu’à 2 coffres supplémentaires dans la partie.",
+        "tier2": "Recevez une notification quand des survivants ouvrent un coffre ou ramassent un objet à proximité. Faire apparaître jusqu’à 3 coffres supplémentaires dans la partie.",
+        "tier3": "Recevez une notification quand des survivants ouvrent un coffre ou ramassent un objet à proximité. Faire apparaître jusqu’à 4 coffres supplémentaires dans la partie."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.../Perk_Hoarder.png"
+    },
+    {
+      "id": "oppression",
+      "name": "Oppression",
+      "description_tiers": {
+        "tier1": "Quand tu endommages un générateur, jusqu’à 3 générateurs aléatoires régresseront aussi. Si l’un d’eux est en train d’être réparé, un Skill Check difficile est déclenché.",
+        "tier2": "Quand tu endommages un générateur, jusqu’à 3 générateurs aléatoires régresseront aussi, et un Skill Check difficile verra sa zone de réussite réduite de 6 %.",
+        "tier3": "Quand tu endommages un générateur, jusqu’à 4 générateurs aléatoires régresseront aussi, et un Skill Check difficile verra sa zone de réussite réduite de 8 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.../Perk_Oppression.png"
+    },
+    {
+      "id": "coup_de_grace",
+      "name": "Coup de Grâce",
+      "description_tiers": {
+        "tier1": "Gagne un jeton chaque fois qu’un générateur est terminé. Chaque jeton augmente l’attaque chargée de façon significative.",
+        "tier2": "Gagne un jeton chaque fois qu’un générateur est terminé. Chaque jeton augmente l’attaque chargée plus encore.",
+        "tier3": "Gagne un jeton chaque fois qu’un générateur est terminé. Chaque jeton maximise l’attaque chargée."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/.../Perk_CoupDeGrace.png"
+    }
+  ]
+}

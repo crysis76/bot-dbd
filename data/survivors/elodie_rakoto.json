@@ -1,0 +1,39 @@
+{
+  "id": "elodie_rakoto",
+  "name": "Élodie Rakoto",
+  "role": "Enquêtrice de l’occultisme",
+  "description": "Une survivante déterminée et habile, capable d’utiliser habilement des objets du décor pour surprendre le tueur et s’échapper contre toute attente.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8f/Élodie_Rakoto.png",
+  "perks": [
+    {
+      "id": "appraisal",
+      "name": "Appraisal",
+      "description_tiers": {
+        "tier1": "Commence le trial avec 4 jetons. En te tenant à côté d’un coffre déjà ouvert et vide, utilise une action pour fouiller et obtenir un objet supplémentaire. Augmente la vitesse de fouille de 40 %.",
+        "tier2": "Commence le trial avec 4 jetons. En te tenant à côté d’un coffre déjà ouvert et vide, utilise une action pour fouiller et obtenir un objet supplémentaire. Augmente la vitesse de fouille de 60 %.",
+        "tier3": "Commence le trial avec 4 jetons. En te tenant à côté d’un coffre déjà ouvert et vide, utilise une action pour fouiller et obtenir un objet supplémentaire. Augmente la vitesse de fouille de 80 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7f/Perk_Appraisal.png"
+    },
+    {
+      "id": "deception",
+      "name": "Deception",
+      "description_tiers": {
+        "tier1": "Maintiens le bouton de Sprint tout en interagissant avec un casier pour déclencher une fausse entrée dans le casier et générer une forte notification de bruit pour le tueur. Cooldown : 25 s.",
+        "tier2": "Maintiens le bouton de Sprint tout en interagissant avec un casier pour déclencher une fausse entrée dans le casier et générer une forte notification de bruit pour le tueur. Cooldown : 20 s.",
+        "tier3": "Maintiens le bouton de Sprint tout en interagissant avec un casier pour déclencher une fausse entrée dans le casier et générer une forte notification de bruit pour le tueur. Cooldown : 15 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6c/Perk_Deception.png"
+    },
+    {
+      "id": "power_struggle",
+      "name": "Power Struggle",
+      "description_tiers": {
+        "tier1": "Quand tu es transportée par le tueur, atteindre 25 % de progression de gigotement active Power Struggle : lâche une palette proche pour étourdir le tueur et te libérer.",
+        "tier2": "Quand tu es transportée par le tueur, atteindre 20 % de progression de gigotement active Power Struggle : lâche une palette proche pour étourdir le tueur et te libérer.",
+        "tier3": "Quand tu es transportée par le tueur, atteindre 15 % de progression de gigotement active Power Struggle : lâche une palette proche pour étourdir le tueur et te libérer."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5e/Perk_PowerStruggle.png"
+    }
+  ]
+}

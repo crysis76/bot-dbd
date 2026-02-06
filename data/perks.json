@@ -1,0 +1,3539 @@
+{
+  "common": [
+    {
+      "id": "sloppy_butcher",
+      "name": "Boucher maladroit",
+      "description": "Vos attaques de base infligent les effets de statut Hémorragie et Blessure grave.\n\n• **Tier I** : Réduit la vitesse de guérison de 20 % et augmente modérément la fréquence de saignement.\n• **Tier II** : Réduit la vitesse de guérison de 20 % et augmente fortement la fréquence de saignement.\n• **Tier III** : Réduit la vitesse de guérison de 20 % et augmente considérablement la fréquence de saignement.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "slowdown",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "bitter_murmur",
+      "name": "Murmure amer",
+      "description": "Vous entendez les cris de douleur des survivants.\n\n• **Tier I** : Révèle l’aura des survivants à moins de 16 mètres d’un générateur terminé pendant 5 secondes.\n• **Tier II** : Révèle l’aura à moins de 16 mètres pendant 7 secondes.\n• **Tier III** : Révèle l’aura à moins de 16 mètres pendant 10 secondes.\n\nLorsque le dernier générateur est terminé, l’aura de tous les survivants est révélée pendant 10 secondes.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "deerstalker",
+      "name": "Traqueur",
+      "description": "Vous êtes habile pour repérer vos proies à terre.\n\n• **Tier I** : Révèle l’aura des survivants mourants dans un rayon de 24 mètres.\n• **Tier II** : Révèle l’aura dans un rayon de 32 mètres.\n• **Tier III** : Révèle l’aura dans un rayon de 36 mètres.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "distressing",
+      "name": "Perturbant",
+      "description": "Votre présence terrifie les survivants.\n\n• **Tier I** : Augmente la zone d’alerte de terreur de 22 %.\n• **Tier II** : Augmente la zone d’alerte de terreur de 24 %.\n• **Tier III** : Augmente la zone d’alerte de terreur de 26 %.\n\nVous gagnez 100 % de points de sang supplémentaires pour les actions de Chasseur.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_no_one_escapes_death",
+      "name": "Hex : Personne n’échappe à la mort",
+      "description": "Un hex alimenté par l’espoir des survivants.\n\nLorsque les portes sont alimentées et qu’un totem reste debout :\n\n• **Tier I** : Gagnez +2 % de vitesse et exposez les survivants.\n• **Tier II** : Gagnez +3 % de vitesse.\n• **Tier III** : Gagnez +4 % de vitesse.\n\nL’hex est désactivé une fois le totem détruit.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "meta",
+        "tryhard",
+        "end_game",
+        "hex",
+        "chase",
+        "totem"
+      ],
+      "weight": 9
+    },
+    {
+      "id": "hex_thrill_of_the_hunt",
+      "name": "Hex : Frisson de la chasse",
+      "description": "Un hex qui ralentit les survivants.\n\n• **Tier I** : Les totems sont nettoyés 6 % plus lentement.\n• **Tier II** : Nettoyage 8 % plus lent.\n• **Tier III** : Nettoyage 10 % plus lent.\n\nGagnez des points de sang bonus pour les actions liées aux totems.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "hex",
+        "slowdown",
+        "totem"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "insidious",
+      "name": "Insidieux",
+      "description": "Vous savez disparaître dans l’ombre.\n\n• **Tier I–III** : Lorsque vous restez immobile pendant 2 secondes, votre rayon de terreur et votre tache rouge disparaissent jusqu’à ce que vous bougiez.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "stealth",
+        "fun",
+        "meme"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "iron_grasp",
+      "name": "Poigne de fer",
+      "description": "Votre prise est impossible à desserrer.\n\n• **Tier I** : Réduit l’effet de lutte des survivants de 4 %.\n• **Tier II** : Réduction de 8 %.\n• **Tier III** : Réduction de 12 %.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "monstrous_shrine",
+      "name": "Sanctuaire monstrueux",
+      "description": "Les crochets du sous-sol sont renforcés.\n\n• **Tier I** : Les survivants meurent 3 % plus vite sur les crochets du sous-sol.\n• **Tier II** : 6 % plus vite.\n• **Tier III** : 9 % plus vite.\n\nAugmente les chances d’apparition des crochets du sous-sol.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "predator",
+      "name": "Prédateur",
+      "description": "Vous êtes entraîné à traquer vos proies.\n\n• **Tier I** : Les marques de griffures sont légèrement plus rapprochées.\n• **Tier II** : Marques plus rapprochées.\n• **Tier III** : Marques considérablement plus rapprochées.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "spies_from_the_shadows",
+      "name": "Espions de l’ombre",
+      "description": "Les corbeaux vous informent des survivants.\n\n• **Tier I** : Les corbeaux alertés restent actifs 5 secondes.\n• **Tier II** : 6 secondes.\n• **Tier III** : 7 secondes.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "unnerving_presence",
+      "name": "Présence inquiétante",
+      "description": "Votre proximité rend les survivants nerveux.\n\n• **Tier I** : Augmente les chances d’échec des tests d’habileté de 10 %.\n• **Tier II** : 20 %.\n• **Tier III** : 30 %.\n\nLes tests apparaissent plus fréquemment dans votre rayon de terreur.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "whispers",
+      "name": "Chuchotements",
+      "description": "Une voix vous avertit de la présence des survivants.\n\n• **Tier I** : S’active dans un rayon de 48 mètres.\n• **Tier II** : 40 mètres.\n• **Tier III** : 32 mètres.",
+      "icon": "",
+      "type": "killer",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "hope",
+      "name": "Espoir",
+      "description": "L’énergie de l’évasion vous donne un dernier souffle.\n\nLorsque les portes sont alimentées :\n\n• **Tier I** : Gagnez 5 % de vitesse de déplacement pendant 120 secondes.\n• **Tier II** : 5 % pendant 150 secondes.\n• **Tier III** : 5 % pendant 180 secondes.",
+      "icon": "",
+      "type": "survivor",
+      "tags": [
+        "end_game",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "kindred",
+      "name": "Parenté",
+      "description": "Une aura familière vous guide.\n\nLorsque vous êtes accroché :\n• L’aura du tueur est révélée aux autres survivants s’il est à moins de 16 mètres.\n• Tous les survivants voient les auras des autres survivants.\n\nLorsque **un autre survivant** est accroché :\n\n• **Tier I** : Vous voyez l’aura des autres survivants.\n• **Tier II** : Vous voyez l’aura des autres survivants et du tueur à 8 mètres.\n• **Tier III** : Vous voyez l’aura des autres survivants et du tueur à 16 mètres.",
+      "icon": "",
+      "type": "survivor",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "lightweight",
+      "name": "Poids plume",
+      "description": "Vous laissez peu de traces derrière vous.\n\n• **Tier I** : Les marques de griffures disparaissent 3 secondes plus tôt.\n• **Tier II** : 4 secondes plus tôt.\n• **Tier III** : 5 secondes plus tôt.",
+      "icon": "",
+      "type": "survivor",
+      "tags": [
+        "stealth"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "plunderers_instinct",
+      "name": "Instinct de pillard",
+      "description": "Vous ressentez l’appel du butin.\n\n• **Tier I** : Révèle l’aura des coffres dans un rayon de 16 mètres.\n• **Tier II** : 24 mètres.\n• **Tier III** : 32 mètres.\n\nAugmente les chances de trouver un objet rare dans les coffres.",
+      "icon": "",
+      "type": "survivor",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "premonition",
+      "name": "Prémonition",
+      "description": "Un mauvais pressentiment vous avertit du danger.\n\n• **Tier I** : Alerte lorsque vous regardez le tueur dans un rayon de 36 mètres (cooldown 60 s).\n• **Tier II** : Rayon de 45 mètres (cooldown 45 s).\n• **Tier III** : Rayon de 54 mètres (cooldown 30 s).",
+      "icon": "",
+      "type": "survivor",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "resilience",
+      "name": "Résilience",
+      "description": "La douleur vous rend plus efficace.\n\nTant que vous êtes blessé :\n\n• **Tier I** : Augmente la vitesse d’action de 3 %.\n• **Tier II** : 6 %.\n• **Tier III** : 9 %.",
+      "icon": "",
+      "type": "survivor",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "slippery_meat",
+      "name": "Chair glissante",
+      "description": "Vous savez vous débattre quand tout semble perdu.\n\n• **Tier I** : +2 tentatives d’évasion du crochet.\n• **Tier II** : +3 tentatives.\n• **Tier III** : +3 tentatives et +10 % de chances de réussite.",
+      "icon": "",
+      "type": "survivor",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "small_game",
+      "name": "Petit gibier",
+      "description": "Vous êtes attentif à votre environnement.\n\n• **Tier I** : Alerte sonore dans un rayon de 8 mètres des pièges et totems.\n• **Tier II** : 10 mètres.\n• **Tier III** : 12 mètres.\n\nRéduit le cooldown après chaque déclenchement.",
+      "icon": "",
+      "type": "survivor",
+      "tags": [
+        "slowdown",
+        "info",
+        "totem"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "spine_chill",
+      "name": "Frisson",
+      "description": "Un frisson parcourt votre échine quand le danger approche.\n\nTant que le tueur vous regarde à moins de 36 mètres :\n\n• **Tier I** : +2 % vitesse d’action.\n• **Tier II** : +4 %.\n• **Tier III** : +6 %.\n\nAvertissement visuel lorsque le tueur vous vise directement.",
+      "icon": "",
+      "type": "survivor",
+      "tags": [
+        "info",
+        "anti_loop",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "this_is_not_happening",
+      "name": "Ce n’est pas arrivé",
+      "description": "La pression vous rend plus précis.\n\nLorsque vous êtes blessé :\n\n• **Tier I** : Augmente la zone parfaite des tests d’habileté de 10 %.\n• **Tier II** : 20 %.\n• **Tier III** : 30 %.",
+      "icon": "",
+      "type": "survivor",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    }
+  ],
+  "survivor": [
+    {
+      "id": "bond",
+      "name": "Lien",
+      "description": "Un lien empathique vous relie à vos alliés.\n\n• **Tier I** : Révèle l’aura des autres survivants dans un rayon de 20 mètres.\n• **Tier II** : Révèle l’aura des autres survivants dans un rayon de 28 mètres.\n• **Tier III** : Révèle l’aura des autres survivants dans un rayon de 36 mètres.\n\nLien ne révèle pas l’aura des survivants lorsqu’ils sont accrochés.",
+      "icon": "",
+      "owner": "dwight_fairfield",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "prove_thyself",
+      "name": "Fais tes preuves",
+      "description": "Vous êtes plus efficace lorsque vous travaillez avec d’autres.\n\n• **Tier I** : Augmente votre vitesse de réparation de générateur de 15 % pour chaque survivant à proximité. Accorde un bonus de 100 % de points de sang dans la catégorie Coopération.\n• **Tier II** : Augmente la vitesse de réparation de 15 %. Bonus de 100 % de points de sang.\n• **Tier III** : Augmente la vitesse de réparation de 15 %. Bonus de 100 % de points de sang.\n\nLes survivants supplémentaires reçoivent également le bonus de vitesse de réparation.",
+      "icon": "",
+      "owner": "dwight_fairfield",
+      "tags": [
+        "meta",
+        "tryhard",
+        "support",
+        "end_game",
+        "chase"
+      ],
+      "weight": 9
+    },
+    {
+      "id": "leader",
+      "name": "Meneur",
+      "description": "Votre aura inspire vos alliés proches.\n\n• **Tier I** : Augmente de 15 % la vitesse d’action des autres survivants pour la guérison, le sabotage, le nettoyage des totems, l’ouverture des coffres et des portes de sortie. L’effet persiste pendant 15 secondes après avoir quitté la zone.\n• **Tier II** : Augmente la vitesse d’action de 20 %. Persiste 15 secondes.\n• **Tier III** : Augmente la vitesse d’action de 25 %. Persiste 15 secondes.\n\nLeader ne s’applique pas à vous-même.",
+      "icon": "",
+      "owner": "dwight_fairfield",
+      "tags": [
+        "end_game",
+        "info",
+        "chase",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "quick_and_quiet",
+      "name": "Rapide et silencieux",
+      "description": "Vous agissez avec rapidité et discrétion.\n\n• **Tier I** : Supprime complètement le bruit et les notifications de bruit fort lorsque vous sautez rapidement par-dessus un obstacle ou entrez dans un casier. Temps de recharge de 30 secondes.\n• **Tier II** : Supprime le bruit. Temps de recharge de 25 secondes.\n• **Tier III** : Supprime le bruit. Temps de recharge de 20 secondes.\n\nRapide et silencieux ne s’active pas si le temps de recharge est en cours.",
+      "icon": "",
+      "owner": "meg_thomas",
+      "tags": [
+        "stealth"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "sprint_burst",
+      "name": "Course effrénées",
+      "description": "Lorsque vous commencez à courir, vous bénéficiez d’une poussée de vitesse.\n\n• **Tier I** : Augmente votre vitesse de déplacement à 150 % pendant 3 secondes. Provoque l’état Épuisement pendant 60 secondes.\n• **Tier II** : Augmente votre vitesse de déplacement à 150 % pendant 3 secondes. Provoque l’état Épuisement pendant 50 secondes.\n• **Tier III** : Augmente votre vitesse de déplacement à 150 % pendant 3 secondes. Provoque l’état Épuisement pendant 40 secondes.\n\nSprint ne peut pas être utilisé lorsque vous êtes Épuisé.",
+      "icon": "",
+      "owner": "meg_thomas",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "adrenaline",
+      "name": "Adrénaline",
+      "description": "Vous êtes envahi par une vague d’énergie lorsque les portes de sortie sont alimentées.\n\n• **Tier I** : Vous êtes instantanément soigné d’un état de santé et gagnez +50 % de vitesse de déplacement pendant 3 secondes. Provoque l’état Épuisement pendant 60 secondes.\n• **Tier II** : Vous êtes soigné d’un état de santé et gagnez +50 % de vitesse pendant 3 secondes. Provoque l’état Épuisement pendant 50 secondes.\n• **Tier III** : Vous êtes soigné d’un état de santé et gagnez +50 % de vitesse pendant 3 secondes. Provoque l’état Épuisement pendant 40 secondes.\n\nAdrénaline ignore l’état Épuisement lors de son activation. Si vous êtes accroché ou transporté, l’effet s’active dès que vous êtes libéré.",
+      "icon": "",
+      "owner": "meg_thomas",
+      "tags": [
+        "end_game",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "empathy",
+      "name": "Empathie",
+      "description": "Vous ressentez la douleur de ceux qui sont blessés.\n\n• **Tier I** : Révèle l’aura des survivants blessés ou mourants dans un rayon de 64 mètres.\n• **Tier II** : Révèle l’aura dans un rayon de 96 mètres.\n• **Tier III** : Révèle l’aura dans un rayon de 128 mètres.\n\nEmpathie ne révèle pas l’aura des survivants lorsque vous êtes vous-même blessé.",
+      "icon": "",
+      "owner": "claudette_morel",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "botany_knowledge",
+      "name": "Connaissance en botanique",
+      "description": "Vous savez reconnaître les plantes médicinales et accélérer les soins.\n\n• **Tier I** : Augmente votre vitesse de guérison et d’efficacité des objets de soin de 30 %.\n• **Tier II** : Augmente la vitesse de guérison de 40 %.\n• **Tier III** : Augmente la vitesse de guérison de 50 %.\n\nRéduit l’efficacité de soins des trousses de secours de 20 %.",
+      "icon": "",
+      "owner": "claudette_morel",
+      "tags": [
+        "slowdown",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "self_care",
+      "name": "Auto-traitement",
+      "description": "Vous pouvez vous soigner sans trousse de secours.\n\n• **Tier I** : Permet de se soigner à une vitesse de 25 % de la vitesse normale.\n• **Tier II** : Permet de se soigner à une vitesse de 30 %.\n• **Tier III** : Permet de se soigner à une vitesse de 35 %.\n\nAugmente la consommation des trousses de secours de 10 %.",
+      "icon": "",
+      "owner": "claudette_morel",
+      "tags": [
+        "chase",
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "calm_spirit",
+      "name": "Esprit calme",
+      "description": "Les animaux et la nature ne réagissent pas à votre présence.\n\n• **Tier I** : Réduit de 80 % les risques de faire sursauter les corbeaux.\n• **Tier II** : Réduit de 90 % les risques.\n• **Tier III** : Empêche totalement les corbeaux de s’envoler.\n\nSupprime également les cris dus aux pièges de l’Escroc, aux hurlements et aux événements environnementaux.",
+      "icon": "",
+      "owner": "jake_park",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "iron_will",
+      "name": "Volonté de fer",
+      "description": "Vous êtes capable de supporter la douleur.\n\n• **Tier I** : Réduit le volume des gémissements de douleur de 50 %.\n• **Tier II** : Réduit le volume de 75 %.\n• **Tier III** : Supprime complètement les gémissements de douleur.",
+      "icon": "",
+      "owner": "jake_park",
+      "tags": [
+        "end_game",
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "saboteur",
+      "name": "Saboteur",
+      "description": "Vous êtes un expert du sabotage.\n\n• **Tier I** : Débloque la capacité de saboter les crochets sans boîte à outils. Temps de recharge de 90 secondes.\n• **Tier II** : Temps de recharge réduit à 75 secondes.\n• **Tier III** : Temps de recharge réduit à 60 secondes.\n\nLes crochets sabotés restent inutilisables pendant 30 secondes.",
+      "icon": "",
+      "owner": "jake_park",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "balanced_landing",
+      "name": "Atterrissage équilibré",
+      "description": "Vous conservez votre équilibre après une chute.\n\n• **Tier I** : Réduit l’étourdissement de chute de 75 % et permet de sprinter pendant 3 secondes après une chute. Provoque l’état **Épuisement** pendant 60 secondes.\n• **Tier II** : Provoque l’état Épuisement pendant 50 secondes.\n• **Tier III** : Provoque l’état Épuisement pendant 40 secondes.\n\nAtterrissage équilibré ne peut pas être utilisé pendant l’état Épuisement.",
+      "icon": "",
+      "owner": "nea_karlsson",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "urban_evasion",
+      "name": "Évasion urbaine",
+      "description": "Vous êtes agile et discret.\n\n• **Tier I** : Augmente votre vitesse de déplacement accroupi de 90 %.\n• **Tier II** : Augmente la vitesse de 95 %.\n• **Tier III** : Augmente la vitesse de 100 %.\n\nVous pouvez vous déplacer à vitesse normale en étant accroupi.",
+      "icon": "",
+      "owner": "nea_karlsson",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "streetwise",
+      "name": "Débrouillardise",
+      "description": "Les années passées dans la rue vous ont appris à gérer vos ressources.\n\n• **Tier I** : Réduit la consommation des objets de 15 %.\n• **Tier II** : Réduit la consommation de 20 %.\n• **Tier III** : Réduit la consommation de 25 %.\n\nS’applique également aux survivants proches dans un rayon de 8 mètres.",
+      "icon": "",
+      "owner": "nea_karlsson",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "decisive_strike",
+      "name": "Coup décisif",
+      "description": "Après avoir été décroché, vous devenez l’obsession.\n\n• **Tier I** : Pendant 40 secondes, réussir un test d’habileté permet d’étourdir le tueur pendant 3 secondes.\n• **Tier II** : Effet actif pendant 50 secondes.\n• **Tier III** : Effet actif pendant 60 secondes.\n\nCoup décisif est désactivé si un autre survivant devient l’obsession.",
+      "icon": "",
+      "owner": "laurie_strode",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "object_of_obsession",
+      "name": "Objet d'obsession",
+      "description": "Un lien étrange vous unit au tueur.\n\n• **Tier I** : Lorsque vous regardez le tueur, vos auras respectives sont révélées pendant 3 secondes.\n• **Tier II** : Révélées pendant 4 secondes.\n• **Tier III** : Révélées pendant 5 secondes.\n\nAugmente les chances d’être l’obsession.",
+      "icon": "",
+      "owner": "laurie_strode",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "sole_survivor",
+      "name": "Unique survivant",
+      "description": "Vous vivez pour survivre.\n\n• **Tier I** : Réduit votre rayon d’aura de 20 % par survivant éliminé.\n• **Tier II** : Réduction de 22 %.\n• **Tier III** : Réduction de 25 %.\n\nS’applique lorsque le tueur tente de lire votre aura.",
+      "icon": "",
+      "owner": "laurie_strode",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "open_handed",
+      "name": "Le coeur sur la main",
+      "description": "Vous étendez la portée de vos capacités de lecture d’aura.\n\n• **Tier I** : Augmente la portée des auras de 8 mètres.\n• **Tier II** : Augmente la portée de 12 mètres.\n• **Tier III** : Augmente la portée de 16 mètres.\n\nS’applique également aux autres survivants.",
+      "icon": "",
+      "owner": "ace_visconti",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "ace_in_the_hole",
+      "name": "Atout dans la manche",
+      "description": "Vous savez tirer profit de chaque objet.\n\n• **Tier I** : Les accessoires d’objets ont 100 % de chances d’être conservés.\n• **Tier II** : Les objets trouvés ont 50 % de chances d’avoir un accessoire rare.\n• **Tier III** : 100 % de chances.\n\nFonctionne avec les coffres.",
+      "icon": "",
+      "owner": "ace_visconti",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "up_the_ante",
+      "name": "Augmenter la mise",
+      "description": "Vous augmentez vos chances.\n\n• **Tier I** : +1 % de chance par survivant vivant.\n• **Tier II** : +2 %.\n• **Tier III** : +3 %.\n\nBonus appliqué aux tests de chance de tous les survivants.",
+      "icon": "",
+      "owner": "ace_visconti",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "borrowed_time",
+      "name": "Sursis",
+      "description": "Vous laissez une chance aux autres.\n\n• **Tier I** : Les survivants décroché reçoivent Endurance pendant 8 secondes.\n• **Tier II** : 10 secondes.\n• **Tier III** : 12 secondes.\n\nS’applique uniquement dans le rayon de terreur.",
+      "icon": "",
+      "owner": "bill_overbeck",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "unbreakable",
+      "name": "Indéfectible",
+      "description": "Vous refusez d’abandonner.\n\n• **Tier I** : Augmente la vitesse de récupération au sol de 25 %.\n• **Tier II** : 30 %.\n• **Tier III** : 35 %.\n\nPermet de se relever une fois par partie.",
+      "icon": "",
+      "owner": "bill_overbeck",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "left_behind",
+      "name": "Abandonné",
+      "description": "Quand tout semble perdu, vous voyez une issue.\n\n• **Tier I** : Révèle l’aura de la trappe à 24 mètres.\n• **Tier II** : 28 mètres.\n• **Tier III** : 32 mètres.\n\nS’active uniquement lorsque vous êtes le dernier survivant.",
+      "icon": "",
+      "owner": "bill_overbeck",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "technician",
+      "name": "Technicien",
+      "description": "Vous êtes experte en réparation discrète.\n\n• **Tier I** : Réduit le bruit des réparations ratées de 8 mètres.\n• **Tier II** : 12 mètres.\n• **Tier III** : 16 mètres.\n\nRéduit également le bruit normal de réparation.",
+      "icon": "",
+      "owner": "feng_min",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "lithe",
+      "name": "Souple",
+      "description": "Après un saut rapide, vous gagnez un sprint.\n\n• **Tier I** : Sprinte pendant 3 secondes et provoque Épuisement pendant 60 secondes.\n• **Tier II** : Épuisement pendant 50 secondes.\n• **Tier III** : Épuisement pendant 40 secondes.",
+      "icon": "",
+      "owner": "feng_min",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "alert",
+      "name": "Vigilant",
+      "description": "Vous êtes attentif aux actions du tueur.\n\n• **Tier I** : Révèle l’aura du tueur pendant 3 secondes lorsqu’il détruit un objet.\n• **Tier II** : 4 secondes.\n• **Tier III** : 5 secondes.",
+      "icon": "",
+      "owner": "feng_min",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "were_gonna_live_forever",
+      "name": "Nous vivrons éternellement",
+      "description": "Vous êtes motivé à aider les autres.\n\n• **Tier I** : Gagne des jetons en effectuant des sauvetages.\n• **Tier II** : Bonus de points augmenté.\n• **Tier III** : Augmente la vitesse de récupération des survivants au sol.",
+      "icon": "",
+      "owner": "david_king",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "no_mither",
+      "name": "même pas mal",
+      "description": "Vous commencez la partie blessé.\n\n• **Tier I–III** : Supprime les gémissements, laisse des traces réduites et permet de se relever du sol.\n\nVous ne pouvez jamais être en pleine santé.",
+      "icon": "",
+      "owner": "david_king",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "dead_hard",
+      "name": "Dur à cuire",
+      "description": "Vous ignorez la douleur pour éviter un coup.\n\n• **Tier I** : Permet une ruée évitant les dégâts. Épuisement de 60 secondes.\n• **Tier II** : Épuisement de 50 secondes.\n• **Tier III** : Épuisement de 40 secondes.",
+      "icon": "",
+      "owner": "david_king",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "wake_up",
+      "name": "Debout",
+      "description": "Vous ouvrez les portes de sortie plus rapidement.\n\n• **Tier I** : Augmente la vitesse d’ouverture des portes de 5 % et révèle votre aura aux autres survivants dans un rayon de 64 mètres.\n• **Tier II** : Vitesse augmentée de 10 %, portée de 96 mètres.\n• **Tier III** : Vitesse augmentée de 15 %, portée de 128 mètres.\n\nVotre aura est également révélée au tueur lorsque vous ouvrez une porte.",
+      "icon": "",
+      "owner": "quentin_smith",
+      "tags": [
+        "end_game",
+        "info",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "pharmacy",
+      "name": "Pharmacie",
+      "description": "Vous avez le don de trouver ce dont vous avez besoin.\n\n• **Tier I** : Les coffres ont 40 % de chances de contenir une trousse de secours d’urgence.\n• **Tier II** : 60 % de chances.\n• **Tier III** : 80 % de chances.\n\nLes trousses de secours trouvées soignent plus rapidement.",
+      "icon": "",
+      "owner": "quentin_smith",
+      "tags": [
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "vigil",
+      "name": "Veillée",
+      "description": "Vous restez alerte et récupérez plus vite.\n\n• **Tier I** : Réduit la durée des effets d’Épuisement de 10 %.\n• **Tier II** : 15 %.\n• **Tier III** : 20 %.\n\nS’applique également aux survivants proches dans un rayon de 8 mètres.",
+      "icon": "",
+      "owner": "quentin_smith",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "tenacity",
+      "name": "Ténacité",
+      "description": "Vous êtes déterminé à ramper et survivre.\n\n• **Tier I** : Augmente la vitesse de déplacement au sol de 30 %.\n• **Tier II** : 40 %.\n• **Tier III** : 50 %.\n\nPermet de récupérer en se déplaçant.",
+      "icon": "",
+      "owner": "david_tapp",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "detectives_hunch",
+      "name": "Intuition de l'inspecteur",
+      "description": "Votre instinct vous guide après une réparation.\n\n• **Tier I** : Révèle l’aura des générateurs, totems et coffres dans un rayon de 32 mètres.\n• **Tier II** : 48 mètres.\n• **Tier III** : 64 mètres.\n\nS’active après la réparation complète d’un générateur.",
+      "icon": "",
+      "owner": "david_tapp",
+      "tags": [
+        "end_game",
+        "info",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "stake_out",
+      "name": "En planque",
+      "description": "Vous observez le tueur attentivement.\n\n• **Tier I** : Gagnez des jetons en restant dans le rayon de terreur sans être poursuivi.\n• **Tier II** : Plus de jetons stockables.\n• **Tier III** : Les bons tests d’habileté deviennent parfaits.\n\nConsomme un jeton par test parfait.",
+      "icon": "",
+      "owner": "david_tapp",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "windows_of_opportunity",
+      "name": "Parfaite occasion",
+      "description": "Vous voyez les possibilités de fuite.\n\n• **Tier I** : Révèle l’aura des palettes et fenêtres dans un rayon de 24 mètres.\n• **Tier II** : 28 mètres.\n• **Tier III** : 32 mètres.\n\nLes palettes détruites sont visibles pendant 10 secondes.",
+      "icon": "",
+      "owner": "kate_denson",
+      "tags": [
+        "info",
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "boil_over",
+      "name": "Effusion",
+      "description": "Vous luttez férocement lorsque vous êtes porté.\n\n• **Tier I** : Augmente l’effet des mouvements de lutte de 25 %.\n• **Tier II** : 50 %.\n• **Tier III** : 75 %.\n\nAugmente également l’étourdissement si le tueur chute.",
+      "icon": "",
+      "owner": "kate_denson",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "dance_with_me",
+      "name": "Danse avec moi",
+      "description": "Après un saut rapide, vous brouillez les pistes.\n\n• **Tier I** : Supprime les traces de pas pendant 3 secondes.\n• **Tier II** : 4 secondes.\n• **Tier III** : 5 secondes.\n\nProvoque l’état Épuisement pendant 60 secondes.",
+      "icon": "",
+      "owner": "kate_denson",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "diversion",
+      "name": "Diversion",
+      "description": "Vous créez une diversion sonore.\n\n• **Tier I** : Après être resté 40 secondes dans le rayon de terreur sans poursuite, vous pouvez lancer un caillou.\n• **Tier II** : 35 secondes.\n• **Tier III** : 30 secondes.\n\nLe caillou crée une notification sonore pour le tueur.",
+      "icon": "",
+      "owner": "adam_francis",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "deliverance",
+      "name": "Libération",
+      "description": "Après avoir décroché un survivant, vous pouvez vous libérer.\n\n• **Tier I–III** : Le premier décrochage personnel est garanti.\n\nVous devenez **Brisé** pendant 60 secondes après utilisation.",
+      "icon": "",
+      "owner": "adam_francis",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "autodidact",
+      "name": "Autodidacte",
+      "description": "Vous apprenez de vos erreurs.\n\n• **Tier I** : Commence avec un malus de soins mais gagne des jetons.\n• **Tier II** : Plus de bonus par jeton.\n• **Tier III** : Bonus maximal plus élevé.\n\nLes tests d’habileté réussis augmentent l’efficacité des soins.",
+      "icon": "",
+      "owner": "adam_francis",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "breakdown",
+      "name": "Effondrement",
+      "description": "Les crochets se brisent après votre décrochage.\n\n• **Tier I** : Le crochet est détruit pendant 120 secondes.\n• **Tier II** : 150 secondes.\n• **Tier III** : 180 secondes.\n\nRévèle l’aura du tueur après décrochage.",
+      "icon": "",
+      "owner": "jeff_johansen",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "aftercare",
+      "name": "Suivi des soins",
+      "description": "Vous gardez un œil sur ceux que vous aidez.\n\n• **Tier I–III** : Les survivants soignés ou décrochés voient mutuellement leurs auras.\n\nL’effet disparaît si vous êtes accroché.",
+      "icon": "",
+      "owner": "jeff_johansen",
+      "tags": [
+        "stealth",
+        "info"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "distortion",
+      "name": "Distorsion",
+      "description": "Vous cachez votre présence.\n\n• **Tier I** : Commence avec 3 jetons.\n• **Tier II** : 4 jetons.\n• **Tier III** : 5 jetons.\n\nUn jeton est consommé pour bloquer la lecture de votre aura.",
+      "icon": "",
+      "owner": "jeff_johansen",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "solidarity",
+      "name": "Solidarité",
+      "description": "Soigner les autres vous soigne aussi.\n\n• **Tier I** : Vous récupérez 40 % de vos soins personnels.\n• **Tier II** : 45 %.\n• **Tier III** : 50 %.\n\nFonctionne uniquement si vous êtes blessé.",
+      "icon": "",
+      "owner": "jane_romero",
+      "tags": [
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "poised",
+      "name": "Assurance",
+      "description": "Vous restez discrète après une réparation.\n\n• **Tier I** : Supprime les traces de pas pendant 6 secondes.\n• **Tier II** : 8 secondes.\n• **Tier III** : 10 secondes.\n\nS’active après la réparation d’un générateur.",
+      "icon": "",
+      "owner": "jane_romero",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "head_on",
+      "name": "De front",
+      "description": "Vous utilisez votre environnement.\n\n• **Tier I** : Étourdit le tueur pendant 3 secondes en sortant d’un casier.\n• **Tier II** : Temps de recharge réduit.\n• **Tier III** : Temps de recharge encore réduit.\n\nProvoque l’état Épuisement.",
+      "icon": "",
+      "owner": "jane_romero",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "flip_flop",
+      "name": "A la revoyure",
+      "description": "Vous convertissez votre récupération.\n\n• **Tier I** : 40 % de la progression est convertie en lutte.\n• **Tier II** : 45 %.\n• **Tier III** : 50 %.",
+      "icon": "",
+      "owner": "ash_williams",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "buckle_up",
+      "name": "Accrochez-vous",
+      "description": "Vous voyez l’état des survivants au sol.\n\n• **Tier I–III** : Révèle la progression de récupération.\n\nFonctionne à distance.",
+      "icon": "",
+      "owner": "ash_williams",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "mettle_of_man",
+      "name": "Force de caractère",
+      "description": "Vous encaissez pour les autres.\n\n• **Tier I–III** : Après 3 coups de protection, vous gagnez Endurance.\n\nSe désactive après utilisation.",
+      "icon": "",
+      "owner": "ash_williams",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "better_together",
+      "name": "Mieux ensemble",
+      "description": "Vous coordonnez les réparations.\n\n• **Tier I–III** : Révèle l’aura du générateur réparé aux survivants proches.\n\nRévèle également l’aura du tueur s’il s’approche.",
+      "icon": "",
+      "owner": "nancy_wheeler",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "fixated",
+      "name": "Obnubilé",
+      "description": "Vous êtes plus rapide en marchant.\n\n• **Tier I** : +10 % de vitesse de marche.\n• **Tier II** : 15 %.\n• **Tier III** : 20 %.\n\nPermet de voir vos propres traces.",
+      "icon": "",
+      "owner": "nancy_wheeler",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "inner_strength",
+      "name": "Force intérieure",
+      "description": "Vous puisez votre force dans la solitude.\n\n• **Tier I–III** : Après avoir purifié un totem, vous pouvez vous soigner dans un casier.\n\nTemps requis : 8 secondes.",
+      "icon": "",
+      "owner": "nancy_wheeler",
+      "tags": [
+        "totem",
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "babysitter",
+      "name": "Baby-sitter",
+      "description": "Vous protégez ceux que vous sauvez.\n\n• **Tier I** : Réduit les marques et le bruit du survivant décroché.\n• **Tier II** : Réduction accrue.\n• **Tier III** : Réduction maximale.\n\nRévèle votre aura au tueur.",
+      "icon": "",
+      "owner": "steve_harrington",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "camaraderie",
+      "name": "Camaraderie",
+      "description": "Les alliés vous aident à tenir.\n\n• **Tier I–III** : Ralentit la phase de sacrifice lorsqu’un survivant est proche.",
+      "icon": "",
+      "owner": "steve_harrington",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "second_wind",
+      "name": "Second souffle",
+      "description": "Vous récupérez après avoir aidé.\n\n• **Tier I–III** : Après avoir soigné des survivants, vous vous soignez automatiquement.\n\nS’active après décrochage.",
+      "icon": "",
+      "owner": "steve_harrington",
+      "tags": [
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "any_means_necessary",
+      "name": "Par tous les moyens",
+      "description": "Vous réutilisez les palettes.\n\n• **Tier I** : Réinitialisation plus rapide.\n• **Tier II** : Encore plus rapide.\n• **Tier III** : Vitesse maximale.\n\nRévèle les palettes tombées.",
+      "icon": "",
+      "owner": "yui_kimura",
+      "tags": [
+        "info",
+        "anti_loop",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "breakout",
+      "name": "Évasion",
+      "description": "Vous aidez les survivants portés.\n\n• **Tier I** : Augmente la vitesse de lutte de 20 %.\n• **Tier II** : 25 %.\n• **Tier III** : 30 %.\n\nFonctionne à proximité du tueur.",
+      "icon": "",
+      "owner": "yui_kimura",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "lucky_break",
+      "name": "Coup de chance",
+      "description": "Vous dissimulez vos blessures.\n\n• **Tier I** : Supprime traces et sang pendant 40 secondes.\n• **Tier II** : 50 secondes.\n• **Tier III** : 60 secondes.\n\nSe recharge en soignant les autres.",
+      "icon": "",
+      "owner": "yui_kimura",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "red_herring",
+      "name": "Leurre",
+      "description": "Vous détournez l’attention du tueur.\n\n• **Tier I** : Après avoir réparé un générateur, entrer dans un casier déclenche une notification sonore.\n• **Tier II** : Temps de recharge réduit.\n• **Tier III** : Temps de recharge encore réduit.\n\nLe générateur piégé est révélé au tueur.",
+      "icon": "",
+      "owner": "zarina_kassir",
+      "tags": [
+        "end_game",
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "off_the_record",
+      "name": "Confidentiel",
+      "description": "Vous disparaissez après un décrochage.\n\n• **Tier I** : Supprime les marques, le sang et les gémissements pendant 60 secondes.\n• **Tier II** : 70 secondes.\n• **Tier III** : 80 secondes.\n\nSe désactive en effectuant une action conspicue.",
+      "icon": "",
+      "owner": "zarina_kassir",
+      "tags": [
+        "stealth"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "for_the_people",
+      "name": "Pour le peuple",
+      "description": "Vous sacrifiez votre sécurité.\n\n• **Tier I–III** : En pleine santé, soignez instantanément un survivant mourant.\n\nVous devenez blessé et **Brisé** pendant 60 secondes.",
+      "icon": "",
+      "owner": "zarina_kassir",
+      "tags": [
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "soul_guard",
+      "name": "Protection de l'âme",
+      "description": "Une force mystérieuse vous protège.\n\n• **Tier I–III** : Permet de se relever depuis l’état mourant.\n\nConfère Endurance après récupération si une malédiction est active.",
+      "icon": "",
+      "owner": "cheryl_mason",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "blood_pact",
+      "name": "Pacte de sang",
+      "description": "Un lien vous unit à un allié.\n\n• **Tier I** : Révèle l’aura de l’obsession lorsqu’elle est blessée.\n• **Tier II** : Vous gagnez Hâte à proximité.\n• **Tier III** : Bonus accru.\n\nFonctionne tant que l’obsession est blessée.",
+      "icon": "",
+      "owner": "cheryl_mason",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "repressed_alliance",
+      "name": "Alliance refoulée",
+      "description": "Vous bloquez un générateur.\n\n• **Tier I–III** : En réparant, vous pouvez bloquer le générateur pendant 30 secondes.\n\nEmpêche le tueur de l’endommager.",
+      "icon": "",
+      "owner": "cheryl_mason",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "visionary",
+      "name": "Visionnaire",
+      "description": "Vous visualisez les objectifs.\n\n• **Tier I** : Révèle l’aura des générateurs à 32 mètres.\n• **Tier II** : 48 mètres.\n• **Tier III** : 64 mètres.\n\nSe désactive lorsque vous réparez.",
+      "icon": "",
+      "owner": "felix_richter",
+      "tags": [
+        "end_game",
+        "info",
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "desperate_measures",
+      "name": "Mesures désespérées",
+      "description": "La pression vous rend plus rapide.\n\n• **Tier I** : +10 % par survivant blessé ou accroché.\n• **Tier II** : +12 %.\n• **Tier III** : +14 %.\n\nAffecte soins et décrochages.",
+      "icon": "",
+      "owner": "felix_richter",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "built_to_last",
+      "name": "Conçu pour durer",
+      "description": "Vous entretenez vos outils.\n\n• **Tier I** : Récupère 33 % de charges après utilisation.\n• **Tier II** : 66 %.\n• **Tier III** : 99 %.\n\nS’active en entrant dans un casier.",
+      "icon": "",
+      "owner": "felix_richter",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "appraisal",
+      "name": "Estimation",
+      "description": "Vous fouillez les coffres plus efficacement.\n\n• **Tier I** : Permet de refouiller 1 coffre.\n• **Tier II** : 2 coffres.\n• **Tier III** : 3 coffres.\n\nAugmente la vitesse de fouille.",
+      "icon": "",
+      "owner": "elodie_rakoto",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "deception",
+      "name": "Supercherie",
+      "description": "Vous simulez l’entrée dans un casier.\n\n• **Tier I–III** : Déclenche une notification sans y entrer.\n\nProvoque Épuisement pendant 60 secondes.",
+      "icon": "",
+      "owner": "elodie_rakoto",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "power_struggle",
+      "name": "Bras de fer",
+      "description": "Vous ripostez au bon moment.\n\n• **Tier I** : Après 35 % de récupération, pouvez étourdir avec une palette.\n• **Tier II** : 30 %.\n• **Tier III** : 25 %.",
+      "icon": "",
+      "owner": "elodie_rakoto",
+      "tags": [
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "fast_track",
+      "name": "Voie rapide",
+      "description": "Les sacrifices accélèrent votre progression.\n\n• **Tier I** : Gagne des jetons à chaque accrochage.\n• **Tier II** : Plus de jetons.\n• **Tier III** : Bonus accru.\n\nConsomme les jetons sur les tests d’habileté.",
+      "icon": "",
+      "owner": "yun_jin_lee",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "self_preservation",
+      "name": "Instinct de survie",
+      "description": "Vous disparaissez quand le chaos éclate.\n\n• **Tier I** : Supprime marques et sang pendant 6 secondes.\n• **Tier II** : 8 secondes.\n• **Tier III** : 10 secondes.\n\nS’active lorsqu’un survivant est touché près de vous.",
+      "icon": "",
+      "owner": "yun_jin_lee",
+      "tags": [
+        "stealth"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "smash_hit",
+      "name": "Succés écrasant",
+      "description": "Vous sprintez après un étourdissement.\n\n• **Tier I** : Sprint de 4 secondes. Épuisement 60 s.\n• **Tier II** : Épuisement 50 s.\n• **Tier III** : Épuisement 40 s.",
+      "icon": "",
+      "owner": "yun_jin_lee",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "counterforce",
+      "name": "Contre-force",
+      "description": "Vous traquez les totems.\n\n• **Tier I** : Augmente la vitesse de purification de 20 %.\n• **Tier II** : 25 %.\n• **Tier III** : 30 %.\n\nRévèle l’aura du prochain totem.",
+      "icon": "",
+      "owner": "jill_valentine",
+      "tags": [
+        "info",
+        "chase",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "resurgence",
+      "name": "Renaissance",
+      "description": "Vous récupérez après un décrochage.\n\n• **Tier I** : Vous récupérez instantanément 40 % de soins.\n• **Tier II** : 45 %.\n• **Tier III** : 50 %.",
+      "icon": "",
+      "owner": "jill_valentine",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "blast_mine",
+      "name": "Mine explosive",
+      "description": "Vous piégez un générateur.\n\n• **Tier I–III** : Après réparation, installe une mine qui aveugle et étourdit le tueur.\n\nProvoque une notification sonore.",
+      "icon": "",
+      "owner": "jill_valentine",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "bite_the_bullet",
+      "name": "Serrer les dents",
+      "description": "Vous retenez votre douleur pendant les soins.\n\n• **Tier I–III** : Supprime les gémissements et notifications de soins ratés.\n\nLes tests d’habileté ont une zone réduite.",
+      "icon": "",
+      "owner": "leon_scott_kennedy",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "flashbang",
+      "name": "Grenade aveuglante",
+      "description": "Vous fabriquez une grenade étourdissante.\n\n• **Tier I–III** : Après réparation, cachez-vous dans un casier pour créer une grenade.\n\nPeut aveugler et étourdir le tueur.",
+      "icon": "",
+      "owner": "leon_scott_kennedy",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "rookie_spirit",
+      "name": "Détermination du bleu",
+      "description": "Vous apprenez des erreurs du tueur.\n\n• **Tier I** : Révèle le générateur endommagé après 5 bons tests.\n• **Tier II** : 4 tests.\n• **Tier III** : 3 tests.",
+      "icon": "",
+      "owner": "leon_scott_kennedy",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "clairvoyance",
+      "name": "Clairvoyance",
+      "description": "Un lien mystique vous guide.\n\n• **Tier I–III** : Après avoir purifié un totem, vous voyez les auras importantes.\n\nConsomme l’objet tenu.",
+      "icon": "",
+      "owner": "mikaela_reid",
+      "tags": [
+        "info",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "boon_circle_of_healing",
+      "name": "Bénédiction : Cercle de soins",
+      "description": "Vous bénissez un totem.\n\n• **Tier I** : Augmente la vitesse de soins dans la zone.\n• **Tier II** : Bonus accru.\n• **Tier III** : Bonus maximal.\n\nUn seul totem béni à la fois.",
+      "icon": "",
+      "owner": "mikaela_reid",
+      "tags": [
+        "chase",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "boon_shadow_step",
+      "name": "Bénédiction : Marche de l’ombre",
+      "description": "Vous dissimulez les traces dans la zone bénie.\n\n• **Tier I–III** : Supprime marques et auras dans la zone.\n\nL’effet persiste brièvement en sortant.",
+      "icon": "",
+      "owner": "mikaela_reid",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "corrective_action",
+      "name": "Mesure de correction",
+      "description": "Vous corrigez les erreurs de vos alliés.\n\n• **Tier I** : Stocke 1 jeton.\n• **Tier II** : 2 jetons.\n• **Tier III** : 3 jetons.\n\nConsomme un jeton pour transformer un test raté.",
+      "icon": "",
+      "owner": "jonah_vasquez",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "overcome",
+      "name": "Surmonter",
+      "description": "La douleur vous fait courir plus loin.\n\n• **Tier I** : Sprint prolongé après blessure. Épuisement 60 s.\n• **Tier II** : 50 s.\n• **Tier III** : 40 s.",
+      "icon": "",
+      "owner": "jonah_vasquez",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "exponential",
+      "name": "Bénédiction : Exponentiel",
+      "description": "Vous bénissez un totem pour aider les survivants au sol.\n\n• **Tier I–III** : Permet de se relever dans la zone.\n\nBonus de récupération accru.",
+      "icon": "",
+      "owner": "jonah_vasquez",
+      "tags": [
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "parental_guidance",
+      "name": "Conseil parentaux",
+      "description": "Vous disparaissez après un étourdissement.\n\n• **Tier I** : Supprime marques et gémissements pendant 5 s.\n• **Tier II** : 6 s.\n• **Tier III** : 7 s.",
+      "icon": "",
+      "owner": "yoichi_asakawa",
+      "tags": [
+        "stealth"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "empathic_connection",
+      "name": "Connexion empathique",
+      "description": "Les survivants blessés vous repèrent.\n\n• **Tier I** : Révèle votre aura à 64 m.\n• **Tier II** : 96 m.\n• **Tier III** : 128 m.\n\nAugmente votre vitesse de soins.",
+      "icon": "",
+      "owner": "yoichi_asakawa",
+      "tags": [
+        "info",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "dark_theory",
+      "name": "Bénédiction : Théorie ténébreuse",
+      "description": "Vous bénissez un totem.\n\n• **Tier I–III** : Confère Hâte dans la zone.\n\nBonus persiste brièvement après sortie.",
+      "icon": "",
+      "owner": "yoichi_asakawa",
+      "tags": [
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "inner_focus",
+      "name": "Concentration intérieure",
+      "description": "Vous ressentez la douleur des autres.\n\n• **Tier I** : Révèle l’aura du tueur après une blessure proche.\n• **Tier II** : Durée accrue.\n• **Tier III** : Bonus maximal.",
+      "icon": "",
+      "owner": "haddie_kaur",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "residual_manifest",
+      "name": "Manifeste résiduel",
+      "description": "Vous laissez des objets aveuglants.\n\n• **Tier I–III** : Les coffres contiennent des lampes.\n\nAveugler applique Cécité.",
+      "icon": "",
+      "owner": "haddie_kaur",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "overzealous",
+      "name": "Excès de zèle",
+      "description": "La purification vous motive.\n\n• **Tier I** : Bonus de réparation après totem.\n• **Tier II** : Bonus accru.\n• **Tier III** : Bonus maximal.\n\nPerdu si vous êtes blessé.",
+      "icon": "",
+      "owner": "haddie_kaur",
+      "tags": [
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "wiretap",
+      "name": "Micro caché",
+      "description": "Vous placez un dispositif sur un générateur.\n\n• **Tier I–III** : Révèle l’aura du tueur à proximité.\n\nLes survivants proches voient l’aura.",
+      "icon": "",
+      "owner": "ada_wong",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "low_profile",
+      "name": "Profil bas",
+      "description": "Vous devenez indétectable quand un allié tombe.\n\n• **Tier I** : Supprime marques pendant 6 s.\n• **Tier II** : 8 s.\n• **Tier III** : 10 s.",
+      "icon": "",
+      "owner": "ada_wong",
+      "tags": [
+        "stealth",
+        "info"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "reactive_healing",
+      "name": "Guérison réactive",
+      "description": "Vous récupérez quand un allié est frappé.\n\n• **Tier I** : +40 % de progression.\n• **Tier II** : 45 %.\n• **Tier III** : 50 %.",
+      "icon": "",
+      "owner": "ada_wong",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "better_than_new",
+      "name": "Mieux que neuf",
+      "description": "Vos soins laissent un bonus durable.\n\n• **Tier I–III** : Confère vitesse de réparation et déplacement.\n\nL’effet disparaît si blessé.",
+      "icon": "",
+      "owner": "rebecca_chambers",
+      "tags": [
+        "stealth",
+        "chase"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "hyperfocus",
+      "name": "Hyperconcentration",
+      "description": "Vous excellez aux tests d’habileté.\n\n• **Tier I** : Gagne des jetons.\n• **Tier II** : Bonus accru.\n• **Tier III** : Bonus maximal.\n\nLes zones de tests se réduisent.",
+      "icon": "",
+      "owner": "rebecca_chambers",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "reassurance",
+      "name": "Réconfort",
+      "description": "Vous apaisez un survivant accroché.\n\n• **Tier I–III** : Met en pause la progression du sacrifice.\n\nS’active à proximité.",
+      "icon": "",
+      "owner": "rebecca_chambers",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "fogwise",
+      "name": "Débrouillard",
+      "description": "Votre esprit perçoit les menaces.\n\n• **Tier I** : Après un test parfait, révèle l’aura du tueur pendant 4 secondes.\n• **Tier II** : 5 secondes.\n• **Tier III** : 6 secondes.",
+      "icon": "",
+      "owner": "vittorio_toscano",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "potential_energy",
+      "name": "Énergie potentielle",
+      "description": "Vous stockez votre progression.\n\n• **Tier I–III** : Convertit la progression de réparation en jetons.\n\nLes jetons peuvent être dépensés sur un autre générateur.",
+      "icon": "",
+      "owner": "vittorio_toscano",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "quick_gambit",
+      "name": "Gambit prompt",
+      "description": "Votre poursuite motive les autres.\n\n• **Tier I** : +6 % de vitesse de réparation près de vous.\n• **Tier II** : 7 %.\n• **Tier III** : 8 %.\n\nS’active pendant une poursuite.",
+      "icon": "",
+      "owner": "vittorio_toscano",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "friendly_competition",
+      "name": "Compétition amicale",
+      "description": "La coopération vous motive.\n\n• **Tier I** : Bonus de réparation après un générateur complété ensemble.\n• **Tier II** : Bonus accru.\n• **Tier III** : Bonus maximal.\n\nEffet temporaire.",
+      "icon": "",
+      "owner": "thalita_lyra",
+      "tags": [
+        "end_game",
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "cut_loose",
+      "name": "Hors de contrôle",
+      "description": "Vous brouillez les pistes après un saut.\n\n• **Tier I** : Supprime les traces pendant 4 secondes.\n• **Tier II** : 5 secondes.\n• **Tier III** : 6 secondes.",
+      "icon": "",
+      "owner": "thalita_lyra",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "teamwork_power_of_two",
+      "name": "Travail d’équipe : Pouvoir des deux",
+      "description": "Soigner renforce le duo.\n\n• **Tier I–III** : Confère Hâte tant que vous restez proches.\n\nSe désactive en s’éloignant.",
+      "icon": "",
+      "owner": "thalita_lyra",
+      "tags": [
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "background_player",
+      "name": "Joueur arrière",
+      "description": "Vous sprintez pour sauver.\n\n• **Tier I** : Sprint après étourdissement. Épuisement 60 s.\n• **Tier II** : 50 s.\n• **Tier III** : 40 s.",
+      "icon": "",
+      "owner": "renato_lyra",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "blood_rush",
+      "name": "Coup de collier",
+      "description": "La douleur repousse vos limites.\n\n• **Tier I–III** : Supprime Épuisement et confère Hâte brièvement.\n\nS’active lorsque vous êtes blessé et décroché.",
+      "icon": "",
+      "owner": "renato_lyra",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "teamwork_collective_stealth",
+      "name": "Travail d’équipe : Discrétion collective",
+      "description": "Soigner rend le duo discret.\n\n• **Tier I–III** : Supprime les traces de pas tant que vous restez proches.",
+      "icon": "",
+      "owner": "renato_lyra",
+      "tags": [
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "troubleshooter",
+      "name": "Expert",
+      "description": "Vous analysez la situation.\n\n• **Tier I** : Révèle l’aura du générateur perdu et du tueur.\n• **Tier II** : Durée accrue.\n• **Tier III** : Bonus maximal.\n\nS’active après une poursuite.",
+      "icon": "",
+      "owner": "gabriel_soma",
+      "tags": [
+        "end_game",
+        "info",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "scavenger",
+      "name": "Récupérateur",
+      "description": "Vous recyclez vos outils.\n\n• **Tier I–III** : Recharge une boîte à outils via des tests parfaits.\n\nAugmente la difficulté des tests.",
+      "icon": "",
+      "owner": "gabriel_soma",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "made_for_this",
+      "name": "Fait pour ça",
+      "description": "La douleur vous rend plus rapide.\n\n• **Tier I–III** : Confère Hâte lorsque vous êtes blessé.\n\nRéduit l’effet de ralentissement.",
+      "icon": "",
+      "owner": "gabriel_soma",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "dramaturgy",
+      "name": "Dramaturgie",
+      "description": "Vous misez sur l’imprévisible.\n\n• **Tier I–III** : Active une ruée avec un effet aléatoire.\n\nProvoque Épuisement.",
+      "icon": "",
+      "owner": "nicolas_cage",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "plot_twist",
+      "name": "Rebondissement",
+      "description": "Vous tombez pour mieux revenir.\n\n• **Tier I–III** : Vous pouvez vous mettre au sol volontairement.\n\nPermet de vous relever seul.",
+      "icon": "",
+      "owner": "nicolas_cage",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "scene_partner",
+      "name": "Partenaire de scène",
+      "description": "Vous réagissez de façon excessive.\n\n• **Tier I–III** : Voir le tueur déclenche un cri révélant son aura.\n\nPeut attirer l’attention.",
+      "icon": "",
+      "owner": "nicolas_cage",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "lucky_star",
+      "name": "Bonne étoile",
+      "description": "Les casiers vous protègent.\n\n• **Tier I–III** : Entrer dans un casier cache votre aura.\n\nRévèle les auras proches après sortie.",
+      "icon": "",
+      "owner": "ellen_ripley",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "chemical_trap",
+      "name": "Piège chimique",
+      "description": "Vous ralentissez le tueur.\n\n• **Tier I–III** : Place un piège sur une palette.\n\nRalentit le tueur après destruction.",
+      "icon": "",
+      "owner": "ellen_ripley",
+      "tags": [
+        "slowdown",
+        "anti_loop"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "light_footed",
+      "name": "A pas de chat",
+      "description": "Vous bougez sans bruit.\n\n• **Tier I–III** : Supprime les bruits de course après un saut.\n\nEffet temporaire.",
+      "icon": "",
+      "owner": "ellen_ripley",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "champion_of_light",
+      "name": "Champion de la lumière",
+      "description": "La lumière est votre arme.\n\n• **Tier I–III** : Aveugler le tueur avec une lampe lui inflige Aveuglement et Hâte aux survivants proches.\n\nEffet temporaire.",
+      "icon": "",
+      "owner": "alan_wake",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "deadline",
+      "name": "Echeance",
+      "description": "La pression aiguise vos réflexes.\n\n• **Tier I–III** : Augmente la fréquence des tests d’habileté pendant les réparations.\n\nRéussir des tests accorde un bonus.",
+      "icon": "",
+      "owner": "alan_wake",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "boon_illumination",
+      "name": "Bénédiction : Illumination",
+      "description": "Vous révélez les objectifs.\n\n• **Tier I–III** : Révèle les auras des coffres et générateurs dans la zone bénie.",
+      "icon": "",
+      "owner": "alan_wake",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "invocation_weaving_spiders",
+      "name": "Invocation : Araignée tisseuses",
+      "description": "Vous réalisez un rituel risqué.\n\n• **Tier I–III** : Réduit le nombre de générateurs requis.\n\nVous devenez blessé et Brisé pendant l’invocation.",
+      "icon": "",
+      "owner": "sable_ward",
+      "tags": [
+        "end_game",
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "strength_in_shadows",
+      "name": "L'ombre fait la force",
+      "description": "Les ténèbres vous protègent.\n\n• **Tier I–III** : Vous pouvez vous soigner dans un casier.\n\nFonctionne plus vite en sous-sol.",
+      "icon": "",
+      "owner": "sable_ward",
+      "tags": [
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "wicked",
+      "name": "Malice",
+      "description": "Les totems révèlent la vérité.\n\n• **Tier I–III** : Voir un totem révèle l’aura du tueur pendant une courte durée.",
+      "icon": "",
+      "owner": "sable_ward",
+      "tags": [
+        "slowdown",
+        "info",
+        "totem"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "bardic_inspiration",
+      "name": "Inspiration bardique",
+      "description": "Votre performance motive les autres.\n\n• **Tier I–III** : Jouer de la musique accorde un bonus d’actions aux survivants proches.\n\nEffet aléatoire.",
+      "icon": "",
+      "owner": "aestri_yazar_baermar_uraz",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "mirrored_illusion",
+      "name": "Illusion miroir",
+      "description": "Vous laissez une illusion trompeuse.\n\n• **Tier I–III** : Crée une fausse image lors d’une action rapide.\n\nPeut détourner le tueur.",
+      "icon": "",
+      "owner": "aestri_yazar_baermar_uraz",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "still_sight",
+      "name": "Vision immobile",
+      "description": "Le calme révèle les secrets.\n\n• **Tier I–III** : En restant immobile, révèle les auras proches.",
+      "icon": "",
+      "owner": "aestri_yazar_baermar_uraz",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "finesse",
+      "name": "Finesse",
+      "description": "Vos mouvements sont précis.\n\n• **Tier I–III** : Après un saut rapide, augmente votre vitesse et réduit le bruit.",
+      "icon": "",
+      "owner": "lara_croft",
+      "tags": [
+        "slowdown",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "hardened",
+      "name": "Endurcie",
+      "description": "Vous gardez le contrôle sous pression.\n\n• **Tier I–III** : Voir le tueur empêche de crier et confère Calme.",
+      "icon": "",
+      "owner": "lara_croft",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "specialist",
+      "name": "Spécialiste",
+      "description": "Vous excellez avec les outils.\n\n• **Tier I–III** : Les tests parfaits améliorent l’efficacité des objets.",
+      "icon": "",
+      "owner": "lara_croft",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "eyes_of_belmont",
+      "name": "Yeux de Belmont",
+      "description": "Votre lignée traque le mal.\n\n• **Tier I–III** : Révèle brièvement l’aura du tueur après une interaction clé.",
+      "icon": "",
+      "owner": "trevor_belmont",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "exultation",
+      "name": "Exultation",
+      "description": "La victoire vous renforce.\n\n• **Tier I–III** : Étourdir le tueur recharge un objet tenu.",
+      "icon": "",
+      "owner": "trevor_belmont",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "moment_of_glory",
+      "name": "Moment de gloire",
+      "description": "Vous tenez bon dans les pires situations.\n\n• **Tier I–III** : Confère Endurance temporaire après une action héroïque.",
+      "icon": "",
+      "owner": "trevor_belmont",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "invocation_treacherous_crows",
+      "name": "Invocation : Corbeaux traîtres",
+      "description": "Dans le sous-sol, vous pouvez commencer l’Invocation.\n\n• **Tier I–III** : Appuyer sur la touche d’activation près du cercle enclenche l’Invocation (60 s). Une fois terminée, vous devenez Blessé et Brisé pour le reste de l’Épreuve. Chaque fois qu’un corbeau est dérangé par le tueur, l’aura du tueur est révélée à tous les survivants pendant **1/1,5/2 secondes**.\n\nPendant l’Invocation, votre aura est révélée et les autres survivants peuvent accélérer le rituel en participant. — *« Rappelle-toi de ton entraînement ; ils t’ont tout appris sur les corbeaux. »*",
+      "icon": "",
+      "owner": "taurie_cain",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "Shoulder the Burden",
+      "name": "Andossez le fardeau",
+      "description": "Une fois par Épreuve, vous pouvez activer Shoulder the Burden devant un survivant accroché.\n\n• **Tier I** : Lorsque vous décoincez un survivant, il perd **1 étape de crochet** tandis que vous gagnez **1 étape de crochet**, vous poussez un cri et subissez l’état **Exposé** pendant 60 secondes.\n• **Tier II** : 50 secondes d’Exposé.\n• **Tier III** : 40 secondes d’Exposé.\n\n*Les survivants exposés peuvent être renversés plus facilement.* — *« Ce n’est pas encore ton heure. Pars maintenant ! »*",
+      "icon": "",
+      "owner": "taurie_cain",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "Clean Break",
+      "name": "Rupture nette",
+      "description": "À la fin de la guérison d’un autre survivant, Clean Break s’active.\n\n• **Tier I** : Après avoir commencé à être soignée par un autre survivant, subissez l’état **Brisé** et, après **80 secondes**, guérissez automatiquement 1 état de santé.\n• **Tier II** : 70 secondes.\n• **Tier III** : 60 secondes.\n\nClean Break ne s’active pas si vous êtes déjà Brisé. Il est annulé si vous passez à l’état mourant. — *« Je m’en sortirai ! Ne risqué pas votre peau pour moi. »*",
+      "icon": "",
+      "owner": "taurie_cain",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "do_no_harm",
+      "name": "DNe pas nuire",
+      "description": "Vous aidez ceux dans le besoin avec efficacité croissante.\n\n• **Tier I** : Lorsque vous soignez un autre survivant, augmentez votre vitesse de guérison altruiste de 30 % par Hook Stage et bonus de progression de Grand Test de Compétence +3 % par Hook Stage.\n• **Tier II** : 40 % / +3 %.\n• **Tier III** : 50 % / +3 %.\n\nLes bonus s’additionnent jusqu’à un maximum de 60/80/100 % de vitesse de guérison et +6 % de progression de Grand Test de Compétence par Hook Stage. — *Do No Harm vous rend plus efficace quand l’enjeu est élevé.*",
+      "icon": "",
+      "owner": "orela_rose",
+      "tags": [
+        "chase",
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "duty_of_care",
+      "name": "Devoir de vigilance",
+      "description": "Votre sens du devoir protège vos alliés.\n\n• **Tier I** : Tant que vous êtes en pleine santé, prendre un coup de protection octroie à tous les autres survivants dans un rayon de 12 mètres un effet **Hâte +25 %** pendant 4 secondes.\n• **Tier II** : 5 secondes.\n• **Tier III** : 6 secondes.\n\nUn puissant bonus d’urgence pour aider vos coéquipiers à fuir ou finir des objectifs après un choc. — *Duty of Care encourage les actions altruistes.*",
+      "icon": "",
+      "owner": "orela_rose",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "rapid_response",
+      "name": "Réaction rapide",
+      "description": "Quand le moment est venu, vous agissez vite.\n\n• **Tier I** : Chaque fois que vous devenez affligé par l’état **Epuise**, l’aura du tueur est révélée pendant 2 secondes.\n• **Tier II** : 1,5 secondes.\n• **Tier III** : 2 secondes.\n\nVous pouvez provoquer volontairement Epuise en effectuant une action hâtive pour sortir d’un casier (30/25/20 secondes de durée). *Rapid Response ne peut pas remplacer un Epuise déjà actif.*",
+      "icon": "",
+      "owner": "orela_rose",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "apocalyptic_ingenuity",
+      "name": "Ingéniosité apocalyptique",
+      "description": "Vous improvisez avec les ressources disponibles.\n\n• **Tier I** : Après avoir ouvert ou fouillé **2 coffres**, vous pouvez, à côté d’une **palette cassée**, maintenir l’activation pendant 4 secondes pour la **reconstruire en palette fragile**. Révèle l’aura des palettes cassées dans un rayon de 24 mètres.\n• **Tier II** : Rayon de 28 mètres.\n• **Tier III** : Rayon de 32 mètres.\n\nLes palettes fragiles se **cassent immédiatement** lorsqu’elles sont renversées. — *Sans barrières, tout est inutile.*",
+      "icon": "",
+      "owner": "rick_grimes",
+      "tags": [
+        "info",
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "come_and_get_me",
+      "name": "Viens me chercher!",
+      "description": "Vous êtes prêt à tout pour aider vos alliés.\n\n• **Tier I** : Après avoir décroché un survivant, si vous êtes accroupi et immobile, activez votre capacité : pendant **10 secondes**, tous les survivants blessés ou mourants dans un rayon de 24 mètres **ne laissent pas de traces de pas, de sang ni de sons de douleur**.\n• **Tier II** : 12,5 secondes.\n• **Tier III** : 15 secondes.\n\nVous **criez** et révélez votre aura au tueur pendant **5 secondes**.",
+      "icon": "",
+      "owner": "rick_grimes",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "teamwork_toughen_up",
+      "name": "Travail d'équipe: S'endurcir",
+      "description": "Vous gardez votre calme même sous pression.\n\n• **Tier I** : Lorsque vous êtes blessé et qu’un survivant dans un rayon de 24 mètres **étourdit ou aveugle le tueur** avec une palette, vos **bruits de douleur, traces de sang et marques de griffures sont complètement supprimés pendant 20 secondes**.\n• **Tier II** : 25 secondes.\n• **Tier III** : 30 secondes.\n\n*Vous affrontez les mauvaises personnes.*",
+      "icon": "",
+      "owner": "rick_grimes",
+      "tags": [
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "conviction",
+      "name": "Conviction",
+      "description": "Parfois, un ultime effort fait toute la différence entre la survie et la mort.\n\n• **Tier I** : Après avoir complètement soigné un survivant, lorsque vous êtes dans l’état **Critique**, Conviction s’active. Lorsque l’effet est actif, appuyez sur votre capacité active après avoir atteint 25 % de progression de récupération pour vous **récupérer immédiatement** de l’état Critique, infliger l’état **Brisé** et retomber dans l’état Critique après **20 secondes**.\n• **Tier II** : Temps avant retombée dans l’état Critique : 25 secondes.\n• **Tier III** : 30 secondes.\n\nConviction ne s’active que si vous êtes dans l’état Critique et avez soigné un autre survivant auparavant.",
+      "icon": "",
+      "owner": "michonne_grimes",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "last_stand",
+      "name": "Baroud d'honneur",
+      "description": "Même au comble du désespoir, votre volonté demeure inébranlable.\n\n• **Tier I** : Après avoir passé **120 secondes** dans le rayon de terreur sans être en poursuite, Last Stand s’active. Pendant qu’il est actif, effectuer un **Saut d’Obstacle Rapide** près du tueur étourdit ce dernier pendant **3 secondes** s’il se trouve à moins de 2,5 mètres.\n• **Tier II** : Temps requis réduit à 105 secondes.\n• **Tier III** : Temps requis réduit à 90 secondes.\n\nLast Stand est désactivé pour le reste de l’épreuve après utilisation.",
+      "icon": "",
+      "owner": "michonne_grimes",
+      "tags": [
+        "slowdown",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "teamwork_throw_down",
+      "name": "Travail d'équipe: Contrecarrer",
+      "description": "Vous savez que le meilleur moyen d’augmenter vos chances est de galvaniser ceux qui vous entourent.\n\n• **Tier I** : Chaque fois que vous **aveuglez ou étourdissez** le tueur (ex. grâce à une palette), tous les survivants blessés dans un rayon de 24 mètres gagnent l’état **Endurance** pendant **6 secondes**.\n• **Tier II** : Durée de 8 secondes.\n• **Tier III** : Durée de 10 secondes.\n\nTeamwork: Throw Down ne s’active que si l’effet d’aveuglement ou d’étourdissement a réussi.",
+      "icon": "",
+      "owner": "michonne_grimes",
+      "tags": [
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "ghost_notes",
+      "name": "Etouffements",
+      "description": "Vous gérez l’Épuisement comme une pro.\n\n• **Tier I** : Tant que vous êtes sous l’effet **Épuisement**, vos marques de pas disparaissent 50 % plus vite et vous récupérez de l’état Épuisement 5 % plus vite.\n• **Tier II** : Récupération de 7,5 %.\n• **Tier III** : Récupération de 10 %.\n\nGhost Notes n’applique pas l’état Épuisement. — *Vous connaissez la musique des meilleures reprises.*",
+      "icon": "",
+      "owner": "vee_boonyasak",
+      "tags": [
+        "stealth"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "one_two_three_four",
+      "name": "un-deux-trois-quatre!",
+      "description": "Une performance peut changer le jeu.\n\n• **Tier I** : Lorsque vous êtes immobile, appuyez sur le bouton de capacité pour lancer une **Performance** pendant jusqu’à 15 s. Les survivants dans un rayon de 16 m sont **renforcés**.\n• **Tier II** : Temps de recharge réduit.\n• **Tier III** : Temps de recharge encore réduit.\n\nAprès une performance réussie, les survivants soignant ou réparant bénéficient d’un bonus de **+20 % aux chances de faire apparaître un test de compétence** pendant 90 s. — *Une cadence solide crée un travail solide.*",
+      "icon": "",
+      "owner": "vee_boonyasak",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "road_life",
+      "name": "Vie sur la route",
+      "description": "La vie sur la route vous aiguise.\n\n• **Tier I** : Lorsque vous êtes blessé et réparez un générateur, chaque **Grand Test de compétence** vous donne 1 jeton.\n• **Tier II** : Besoin de moins de jetons pour activer l’effet.\n• **Tier III** : Besoin encore moins de jetons.\n\nUne fois le nombre requis de jetons atteint, ils sont consommés et **votre vitesse de soins passe à +100 % jusqu’à ce que vous arrêtiez de soigner**. Vous perdez des jetons pour chaque test raté. — *La route forge les survivants.*",
+      "icon": "",
+      "owner": "vee_boonyasak",
+      "tags": [
+        "end_game",
+        "chase",
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "bada_bada_boom",
+      "name": "Bada Bada Boom",
+      "description": "Vous pouvez ralentir le tueur avec votre ingéniosité.\n\n• **Tier I** : Après avoir accumulé 20 % de progression de réparation, la capacité s’active. Appuyez sur le bouton d’aptitude active à côté d’une fenêtre pour y poser un **piège** qui dure 40 secondes. Le piège s’active lorsque le tueur passe par la fenêtre et lui inflige **Entravé 50 % pendant 6 s**.\n• **Tier II** : Durée du piège de 50 s.\n• **Tier III** : Durée du piège de 60 s.\n\nL’aura des fenêtres piégées est révélée à tous les survivants en jaune. — *« Never tell me the odds. »*",
+      "icon": "",
+      "owner": "dustin_henderson",
+      "tags": [
+        "slowdown",
+        "info",
+        "anti_loop"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "change_of_plan",
+      "name": "Changement de plan",
+      "description": "Vous adaptez votre stratégie lorsque cela compte.\n\n• **Tier I** : Vous commencez l’Épreuve avec **2 jetons**. En étant dans un casier et en tenant une boîte à outils non issue d’un événement, vous pouvez appuyer sur le bouton d’aptitude active pour **dépenser 1 jeton** et transformer la boîte à outils en une **trousse de soins** de même rareté avec un accessoire aléatoire de même rareté contenant 80 % de ses charges.\n• **Tier II** : La trousse contient 90 % de ses charges.\n• **Tier III** : Elle contient 100 % de ses charges.\n\n*Vous pourriez ne pas être un combattant, mais apprendre à utiliser vos ressources fait toute la différence.*",
+      "icon": "",
+      "owner": "dustin_henderson",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "teamwork_full_circuit",
+      "name": "Travail d’équipe : Circuit complet",
+      "description": "Votre sens de la mécanique aide tout le monde.\n\n• **Tier I** : Pour chaque survivant réparant un générateur avec vous, la taille de la zone de **Bon Test d’Habileté** augmente de 15 %.\n• **Tier II** : +20 %.\n• **Tier III** : +25 %.\n\nDe plus, lorsque vous réparez avec au moins un autre survivant, vous réparez **5 % plus vite**.\n\nDes mains supplémentaires et de bonnes idées augmentent vos chances de succès.",
+      "icon": "",
+      "owner": "dustin_henderson",
+      "tags": [
+        "end_game",
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "extrasensory_perception",
+      "name": "Perception extrasensorielle",
+      "description": "En vous concentrant et en vous accroupissant, vous percevez ce qui vous entoure.\n\n• **Tier I** : Accroupissez-vous pendant 4 secondes pour activer cette compétence : vous gagnez les effets **Elusive** et **Oblivious**. Lorsque vous arrêtez de vous accroupir ou au bout de 11 secondes, tous les effets prennent fin et la compétence entre en rechargement de 60 secondes.\n• **Tier II** : Temps de recharge réduit à 50 secondes.\n• **Tier III** : Temps de recharge réduit à 40 secondes.\n\nPendant l’effet, vous voyez les auras des survivants, du tueur et de certains objets dans un rayon étendu. — *« Qu’est-ce qu’un ami ? »*",
+      "icon": "",
+      "owner": "eleven",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "teamwork_soft_spoken",
+      "name": "Travail d’équipe : Voix douce",
+      "description": "Vous protégez vos amis grâce à votre concentration.\n\n• **Tier I** : Pour chaque autre survivant réparant un générateur avec vous, la portée à laquelle le bruit du générateur est entendu est réduite de 15 %.\n• **Tier II** : Réduction de 20 %.\n• **Tier III** : Réduction de 25 %.\n\nDe plus, lorsque vous réparez avec au moins un autre survivant, vous réparez 5 % plus vite. — *« Je fais mes propres règles. »*",
+      "icon": "",
+      "owner": "eleven",
+      "tags": [
+        "end_game",
+        "slowdown",
+        "support"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "we_see_you",
+      "name": "Nous te voyons",
+      "description": "Vous maîtrisez vos pouvoirs et pouvez les retourner contre ceux qui vous traquent.\n\n• **Tier I** : Gagnez 1 jeton chaque fois que le tueur révèle votre aura. Quand vous atteignez 4 jetons, ils sont tous consommés et l’aura du tueur est révélée à vous et à tous les autres survivants pendant 10 secondes.\n• **Tier II** : Durée d’aura révélée de 12,5 secondes.\n• **Tier III** : Durée de 15 secondes.\n\nCette compétence a un temps de recharge de 10 secondes entre les gains de jetons. — *« Ce n’est pas moi. C’est toi. Tu es le monstre. »*",
+      "icon": "",
+      "owner": "eleven",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    }
+  ],
+  "killer": [
+    {
+      "id": "agitation",
+      "name": "Agitation",
+      "description": "Vous vous excitez à l’idée d’accrocher votre proie.\n\n• **Tier I** : Augmente votre vitesse de transport de survivant de 6 %.\n• **Tier II** : Augmente de 12 %.\n• **Tier III** : Augmente de 18 %.\n\nPendant que vous transportez un survivant, votre **rayon de terreur augmente**.",
+      "icon": "",
+      "owner": "trapper",
+      "tags": [
+        "end_game",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "brutal_strength",
+      "name": "Force brute",
+      "description": "Votre grande force vous permet de détruire les défenses de vos adversaires.\n\n• **Tier I** : Augmente la vitesse d’action de 10 %.\n• **Tier II** : 15 %.\n• **Tier III** : 20 %.\n\nCela s’applique à la destruction des palettes, des murs destructibles et à la perturbation des générateurs.",
+      "icon": "",
+      "owner": "trapper",
+      "tags": [
+        "end_game",
+        "anti_loop",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "unnerving_presence",
+      "name": "Présence perturbante",
+      "description": "Votre seule présence instille une grande peur.\n\n• **Tier I** : +10 % de chances d’apparition de test d’habileté et réduction de 40 % de la zone de succès.\n• **Tier II** : +10 % / 50 %.\n• **Tier III** : +10 % / 60 %.\n\nSurvivants réparant ou soignant dans votre **rayon de terreur** souffrent de tests plus fréquents et plus difficiles.",
+      "icon": "",
+      "owner": "trapper",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "predator",
+      "name": "Prédateur",
+      "description": "Vos sens aiguisés vous permettent de traquer vos proies plus efficacement.\n\n• **Tier I** : Les marques de griffures laissées par les survivants apparaissent plus rapprochées.\n• **Tier II** : Les marques sont encore plus rapprochées.\n• **Tier III** : Les marques sont extrêmement rapprochées.\n\nFacilite le suivi des survivants en fuite.",
+      "icon": "",
+      "owner": "wraith",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "bloodhound",
+      "name": "Limier",
+      "description": "Comme un chien de chasse, vous repérez mieux les traces de sang.\n\n• **Tier I** : Les flaques de sang sont plus visibles et durent 2 secondes de plus.\n• **Tier II** : Durent 3 secondes de plus.\n• **Tier III** : Durent 4 secondes de plus.\n\nLes survivants blessés ont plus de mal à dissimuler leur trajectoire.",
+      "icon": "",
+      "owner": "wraith",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "shadowborn",
+      "name": "Rejeton de l'ombre",
+      "description": "Votre vision s’adapte mieux à l’obscurité.\n\n• **Tier I** : Augmente votre champ de vision de 9 %.\n• **Tier II** : 12 %.\n• **Tier III** : 15 %.\n\nPermet de mieux repérer les survivants pendant les poursuites.",
+      "icon": "",
+      "owner": "wraith",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "enduring",
+      "name": "Tenace",
+      "description": "Vous êtes résistant à la douleur et aux attaques brusques.\n\n• **Tier I** : Réduit la durée des étourdissements de palette de 40 %.\n• **Tier II** : Réduction de 45 %.\n• **Tier III** : Réduction de 50 %.\n\nEnduring vous permet de maintenir la pression lors des poursuites prolongées.",
+      "icon": "",
+      "owner": "hillbilly",
+      "tags": [
+        "slowdown",
+        "anti_loop",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "lightborn",
+      "name": "Rejeton de la lumière",
+      "description": "Vous avez appris à utiliser la lumière à votre avantage.\n\n• **Tier I** : Les survivants qui tentent de vous aveugler révèlent leur aura pendant 6 secondes.\n• **Tier II** : 8 secondes.\n• **Tier III** : 10 secondes.\n\nVous êtes totalement **immunisé** contre les effets de cécité causés par les lampes, flashbangs et mines aveuglantes.",
+      "icon": "",
+      "owner": "hillbilly",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "tinkerer",
+      "name": "Réparateur",
+      "description": "Votre ouïe s’aiguise quand un objectif est presque terminé.\n\n• **Tier I** : Quand un générateur atteint 70 % de progression, une **notification sonore forte** se déclenche et vous révèle sa position. Vous obtenez l’état **Indétectable** pendant 12 secondes.\n• **Tier II** : 14 secondes.\n• **Tier III** : 16 secondes.\n\nTinkerer ne peut se déclencher qu’une fois par générateur par Épreuve.",
+      "icon": "",
+      "owner": "hillbilly",
+      "tags": [
+        "end_game",
+        "stealth",
+        "info"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "a_nurses_calling",
+      "name": "Vocation de l’Infirmière",
+      "description": "Vous êtes attirée par ceux qui ont besoin d’aide.\n\n• **Tier I** : L’aura des survivants qui donnent des soins ou qui en reçoivent est révélée dans un rayon de 28 m.\n• **Tier II** : Rayon de 30 m.\n• **Tier III** : Rayon de 32 m.\n\nPermet de repérer les survivants en train de soigner ou être soignés.",
+      "icon": "",
+      "owner": "nurse",
+      "tags": [
+        "info",
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "stridor",
+      "name": "Stridor",
+      "description": "Vous êtes extrêmement sensible à la respiration de vos proies.\n\n• **Tier I** : Augmente de 30 % le volume des Gémissements de Douleur des survivants blessés et de 15 % le volume de leur respiration normale.\n• **Tier II** : +40 % / +20 %.\n• **Tier III** : +50 % / +25 %.\n\nVous entendez plus distinctement les survivants quand ils respirent ou sont blessés.",
+      "icon": "",
+      "owner": "nurse",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "thanatophobia",
+      "name": "Thanatophobie",
+      "description": "La peur de la mort ralentit les survivants.\n\n• **Tier I** : Pour chaque survivant blessé, en état critique ou accroché, tous les survivants subissent une pénalité cumulable de 1 % aux vitesses d’action (réparation, sabotage, purification).\n• **Tier II** : 1,5 %.\n• **Tier III** : 2 %.\n\nSi les 4 survivants sont dans ces états, la pénalité augmente de +12 % supplémentaires (total de 16/18/20 %).",
+      "icon": "",
+      "owner": "nurse",
+      "tags": [
+        "slowdown",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "save_the_best_for_last",
+      "name": "Garder le meilleur pour la fin",
+      "description": "Chaque fois que vous touchez un survivant autre que votre Obsession avec une attaque basique, vous gagnez un jeton, jusqu’à un maximum de 6/7/8.\n\n• **Tier I** : Réduit la durée de récupération des attaques de base de 4 % par jeton.\n• **Tier II** : 5 % par jeton.\n• **Tier III** : 6 % par jeton.\n\nLorsque vous touchez votre Obsession avec une attaque, vous perdez 2 jetons. — *Applique une pression différente sur ceux que vous traquez.*",
+      "icon": "",
+      "owner": "myers",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "play_with_your_food",
+      "name": "Jouer avec la nourriture",
+      "description": "Chaque fois que vous poursuivez votre Obsession et la laissez s’échapper, cette compétence gagne un jeton, jusqu’à un maximum de 3.\n\n• **Tier I** : Confère +3 % d’Hâte par jeton.\n• **Tier II** : +4 % par jeton.\n• **Tier III** : +5 % par jeton.\n\nLes attaques consomment 1 jeton. — *La peur grandit à mesure que vous laissez souffler votre proie.*",
+      "icon": "",
+      "owner": "myers",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "dying_light",
+      "name": "Lumière mourante",
+      "description": "Chaque fois que vous accrochez un survivant autre que votre Obsession, vous gagnez 1 jeton, jusqu’à un maximum de 11.\n\n• **Tier I** : Les autres survivants subissent une pénalité de -2 % aux vitesses d’action par jeton.\n• **Tier II** : -2,5 % par jeton.\n• **Tier III** : -3 % par jeton.\n\nLa pénalité s’applique à la réparation, la guérison et le sabotage tant que l’Obsession est en vie. L’Obsession elle-même reçoit un bonus permanent de +33 % de vitesse pour la guérison et l’aide. — *Votre propre obsession vous rend plus implacable.*",
+      "icon": "",
+      "owner": "myers",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_the_third_seal",
+      "name": "Hex : Le Troisième Sceau",
+      "description": "Un Hexe qui entrave la lecture des auras.\n\n• **Tier I** : Les 2 derniers survivants que vous touchez ont l’effet **Cécité** tant que le totem est encore actif.\n• **Tier II** : Les 3 derniers survivants.\n• **Tier III** : Les 4 survivants.\n\nLes survivants touchés souffrent de Cécité permanente tant que le Totem Hex n’est pas purifié ou béni. — *Les survivants marqués portent la trace de la sorcière.*",
+      "icon": "",
+      "owner": "hag",
+      "tags": [
+        "hex",
+        "end_game",
+        "info",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_ruin",
+      "name": "Hex : Ruine",
+      "description": "Un Hexe qui affecte la progression des réparations.\n\n• **Tier I** : Quand un générateur n’est pas réparé, il régresse automatiquement à **50 %** de la vitesse de régression normale.\n• **Tier II** : **75 %**.\n• **Tier III** : **100 %**.\n\nCette régression ne se produit que lorsque le générateur est inactif et persiste tant que le totem Hex n’est pas purifié ou béni. — *Vous portez la ruine à chaque tentative des survivants.*",
+      "icon": "",
+      "owner": "hag",
+      "tags": [
+        "hex",
+        "end_game",
+        "chase",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_devour_hope",
+      "name": "sort : Mangeur d'Espoir",
+      "description": "Un Hexe qui se nourrit de l’espoir des survivants.\n\n• **Tier I** : Chaque fois qu’un survivant est libéré d’un crochet à **24 m ou plus**, gagnez **1 jeton** jusqu’à 5. À **2 jetons**, gagnez **+3 % Hâte** pendant 10 s après avoir accroché un survivant.\n• **Tier II** : +4 % Hâte.\n• **Tier III** : +5 % Hâte. À **3 jetons**, tous les survivants ont **Exposé**, et à **5 jetons**, vous obtenez la capacité de tuer avec votre propre main.\n\nTous les effets persistent tant que le Totem Hex n’est pas purifié ou béni. — *L’espoir d’échapper à la mort vous affaiblit.*",
+      "icon": "",
+      "owner": "hag",
+      "tags": [
+        "hex",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "overwhelming_presence",
+      "name": "Présence écrasante",
+      "description": "Votre seul fait d’être proche trouble vos victimes.\n\n• **Tier I** : Les survivants dans votre rayon de terreur voient la **consommation des objets augmentée de 80 %**.\n• **Tier II** : 90 %.\n• **Tier III** : 100 %.\n\nLes survivants utilisant un objet près de vous dépensent beaucoup plus vite leurs charges et ressources. — *Même savoir que vous êtes là suffit à perturber.*",
+      "icon": "",
+      "owner": "doctor",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "monitor_and_abuse",
+      "name": "Surveillance et maltraitance",
+      "description": "Vous exploitez vos chasses pour mieux surprendre.\n\n• **Tier I** : Réduit votre **rayon de terreur de 15 %** quand vous **n’êtes pas en poursuite**.\n• **Tier II** : 20 %.\n• **Tier III** : 25 %.\n\nQuand vous n’êtes pas en poursuite, vous êtes plus difficile à détecter. — *Traitement : observer avant d’infliger de la douleur.*",
+      "icon": "",
+      "owner": "doctor",
+      "tags": [
+        "slowdown",
+        "info",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "overcharge",
+      "name": "Surcharge",
+      "description": "Votre haine du progrès vous pousse à corrompre les générateurs.\n\n• **Tier I** : Après action sur un générateur, un **Test d’habileté difficile** est placé pour le prochain survivant qui l’utilise et le générateur est **régresse de 2 %** en plus du malus normal.\n• **Tier II** : 3 %.\n• **Tier III** : 4 %.\n\nAprès application, la régression du générateur passe à **130 %** de la vitesse normale pendant 30 secondes. — *Les progrès des survivants se retournent contre eux.*",
+      "icon": "",
+      "owner": "doctor",
+      "tags": [
+        "end_game",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "beast_of_prey",
+      "name": "Prédation",
+      "description": "Votre soif de traque est si intense que votre connexion avec l’Entité se dissout temporairement, vous rendant totalement imprévisible.\n\n• **Tier I** : Lorsque vous déclenchez l’effet **Bloodlust**, Bête de proie s’active pendant 30 s et vous confère l’état **Indétectable**.\n• **Tier II** : Dure 35 s.\n• **Tier III** : Dure 40 s.\n\nIndétectable rend vos présences plus sournoises entre deux attaques rapprochées.",
+      "icon": "",
+      "owner": "huntress",
+      "tags": [
+        "stealth",
+        "info"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "territorial_imperative",
+      "name": "Instinct territorial",
+      "description": "Votre don d’interpréter les auras se réveille quand vos proies s’approchent.\n\n• **Tier I** : Lorsque vous êtes à plus de 24 m de l’entrée d’un sous-sol et qu’un survivant y entre, son aura est révélée pendant 4 s.\n• **Tier II** : 5 s.\n• **Tier III** : 6 s.\n\nCette capacité a un temps de recharge de 45 s.",
+      "icon": "",
+      "owner": "huntress",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_huntress_lullaby",
+      "name": "Hex : Berceuse de la Chasseuse",
+      "description": "Une Hexe qui ancre sa puissance dans le désespoir.\n\n• **Tier I** : Quand un survivant rate un test de compétence lors de soins ou de réparations, cela régresse immédiatement la progression de 2 % en plus du malus normal.\n• **Tier II** : 4 %.\n• **Tier III** : 6 %.\n\nChaque fois qu’un survivant est accroché, l’Hexe gagne **1 jeton** (jusqu’à 5). Chaque jeton réduit le temps entre l’audio d’avertissement et l’apparition du test de compétence :\n  * 1 token : -14 %\n  * 2 tokens : -28 %\n  * 3 tokens : -42 %\n  * 4 tokens : -56 %\n  * 5 tokens : supprime totalement la piste audio.",
+      "icon": "",
+      "owner": "huntress",
+      "tags": [
+        "hex",
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "barbecue_and_chilli",
+      "name": "Chili et Barbecue",
+      "description": "Un lien profond avec l’Entité vous permet de repérer les auras.\n\n• **Tier I** : Après avoir accroché un survivant, tous les survivants situés à plus de **60 mètres** de ce crochet ont leurs **auras révélées pendant 5 secondes**.\n• **Tier II** : Distance réduite à **50 mètres**.\n• **Tier III** : Distance réduite à **40 mètres**.\n\nIdéal pour localiser rapidement les survivants dispersés après un accrochage. :contentReference[oaicite:0]{index=0}",
+      "icon": "",
+      "owner": "cannibal",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "franklins_demise",
+      "name": "Trépas de Franklin",
+      "description": "Vos attaques brutales forcent les survivants à lâcher leurs objets.\n\n• **Tier I** : Les objets lâchés perdent lentement leurs charges sur **150 secondes**, auras révélées dans un rayon de **32 mètres**.\n• **Tier II** : Charges perdues sur **120 secondes**.\n• **Tier III** : Charges perdues sur **90 secondes**.\n\nLes objets s’assombrissent en couleur pendant qu’ils se dégradent. :contentReference[oaicite:1]{index=1}",
+      "icon": "",
+      "owner": "cannibal",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "knock_out",
+      "name": "K.O.",
+      "description": "Vos attaques traumatisantes étouffent leurs appels au secours.\n\n• **Tier I** : Quand un survivant est mis en état critique par une attaque de base, si un autre survivant s’éloigne d’une palette de **16 mètres**, il subit **-5 % d’Entravé** pendant **3 secondes**.\n• **Tier II** : Effet pendant **4 secondes**.\n• **Tier III** : Effet pendant **5 secondes**.\n\nInflige une gêne supplémentaire à ceux qui tentent de fuir après avoir lâché une palette. :contentReference[oaicite:2]{index=2}",
+      "icon": "",
+      "owner": "cannibal",
+      "tags": [
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "blood_warden",
+      "name": "Gardien du Sang",
+      "description": "Dès qu’une porte de sortie est ouverte, Gardien du Sang s’active.\n\n• **Tier I** : Quand vous accrochez un survivant pendant que Blood Warden est actif, l’Entité bloque toutes les portes de sortie déjà ouvertes pendant 40 secondes.\n• **Tier II** : 50 secondes.\n• **Tier III** : 60 secondes.\n\nEmpêche tous les survivants restants de quitter l’épreuve par ces portes pendant la durée. — *« Ceci est mon monde. Et vous ne pourrez jamais en sortir. »*",
+      "icon": "",
+      "owner": "nightmare",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "fire_up",
+      "name": "Intensité ardente",
+      "description": "La pression de voir vos proies s’échapper vous remplit de rage et vous motive.\n\n• **Tier I** : Pour chaque générateur complété, Fire Up gagne 1 jeton (jusqu’à 5). Chaque jeton augmente les vitesses d’action de 4 %.\n• **Tier II** : 5 % par jeton.\n• **Tier III** : 6 % par jeton.\n\nAugmente la vitesse pour ramasser et lâcher les survivants. — *La perte de proies vous rend plus dangereux.*",
+      "icon": "",
+      "owner": "nightmare",
+      "tags": [
+        "end_game",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "remember_me",
+      "name": "Souviens-toi de moi",
+      "description": "Chaque fois que l’Obsession perd un état de santé, Remember Me gagne un jeton.\n\n• **Tier I** : Jusqu’à 3 jetons, chaque jeton augmente le temps d’ouverture des portes de sortie de 6 secondes.\n• **Tier II** : Jusqu’à 4 jetons.\n• **Tier III** : Jusqu’à 5 jetons.\n\nAugmente de façon cumulée le temps requis pour ouvrir les portes de sortie jusqu’à 18/24/30 secondes. L’Obsession n’est pas affectée par cette pénalité. — *« Tu ne te souviens pas de moi ? Tu devrais… »*",
+      "icon": "",
+      "owner": "nightmare",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "scourge_hook_hangmans_trick",
+      "name": "Crochet flagellateur : Coup du pendu",
+      "description": "Vos modifications astucieuses aux crochets vous préviennent des sabotages et vous donnent de l’information stratégique.\n\n• **Tier I** : Au début de l’Épreuve, 4 crochets deviennent des **Scourge Hooks**. Les auras de ces crochets sont révélées.\n• **Tier II** : Les survivants sabotant un crochet déclenchent une **notification sonore**.\n• **Tier III** : Lorsque vous portez un survivant, révèle l’aura de tous les survivants à 16 m d’un Scourge Hook.\n\nVous recevez également une notification lorsqu’un survivant commence à saboter un crochet. — *No excuses, no equivocations… No crying.*",
+      "icon": "",
+      "owner": "pig",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "surveillance",
+      "name": "Surveillance",
+      "description": "Vous exploitez pleinement votre capacité à lire les auras.\n\n• **Tier I** : Les générateurs actuellement en régression montrent une **aura blanche**.\n• **Tier II** : Si la régression est interrompue par une intervention survivante, l’aura reste **jaune pendant 8 secondes**.\n• **Tier III** : Délai d’aura jaune de 12 secondes.\n\nDe plus, augmente de 8 m la portée audible des bruits de réparation des générateurs. — *Are you gonna behave?* :contentReference[oaicite:0]{index=0}",
+      "icon": "",
+      "owner": "pig",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "make_your_choice",
+      "name": "Fais ton choix",
+      "description": "Vous punissez les survivants altruistes :\n\n• **Tier I** : Lorsque vous êtes à plus de 32 m d’un crochetage réussi, Make Your Choice s’active.\n• **Tier II** : Quand il s’active, le survivant secouru **crie et révèle son aura** pendant 5 secondes.\n• **Tier III** : Le survivant subit **l’état Exposé pendant 40/50/60 secondes**.\n\nMake Your Choice a un temps de recharge après activation. — *You’d be surprised what tools can save a life.* :contentReference[oaicite:1]{index=1}",
+      "icon": "",
+      "owner": "pig",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "bamboozle",
+      "name": "Déboussoler",
+      "description": "Après avoir franchi une fenêtre, vous invoquez l’Entité pour **bloquer cette fenêtre** pendant les prochaines secondes.\n\n• **Tier I** : Bloque la fenêtre pendant 8 s et augmente votre vitesse de franchissement de 5 %.\n• **Tier II** : 12 s / 10 %.\n• **Tier III** : 16 s / 15 %.\n\nLes fenêtres bloquées **ne peuvent pas être franchies** par les survivants. Bamboozle ne s’applique **pas aux palettes tombées**. — *Une tactique imprévisible digne d’un spectacle cauchemardesque.* :contentReference[oaicite:0]{index=0}",
+      "icon": "",
+      "owner": "clown",
+      "tags": [
+        "anti_loop",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "coulrophobia",
+      "name": "Coulrophobie",
+      "description": "Même sans peur instinctive des clowns, vos victimes savent instinctivement que quelque chose ne va pas.\n\n• **Tier I** : Réduit la vitesse de guérison des survivants dans votre **rayon de terreur** de 30 % et augmente la vitesse de rotation des tests d’habileté de +50 %.\n• **Tier II** : 40 % / +50 %.\n• **Tier III** : 50 % / +50 %.\n\nVos victimes deviennent plus maladroites et moins efficaces sous votre influence. — *Un rire sinistre suffit à paralyser leurs esprits.* :contentReference[oaicite:1]{index=1}",
+      "icon": "",
+      "owner": "clown",
+      "tags": [
+        "slowdown",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "pop_goes_the_weasel",
+      "name": "Le tour est joué",
+      "description": "Un lien profond avec l’Entité vous confère une force soudaine après un accrochage.\n\n• **Tier I** : Après avoir accroché un survivant, Pop Goes the Weasel s’active pendant 35 s. Pendant ce temps, **dégrader un générateur diminue instantanément** sa progression de -20 % de ce qui avait été complété.\n• **Tier II** : 40 s / -20 %.\n• **Tier III** : 45 s / -20 %.\n\nL’effet prend fin après que vous ayez endommagé un générateur ou lorsque le temps est écoulé. — *La peur n’est pas seulement mentale — elle ruine leurs efforts.* :contentReference[oaicite:2]{index=2}",
+      "icon": "",
+      "owner": "clown",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "spirit_fury",
+      "name": "Fureur de l’Esprit",
+      "description": "Chaque obstacle que vous cassez amplifie la rage de l’Entité.\n\n• **Tier I** : Après avoir détruit 4 palettes, Fureur de l’Esprit s’active et la prochaine palette utilisée pour vous étourdir est **immédiatement détruite**.\n• **Tier II** : Après 3 palettes.\n• **Tier III** : Après 2 palettes.\n\nLa prochaine palette qui étourdit le tueur sera détruite instantanément par l’Entité. — *La fureur coule dans votre sang.*",
+      "icon": "",
+      "owner": "spirit",
+      "tags": [
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_haunted_ground",
+      "name": "Hex : Terrain hanté",
+      "description": "Deux Totems ensorcelés apparaissent dans l’Épreuve.\n\n• **Tier I** : Quand un Totem est purifié ou béni, tous les survivants subissent **l’effet Exposé pendant 40 s**.\n• **Tier II** : 50 s.\n• **Tier III** : 60 s.\n\nLe second Totem devient passif une fois le premier purifié ou béni. — *Les survivants doivent craindre l’ombre qui hante le sol.*",
+      "icon": "",
+      "owner": "spirit",
+      "tags": [
+        "hex",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "rancor",
+      "name": "Rancœur",
+      "description": "Votre Obsession vous guide tandis que votre désir de vengeance s’intensifie.\n\n• **Tier I** : Chaque fois qu’un générateur est complété, votre **aura est révélée à l’Obsession pendant 5 s** et les **emplacements de tous les survivants sont révélés pendant 3 s**.\n• **Tier II** : Aura révélée 6 s / survivants 4 s.\n• **Tier III** : Aura révélée 7 s / survivants 5 s.\n\nQuand les portes de sortie sont alimentées, vous pouvez tuer votre Obsession vous-même et elle est placée en état **Exposé**. — *La rancune ne meurt jamais.*",
+      "icon": "",
+      "owner": "spirit",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "discordance",
+      "name": "Discordance",
+      "description": "Vous repérez les équipes en action.\n\n• **Tier I** : Tout générateur dans un rayon de **64 m** réparé par 2 survivants ou plus voit son **aura révélée en jaune**.\n• **Tier II** : Rayon de **96 m**.\n• **Tier III** : Rayon de **128 m**.\n\nQuand un générateur est mis en surbrillance pour la première fois, Discordance déclenche une **notification sonore forte**. L’aura persiste **4 s** après que le générateur ne soit plus réparé par deux survivants ou plus.",
+      "icon": "",
+      "owner": "legion",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "iron_maiden",
+      "name": "Vierge de Fer",
+      "description": "Votre présence rend les survivants imprudents.\n\n• **Tier I** : Augmente votre **vitesse de fouille des casiers** de 30 %.\n• **Tier II** : 40 %.\n• **Tier III** : 50 %.\n\nLes survivants qui sortent d’un casier fouillé par vous subissent les effets suivants :\n  * Ils **crient** et révèlent leur aura pendant **4 s**.\n  * Ils subissent l’état **Exposé pendant 30 s**.",
+      "icon": "",
+      "owner": "legion",
+      "tags": [
+        "slowdown",
+        "info",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "mad_grit",
+      "name": "Cran dément",
+      "description": "Votre rage vous soutient quand vous transportez votre proie.\n\n• **Tier I** : Quand vous portez un survivant, Mad Grit se déclenche.\n  * **Supprime la recharge** des attaques de base manquées.\n  * Chaque fois que vous **toucher un autre survivant**, la progression de lutte de la victime portée est **mise en pause** pendant **2 s**.\n• **Tier II** : **3 s** de pause.\n• **Tier III** : **4 s** de pause.\n\nRester agressif en poursuivant plusieurs survivants confère un avantage considérable dans les combats serrés.",
+      "icon": "",
+      "owner": "legion",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "corrupt_intervention",
+      "name": "Intervention impure",
+      "description": "Vos prières invoquent un pouvoir sombre qui entrave les chances de survie des survivants.\n\n• **Tier I** : Au début de l’Épreuve, les **3 générateurs les plus éloignés** sont bloqués par l’Entité pendant **80 secondes**.\n• **Tier II** : **100 secondes**.\n• **Tier III** : **120 secondes**.\n\nLes survivants **ne peuvent pas réparer** ces générateurs tant que l’effet est actif, et l’aura des générateurs affectés est révélée. Cet effet se désactive dès qu’un survivant est mis en état mourant.",
+      "icon": "",
+      "owner": "plague",
+      "tags": [
+        "end_game",
+        "info",
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "infectious_fright",
+      "name": "Peur contagieuse",
+      "description": "Les cris des infidèles font bondir votre cœur.\n\n• **Tier I** : Quand un survivant entre dans l’état **mourant**, tous les survivants **dans votre rayon de terreur** hurlent et **révèlent leur position pendant 4 secondes**.\n• **Tier II** : **5 secondes**.\n• **Tier III** : **6 secondes**.\n\nCela vous aide à localiser rapidement d’autres survivants après qu’un d’entre eux soit mis au sol.",
+      "icon": "",
+      "owner": "plague",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "dark_devotion",
+      "name": "Sombre dévotion",
+      "description": "La démonstration de vos pouvoirs crée un tourbillon de panique.\n\n• **Tier I** : Après avoir touché votre Obsession avec une **attaque de base**, l’Obsession émet son **rayon de terreur** pendant 20 secondes et vous devenez **Indétectable**.\n• **Tier II** : Temps de recharge réduit.\n• **Tier III** : Temps de recharge encore plus réduit.\n\nL’Obsession entend son propre rayon de terreur pendant la durée de l’effet.",
+      "icon": "",
+      "owner": "plague",
+      "tags": [
+        "slowdown",
+        "stealth",
+        "info"
+      ],
+      "weight": 5
+    },
+    {
+      "id": "furtive_chase",
+      "name": "Poursuite furtive",
+      "description": "Vous rôdez dans l’ombre, éliminant vos victimes une par une.\n\n• **Tier I** : Après avoir accroché l’Obsession, Poursuite furtive s’active pendant 14 s : vous gagnez l’état **Indétectable** et **+10 % Hâte**.\n• **Tier II** : Durée de 16 s.\n• **Tier III** : Durée de 18 s.\n\nChaque fois que l’Obsession est décroché, elle devient la nouvelle Obsession tant que Poursuite furtive est active. Vous ne pouvez être obsédé que par un seul survivant à la fois. — *Vous n’avez aucune idée de ce que je vous ai réservé.*",
+      "icon": "",
+      "owner": "ghost_face",
+      "tags": [
+        "stealth",
+        "info",
+        "chase"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "im_all_ears",
+      "name": "Je vous écoute",
+      "description": "Vos sens s’affûtent dans le Royaume de l’Entité.\n\n• **Tier I** : Chaque fois qu’un survivant effectue une **fenêtre précipitée** à moins de 48 m de vous, l’aura de ce survivant est révélée **pendant 8 s**.\n• **Tier II** : Temps de recharge de 60 s → 45 s.\n• **Tier III** : Temps de recharge de 45 s → 30 s.\n\nPermet de repérer les survivants qui tentent de fuir rapidement et d’interrompre leurs mouvements furtifs.",
+      "icon": "",
+      "owner": "ghost_face",
+      "tags": [
+        "info",
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "thrilling_tremors",
+      "name": "Frissons palpitants",
+      "description": "Vos sombres desseins éveillent l’Entité.\n\n• **Tier I** : Après avoir porté un survivant, **tous les générateurs non réparés** sont **bloqués pendant 16 s** et leurs **auras sont révélées en blanc**.\n• **Tier II** : Temps de recharge de 40 s → 35 s.\n• **Tier III** : Temps de recharge de 35 s → 30 s.\n\nVous pouvez interrompre la progression des survivants et les localiser sur la carte.",
+      "icon": "",
+      "owner": "ghost_face",
+      "tags": [
+        "end_game",
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "surge",
+      "name": "Surtension",
+      "description": "Votre présence étrange charge l’air et interfère avec la technologie.\n\n• **Tier I** : Après avoir mis un survivant en état mourant avec une attaque de base, tous les générateurs dans un rayon de 32 m **explosent immédiatement et commencent à régresser** avec une pénalité de progression de 8 %.\n• **Tier II** : Pénalité de progression de 8 %, temps de recharge réduit.\n• **Tier III** : Pénalité de progression de 8 %, temps de recharge encore plus réduit.\n\nSurtension affecte les générateurs proches lorsqu’une proie tombe à terre. :contentReference[oaicite:0]{index=0}",
+      "icon": "",
+      "owner": "demogorgon",
+      "tags": [
+        "end_game",
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "mindbreaker",
+      "name": "Briseur d'ésprit",
+      "description": "Votre présence perturbante épuise et affaiblit vos proies.\n\n• **Tier I** : Les survivants réparant un générateur subissent les états **Cécité** et **Épuisement** pendant l’action.\n• **Tier II** : Ces effets durent plus longtemps après l’arrêt de l’action.\n• **Tier III** : Effets encore plus longs.\n\nSi un survivant était déjà Épuisé avant d’être affecté, le compteur de l’état Épuisement est **mis en pause** pendant la réparation. :contentReference[oaicite:1]{index=1}",
+      "icon": "",
+      "owner": "demogorgon",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "cruel_limits",
+      "name": "Limites cruelles",
+      "description": "Vos liens avec le surnaturel se manifestent lorsque vos proies tentent de s’échapper.\n\n• **Tier I** : Chaque fois qu’un générateur est terminé, **toutes les fenêtres et obstacles sont bloqués** pour tous les survivants pendant 20 s et leurs auras sont révélées.\n• **Tier II** : Durée 25 s.\n• **Tier III** : Durée 30 s.\n\nLimites cruelles empêche temporairement les survivants d’utiliser ces points de fuite. :contentReference[oaicite:2]{index=2}",
+      "icon": "",
+      "owner": "demogorgon",
+      "tags": [
+        "end_game",
+        "info",
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "blood_echo",
+      "name": "Écho sanguin",
+      "description": "L’agonie d’un survivant se répercute sur ses alliés.\n\n• **Tier I** : Après avoir accroché un survivant, tous les autres survivants **blessés** subissent les états **Épuisement** et **Hémorragie** pendant 20 secondes.\n• **Tier II** : 25 secondes.\n• **Tier III** : 30 secondes.\n\nInflige des malus cumulés aux survivants déjà touchés quand un autre est pendu. — *« Attack an enemy with precision and their allies will feel it. »* :contentReference[oaicite:0]{index=0}",
+      "icon": "",
+      "owner": "oni",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "nemesis",
+      "name": "Ennemi juré",
+      "description": "Tu cherches vengeance contre ceux qui t’ont blessé.\n\n• **Tier I** : Si un survivant **différent de ton Obsession** te **aveugle ou t’étourdit**, il devient ta nouvelle Obsession.\n• **Tier II** : La nouvelle Obsession subit l’état **Oblivious** pendant 50 secondes et son aura est révélée pendant 4 secondes.\n• **Tier III** : 60 secondes d’Oblivious.\n\nTu ne peux être obsédé que par un survivant à la fois. — *« Only a fool would spit in a demon’s face and declare victory. »* :contentReference[oaicite:1]{index=1}",
+      "icon": "",
+      "owner": "oni",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "zanshin_tactics",
+      "name": "Tactiques de Zanshin",
+      "description": "Vous êtes mentalement alerté et conscient des mouvements de vos ennemis.\n\n• **Tier I** : Lorsqu’un survivant **jette une palette**, son **aura est révélée pendant 3 secondes**.\n• **Tier II** : 4 secondes.\n• **Tier III** : 5 secondes.\n\nPermet de suivre les survivants en fuite et de mieux anticiper leurs trajectoires. — *« Within your enemy’s strength is weakness. »* :contentReference[oaicite:2]{index=2}",
+      "icon": "",
+      "owner": "oni",
+      "tags": [
+        "info",
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "gearhead",
+      "name": "Bricoleur",
+      "description": "Votre oreille pour les mécanismes vous confère un avantage.\n\n• **Tier I** : Après qu’un survivant perd un état de santé, Gearhead s’active pendant 20 secondes : à chaque **Grand Test d’habileté réussi** lors d’une réparation, le générateur en cours se révèle à vous par une aura **jaune pendant 6 secondes**.\n• **Tier II** : 25 secondes / 7 secondes.\n• **Tier III** : 30 secondes / 8 secondes.\n\nPermet de repérer plus facilement où les survivants progressent. — *« Sometimes a man’s best work is what puts him in the grave. »*",
+      "icon": "",
+      "owner": "deathslinger",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "dead_mans_switch",
+      "name": "Dispositif de l’Homme Mort",
+      "description": "Votre obsession laisse un piège pour leurs progrès.\n\n• **Tier I** : Après avoir accroché un survivant, Dead Man’s Switch s’active. Tant qu’il est actif, **le premier générateur qu’un survivant arrête de réparer avant qu’il soit terminé est bloqué par l’Entité pendant 25 secondes** et sa progression est réinitialisée.\n• **Tier II** : 30 secondes.\n• **Tier III** : 35 secondes.\n\nLes générateurs affectés sont révélés par une aura **blanche**. — *« I've seen the look on a man's face when he realizes he's going to die. »*",
+      "icon": "",
+      "owner": "deathslinger",
+      "tags": [
+        "end_game",
+        "info",
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_retribution",
+      "name": "Sort : Châtiment",
+      "description": "Un Hex qui punit ceux qui vous défient.\n\n• **Tier I** : Dès qu’un survivant purifie ou bénit un Totem Hex, **tous les survivants révèlent leur aura pendant 10 secondes** et subissent l’état **Oblivious** pendant 35 secondes.\n• **Tier II** : Aura révélée 12,5 secondes / Oblivious 40 secondes.\n• **Tier III** : Aura révélée 15 secondes / Oblivious 45 secondes.\n\nLes effets persistent tant que le Totem Hex associé n’est pas purifié ou béni. — *Ceux qui vous trahissent apprendront ce qu’est la peur.*",
+      "icon": "",
+      "owner": "deathslinger",
+      "tags": [
+        "hex",
+        "slowdown",
+        "info",
+        "totem"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "deathbound",
+      "name": "Lien mortel",
+      "description": "Ceux dont la vie est liée à l’obscurité sont destinés à souffrir ensemble.\n\n• **Tier I** : Lorsqu’un survivant termine de **soigner un autre survivant** de l’équivalent d’un état de santé, le soigneurs **crie et révèle sa position**.\n  • Le soigneur subit l’état **Oblivious** s’il est à plus de **12 m** de l’autre survivant.\n  • Le soigneur voit l’aura du survivant soigné tant que Deathbound est actif.\n• **Tier II** : Oblivious à plus de 8 m.\n• **Tier III** : Oblivious à plus de 4 m.\n\nDeathbound se désactive après que le soigneur perd un état de santé.",
+      "icon": "",
+      "owner": "executioner",
+      "tags": [
+        "slowdown",
+        "info",
+        "support"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "forced_penance",
+      "name": "Pénitence forcée",
+      "description": "Ceux qui s’opposent au devoir subiront un jugement sévère.\n\n• **Tier I** : Quand un survivant subit un **Protection Hit**, il subit l’état **Brisé** pendant **60 secondes**.\n• **Tier II** : **70 secondes**.\n• **Tier III** : **80 secondes**.\n\nLe survivant affecté ne peut **pas se soigner complètement** tant que l’effet dure.",
+      "icon": "",
+      "owner": "executioner",
+      "tags": [
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "trail_of_torment",
+      "name": "Piste de souffrance",
+      "description": "Vous guidez vos victimes le long d’un chemin de douleur et de punition.\n\n• **Tier I** : Après avoir **endommagé un générateur**, vous gagnez l’état **Indétectable** et l’aura du générateur endommagé est révélée en **jaune**.\n  • Temps de recharge **60 s**.\n• **Tier II** : Recharge **45 s**.\n• **Tier III** : Recharge **30 s**.\n\nSentier de tourment se désactive après que le générateur cesse de régresser par tout moyen.",
+      "icon": "",
+      "owner": "executioner",
+      "tags": [
+        "end_game",
+        "stealth",
+        "info"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "dragons_grip",
+      "name": "Prise du dragon",
+      "description": "Vous utilisez votre expertise chimique pour transformer les actions des survivants en douleur.\n\n• **Tier I** : Après avoir endommagé un générateur, Prise du dragon s’active pendant 30 s. Le **premier survivant** qui interagit avec ce générateur **crie et révèle sa position pendant 4 s** et subit l’état **Exposé pendant 60 s**.\n• **Tier II** : Temps de recharge réduit à **45 s**.\n• **Tier III** : Temps de recharge réduit à **30 s**.\n\nCe malus surprend les survivants et ouvre des opportunités de poursuite. — *« Such potential in this compound… even the slightest trace causes unnatural effects. »* :contentReference[oaicite:0]{index=0}",
+      "icon": "",
+      "owner": "blight",
+      "tags": [
+        "end_game",
+        "slowdown",
+        "info",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "hex_blood_favour",
+      "name": "Sort : Faveur de Sang",
+      "description": "Un sort Hex imprégné du pouvoir de l’Entité se déchaîne lorsque le sang coule.\n\n• **Tier I** : Un totem Hex est actif dès le début de l’Épreuve. Chaque fois qu’un survivant **perd un état de santé, l’effet du Hex s’active pendant 15 s** : toutes les **palettes dressées** dans un rayon de **24 m** sont **bloquées** (elles ne peuvent pas être abaissées).\n• **Tier II** : Rayon de **28 m**.\n• **Tier III** : Rayon de **32 m**.\n\nLes palettes bloquées restent inutilisables tant que le totem n’est ni purifié ni béni. — *L’Entité se délecte de chaque goutte versée.* :contentReference[oaicite:1]{index=1}",
+      "icon": "",
+      "owner": "blight",
+      "tags": [
+        "hex",
+        "anti_loop",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_undying",
+      "name": "Sort : Immortel",
+      "description": "Un Hex qui transcende les limites de la mort pour traquer ceux qui osent s’approcher.\n\n• **Tier I** : Tant qu’un survivant se trouve dans un rayon de **2 m** d’un Totem sans effet (Dull Totem), **son aura est révélée** tant qu’il reste à cette distance.\n• **Tier II** : Rayon de **3 m**.\n• **Tier III** : Rayon de **4 m**.\n\nDe plus, si un autre totem Hex est purifié, Hex : Immortel **transfère son effet au totem de Hex : Immortel**, prolongeant ainsi la malédiction. — *Les forces maléfiques ne disparaissent jamais vraiment.* :contentReference[oaicite:2]{index=2}",
+      "icon": "",
+      "owner": "blight",
+      "tags": [
+        "hex",
+        "stealth",
+        "info",
+        "totem"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "hoarder",
+      "name": "amasseur",
+      "description": "Vous surveillez les ressources des survivants.\n\n• **Tier I** : Vous recevez une notification chaque fois qu’un survivant **ouvre un coffre ou ramasse un objet à proximité**.\n• **Tier II** : Le rayon d’effet augmente.\n• **Tier III** : Le rayon d’effet augmente encore davantage.\n\nHoarder vous aide à localiser les survivants en suivant leurs interactions avec les objets. — *Perk unique des Jumeaux (Twins).* :contentReference[oaicite:0]{index=0}",
+      "icon": "",
+      "owner": "twins",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "oppression",
+      "name": "Oppression",
+      "description": "Vous transformez la progression en régression.\n\n• **Tier I** : Lorsque vous **coupez (kick) un générateur**, les **3 autres générateurs en cours de réparation régressent** automatiquement.\n• **Tier II** : La vitesse de régression est augmentée.\n• **Tier III** : La vitesse de régression est encore plus élevée.\n\nOppression crée une forte pression en ralentissant les progrès des survivants. — *Perk unique des Jumeaux (Twins).* :contentReference[oaicite:1]{index=1}",
+      "icon": "",
+      "owner": "twins",
+      "tags": [
+        "end_game",
+        "slowdown",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "coup_de_grace",
+      "name": "Coup de Grâce",
+      "description": "Chaque fois qu’un générateur est **complètement réparé**, Coup de Grâce gagne des jetons.\n\n• **Tier I** : Jusqu’à 5 jetons — augmente la distance de votre prochaine **Attaque Chargée** de 70 % par jeton.\n• **Tier II** : Jusqu’à 5 jetons — 75 % par jeton.\n• **Tier III** : Jusqu’à 5 jetons — 80 % par jeton.\n\nChaque jeton augmente significativement la portée de votre prochaine Attaque Chargée. — *Perk unique des Jumeaux (Twins).* :contentReference[oaicite:2]{index=2}",
+      "icon": "",
+      "owner": "twins",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_crowd_control",
+      "name": "Hex : Contrôle de foule",
+      "description": "Une malédiction qui garde ceux qui vous entourent bien rangés.\n\n• **Tier I** : Au début de la partie, un Totem Hex est activé. Chaque fois qu’un survivant exécute une **fenêtre précipitée (Rushed Vault)**, ce perk bloque **3 fenêtres**.\n• **Tier II** : **4 fenêtres**.\n• **Tier III** : **5 fenêtres**.\n\nLes fenêtres bloquées **restent bloquées tant que le Totem Hex est actif** (jusqu’à ce qu’il soit purifié ou béni par un survivant). — *Une barrière de l’Entité se dresse là où ils espéraient fuir.*",
+      "icon": "",
+      "owner": "trickster",
+      "tags": [
+        "hex",
+        "anti_loop",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "no_way_out",
+      "name": "Aucune issue",
+      "description": "Vous ne laisserez pas n’importe qui entrer dans le salon VIP.\n\n• **Tier I** : Chaque fois que vous accrochez un survivant **pour la première fois**, No Way Out gagne **+1 jeton**.\n• **Tier II** : Temps de blocage prolongé.\n• **Tier III** : Temps de blocage encore plus prolongé.\n\nUne fois les portes de sortie alimentées, quand un survivant interagit avec un interrupteur de porte, vous recevez une notification sonore **et l’Entité bloque les deux interrupteurs** pendant **12 secondes + 6/9/12 secondes par jeton accumulé** (max. 36/48/60 secondes). — *L’Entité vous retient pour savourer chaque cri.*",
+      "icon": "",
+      "owner": "trickster",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "starstruck",
+      "name": "Fascination",
+      "description": "Votre talent inégalé éblouit tout le monde.\n\n• **Tier I** : Lorsque vous **portez un survivant**, Starstruck s’active : tous les autres survivants dans votre **rayon de terreur** subissent l’état **Exposé**.\n• **Tier II** : Durée plus longue après sortie du rayon.\n• **Tier III** : Durée encore plus longue.\n\nL’effet persiste **pendant 26/28/30 secondes** après que les survivants sortent du rayon ou que Starstruck se désactive (après accrochage ou lâcher). — *Profitez du moment — peu ont atteint une telle proximité.*",
+      "icon": "",
+      "owner": "trickster",
+      "tags": [
+        "end_game",
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "lethal_pursuer",
+      "name": "Poursuivant meurtrier",
+      "description": "Vous avez été conçu pour traquer et éliminer vos cibles.\n\n• **Tier I** : Au début de l’Épreuve, les auras de tous les survivants sont révélées pendant 7 secondes.\n• **Tier II** : 8 secondes.\n• **Tier III** : 9 secondes.\n\nDe plus, la durée de tous les effets de lecture d’aura révélés est **augmentée de 2 secondes**. Poursuivant meurtrier bénéficie de sa propre amélioration de durée d’aura. — *Votre seul objectif est la traque.*",
+      "icon": "",
+      "owner": "nemesis",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hysteria",
+      "name": "Hystérie",
+      "description": "La violence que vous faites subir à un membre de l’équipe provoque une panique généralisée.\n\n• **Tier I** : Chaque fois que vous blessez un survivant en bonne santé, **tous les survivants blessés** souffrent de l’état **Oblivious** pendant 30 secondes.\n• **Tier II** : 35 secondes.\n• **Tier III** : 40 secondes.\n\nHystérie a un **temps de recharge de 20 secondes** entre ses activations. — *Votre présence instille la confusion et la peur.*",
+      "icon": "",
+      "owner": "nemesis",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "eruption",
+      "name": "Éruption",
+      "description": "Votre parasite NE-α vous donne l’intelligence et la conscience nécessaires pour piéger vos proies.\n\n• **Tier I** : Endommager un générateur le met en surbrillance en jaune. Quand un survivant passe à l’état **mourant**, tous les générateurs surlignés : explosent, perdent **10 %** de progression et commencent à régresser ; les survivants en train de les réparer hurlent et leurs auras sont révélées pendant 8 secondes.\n• **Tier II** : Auras révélées 10 secondes.\n• **Tier III** : Auras révélées 12 secondes.\n\nÉruption a **30 secondes de temps de recharge** après déclenchement. — *Une explosion de chaos à chaque chute.*",
+      "icon": "",
+      "owner": "nemesis",
+      "tags": [
+        "end_game",
+        "slowdown",
+        "info",
+        "support"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "deadlock",
+      "name": "Impasse",
+      "description": "Personne ne nous échappe.\n\n• **Tier I** : Identique à No Holds Barred — chaque fois que vous accrochez un survivant, la vitesse à laquelle vous arrachez les survivants des crochets augmente pendant quelques secondes.\n• **Tier II** : Bonus accru.\n• **Tier III** : Bonus maximal.\n\nCe perk reflète la détermination implacable du Cénobite à faire souffrir et capturer ses proies. — *Pinhead*.",
+      "icon": "",
+      "owner": "cenobite",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_plaything",
+      "name": "Sort : Jouet",
+      "description": "Un Hex malicieux qui joue avec la destinée des survivants.\n\n• **Tier I** : Identique à Hex: Fortune's Fool — tant que ce totem Hex est actif, les survivants subissent une pénalité aux vitesses d’action et voient leurs progrès ralentis.\n• **Tier II** : Effets plus longs.\n• **Tier III** : Effets maximisés.\n\nUn totem qui rappelle aux survivants que la chance n’est pas de leur côté. — *Pinhead*.",
+      "icon": "",
+      "owner": "cenobite",
+      "tags": [
+        "hex",
+        "slowdown",
+        "chase",
+        "totem"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "scourge_hook_gift_of_pain",
+      "name": "Crochet Flagellateur : Don de Souffrance",
+      "description": "Vos crochets infligent une souffrance supplémentaire.\n\n• **Tier I** : Identique à Scourge Hook: Weeping Wounds — certains crochets deviennent des Scourge Hooks et imposent des effets de statut ou des pénalités aux survivants décrochés.\n• **Tier II** : Effets renforcés.\n• **Tier III** : Effets maximisés.\n\nLes survivants décroqués subissent des malus prolongés, rappelant le « plaisir » de la souffrance. — *Pinhead*.",
+      "icon": "",
+      "owner": "cenobite",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "grim_embrace",
+      "name": "Sombre étreinte",
+      "description": "Votre acte de servitude envers l’Entité ne passe pas inaperçu.\n\n• **Tier I** : Chaque fois qu’un survivant est accroché pour la première fois, gagnez 1 jeton. Quand vous vous éloignez d’un crochet de **16 m ou plus**, tous les générateurs sont bloqués pendant **6 s**.\n• **Tier II** : **8 s**.\n• **Tier III** : **10 s**.\n\nQuand vous obtenez **4 jetons**, tous les générateurs sont bloqués pendant **40 s** et l’aura de l’obsession est révélée pendant 6 s. — *Votre dévouement à l’Entité plonge leurs espoirs dans l’ombre.*",
+      "icon": "",
+      "owner": "artist",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "scourge_hook_pain_resonance",
+      "name": "Crochet flagellateur : Écho de douleur",
+      "description": "La douleur irrésistible résonne au-delà de la chair.\n\n• **Tier I** : Au début de l’Épreuve, **4 crochets aléatoires** deviennent des Crochets flagellateurs, révélés en aura blanche.\n• **Tier II** : Même, avec **% plus fort** (mécanique interne).\n• **Tier III** : Même, avec **% encore plus fort**.\n\nChaque fois qu’un survivant est accroché à un Crochet flagellateur pour la première fois, le générateur avec le plus de progression explose et perd **10/15/20 %** de progression, puis régresse normalement, et les survivants en train de réparer ce générateur hurlent. — *La chair blessée fait écho dans le vent.*",
+      "icon": "",
+      "owner": "artist",
+      "tags": [
+        "end_game",
+        "slowdown",
+        "info",
+        "support"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "hex_pentimento",
+      "name": "Sort : Repentir",
+      "description": "Vous révélez le véritable pouvoir des totems, caché dans leurs restes.\n\n• **Tier I** : Révèle les **auras des totems purifiés**, et vous pouvez effectuer un rituel pour les transformer en **Totems ravivés**.\n• **Tier II** : Effets plus forts.\n• **Tier III** : Effets encore plus forts.\n\nChaque Totem ravivé confère un malus aux survivants :\n  * **1** Totem : -20/25/30 % vitesse de réparation.\n  * **2** Totems : -20/25/30 % vitesse de guérison.\n  * **3** Totems : -20/25/30 % vitesse de récupération.\n  * **4** Totems : -20/25/30 % vitesse d’ouverture des portes.\n  * **5** Totems : Tous les totems sont **bloqués** pour la durée de l’Épreuve.\n\nQuand un Totem ravivé est purifié, ses restes sont consommés par l’Entité et ne peuvent plus être ravivés. — *L’art du repentir pèse sur leurs âmes.*",
+      "icon": "",
+      "owner": "artist",
+      "tags": [
+        "end_game",
+        "info",
+        "chase",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "scourge_hook_floods_of_rage",
+      "name": "Crochet flagellateur : Flots de rage",
+      "description": "Tu formes une connexion psychique avec l’Entité et altères les règles de l’Épreuve.\n\n• **Tier I** : Au début de l’Épreuve, **4 crochets aléatoires deviennent des Crochets flagellateurs** et leurs auras sont révélées en blanc.\n• **Tier II** : L’aura dure plus longtemps.\n• **Tier III** : L’aura dure encore plus longtemps.\n\nChaque fois qu’un survivant est décroché d’un Crochet flagellateur, **les auras de tous les survivants sont révélées pendant 5/6/7 secondes**. — *Onryō manipule les liens entre l’Entité et ses proies.* :contentReference[oaicite:0]{index=0}",
+      "icon": "",
+      "owner": "onryo",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "call_of_brine",
+      "name": "Appel de la mer",
+      "description": "Tes capacités psychiques influencent la technologie de manière dévastatrice.\n\n• **Tier I** : Après avoir endommagé un générateur, Call of Brine s’active pendant 60 s : le générateur **régresse à 115 %** de la vitesse normale, son **aura est révélée en jaune**, et tu reçois une **notification sonore forte** à chaque Bon Test réussi.\n• **Tier II** : Régresse à 120 %.\n• **Tier III** : Régresse à 125 %.\n\nPerturbe l’avancée des survivants sur les objectifs tout en localisant ceux qui réussissent leurs tests. :contentReference[oaicite:1]{index=1}",
+      "icon": "",
+      "owner": "onryo",
+      "tags": [
+        "end_game",
+        "info",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "merciless_storm",
+      "name": "Tempête impitoyable",
+      "description": "Ton traumatisme horrible se fait sentir de tous.\n\n• **Tier I** : Quand un générateur atteint **90 % de progression**, Merciless Storm s’active : tous les survivants réparant ce générateur affrontent **une série continue de tests d’habileté**.\n• **Tier II** : Si un survivant échoue ou interrompt l’action, le générateur est **bloqué 18 s**.\n• **Tier III** : Bloqué **20 s**.\n\nChaque générateur peut déclencher cet effet **une fois par Épreuve**. Empêche ainsi les survivants de finir facilement les objectifs tard dans la partie. :contentReference[oaicite:2]{index=2}",
+      "icon": "",
+      "owner": "onryo",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "darkness_revealed",
+      "name": "Tenèbre révélées",
+      "description": "Là où l’obscurité règne, vos ennemis ne sont plus à l’abri.\n\n• **Tier I** : Après avoir fouillé un casier, **les auras des survivants situés dans un rayon de 8 m autour de n’importe quel casier** sont révélées pendant 6 secondes.\n• **Tier II** : Durée augmentée.\n• **Tier III** : Durée encore plus longue.\n\nCette capacité a un **temps de recharge de 30 secondes**. — *Dans l’ombre, la peur expose vos proies.*",
+      "icon": "",
+      "owner": "dredge",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "dissolution",
+      "name": "Dissolution",
+      "description": "Tout se transforme en poussière.\n\n• **Tier I** : Après avoir blessé un survivant, **Dissolution s’active après 3 secondes pour 12 secondes**. Pendant ce temps, **la prochaine palette qu’un survivant franchit rapidement dans votre rayon de terreur est automatiquement détruite à la fin du franchissement**.\n• **Tier II** : Durée de 16 secondes.\n• **Tier III** : Durée de 20 secondes.\n\nCe perk annule le prochain palier rapide, entravant les survivants qui tentent d’échapper à votre pression. — *L’obscurité broie toute défense.*",
+      "icon": "",
+      "owner": "dredge",
+      "tags": [
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "septic_touch",
+      "name": "Toucher septique",
+      "description": "La Terre des Ombres engloutit toute guérison.\n\n• **Tier I** : Quand un survivant effectue une **action de soin** à l’intérieur de votre rayon de terreur, il est infligé **Blindness et Exhaustion** pendant 6 secondes après l’interruption de l’action.\n• **Tier II** : 8 secondes.\n• **Tier III** : 10 secondes.\n\nEmpêche les survivants de se soigner efficacement lorsque vous êtes proche. — *La guérison retarde seulement l’inévitable.*",
+      "icon": "",
+      "owner": "dredge",
+      "tags": [
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "awakened_awareness",
+      "name": "Perception éveillée",
+      "description": "Votre génome a été altéré pour affiner vos sens dans les situations intenses.\n\n• **Tier I** : Lorsque vous transportez un survivant, les **auras des autres survivants situés dans un rayon de 16 m** sont révélées.\n• **Tier II** : Rayon de 18 m.\n• **Tier III** : Rayon de 20 m.\n\nCela vous permet de repérer les survivants cachés pendant que vous transportez une proie. — *Une vigilance supérieure en toutes circonstances.*",
+      "icon": "",
+      "owner": "mastermind",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "superior_anatomy",
+      "name": "Anatomie supérieure",
+      "description": "Des décennies de recherche ont fait de vous quelque chose de plus fort et plus rapide.\n\n• **Tier I** : Quand un survivant effectue un **franchissement précipité (rush vault)** à moins de 12 m, Anatomie supérieure s’active : votre prochaine vitesse de franchissement augmente de **30 %**.\n• **Tier II** : **35 %**.\n• **Tier III** : **40 %**.\n\nAnatomie supérieure se désactive après le franchissement et a un temps de recharge. — *Chaque obstacle devient une opportunité.*",
+      "icon": "",
+      "owner": "mastermind",
+      "tags": [
+        "anti_loop",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "terminus",
+      "name": "Terminus",
+      "description": "Vous êtes un stratège brillant qui prépare chaque éventualité.\n\n• **Tier I** : Une fois que les deux portes de sortie sont alimentées, Terminus s’active pour infliger l’état **Brisé** à tous les survivants **blessés, mourants ou accrochés** jusqu’à l’ouverture d’une porte.\n• **Tier II** : Durée plus longue avant ouverture.\n• **Tier III** : Durée encore plus longue.\n\nLes survivants restent Brisés même après l’ouverture d’une porte pendant un court laps de temps. — *La fin n’est que le commencement de votre domination.*",
+      "icon": "",
+      "owner": "mastermind",
+      "tags": [
+        "end_game",
+        "support"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_face_the_darkness",
+      "name": "Sort : Affrontez les ténèbres",
+      "description": "Vous faites un exemple de l’un de vos ennemis, forçant leurs alliés à être impressionnés par votre puissance.\n\n• **Tier I** : Lorsqu’un survivant est blessé par n’importe quel moyen, si un totem terne est encore présent sur la carte, Hex : Face the Darkness s’active et allume ce totem, maudissant ce survivant.\n• **Tier II** : Temps entre les cris réduit.\n• **Tier III** : Temps entre les cris encore plus réduit.\n\nTant que le survivant est maudit et **hors du rayon de terreur**, les autres survivants **crient et révèlent leurs auras** périodiquement. Hex : Face the Darkness se désactive une fois que le survivant maudit revient en bonne santé ou passe à l’état mourant, et le totem est désactivé si purifié. — *Un avertissement pour ceux qui osent se dresser contre vous.*",
+      "icon": "",
+      "owner": "knight",
+      "tags": [
+        "hex",
+        "end_game",
+        "slowdown",
+        "info",
+        "totem"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "hubris",
+      "name": "Hubris",
+      "description": "Vous ne montrez aucune pitié, surtout envers ceux assez insensés pour vous résister.\n\n• **Tier I** : Chaque fois qu’un survivant vous étourdit par quelque moyen que ce soit, Hubris s’active et ce survivant **subit l’état Exposé** pendant 20 secondes.\n• **Tier II** : Durée d’Exposé augmentée.\n• **Tier III** : Durée d’Exposé encore plus longue.\n\nHubris dispose d’un **temps de recharge de 20 secondes** entre ses activations. — *Regrettez le jour où vous avez tenté de me repousser.*",
+      "icon": "",
+      "owner": "knight",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "nowhere_to_hide",
+      "name": "Nulle part où se cacher",
+      "description": "Les machinations des faibles et des lâches attirent votre ire.\n\n• **Tier I** : Lorsque vous **endomagez un générateur**, les **auras de tous les survivants dans un rayon de 24 m** sont **révélées pendant 3 secondes**.\n• **Tier II** : Durée d’aura augmentée.\n• **Tier III** : Durée d’aura encore plus longue.\n\nVotre colère force les survivants à se révéler quand ils tentent de progresser sur les objectifs. — *Montrez-vous, couards !*",
+      "icon": "",
+      "owner": "knight",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "game_afoot",
+      "name": "Ouverture de la chasse",
+      "description": "Vous choisissez votre proie, puis vous la démantelez.\n\n• **Tier I** : Lorsque vous touchez le survivant avec **le plus grand temps de poursuite cumulée** avec une attaque de base, il devient votre Obsession.\n• **Tier II** : Toujours lors de la poursuite de votre Obsession, endommager un générateur ou briser un mur/palette vous confère **+5 % Hâte** pendant **9 s**.\n• **Tier III** : Hâte pendant **10 s**.\n\nCela vous aide à fermer les distances durant les poursuites tout en contrôlant l’Obsession. — *Vous piocherez dans votre proie la première.*",
+      "icon": "",
+      "owner": "skull_merchant",
+      "tags": [
+        "end_game",
+        "anti_loop",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "thwack",
+      "name": "VLAN!",
+      "description": "La violence inspire la terreur.\n\n• **Tier I** : Après avoir accroché un survivant, la **prochaine palette ou mur destructible** que vous cassez fait crier les survivants à proximité et **révèle leurs auras pendant 4 s**.\n• **Tier II** : Effet actif plus longtemps.\n• **Tier III** : Effet encore plus long.\n\nTHWACK! s’active pendant un certain temps après un accrochage. — *Les survivants hurlent sous la pression.*",
+      "icon": "",
+      "owner": "skull_merchant",
+      "tags": [
+        "slowdown",
+        "info",
+        "anti_loop"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "leverage",
+      "name": "Effet de levier",
+      "description": "Vous ralentissez ceux qui se relèvent.\n\n• **Tier I** : Quand un survivant effectue une action de **décrochage (unhook)**, ce survivant subit une **réduction de 20 % de sa vitesse de guérison pendant 60 s**.\n• **Tier II** : Réduction de **25 %**.\n• **Tier III** : Réduction de **30 %**.\n\nChaque décrochage inflige un malus de guérison prolongé aux survivants. — *Une prise de retard est une opportunité de mort.*",
+      "icon": "",
+      "owner": "skull_merchant",
+      "tags": [
+        "slowdown",
+        "chase"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "forced_hesitation",
+      "name": "Hésitation forcée",
+      "description": "Vous exploitez les faiblesses émotionnelles des organiques pour entraver leurs actions.\n\n• **Tier I** : Chaque fois qu’un survivant est mis à l’état *mourant* par n’importe quel moyen, tous les survivants **dans un rayon de 16 m** subissent **-20 % d’Entravé pendant 10 secondes**.\n• **Tier II** : Temps de recharge réduit.\n• **Tier III** : Temps de recharge encore plus réduit.\n\nCrée une pression autour des survivants après qu’un d’eux tombe au sol. — *HUX-A7-13* :contentReference[oaicite:0]{index=0}",
+      "icon": "",
+      "owner": "singularity",
+      "tags": [
+        "end_game",
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "genetic_limits",
+      "name": "Limites génétiques",
+      "description": "Autour de vous, les limites de la vie humaine deviennent évidentes.\n\n• **Tier I** : Chaque fois qu’un survivant **perd un état de santé**, il subit l’effet **Épuisé** pendant 6 secondes.\n• **Tier II** : 7 secondes.\n• **Tier III** : 8 secondes.\n\nUne pénalité qui ralentit les survivants après avoir été blessés. — *HUX-A7-13* :contentReference[oaicite:1]{index=1}",
+      "icon": "",
+      "owner": "singularity",
+      "tags": [
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "machine_learning",
+      "name": "Apprentissage automatique",
+      "description": "Votre compréhension des organiques vous permet d’améliorer votre efficacité.\n\n• **Tier I** : Après avoir endommagé un générateur, ce générateur devient **Compromis** et son aura est **mise en surbrillance jaune** jusqu’à ce qu’il soit réparé.\n  * Lorsque le générateur compromis est **complété**, vous gagnez les effets **Indétectable** et **+8 % Hâte** pendant **35 secondes**.\n• **Tier II** : 40 secondes de durée.\n• **Tier III** : 45 secondes.\n\nMachine Learning se désactive après utilisation. — *HUX-A7-13* :contentReference[oaicite:2]{index=2}",
+      "icon": "",
+      "owner": "singularity",
+      "tags": [
+        "end_game",
+        "stealth",
+        "info"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "ultimate_weapon",
+      "name": "Arme Ultime",
+      "description": "Quand vous ouvrez un casier, Arme Ultime s’active.\n\n• **Tier I** : Pendant 15 s, tous les survivants entrant dans votre rayon de terreur font un **cri**, révèlent leur aura et subissent **Aveuglement** pendant 30 s.\n• **Tier II** : Temps de recharge réduit à 70 s.\n• **Tier III** : Temps de recharge réduit à 60 s.\n\nUtiliser les casiers stratégiquement peut forcer les survivants à se révéler et subir une pénalité visuelle. — *The Xenomorph* :contentReference[oaicite:0]{index=0}",
+      "icon": "",
+      "owner": "xenomorph",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "rapid_brutality",
+      "name": "Brutalité Rapide",
+      "description": "Votre physique impitoyable vous confère une rage meurtrière.\n\n• **Tier I** : Vous ne pouvez plus gagner l’état **Soif de Sang**, mais chaque fois que vous touchez un survivant avec une attaque de base, vous gagnez **+5 % Hâte** pendant 8 s.\n• **Tier II** : +9 s.\n• **Tier III** : +10 s.\n\nAccumulez ces bonus en poursuivant et touchant vos proies pour devenir de plus en plus rapide. — *The Xenomorph* :contentReference[oaicite:1]{index=1}",
+      "icon": "",
+      "owner": "xenomorph",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "alien_instinct",
+      "name": "Instinct d’Alien",
+      "description": "Vos sens perfectionnés repèrent les survivants les plus éloignés.\n\n• **Tier I** : Après avoir accroché un survivant, l’aura du survivant **le plus éloigné et blessé** est révélée pendant 5 s et il subit l’état **Oblivious** pendant 40 s.\n• **Tier II** : Oblivious 50 s.\n• **Tier III** : Oblivious 60 s.\n\nSource de précieuses informations pour traquer les survivants fuyards. — *The Xenomorph* :contentReference[oaicite:2]{index=2}",
+      "icon": "",
+      "owner": "xenomorph",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_two_can_play",
+      "name": "Hex : On Peut Jouer à Deux",
+      "description": "Un Hex qui enseigne une leçon à ceux qui vous contrent.\n\n• **Tier I** : Après avoir été **étourdi ou aveuglé 4 fois** par des survivants, si aucun totem n’est encore associé à ce Hex et qu’il reste au moins un totem terne, Hex : On Peut Jouer à Deux s’active sur un totem aléatoire.\n• **Tier II** : Nécessite 3 occasions.\n• **Tier III** : Nécessite 2 occasions.\n\nTant que le totem Hex associé est actif, tout survivant qui vous étourdit ou vous aveugle est **aveuglé pendant 1,5 s**. — *From now on, no more Mr. Good Guy.*",
+      "icon": "",
+      "owner": "good_guy",
+      "tags": [
+        "hex",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "friends_til_the_end",
+      "name": "Amis Pour la Vie",
+      "description": "Vous tuerez quiconque se met entre vous et votre cible.\n\n• **Tier I** : Quand vous accrochez un survivant **qui n’est pas l’Obsession**, l’Obsession voit son **aura révélée pendant 6 s** et devient **Exposée pendant 20 s**.\n• **Tier II** : Aura révélée 8 s.\n• **Tier III** : Aura révélée 10 s.\n\nQuand vous accrochez **l’Obsession**, un survivant aléatoire hurle, révèle sa position et devient la nouvelle Obsession. — *I got some fresh meat lined up, and I’m not gonna let you spoil it.*",
+      "icon": "",
+      "owner": "good_guy",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "batteries_included",
+      "name": "Piles Incluses",
+      "description": "Vous êtes quelque part entre l’homme et la machine.\n\n• **Tier I** : Tant que vous vous trouvez **à moins de 12 m d’un générateur complété**, vous gagnez **+5 % de Hâte** qui **dure 1 s** après être sorti du rayon.\n• **Tier II** : Dure **3 s**.\n• **Tier III** : Dure **5 s**.\n\nPermet de gagner en vitesse autour des objectifs complétés. — *Surprise! Did you miss me, Andy?* ",
+      "icon": "",
+      "owner": "good_guy",
+      "tags": [
+        "end_game",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "Inexorable",
+      "name": "inattendu",
+      "description": "La douleur flotte dans l’air, une odeur qui excite les impulsions.\n\n• **Tier I** : Lorsqu’un survivant devient blessé par n’importe quel moyen, Unbound s’active pendant 24 s.\n• **Tier II** : 27 s.\n• **Tier III** : 30 s.\n\nPendant Unbound, franchir une **fenêtre** te confère un effet **+7 % de Hâte** pendant 10 s (cet effet ne se cumule pas avec lui-même). — *Augmente ta mobilité après que la peur est déclenchée.*",
+      "icon": "",
+      "owner": "unknown",
+      "tags": [
+        "end_game",
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "undone",
+      "name": "Interrompu",
+      "description": "L’espoir est l’illusion qui garde ses victimes en vie.\n\n• **Tier I** : Chaque fois qu’un survivant rate un test d’habileté en réparant ou en guérissant, Undone gagne **+3 jetons** (jusqu’à un maximum de 18).\n• **Tier II** : Maximum de 24 jetons.\n• **Tier III** : Maximum de 30 jetons.\n\nEffectuer l’action **Endommager un générateur** consomme tous les jetons accumulés et :\n  * Régresse instantanément le générateur endommagé de **−1 %** de sa progression totale par jeton consommé (jusqu’à **−18/24/30 %**).\n  * **Bloque** ce générateur pendant **1 s** par jeton consommé (jusqu’à **18/24/30 s**) et le fait ensuite **régresser** tant qu’il n’est pas « débloqué ». — *Punir leurs erreurs sur les objectifs.*",
+      "icon": "",
+      "owner": "unknown",
+      "tags": [
+        "end_game"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "unforeseen",
+      "name": "Unforeseen",
+      "description": "La terreur prend plusieurs formes et murmure des mensonges dévastateurs à ses victimes.\n\n• **Tier I** : Après avoir **endommagé un générateur**, Unforeseen s’active pendant 22 s.\n• **Tier II** : 26 s.\n• **Tier III** : 30 s.\n\nPendant la durée, votre **rayon de terreur est transféré** sur le générateur endommagé et fixé à **32 m**, et vous gagnez l’état **Indétectable**. — *Choisit ton heure et ton lieu pour terrifier les survivants.*",
+      "icon": "",
+      "owner": "unknown",
+      "tags": [
+        "end_game",
+        "stealth",
+        "info"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "dark_arrogance",
+      "name": "Arrogance ténébreuse",
+      "description": "Lorsque tout va bien, vous êtes une inévitable fatalité.\n\n• **Tier I** : Augmente votre vitesse de franchissement de fenêtres de 15 %.\n• **Tier II** : 20 %.\n• **Tier III** : 25 %.\n\nEn contrepartie, la durée des **étourdissements de palette** et des **aveuglements** qui vous affectent est **augmentée de 15 %**. — *Run all you want. I will not be denied.*",
+      "icon": "",
+      "owner": "lich",
+      "tags": [
+        "anti_loop",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "languid_touch",
+      "name": "Contact languide",
+      "description": "Votre aura effroyable épuise ceux qui s’en approchent.\n\n• **Tier I** : Lorsqu’un survivant fait fuir un corbeau dans un rayon de 36 m autour de vous, **il subit l’état Épuisement pendant 6 s**.\n• **Tier II** : 8 s.\n• **Tier III** : 10 s.\n\nLanguid Touch a un **temps de recharge** entre activations. — *Submit to me. It is inevitable.*",
+      "icon": "",
+      "owner": "lich",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "weave_attunement",
+      "name": "Lien avec la trame",
+      "description": "Vous êtes tellement en phase avec les énergies magiques que vous sentez les moindres perturbations.\n\n• **Tier I** : Quand un survivant **épuise un objet pour la première fois**, il le **laisse tomber**, vous révélez l’aura de cet objet ainsi que celle de tous les survivants dans un rayon de **12 m** autour de celui-ci.\n• **Tier II** : Les survivants qui ramassent l’objet subissent **l’état Oblivious pendant 20 s**.\n• **Tier III** : Oblivious pendant **30 s**.\n\n*No number of novelties will protect you from me!* — Vecna",
+      "icon": "",
+      "owner": "lich",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_wretched_fate",
+      "name": "Sort : Destin misérable",
+      "description": "Un Hex ancien imprègne l’essence de votre Obsession, rendant leurs efforts vains.\n\n• **Tier I** : Après qu’un générateur est terminé, un Totem terne devient Hex : Destin misérable et **maudit l’Obsession**.\n  * L’Obsession voit sa **vitesse de réparation réduite de 27 %** tant que le Totem existe.\n  * L’aura du Totem Hex est révélée à l’Obsession lorsqu’elle est à moins de 12 m.\n• **Tier II** : Réduction de 30 %.\n• **Tier III** : Réduction de 33 %.\n\nLes survivants doivent purifier le Totem pour supprimer l’effet. — *Votre peine ajoute à leur souffrance.*",
+      "icon": "",
+      "owner": "dark_lord",
+      "tags": [
+        "hex",
+        "end_game",
+        "slowdown",
+        "info",
+        "chase",
+        "totem"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "human_greed",
+      "name": "Avidité humaine",
+      "description": "Vous exploitez la convoitise des vivants pour les traquer.\n\n• **Tier I** : Vous voyez **l’aura des coffres non ouverts en permanence**.\n  * Vous pouvez **donner un coup de pied aux coffres ouverts** pour les **fermer**.\n  * Quand un survivant **entre dans un rayon de 8 m d’un coffre ouvert ou fermé**, son aura est révélée pendant **3 s**.\n• **Tier II** : Temps de recharge pour donner un coup de pied réduit.\n• **Tier III** : Temps de recharge encore plus réduit.\n\nUtilise la curiosité des survivants contre eux pour révéler des positions et fermer des ressources. — *La peur se nourrit de promesses non tenues.*",
+      "icon": "",
+      "owner": "dark_lord",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "dominance",
+      "name": "Domination",
+      "description": "Votre présence impose votre volonté aux forces invisibles.\n\n• **Tier I** : La **première fois qu’un survivant interagit avec un Totem ou un Coffre**, l’Entité **le bloque pendant 8 s** et son aura est révélée en blanc.\n• **Tier II** : Blocage pendant **12 s**.\n• **Tier III** : Blocage pendant **16 s**.\n\nVous perturbez leurs efforts dès qu’ils essaient d’utiliser ces objets. — *Votre règne n’admet aucune interférence.*",
+      "icon": "",
+      "owner": "dark_lord",
+      "tags": [
+        "info",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "all_shaking_thunder",
+      "name": "Coup de tonnerre",
+      "description": "Les ennemis sur terre et en mer ont appris à trembler devant votre puissance.\n\n• **Tier I** : Après une chute d’une hauteur suffisante, Coup de tonnerre s’active pendant 8 secondes : augmente la **distance de votre attaque plongée de +75 %**.\n• **Tier II** : Durée de 12 secondes.\n• **Tier III** : Durée de 16 secondes.\n\nCoup de tonnerre a un **temps de recharge de 5 secondes**. — *Go on. Run. Tell your friends I’m coming for them.* :contentReference[oaicite:0]{index=0}",
+      "icon": "",
+      "owner": "houndmaster",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "no_quarter",
+      "name": "Pas de quartier",
+      "description": "Chaque escarmouche se termine par une volée impitoyable.\n\n• **Tier I** : Quand un survivant **atteint 75 % de progression en se soignant**, Pas de quartier s’active :\n  * Le survivant subit **une série de tests d’habileté continus** jusqu’à la fin des soins.\n  * S’il **échoue un test ou interrompt l’action**, il subit l’état **Brisé pendant 20 secondes**.\n• **Tier II** : Brisé pendant **25 secondes**.\n• **Tier III** : Brisé pendant **30 secondes**.\n\n— *Fire another broadside! Don’t stop until the sea takes them!* :contentReference[oaicite:1]{index=1}",
+      "icon": "",
+      "owner": "houndmaster",
+      "tags": [
+        "fun"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "scourge_hook_jagged_compass",
+      "name": "Crochet Flagellateur : Boussole de douleur",
+      "description": "Parfois, la boussole indique le Nord. Parfois non.\n\n• **Tier I** : Au début de l’épreuve, **4 crochets aléatoires deviennent des Crochets Flagellateurs** dont **l’aura est révélée en blanc**.\n  * Lorsqu’un survivant est décroché d’un crochet normal, alors quand vous l’accrochez **sur un Crochet Flagellateur**, l’**aura du générateur ayant le plus de progression est révélée en jaune pendant 6 secondes**.\n• **Tier II** : Durée d’aura **8 secondes**.\n• **Tier III** : Durée d’aura **10 secondes**.\n\n— *Drop anchor! I will chart us a new course.* :contentReference[oaicite:2]{index=2}",
+      "icon": "",
+      "owner": "houndmaster",
+      "tags": [
+        "end_game",
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "forever_entwined",
+      "name": "À jamais liés",
+      "description": "Plus la lutte est grande, plus il est difficile de s’échapper.\n\n• **Tier I** : Lorsqu’un survivant est blessé, gagnez **1 jeton**, jusqu’à un maximum de **6 jetons**.\n• **Tier II** : Maximum **7 jetons**.\n• **Tier III** : Maximum **8 jetons**.\n\nChaque jeton augmente la vitesse à laquelle vous **ramassez, lâchez et accrochez des survivants** de **+4 %** par jeton. — *« Tu as tenté de me dévorer… alors ne te plains pas si je te mange. »*",
+      "icon": "",
+      "owner": "ghoul",
+      "tags": [
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_nothing_but_misery",
+      "name": "Sort : Que du Malheur",
+      "description": "Vous avez connu les profondeurs de la douleur, et maintenant vous êtes prêt à l’infliger.\n\n• **Tier I** : Après avoir infligé **8 dégâts aux survivants avec des attaques de base**, un **Totem terne** devient un **Totem Hex**.\n\nTant que ce totem est actif, les survivants **blessés par une attaque de base** subissent **-5 % d’Entravé** pendant **10 secondes** (12,5 s au Tier II, 15 s au Tier III). — *La souffrance engendre encore plus de souffrance.*",
+      "icon": "",
+      "owner": "ghoul",
+      "tags": [
+        "hex",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "none_are_free",
+      "name": "Personne n’est libre",
+      "description": "Vous savez mieux que quiconque que la lumière au bout du tunnel est seulement une illusion.\n\n• **Tier I** : Lorsque vous accrochez un survivant **pour la première fois**, gagnez **+1 jeton**, jusqu’à **4 jetons**.\n• **Tier II** : Même mais avec bonus plus forts.\n• **Tier III** : Idem avec bonus max.\n\nUne fois que **tous les générateurs sont complétés**, pour chaque jeton, toutes les **fenêtres et palettes debout** sont **bloquées pendant 12/14/16 s par jeton** (maximum **48/56/64 s**). — *« Ce n’est pas moi qui me trompe. Ce monde complètement tordu l’est. »*",
+      "icon": "",
+      "owner": "ghoul",
+      "tags": [
+        "end_game",
+        "anti_loop"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_overture_of_doom",
+      "name": "Sort : Ouverture maudite",
+      "description": "Un Hex maléfique qui transforme vos proies en proie facile.\n\n• **Tier I** : Place un Totem Hex qui maudit le **générateur le plus éloigné** et **révèle son aura**.\n• **Tier II** : Même effet avec une durée accrue.\n• **Tier III** : Même effet avec une durée encore plus longue.\n\nTant qu’un survivant répare ce générateur maudit, votre **rayon de terreur est transféré sur ce générateur** et vous devenez **Indétectable**. Quand ce générateur est terminé, la malédiction se déplace vers le **générateur suivant le plus éloigné**. — *Vous tissez la peur là où ils croyaient être en sécurité.*",
+      "icon": "",
+      "owner": "krasue",
+      "tags": [
+        "hex",
+        "end_game",
+        "stealth",
+        "info",
+        "totem",
+        "support"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "ravenous",
+      "name": "Vorace",
+      "description": "Votre appétit pour la souffrance ne peut être assouvi qu’après avoir accroché tous les survivants.\n\n• **Tier I** : Une fois que **chaque survivant a été accroché au moins une fois**, tous **les survivants hurlent et deviennent Exposés** pendant une durée considérable.\n• **Tier II** : Durée accrue.\n• **Tier III** : Durée encore plus longue.\n\nProfite de l’état Exposé pour intensifier la pression en fin de partie. — *La faim ne fait que grandir.*",
+      "icon": "",
+      "owner": "krasue",
+      "tags": [
+        "end_game",
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "wandering_eye",
+      "name": "Œil vagabond",
+      "description": "Votre attention est portée sur ceux qui souffrent autour de vous.\n\n• **Tier I** : Lorsque vous **poursuivez un survivant**, l’aura de **tous les survivants blessés à proximité** est révélée pendant une durée.\n• **Tier II** : Durée accrue.\n• **Tier III** : Durée encore plus longue.\n\nCela vous permet de suivre plusieurs proies et d’optimiser vos déplacements entre les cibles. — *Chaque cri retient votre attention.*",
+      "icon": "",
+      "owner": "krasue",
+      "tags": [
+        "info"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "hex_hive_mind",
+      "name": "Sort : La ruche",
+      "description": "Tu t’es connecté à quelque chose de sombre et d’inconnaissable… et tu l’as accueilli.\n\n• **Tier I** : Les générateurs sont **mis en surbrillance** et l’intensité de leurs auras montre leur progression. Quand **4 générateurs** sont complétés, tous les générateurs restants **explosent, perdent 6 % de progression** et **régres­sent**.\n• **Tier II** : Perte de progression de 8 %.\n• **Tier III** : Perte de progression de 10 %.\n\nLe totem associé devient terne et ce perk est désactivé pour le reste de l’Épreuve. — *Henry Creel*.",
+      "icon": "",
+      "owner": "the_first",
+      "tags": [
+        "end_game",
+        "info",
+        "totem"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "secret_project",
+      "name": "Projet secret",
+      "description": "Élevé pour être une arme, tu t’es affranchi avec les compétences que tes ravisseurs t’ont inculquées.\n\n• **Tier I** : Quand un totem est **purifié ou béni**, un générateur **non bloqué devient bloqué pendant 20 s** et son aura est révélée.\n• **Tier II** : 25 s.\n• **Tier III** : 30 s.\n\nChaque fois qu’un ou plusieurs générateurs deviennent bloqués, tu obtiens l’état **Indétectable pendant 30 s**. — *Henry Creel*.",
+      "icon": "",
+      "owner": "the_first",
+      "tags": [
+        "end_game",
+        "stealth",
+        "info",
+        "totem"
+      ],
+      "weight": 2
+    },
+    {
+      "id": "turn_back_the_clock",
+      "name": "Remonter le temps",
+      "description": "Résiste autant qu’ils veulent, le temps avance… et ton plan progresse.\n\n• **Tier I** : Après avoir accroché un survivant, pendant **40 s**, tu peux activer la capacité active pour faire **exploser un générateur ciblé dans un rayon de 20 m**, lui faire perdre **-10 % de progression** et commencer à régresser.\n• **Tier II** : 50 s de durée.\n• **Tier III** : 60 s de durée.\n\nUtilise cette capacité pour ralentir leurs progrès sur les objectifs. — *Henry Creel*.",
+      "icon": "",
+      "owner": "the_first",
+      "tags": [
+        "end_game",
+        "slowdown"
+      ],
+      "weight": 3
+    },
+    {
+      "id": "haywire",
+      "name": "Détraqué",
+      "description": "Pour une raison inconnue, les machines ont tendance à tomber en panne quand vous êtes dans le coin.\n\n• **Tier I** : Chaque fois qu’un survivant cesse d’ouvrir une **Porte de sortie** après avoir atteint au moins 80 % de progression, Détraqué fait **régresser la progression** de la porte à une vitesse de **80 %** de la vitesse normale d’ouverture.\n• **Tier II** : Régresse à **90 %**.\n• **Tier III** : Régresse à **100 %**.\n\nLes survivants voient les **lumières au-dessus de l’interrupteur** clignoter aléatoirement pendant la régression. — *Il n’y aura aucune rédemption pour toi.*",
+      "icon": "",
+      "owner": "animatronic",
+      "tags": [
+        "end_game",
+        "info",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "help_wanted",
+      "name": "On embauche",
+      "description": "Tu sais toujours rester un pas en avance sur tes invités.\n\n• **Tier I** : Après avoir **endommagé un générateur**, Aide demandée s’active : ce générateur devient **Compromis**.\n  * Quand un générateur compromis est **terminé**, tu bénéficies pendant **40 s** d’un bonus de **+25 % à la vitesse de récupération** des attaques de base.\n• **Tier II** : Bonus pendant **50 s**.\n• **Tier III** : Bonus pendant **60 s**.\n\nCela te rend plus efficace pour continuer à mettre la pression après avoir terminé un générateur compromis. — *Tu penses être en contrôle…*",
+      "icon": "",
+      "owner": "animatronic",
+      "tags": [
+        "end_game",
+        "chase"
+      ],
+      "weight": 0
+    },
+    {
+      "id": "phantom_fear",
+      "name": "Frayeur fantôme",
+      "description": "Tu as toujours eu la réputation de surprendre les invités qui ne se doutent de rien.\n\n• **Tier I** : Quand un survivant **dans ton rayon de terreur te regarde**, il **hurle** et **révèle son aura pendant 2 s**.\n• **Tier II** : Temps de recharge réduit à **70 s**.\n• **Tier III** : Temps de recharge réduit à **60 s**.\n\nTe voir est une expérience terrifiante pour les survivants. — *Excellent. Tes hurlements me plaisent.*",
+      "icon": "",
+      "owner": "animatronic",
+      "tags": [
+        "slowdown",
+        "info"
+      ],
+      "weight": 3
+    }
+  ]
+}

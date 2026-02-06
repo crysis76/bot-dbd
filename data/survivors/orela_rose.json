@@ -1,0 +1,39 @@
+{
+  "id": "orela_rose",
+  "name": "Orela Rose",
+  "role": "Paramedic",
+  "description": "Une ambulancière calme et déterminée à sauver des vies, même dans les pires moments. Orela utilise ses compétences médicales et son sang-froid pour soigner ses alliés, leur donner un avantage de vitesse et repérer le tueur quand l’Épuisement frappe.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/OrelaRose.png",
+  "perks": [
+    {
+      "id": "do_no_harm",
+      "name": "Do No Harm",
+      "description_tiers": {
+        "tier1": "Quand tu soignes un autre survivant, pour chaque Hook Stage qu’il a, ta vitesse de soins altruistes augmente de +30 % et le bonus de progression des Great Healing Skill Checks est de +3 %.",
+        "tier2": "Quand tu soignes un autre survivant, pour chaque Hook Stage qu’il a, ta vitesse de soins altruistes augmente de +40 % et le bonus de progression des Great Healing Skill Checks est de +3 %.",
+        "tier3": "Quand tu soignes un autre survivant, pour chaque Hook Stage qu’il a, ta vitesse de soins altruistes augmente de +50 % et le bonus de progression des Great Healing Skill Checks est de +3 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_DoNoHarm.png"
+    },
+    {
+      "id": "duty_of_care",
+      "name": "Duty of Care",
+      "description_tiers": {
+        "tier1": "Tant que tu es en bonne santé, subir un Protection Hit donne à tous les autres survivants dans un rayon de 12 m un effet Haste de +25 % pendant 4 s.",
+        "tier2": "Tant que tu es en bonne santé, subir un Protection Hit donne à tous les autres survivants dans un rayon de 12 m un effet Haste de +25 % pendant 5 s.",
+        "tier3": "Tant que tu es en bonne santé, subir un Protection Hit donne à tous les autres survivants dans un rayon de 12 m un effet Haste de +25 % pendant 6 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_DutyOfCare.png"
+    },
+    {
+      "id": "rapid_response",
+      "name": "Rapid Response",
+      "description_tiers": {
+        "tier1": "Quand tu deviens affectée par l’état Épuisé, l’aura du tueur te sera révélée pendant 2 s. Obtenir l’état Épuisé peut être fait en sortant rapidement d’un casier (Fast Exit), mais ne remplace pas un Épuisé déjà existant.",
+        "tier2": "Quand tu deviens affectée par l’état Épuisé, l’aura du tueur te sera révélée pendant 2 s. Obtenir l’état Épuisé peut être fait en sortant rapidement d’un casier (Fast Exit), et réduit le cooldown de ce trigger à 25 s.",
+        "tier3": "Quand tu deviens affectée par l’état Épuisé, l’aura du tueur te sera révélée pendant 2 s. Obtenir l’état Épuisé peut être fait en sortant rapidement d’un casier (Fast Exit), et réduit le cooldown de ce trigger à 20 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_RapidResponse.png"
+    }
+  ]
+}

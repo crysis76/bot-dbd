@@ -1,0 +1,45 @@
+{
+  "id": "pig",
+  "name": "Le Cochon",
+  "role": "The Pig",
+  "description": "Une tueuse furtive issue du chapitre SAW™, capable de se camoufler, d’embusquer les survivants et de leur poser des Reverse Bear Traps mortels qu’ils doivent désamorcer pour survivre.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/73/The_Pig_Portrait.png",
+
+  "power": {
+    "name": "Le Baptême de Jigsaw",
+    "description": "Le Cochon commence la partie avec des Reverse Bear Traps. En s’accroupissant, elle peut se déplacer furtivement sans Terror Radius et effectuer une Ambush Dash pour surprendre les survivants. Elle peut aussi poser des Reverse Bear Traps sur des survivants au sol, qui s’activent lorsque des générateurs sont complétés et peuvent tuer s’ils ne sont pas désamorcés aux Jigsaw Boxes."
+  },
+
+  "perks": [
+    {
+      "id": "make_your_choice",
+      "name": "Make Your Choice",
+      "description_tiers": {
+        "tier1": "Quand un survivant est décroché d’un crochet à plus de 32 m, le survivant qui l’a décroché crie, révèle son aura, et subit l’état Exposé pendant 40 s.",
+        "tier2": "…l’état Exposé dure 50 s.",
+        "tier3": "…l’état Exposé dure 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/95/Perk_MakeYourChoice.png"
+    },
+    {
+      "id": "scourge_hook_hangmans_trick",
+      "name": "Scourge Hook: Hangman's Trick",
+      "description_tiers": {
+        "tier1": "Au début de l’essai, 4 crochets deviennent Scourge Hooks. Quand un survivant commence à saboter un crochet, tu reçois la notification de bruit fort. Quand tu portes un survivant, l’aura de tous les survivants dans un rayon de 12 m autour de n’importe quel Scourge Hook est révélée.",
+        "tier2": "…le rayon aura 14 m.",
+        "tier3": "…le rayon aura 16 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/Perk_ScourgeHookHangmansTrick.png"
+    },
+    {
+      "id": "surveillance",
+      "name": "Surveillance",
+      "description_tiers": {
+        "tier1": "Les régresseurs actifs ont une aura blanche, et quand un survivant arrête de régresser un générateur son aura devient jaune pendant 8 s. Les bruits de réparation sont entendus jusqu’à +8 m.",
+        "tier2": "…l’aura jaune dure 12 s et les bruits sont entendus jusqu’à +10 m.",
+        "tier3": "…l’aura jaune dure 16 s et les bruits sont entendus jusqu’à +12 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/29/Perk_Surveillance.png"
+    }
+  ]
+}

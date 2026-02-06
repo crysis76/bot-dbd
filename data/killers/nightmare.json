@@ -1,0 +1,45 @@
+{
+  "id": "nightmare",
+  "name": "Le Cauchemar",
+  "role": "The Nightmare",
+  "description": "Un tueur cauchemardesque qui plonge progressivement les survivants dans son Monde Onirique, où il peut utiliser des capacités spécifiques pour ralentir, tromper et piéger ses proies.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d5/The_Nightmare_Portrait.png",
+
+  "power": {
+    "name": "Démon des Rêves",
+    "description": "Le Cauchemar peut attirer les survivants dans le Monde Onirique. Dans ce monde, il utilise des pièges oniriques et sa projection de rêve pour apparaître directement sur des générateurs ou pièges, ralentir les survivants et contrôler la carte tout en exploitant leurs peurs profondes."  
+  },
+
+  "perks": [
+    {
+      "id": "fire_up",
+      "name": "Intensité Ardente",
+      "description_tiers": {
+        "tier1": "Pour chaque générateur terminé, tu gagnes un Jeton (max 5). Chaque Jeton augmente les vitesses d’action de ramassage et lâcher de +4 %.",
+        "tier2": "Pour chaque générateur terminé, tu gagnes un Jeton (max 5). Chaque Jeton augmente les vitesses d’action de ramassage et lâcher de +5 %.",
+        "tier3": "Pour chaque générateur terminé, tu gagnes un Jeton (max 5). Chaque Jeton augmente les vitesses d’action de ramassage et lâcher de +6 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a0/Perk_FireUp.png"
+    },
+    {
+      "id": "remember_me",
+      "name": "Souviens-Toi de Moi",
+      "description_tiers": {
+        "tier1": "Quand l’Obsession perd un état de santé, tu gagnes un Jeton (max 3). Chaque Jeton augmente de +6 s le temps d’ouverture des Portes de Sortie pour tous les survivants autres que l’Obsession.",
+        "tier2": "Quand l’Obsession perd un état de santé, tu gagnes un Jeton (max 4). Chaque Jeton augmente de +6 s le temps d’ouverture des Portes de Sortie pour tous les survivants autres que l’Obsession.",
+        "tier3": "Quand l’Obsession perd un état de santé, tu gagnes un Jeton (max 5). Chaque Jeton augmente de +6 s le temps d’ouverture des Portes de Sortie pour tous les survivants autres que l’Obsession."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7d/Perk_RememberMe.png"
+    },
+    {
+      "id": "blood_warden",
+      "name": "Gardien du Sang",
+      "description_tiers": {
+        "tier1": "Dès qu’une Porte de Sortie est ouverte, Blood Warden s’active. Une fois par partie, accrocher un survivant alors que Blood Warden est actif bloque toutes les Portes de Sortie ouvertes pendant 40 s.",
+        "tier2": "…bloque toutes les Portes de Sortie ouvertes pendant 50 s.",
+        "tier3": "…bloque toutes les Portes de Sortie ouvertes pendant 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9a/Perk_BloodWarden.png"
+    }
+  ]
+}

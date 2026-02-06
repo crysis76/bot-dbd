@@ -1,0 +1,39 @@
+{
+  "id": "meg",
+  "name": "Meg Thomas",
+  "role": "Athlète pleine d'énergie",
+  "description": "Une survivante énergique capable de semer la plupart des tueurs grâce à sa vitesse et sa détermination.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f9/MegThomas.png",
+  "perks": [
+    {
+      "id": "quick_and_quiet",
+      "name": "Quick & Quiet",
+      "description_tiers": {
+        "tier1": "Réduit le bruit généré lors d’un rapide saut par-dessus un obstacle ou en se cachant dans un casier. Cooldown de 30 secondes.",
+        "tier2": "Réduit le bruit généré lors d’un rapide saut par-dessus un obstacle ou en se cachant dans un casier. Cooldown de 25 secondes.",
+        "tier3": "Réduit le bruit généré lors d’un rapide saut par-dessus un obstacle ou en se cachant dans un casier. Cooldown de 20 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0f/Perk_QuickAndQuiet.png"
+    },
+    {
+      "id": "sprint_burst",
+      "name": "Sprint Burst",
+      "description_tiers": {
+        "tier1": "En commençant à courir, vous gagnez +50 % de vitesse de déplacement pendant 3 secondes. Cause l’état Exausté pour 60 secondes.",
+        "tier2": "En commençant à courir, vous gagnez +50 % de vitesse de déplacement pendant 3 secondes. Cause l’état Exausté pour 50 secondes.",
+        "tier3": "En commençant à courir, vous gagnez +50 % de vitesse de déplacement pendant 3 secondes. Cause l’état Exausté pour 40 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ab/Perk_SprintBurst.png"
+    },
+    {
+      "id": "adrenaline",
+      "name": "Adrenaline",
+      "description_tiers": {
+        "tier1": "Lorsque les portes de sortie sont alimentées, guérit instantanément un état de santé et accorde +50 % de vitesse de déplacement pendant 3 secondes. Cause l’état Exausté pour 60 secondes.",
+        "tier2": "Lorsque les portes de sortie sont alimentées, guérit instantanément un état de santé et accorde +50 % de vitesse de déplacement pendant 3 secondes. Cause l’état Exausté pour 50 secondes.",
+        "tier3": "Lorsque les portes de sortie sont alimentées, guérit instantanément un état de santé et accorde +50 % de vitesse de déplacement pendant 3 secondes. Cause l’état Exausté pour 40 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/32/Perk_Adrenaline.png"
+    }
+  ]
+}

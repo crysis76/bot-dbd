@@ -1,0 +1,45 @@
+{
+  "id": "the_dark_lord",
+  "name": "Le Seigneur des Ténèbres",
+  "role": "Killer",
+  "description": "Vlad Tepes Dracula, connu comme le Seigneur des Ténèbres, est une incarnation de l’obscurité et de la tragédie. Ressuscité à plusieurs reprises après avoir été vaincu par la lignée Belmont, il poursuit sa vengeance éternelle contre l’humanité en utilisant des formes monstrueuses et des attaques surnaturelles tirées de son pouvoir vampirique.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3c/The_Dark_Lord_Portrait.png",
+
+  "power": {
+    "name": "Transformation Vampirique",
+    "description": "Dracula peut se transformer à volonté entre trois formes distinctes : la **Forme Vampirique** (standard), la **Forme de Loup** et la **Forme de Chauve-Souris**. Chaque forme possède des capacités uniques :\n\n* **Forme Vampirique** : forme de base, permet de lancer le sort du **Feu de l’Enfer** — une rangée de flammes qui traverse les obstacles.\n* **Forme de Loup** : optimise le pistage des survivants en affichant davantage d’indices et des **Orbes Olfactifs** visibles, et permet une attaque par bond.\n* **Forme de Chauve-Souris** : augmente la mobilité avec une vitesse plus élevée, fournit **l’indétectabilité** (pas de Terror Radius) et permet de *se téléporter vers des sauts* proches.\n\nDracula utilise ces formes pour combiner puissance, traque et mobilité dans chaque épreuve." 
+  },
+
+  "perks": [
+    {
+      "id": "hex_wretched_fate",
+      "name": "Hex : Destin Misérable",
+      "description_tiers": {
+        "tier1": "Après qu’un générateur est terminé, un Totem maudit s’allume et inflige à l’Obsession une réduction de vitesse de réparation de 27 %. L’aura du Totem maudit est visible pour elle dans un rayon de 12 m.",
+        "tier2": "…réduction de vitesse de réparation de 30 %.",
+        "tier3": "…réduction de vitesse de réparation de 33 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5f/Perk_Hex_Wretched_Fate.png"
+    },
+    {
+      "id": "human_greed",
+      "name": "Avidité Humaine",
+      "description_tiers": {
+        "tier1": "Voit en permanence l’aura des Coffres non ouverts et peut fermer les Coffres ouverts. Voir les survivants qui entrent dans un rayon de 8 m autour d’un Coffre pendant 3 s. Cooldown de capacité : 30 s.",
+        "tier2": "…rayon d’aura de 8 m pendant 4 s.",
+        "tier3": "…rayon d’aura de 8 m pendant 5 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ab/Perk_Human_Greed.png"
+    },
+    {
+      "id": "dominance",
+      "name": "Domination",
+      "description_tiers": {
+        "tier1": "La première fois qu’un Survivant interagit avec un Coffre ou un Totem, l’Entité le bloque pendant 8 s et en révèle l’aura en blanc.",
+        "tier2": "…bloque le Coffre/Totem pendant 12 s.",
+        "tier3": "…bloque le Coffre/Totem pendant 16 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e3/Perk_Dominance.png"
+    }
+  ]
+}

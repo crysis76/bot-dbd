@@ -1,0 +1,45 @@
+{
+  "id": "ghost_face",
+  "name": "Le Visage Fantôme",
+  "role": "The Ghost Face",
+  "description": "Un tueur furtif spécialisé dans la traque silencieuse de ses victimes, capable de se fondre dans l’ombre avant de surgir et de les marquer pour la mort. Il étudie méthodiquement ses proies pour frapper au moment parfait.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/The_Ghost_Face_Portrait.png",
+
+  "power": {
+    "name": "Voile de Nuit",
+    "description": "Le Ghost Face peut activer Night Shroud pour devenir invisible (effet Undetectable) et accéder à sa capacité de Stalking. En stalking, il remplit une jauge de Stalk sur les survivants pour les marquer, rendant leurs actions plus difficiles et les exposant à des effets négatifs — ce qui lui permet d’attaquer quand ils s’y attendent le moins." 
+  },
+
+  "perks": [
+    {
+      "id": "furtive_chase",
+      "name": "Poursuite Furtive",
+      "description_tiers": {
+        "tier1": "Après avoir accroché l’Obsession, pour 14 s, tu gagnes l’effet Undetectable, un effet Haste +10 % et l’Obsession passe l’état Obsédé sur la personne qui la décroche.",
+        "tier2": "Après avoir accroché l’Obsession, pour 16 s, tu gagnes l’effet Undetectable, un effet Haste +10 % et l’Obsession passe l’état Obsédé sur la personne qui la décroche.",
+        "tier3": "Après avoir accroché l’Obsession, pour 18 s, tu gagnes l’effet Undetectable, un effet Haste +10 % et l’Obsession passe l’état Obsédé sur la personne qui la décroche."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/09/Perk_FurtiveChase.png"
+    },
+    {
+      "id": "im_all_ears",
+      "name": "Je Suis Toute Oreille",
+      "description_tiers": {
+        "tier1": "Quand un survivant effectue un Rushed Vault dans un rayon de 48 m, son aura est révélée pendant 8 s. Cooldown : 60 s.",
+        "tier2": "Quand un survivant effectue un Rushed Vault dans un rayon de 48 m, son aura est révélée pendant 8 s. Cooldown : 45 s.",
+        "tier3": "Quand un survivant effectue un Rushed Vault dans un rayon de 48 m, son aura est révélée pendant 8 s. Cooldown : 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/Perk_ImAllEars.png"
+    },
+    {
+      "id": "thrilling_tremors",
+      "name": "Frissons Terrifiants",
+      "description_tiers": {
+        "tier1": "Après avoir porté un survivant, tous les générateurs non réparés et non en train d’être réparés deviennent bloqués pendant 16 s et leurs auras sont révélées.",
+        "tier2": "…tous les générateurs non réparés et non en train d’être réparés deviennent bloqués pendant 35 s et leurs auras sont révélées.",
+        "tier3": "…tous les générateurs non réparés et non en train d’être réparés deviennent bloqués pendant 30 s et leurs auras sont révélées."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/29/Perk_ThrillingTremors.png"
+    }
+  ]
+}

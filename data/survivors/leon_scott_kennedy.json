@@ -1,0 +1,39 @@
+{
+  "id": "leon_scott_kennedy",
+  "name": "Leon Scott Kennedy",
+  "role": "Rookie Police Officer",
+  "description": "Un jeune officier de police qui, malgré son inexpérience, a survécu à des horreurs indicibles et s’adapte rapidement à toute situation grâce à son sang-froid et ses compétences d’enquête.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/56/LeonSkennedy.png",
+  "perks": [
+    {
+      "id": "bite_the_bullet",
+      "name": "Bite the Bullet",
+      "description_tiers": {
+        "tier1": "Pendant que tu soignes toi-même ou un autre survivant, tous les sons liés à la guérison et les gémissements de douleur sont supprimés et les échecs de tests d’habileté ne déclenchent pas de notification sonore. La pénalité de progression est réduite de 3 %.",
+        "tier2": "Pendant que tu soignes toi-même ou un autre survivant, tous les sons liés à la guérison et les gémissements de douleur sont supprimés et les échecs de tests d’habileté ne déclenchent pas de notification sonore. La pénalité de progression est réduite de 2 %.",
+        "tier3": "Pendant que tu soignes toi-même ou un autre survivant, tous les sons liés à la guérison et les gémissements de douleur sont supprimés et les échecs de tests d’habileté ne déclenchent pas de notification sonore. La pénalité de progression est réduite de 1 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d8/Perk_BiteTheBullet.png"
+    },
+    {
+      "id": "flashbang",
+      "name": "Flashbang",
+      "description_tiers": {
+        "tier1": "Après avoir réparé des générateurs pour un total de 50 % de progression, Flashbang s’active : entre dans un casier les mains vides et appuie sur la touche d’action pour fabriquer une grenade aveuglante utilisable contre le tueur.",
+        "tier2": "Après avoir réparé des générateurs pour un total de 45 % de progression, Flashbang s’active : entre dans un casier les mains vides et appuie sur la touche d’action pour fabriquer une grenade aveuglante utilisable contre le tueur.",
+        "tier3": "Après avoir réparé des générateurs pour un total de 40 % de progression, Flashbang s’active : entre dans un casier les mains vides et appuie sur la touche d’action pour fabriquer une grenade aveuglante utilisable contre le tueur."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4a/Perk_Flashbang.png"
+    },
+    {
+      "id": "rookie_spirit",
+      "name": "Rookie Spirit",
+      "description_tiers": {
+        "tier1": "Pendant que tu répares des générateurs, réussis 5 tests d’habileté Good ou Great pour activer Rookie Spirit pour le reste du trial : les auras de tous les générateurs en régression sont révélées jusqu’à ce qu’ils arrêtent de régresser.",
+        "tier2": "Pendant que tu répares des générateurs, réussis 4 tests d’habileté Good ou Great pour activer Rookie Spirit pour le reste du trial : les auras de tous les générateurs en régression sont révélées jusqu’à ce qu’ils arrêtent de régresser.",
+        "tier3": "Pendant que tu répares des générateurs, réussis 3 tests d’habileté Good ou Great pour activer Rookie Spirit pour le reste du trial : les auras de tous les générateurs en régression sont révélées jusqu’à ce qu’ils arrêtent de régresser."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/Perk_RookieSpirit.png"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "deathslinger",
+  "name": "Le Lance-Mort",
+  "role": "The Deathslinger",
+  "description": "Un hors-la-loi ingénieux devenu chasseur de primes, utilisant son fusil-harpon modifié pour tirer et ramener les survivants vers lui avant de les éliminer sans pitié.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8a/The_Deathslinger_Portrait.png",
+
+  "power": {
+    "name": "Le Rédempteur",
+    "description": "Le Deathslinger utilise son arme spéciale, **Le Rédempteur**, un fusil-harpon unique capable de tirer une lance reliée à une chaîne. Quand la lance touche un survivant, il peut le **ramener rapidement vers lui**. Le survivant peut lutter contre la traction et parfois briser la chaîne, mais cela le laisse blessé ou avec l’effet Deep Wound."
+  },
+
+  "perks": [
+    {
+      "id": "gearhead",
+      "name": "Mécanicien",
+      "description_tiers": {
+        "tier1": "Quand un survivant change d’état de santé, tu entres en effet Gearhead pendant 30 s : les générateurs sur lesquels les survivants font des bons Skill Checks brillent.",
+        "tier2": "Quand un survivant change d’état de santé, tu entres en effet Gearhead pendant 35 s : les générateurs sur lesquels les survivants font des bons Skill Checks brillent.",
+        "tier3": "Quand un survivant change d’état de santé, tu entres en effet Gearhead pendant 40 s : les générateurs sur lesquels les survivants font des bons Skill Checks brillent."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d5/Perk_Gearhead.png"
+    },
+    {
+      "id": "dead_mans_switch",
+      "name": "Déclencheur Mortel",
+      "description_tiers": {
+        "tier1": "Après avoir accroché un survivant, si un survivant cesse de réparer un générateur, ce générateur est bloqué pendant 40 s.",
+        "tier2": "Après avoir accroché un survivant, si un survivant cesse de réparer un générateur, ce générateur est bloqué pendant 45 s.",
+        "tier3": "Après avoir accroché un survivant, si un survivant cesse de réparer un générateur, ce générateur est bloqué pendant 50 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/76/Perk_DeadMansSwitch.png"
+    },
+    {
+      "id": "hex_retribution",
+      "name": "Hex : Rétribution",
+      "description_tiers": {
+        "tier1": "Un Totem Hex apparaît. Quand un survivant purifie un totem, tous les survivants ont leur aura révélée pendant 15 s.",
+        "tier2": "Un Totem Hex apparaît. Quand un survivant purifie un totem, tous les survivants ont leur aura révélée pendant 20 s.",
+        "tier3": "Un Totem Hex apparaît. Quand un survivant purifie un totem, tous les survivants ont leur aura révélée pendant 25 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9c/Perk_HexRetribution.png"
+    }
+  ]
+}

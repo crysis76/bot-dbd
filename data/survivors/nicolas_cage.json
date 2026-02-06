@@ -1,0 +1,39 @@
+{
+  "id": "nicolas_cage",
+  "name": "Nicolas Cage",
+  "role": "Superstar",
+  "description": "Une superstar du cinéma plongée malgré elle dans l’enfer du Brouillard — ses talents d’acteur l’aident à semer le tueur, à voir ses mouvements et même à simuler sa propre mort pour s’échapper.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/NicolasCage.png",
+  "perks": [
+    {
+      "id": "dramaturgy",
+      "name": "Dramaturgie",
+      "description_tiers": {
+        "tier1": "Lorsque tu es en bonne santé, active Dramaturgie pour gagner brièvement de la vitesse. Après le boost, l’un des effets aléatoires suivants se produit : Exposé, vitesse bonus, cri sans effet ou lâcher un objet et obtenir un pétard. L’effet ne peut pas se produire deux fois de suite. Cause l’état Épuisement pendant 60 s.",
+        "tier2": "…Cause l’état Épuisement pendant 50 s.",
+        "tier3": "…Cause l’état Épuisement pendant 40 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3b/Perk_Dramaturgy.png"
+    },
+    {
+      "id": "scene_partner",
+      "name": "Partenaire de scène",
+      "description_tiers": {
+        "tier1": "Lorsque tu es dans le Rayon de Terreur du tueur et que tu regardes dans sa direction, tu hurles et révèles son aura pendant 3 secondes. Il y a 50 % de chances de hurler à nouveau et de révéler l’aura pour 2 secondes de plus. Cooldown : 60 s.",
+        "tier2": "…Révèle l’aura pendant 4 secondes (chance de 2 secondes). Cooldown : 60 s.",
+        "tier3": "…Révèle l’aura pendant 5 secondes (chance de 2 secondes). Cooldown : 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/Perk_ScenePartner.png"
+    },
+    {
+      "id": "plot_twist",
+      "name": "Rebondissement",
+      "description_tiers": {
+        "tier1": "Quand tu es blessé, appuie sur la touche d’action en étant accroupi pour entrer volontairement en État agonisant sans bruit ni flaques de sang. Tu peux ensuite te soigner seul jusqu’à devenir Brisé, puis revenir en bonne santé instantanément, et tu gagnes +50 % d’effet Célérité pendant 2 s. Cette perk se réactive quand les portes de sortie sont alimentées.",
+        "tier2": "…tu gagnes +50 % d’effet Célérité pendant 3 s.",
+        "tier3": "…tu gagnes +50 % d’effet Célérité pendant 4 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d8/Perk_PlotTwist.png"
+    }
+  ]
+}

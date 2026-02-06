@@ -1,0 +1,39 @@
+{
+  "id": "dustin_henderson",
+  "name": "Dustin Henderson",
+  "role": "Brilliant High School Student",
+  "description": "Un lycéen brillant et ingénieux dont l’esprit scientifique et la capacité à improviser sont de précieux atouts dans le Brouillard, aidant son équipe à ralentir le tueur, adapter sa stratégie et réparer efficacement les générateurs.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/DustinHenderson.png",
+  "perks": [
+    {
+      "id": "bada_bada_boom",
+      "name": "Bada Bada Boom",
+      "description_tiers": {
+        "tier1": "Après avoir accompli 20 % de progression sur des générateurs, Bada Bada Boom s’active. Appuie sur la touche de Capacité Active près d’une fenêtre pour installer un piège qui dure 40 s. Lorsque le tueur effectue un saut par cette fenêtre, il subit l’effet Entrave (-50 %) pendant 6 s et le piège se désactive.",
+        "tier2": "…le piège dure 50 s.",
+        "tier3": "…le piège dure 60 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_BadaBadaBoom.png"
+    },
+    {
+      "id": "change_of_plan",
+      "name": "Change of Plan",
+      "description_tiers": {
+        "tier1": "Tu commences l’essai avec 2 jetons. Tant que tu es dans un casier en tenant une Boîte à Outils non évènementielle, appuie sur la touche de Capacité Active pour dépenser 1 jeton et transformer ta Boîte à Outils en une Trousse de Soins de même rareté avec un accessoire aléatoire de même rareté. La nouvelle trousse contient 80 % de ses charges.",
+        "tier2": "…la nouvelle trousse contient 90 % de ses charges.",
+        "tier3": "…la nouvelle trousse contient 100 % de ses charges."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_ChangeOfPlan.png"
+    },
+    {
+      "id": "teamwork_full_circuit",
+      "name": "Teamwork: Full Circuit",
+      "description_tiers": {
+        "tier1": "Pour chaque survivant réparant un générateur avec toi, la taille de la zone du Bon Skill Check augmente de 15 %. Tant que tu répares avec au moins un autre survivant, ta vitesse de réparation est augmentée de 5 %.",
+        "tier2": "…la taille de la zone du Bon Skill Check augmente de 20 %.",
+        "tier3": "…la taille de la zone du Bon Skill Check augmente de 25 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/…/Perk_TeamworkFullCircuit.png"
+    }
+  ]
+}

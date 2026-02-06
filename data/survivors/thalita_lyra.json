@@ -1,0 +1,39 @@
+{
+  "id": "thalita_lyra",
+  "name": "Thalita Lyra",
+  "role": "Competitive Spirit",
+  "description": "Une survivante brésilienne débordante d’énergie compétitive, capable d’inspirer ses coéquipiers, de se déplacer plus efficacement après soins et d’utiliser ses talents pour rester silencieuse dans les moments clés.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0f/ThalitaLyra.png",
+  "perks": [
+    {
+      "id": "cut_loose",
+      "name": "Cut Loose",
+      "description_tiers": {
+        "tier1": "Après avoir effectué un Rush Vault pendant une poursuite, Cut Loose s’active pendant 4 secondes : supprime la notification de bruit fort et les effets sonores liés au rush. Réussir un autre Rush Vault pendant l’effet réinitialise la durée.",
+        "tier2": "…s’active pendant 5 secondes.",
+        "tier3": "…s’active pendant 6 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e5/Perk_CutLoose.png"
+    },
+    {
+      "id": "friendly_competition",
+      "name": "Friendly Competition",
+      "description_tiers": {
+        "tier1": "Quand tu termines un générateur avec au moins un autre survivant, toi et ceux survivants recevez +5 % de vitesse de réparation pendant 45 secondes.",
+        "tier2": "…recevez le bonus pendant 60 secondes.",
+        "tier3": "…recevez le bonus pendant 75 secondes."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9a/Perk_FriendlyCompetition.png"
+    },
+    {
+      "id": "teamwork_power_of_two",
+      "name": "Teamwork: Power of Two",
+      "description_tiers": {
+        "tier1": "Quand tu termines de soigner un survivant, toi et le survivant soigné obtenez +5 % d’Effet Célérité tant que vous restez à moins de 8 m l’un de l’autre. L’effet persiste 4 secondes après séparation.",
+        "tier2": "…tant que vous restez à moins de 12 m.",
+        "tier3": "…tant que vous restez à moins de 16 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8d/Perk_TeamworkPowerOfTwo.png"
+    }
+  ]
+}

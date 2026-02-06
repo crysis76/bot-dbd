@@ -1,0 +1,45 @@
+{
+  "id": "hag",
+  "name": "La Harpie",
+  "role": "The Hag",
+  "description": "Un tueur territorial capable de piéger des zones clés avec des pièges fantasmagoriques, punissant sévèrement les survivants imprudents.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1f/The_Hag_Portrait.png",
+
+  "power": {
+    "name": "Catalyseur Noirci",
+    "description": "La Harpie peut placer des Pièges Fantasmagoriques au sol. Lorsqu’un survivant les déclenche, une illusion apparaît et la Harpie peut se téléporter instantanément vers elle."
+  },
+
+  "perks": [
+    {
+      "id": "hex_the_third_seal",
+      "name": "Hex: The Third Seal",
+      "description_tiers": {
+        "tier1": "Blesser un survivant avec une attaque de base applique l’effet Cécité. Jusqu’à 2 survivants peuvent être affectés.",
+        "tier2": "…jusqu’à 3 survivants peuvent être affectés.",
+        "tier3": "…jusqu’à 4 survivants peuvent être affectés."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3b/Hex_TheThirdSeal.png"
+    },
+    {
+      "id": "hex_ruin",
+      "name": "Hex: Ruin",
+      "description_tiers": {
+        "tier1": "Les générateurs non réparés régressent automatiquement à 100 % de la vitesse normale.",
+        "tier2": "Les générateurs non réparés régressent automatiquement à 150 % de la vitesse normale.",
+        "tier3": "Les générateurs non réparés régressent automatiquement à 200 % de la vitesse normale."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7e/Hex_Ruin.png"
+    },
+    {
+      "id": "hex_devour_hope",
+      "name": "Hex: Devour Hope",
+      "description_tiers": {
+        "tier1": "Gagne 1 Jeton quand un survivant est décroché à au moins 24 m de toi. À 3 Jetons, les survivants deviennent Exposés pendant 60 s.",
+        "tier2": "…à 3 Jetons, Exposé pendant 60 s ; à 5 Jetons, tu peux tuer les survivants en bonne santé ou blessés.",
+        "tier3": "…les effets s’appliquent plus rapidement et la pression est maximale dès 5 Jetons."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2e/Hex_DevourHope.png"
+    }
+  ]
+}

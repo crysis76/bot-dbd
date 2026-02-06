@@ -1,0 +1,45 @@
+{
+  "id": "nurse",
+  "name": "L’Infirmière",
+  "role": "The Nurse",
+  "description": "Un tueur extrêmement dangereux capable de se téléporter grâce à son pouvoir, anticipant les mouvements des survivants et terminant les poursuites avec précision chirurgicale.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/The_Nurse_Portrait.png",
+
+  "power": {
+    "name": "Dernier Souffle de Spencer",
+    "description": "L’Infirmière peut charger des téléportations (Blinds) pour traverser les obstacles et surprendre les survivants à grande distance. Les téléportations négligées entraînent de la fatigue."
+  },
+
+  "perks": [
+    {
+      "id": "a_nurses_calling",
+      "name": "A Nurse’s Calling",
+      "description_tiers": {
+        "tier1": "Les auras des survivants en train de soigner ou d’être soignés sont révélées dans un rayon de 28 m.",
+        "tier2": "Les auras des survivants en train de soigner ou d’être soignés sont révélées dans un rayon de 30 m.",
+        "tier3": "Les auras des survivants en train de soigner ou d’être soignés sont révélées dans un rayon de 32 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/Perk_ANursesCalling.png"
+    },
+    {
+      "id": "stridor",
+      "name": "Stridor",
+      "description_tiers": {
+        "tier1": "Augmente le volume des gémissements de douleur des survivants blessés de 30 % et le volume de leur respiration régulière de 15 %.",
+        "tier2": "Augmente le volume des gémissements de douleur des survivants blessés de 40 % et le volume de leur respiration régulière de 20 %.",
+        "tier3": "Augmente le volume des gémissements de douleur des survivants blessés de 50 % et le volume de leur respiration régulière de 25 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bf/Perk_Stridor.png"
+    },
+    {
+      "id": "thanatophobia",
+      "name": "Thanatophobia",
+      "description_tiers": {
+        "tier1": "Chaque survivant blessé, en état critique ou accroché inflige une pénalité de 1 % aux vitesses de réparation, sabotage et purification (max 4 %).",
+        "tier2": "Chaque survivant blessé, en état critique ou accroché inflige une pénalité de 1.5 % aux vitesses de réparation, sabotage et purification (max 6 %).",
+        "tier3": "Chaque survivant blessé, en état critique ou accroché inflige une pénalité de 2 % aux vitesses de réparation, sabotage et purification (max 8 %)."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/Perk_Thanatophobia.png"
+    }
+  ]
+}

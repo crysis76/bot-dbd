@@ -1,0 +1,45 @@
+{
+  "id": "trapper",
+  "name": "Le Piégeur",
+  "role": "The Trapper",
+  "description": "Un tueur implacable utilisant des pièges à ours pour capturer et immobiliser les survivants, forçant chacun à avancer avec prudence dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/The_Trapper_Portrait.png",
+
+  "power": {
+    "name": "Piège à ours",
+    "description": "Le Piégeur commence l’épreuve avec plusieurs pièges à ours. Ces pièges peuvent être placés sur le sol pour capturer ou blesser les survivants qui marchent dessus. Ils servent à contrôler des zones et à ralentir la progression des survivants."
+  },
+
+  "perks": [
+    {
+      "id": "unnerving_presence",
+      "name": "Unnerving Presence",
+      "description_tiers": {
+        "tier1": "Les survivants dans ton Terror Radius ont davantage de chances de déclencher un Skill Check difficile, et la zone de succès est réduite de 40 %.",
+        "tier2": "Les survivants dans ton Terror Radius ont davantage de chances de déclencher un Skill Check difficile, et la zone de succès est réduite de 50 %.",
+        "tier3": "Les survivants dans ton Terror Radius ont davantage de chances de déclencher un Skill Check difficile, et la zone de succès est réduite de 60 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/61/Perk_UnnervingPresence.png"
+    },
+    {
+      "id": "brutal_strength",
+      "name": "Brutal Strength",
+      "description_tiers": {
+        "tier1": "Augmente la vitesse de destruction des palettes et des murs destructibles et augmente les dégâts aux générateurs de 10 %.",
+        "tier2": "Augmente la vitesse de destruction des palettes et des murs destructibles et augmente les dégâts aux générateurs de 15 %.",
+        "tier3": "Augmente la vitesse de destruction des palettes et des murs destructibles et augmente les dégâts aux générateurs de 20 %."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/Perk_BrutalStrength.png"
+    },
+    {
+      "id": "agitation",
+      "name": "Agitation",
+      "description_tiers": {
+        "tier1": "Quand tu portes un survivant, ta vitesse de déplacement augmente de 6 % et ton Terror Radius augmente de 12 m.",
+        "tier2": "Quand tu portes un survivant, ta vitesse de déplacement augmente de 12 % et ton Terror Radius augmente de 12 m.",
+        "tier3": "Quand tu portes un survivant, ta vitesse de déplacement augmente de 18 % et ton Terror Radius augmente de 12 m."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e9/Perk_Agitation.png"
+    }
+  ]
+}

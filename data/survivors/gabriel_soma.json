@@ -1,0 +1,39 @@
+{
+  "id": "gabriel_soma",
+  "name": "Gabriel Soma",
+  "role": "Ingenieur interstellaire",
+  "description": "Un survivant ingénieux issu d’une mission spatiale qui a échoué, utilisant ses compétences pour maximiser ses chances de survie et aider ses alliés dans les situations les plus désespérées.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3b/GabrielSoma.png",
+  "perks": [
+    {
+      "id": "made_for_this",
+      "name": "Made For This",
+      "description_tiers": {
+        "tier1": "Quand tu es en état blessé, terminer une action de soins sur un autre survivant te donne l’effet Endurance pendant 6 s. Quand tu cours en état Deep Wound, gagne un effet Haste de 1 %.",
+        "tier2": "… même effet Endurance pendant 8 s et Haste de 2 % en Deep Wound.",
+        "tier3": "… même effet Endurance pendant 10 s et Haste de 3 % en Deep Wound."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/Perk_MadeForThis.png"
+    },
+    {
+      "id": "scavenger",
+      "name": "Scavenger",
+      "description_tiers": {
+        "tier1": "Quand tu tiens une Boîte à Outils épuisée, réussir des Great Repair Skill Checks donne jusqu’à 5 jetons. À 5 jetons, consomme-les pour recharger complètement la Boîte. Recharger réduit ta vitesse de réparation de 50 % pendant 40 s et désactive la perk. Permet aussi de fouiller une fois dans un coffre ouvert pour une Boîte à Outils de base.",
+        "tier2": "… recharge réduit la vitesse de réparation de 50 % pendant 35 s.",
+        "tier3": "… recharge réduit la vitesse de réparation de 50 % pendant 30 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/38/Perk_Scavenger.png"
+    },
+    {
+      "id": "troubleshooter",
+      "name": "Troubleshooter",
+      "description_tiers": {
+        "tier1": "Quand tu es poursuivi par le tueur, révélation de l’aura du tueur pour 4 s après avoir lâché une palette. Après la fin de la poursuite, ce bonus d’aura persiste 6 s.",
+        "tier2": "… révélation pendant 5 s après palette et 8 s après poursuite.",
+        "tier3": "… révélation pendant 6 s après palette et 10 s après poursuite."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/Perk_Troubleshooter.png"
+    }
+  ]
+}

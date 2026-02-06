@@ -1,0 +1,39 @@
+{
+  "id": "vee_boonyasak",
+  "name": "Vee Boonyasak",
+  "role": "Energetic Drummer",
+  "description": "Une batteuse énergique dont la nature aventureuse l’a menée dans un concert qui a mal tourné — ses compétences transforment la réparation, la guérison et l’énergie de l’équipe en avantages dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/??/VeeBoonyasak.png",
+  "perks": [
+    {
+      "id": "road_life",
+      "name": "Road Life",
+      "description_tiers": {
+        "tier1": "Quand tu es blessée et que tu répares un générateur, chaque Excellent Skill Check te donne 1 jeton. À 6 jetons, consomme-les pour augmenter ta vitesse de guérison de +100 % jusqu’à ce que tu arrêtes de soigner.",
+        "tier2": "Quand tu es blessée et que tu répares un générateur, chaque Excellent Skill Check te donne 1 jeton. À 5 jetons, consomme-les pour augmenter ta vitesse de guérison de +100 % jusqu’à ce que tu arrêtes de soigner.",
+        "tier3": "Quand tu es blessée et que tu répares un générateur, chaque Excellent Skill Check te donne 1 jeton. À 4 jetons, consomme-les pour augmenter ta vitesse de guérison de +100 % jusqu’à ce que tu arrêtes de soigner."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/Perk_RoadLife.png"
+    },
+    {
+      "id": "one_two_three_four",
+      "name": "One-Two-Three-Four!",
+      "description_tiers": {
+        "tier1": "Alors que tu es immobile, appuie sur la touche de Capacité Active pour commencer une Performance (jusqu’à 15 s). Après une Performance réussie, les survivants dans un rayon de 16 m bénéficient d’une **+20 % de chances de déclencher un Skill Check** sur soins et réparations pendant 90 s. Cooldown : 110 s.",
+        "tier2": "…Cooldown réduit à 100 s.",
+        "tier3": "…Cooldown réduit à 90 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ea/Perk_OneTwoThreeFour.png"
+    },
+    {
+      "id": "ghost_notes",
+      "name": "Ghost Notes",
+      "description_tiers": {
+        "tier1": "Tant que tu subis l’état **Épuisé**, tes marques d’éraflure disparaissent 50 % plus vite et tu récupères de l’Épuisement **5 %** plus vite.",
+        "tier2": "…récupères de l’Épuisement **7,5 %** plus vite.",
+        "tier3": "…récupères de l’Épuisement **10 %** plus vite."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6c/Perk_GhostNotes.png"
+    }
+  ]
+}

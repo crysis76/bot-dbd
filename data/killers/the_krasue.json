@@ -1,0 +1,46 @@
+{
+  "id": "the_krasue",
+  "name": "La Krasue",
+  "role": "Killer",
+  "description": "Burong Sukapat, connue sous le nom du Krasue, est une ancienne chanteuse d’opéra thaïlandaise consumée par une malédiction qui l’a transformée en une créature flottante cauchemardesque. Dans le Royaume du Brouillard, elle alterne entre sa forme corporelle et une tête décorporée aux entrailles pendantes, traquant sans relâche les survivants par une faim insatiable et des attaques imprévisibles.",
+
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4b/The_Krasue_Portrait.png",
+
+  "power": {
+    "name": "Chair décorporée",
+    "description": "Le pouvoir unique du Krasue, **Chair décorporée**, lui permet de séparer sa tête et ses organes de son corps pour entrer dans une **Forme Éthérée flottante** plus rapide. Sous cette forme, elle peut traverser des obstacles et attaquer avec un **Fouet intestinal** puissant. En restant sous forme corporelle, elle utilise des projectiles régurgités pour infecter les survivants avec la **Glande-sangsue**. Les survivants infectés deviennent plus vulnérables aux attaques du fouet. Cette dualité entre les formes offre au Krasue un style de chasse très mobile et adaptable, mêlant vitesse, surprise et pression constante sur les survivants." 
+  },
+
+  "perks": [
+    {
+      "id": "hex_overture_of_doom",
+      "name": "Hex : Prélude au malheur",
+      "description_tiers": {
+        "tier1": "Fait apparaître un totem maudit qui cible le générateur le plus éloigné et révèle son aura. Chaque survivant qui répare ce générateur pour un certain temps te confère *Indétectable* et transfère temporairement ton Rayon de Terreur sur ce générateur. Une fois réparé, la malédiction se déplace vers le générateur suivant le plus éloigné.",
+        "tier2": "…durée d’effet augmentée.",
+        "tier3": "…durée d’effet encore plus longue."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/Perk_Hex_Overture_of_Doom.png"
+    },
+    {
+      "id": "ravenous",
+      "name": "Vorace",
+      "description_tiers": {
+        "tier1": "Après qu’un survivant a été accroché une fois, il crie et devient *À découvert* pendant une durée considérable.",
+        "tier2": "…durée d’effet augmentée.",
+        "tier3": "…durée d’effet encore plus longue."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/70/Perk_Ravenous.png"
+    },
+    {
+      "id": "wandering_eye",
+      "name": "Œil vagabond",
+      "description_tiers": {
+        "tier1": "Pendant que tu poursuis un survivant, toutes les auras des survivants blessés à proximité sont révélées pour une durée.",
+        "tier2": "…durée d’effet augmentée.",
+        "tier3": "…durée d’effet encore plus longue."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/30/Perk_Wandering_Eye.png"
+    }
+  ]
+}

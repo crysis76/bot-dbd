@@ -1,0 +1,39 @@
+{
+  "id": "kate_denson",
+  "name": "Kate Denson",
+  "role": "Chanteuse optimiste",
+  "description": "Une survivante énergique et pleine d’espoir, capable de coordonner des voies d’évasion plus intelligemment grâce à son sens aigu de l’observation et sa détermination à survivre.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fd/KateDenson.png",
+  "perks": [
+    {
+      "id": "dance_with_me",
+      "name": "Dance With Me",
+      "description_tiers": {
+        "tier1": "Lorsque tu effectues une action précipitée pour franchir une fenêtre, passer un palet ou sortir d’un casier, tu ne laisses aucune trace de pas pendant 3 secondes. Cooldown : 30 s.",
+        "tier2": "Lorsque tu effectues une action précipitée pour franchir une fenêtre, passer un palet ou sortir d’un casier, tu ne laisses aucune trace de pas pendant 3 secondes. Cooldown : 25 s.",
+        "tier3": "Lorsque tu effectues une action précipitée pour franchir une fenêtre, passer un palet ou sortir d’un casier, tu ne laisses aucune trace de pas pendant 3 secondes. Cooldown : 20 s."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/Perk_DanceWithMe.png"
+    },
+    {
+      "id": "windows_of_opportunity",
+      "name": "Windows of Opportunity",
+      "description_tiers": {
+        "tier1": "Révèle l’aura de toutes les fenêtres, palets et murs destructibles dans un rayon de 64 mètres.",
+        "tier2": "Révèle l’aura de toutes les fenêtres, palets et murs destructibles dans un rayon de 96 mètres.",
+        "tier3": "Révèle l’aura de toutes les fenêtres, palets et murs destructibles dans un rayon de 128 mètres."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2c/Perk_WindowsOfOpportunity.png"
+    },
+    {
+      "id": "boil_over",
+      "name": "Boil Over",
+      "description_tiers": {
+        "tier1": "Lorsque tu es transporté par le tueur, augmente de 60 % l’efficacité de tes efforts de gigotement et accorde +33 % de progression de gigotement si le tueur te lâche après une chute.",
+        "tier2": "Lorsque tu es transporté par le tueur, augmente de 70 % l’efficacité de tes efforts de gigotement et accorde +33 % de progression de gigotement si le tueur te lâche après une chute.",
+        "tier3": "Lorsque tu es transporté par le tueur, augmente de 80 % l’efficacité de tes efforts de gigotement et accorde +33 % de progression de gigotement si le tueur te lâche après une chute."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1f/Perk_BoilOver.png"
+    }
+  ]
+}

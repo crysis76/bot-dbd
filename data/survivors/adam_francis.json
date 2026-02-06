@@ -1,0 +1,39 @@
+{
+  "id": "adam_francis",
+  "name": "Adam Francis",
+  "role": "Enseignant altruiste",
+  "description": "Un survivant intelligent et altruiste qui excelle pour soigner ses alliés, détourner l’attention du tueur et survivre dans des situations désespérées.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8f/DavidTapp.png",
+  "perks": [
+    {
+      "id": "autodidact",
+      "name": "Autodidact",
+      "description_tiers": {
+        "tier1": "Réussir un Test d’Habilité en soignant un autre survivant accorde +1 jeton, jusqu’à 3. Les Bons Tests donnent +15 % de progression de guérison par 2 jetons, et +30 % par 3 jetons. Les Tests Supérieurs sont supprimés.",
+        "tier2": "Réussir un Test d’Habilité en soignant un autre survivant accorde +1 jeton, jusqu’à 4. Les Bons Tests donnent +15 % de progression de guérison par 2 jetons, +30 % par 3 jetons et +45 % par 4 jetons. Les Tests Supérieurs sont supprimés.",
+        "tier3": "Réussir un Test d’Habilité en soignant un autre survivant accorde +1 jeton, jusqu’à 5. Les Bons Tests donnent +15 % de progression de guérison par 2 jetons, +30 % par 3 jetons, +45 % par 4 jetons et +60 % par 5 jetons. Les Tests Supérieurs sont supprimés."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/Perk_Autodidact.png"
+    },
+    {
+      "id": "deliverance",
+      "name": "Deliverance",
+      "description_tiers": {
+        "tier1": "Après avoir décroché un survivant en sécurité, vous pouvez vous décrocher vous-même une fois pendant la première phase d’accrochage. Vous subissez l’effet Brisé pendant 100 secondes après usage.",
+        "tier2": "Après avoir décroché un survivant en sécurité, vous pouvez vous décrocher vous-même une fois pendant la première phase d’accrochage. Vous subissez l’effet Brisé pendant 80 secondes après usage.",
+        "tier3": "Après avoir décroché un survivant en sécurité, vous pouvez vous décrocher vous-même une fois pendant la première phase d’accrochage. Vous subissez l’effet Brisé pendant 60 secondes après usage."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/12/Perk_Deliverance.png"
+    },
+    {
+      "id": "diversion",
+      "name": "Diversion",
+      "description_tiers": {
+        "tier1": "Après être resté dans le Rayon de Terreur sans être poursuivi pendant 30 secondes, la perk s’active. Accroupissez-vous immobile et lancez un caillou pour créer une fausse notification de bruit à 20 mètres.",
+        "tier2": "Après être resté dans le Rayon de Terreur sans être poursuivi pendant 25 secondes, la perk s’active. Accroupissez-vous immobile et lancez un caillou pour créer une fausse notification de bruit à 20 mètres.",
+        "tier3": "Après être resté dans le Rayon de Terreur sans être poursuivi pendant 20 secondes, la perk s’active. Accroupissez-vous immobile et lancez un caillou pour créer une fausse notification de bruit à 20 mètres."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8a/Perk_Diversion.png"
+    }
+  ]
+}

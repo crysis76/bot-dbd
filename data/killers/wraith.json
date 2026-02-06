@@ -1,0 +1,45 @@
+{
+  "id": "wraith",
+  "name": "Le Spectre",
+  "role": "The Wraith",
+  "description": "Un tueur furtif capable de devenir invisible et de surprendre les survivants grâce à sa cloche lugubre, frappant rapidement avant de disparaître à nouveau dans le Brouillard.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/The_Wraith_Portrait.png",
+
+  "power": {
+    "name": "Cloche lugubre",
+    "description": "Le Spectre peut utiliser sa Cloche lugubre pour devenir invisible. Tant qu’il est invisible, il se déplace plus rapidement et ne possède pas de Terror Radius. En se dévoilant, il gagne une brève accélération."
+  },
+
+  "perks": [
+    {
+      "id": "predator",
+      "name": "Predator",
+      "description_tiers": {
+        "tier1": "Quand un survivant te perd de vue pendant une poursuite, ses marques de griffures apparaissent plus rapprochées.",
+        "tier2": "Quand un survivant te perd de vue pendant une poursuite, ses marques de griffures apparaissent plus rapprochées et durent plus longtemps.",
+        "tier3": "Quand un survivant te perd de vue pendant une poursuite, ses marques de griffures apparaissent beaucoup plus rapprochées et durent bien plus longtemps."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c0/Predator.png"
+    },
+    {
+      "id": "bloodhound",
+      "name": "Bloodhound",
+      "description_tiers": {
+        "tier1": "Les flaques de sang laissées par les survivants blessés sont plus visibles et durent 2 secondes de plus.",
+        "tier2": "Les flaques de sang laissées par les survivants blessés sont très visibles et durent 3 secondes de plus.",
+        "tier3": "Les flaques de sang laissées par les survivants blessés sont extrêmement visibles et durent 4 secondes de plus."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8b/Bloodhound.png"
+    },
+    {
+      "id": "shadowborn",
+      "name": "Shadowborn",
+      "description_tiers": {
+        "tier1": "Augmente ton champ de vision de 8°.",
+        "tier2": "Augmente ton champ de vision de 12°.",
+        "tier3": "Augmente ton champ de vision de 15°."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/45/Shadowborn.png"
+    }
+  ]
+}

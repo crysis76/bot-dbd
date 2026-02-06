@@ -1,0 +1,39 @@
+{
+  "id": "ace",
+  "name": "Ace Visconti",
+  "role": "Parieur chanceux",
+  "description": "Un survivant charismatique et incroyablement chanceux, dont la bonne fortune inspire ses alliés à survivre contre toute attente.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/26/AceVisconti.png",
+  "perks": [
+    {
+      "id": "ace_in_the_hole",
+      "name": "Atout dans la manche",
+      "description_tiers": {
+        "tier1": "Quand vous récupérez un objet dans un coffre, l’objet est toujours équipé d’un accessoire de rareté Visceral ou inférieure. 50 % de chance d’avoir un second accessoire de rareté Uncommon ou inférieure.",
+        "tier2": "Quand vous récupérez un objet dans un coffre, l’objet est toujours équipé d’un accessoire de rareté Visceral ou inférieure. 75 % de chance d’avoir un second accessoire de rareté Uncommon ou inférieure.",
+        "tier3": "Quand vous récupérez un objet dans un coffre, l’objet est toujours équipé d’un accessoire de rareté Visceral ou inférieure. 100 % de chance d’avoir un second accessoire de rareté Uncommon ou inférieure."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7a/Perk_AceInTheHole.png"
+    },
+    {
+      "id": "open_handed",
+      "name": "Le coeur sur la main",
+      "description_tiers": {
+        "tier1": "Augmente la portée de toutes les capacités de lecture d’aura de 8 mètres pour tous les survivants.",
+        "tier2": "Augmente la portée de toutes les capacités de lecture d’aura de 12 mètres pour tous les survivants.",
+        "tier3": "Augmente la portée de toutes les capacités de lecture d’aura de 16 mètres pour tous les survivants."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/Perk_Open-Handed.png"
+    },
+    {
+      "id": "up_the_ante",
+      "name": "Augmenter la mise",
+      "description_tiers": {
+        "tier1": "Chaque survivant encore en vie donne 1 Jeton, augmentant les chances de réussir un Auto-Désaccrochage de 1 % par Jeton.",
+        "tier2": "Chaque survivant encore en vie donne 1 Jeton, augmentant les chances de réussir un Auto-Désaccrochage de 2 % par Jeton.",
+        "tier3": "Chaque survivant encore en vie donne 1 Jeton, augmentant les chances de réussir un Auto-Désaccrochage de 3 % par Jeton."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/88/Perk_UpTheAnte.png"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cheryl_mason",
+  "name": "Cheryl Mason",
+  "role": "Young Veteran of Terror",
+  "description": "Une survivante marquée par le mal indescriptible du Silent Hill Fog. Elle tire force de ses cauchemars pour encourager ses alliés et survivre aux épreuves les plus sombres.",
+  "image": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8f/CherylMason.png",
+  "perks": [
+    {
+      "id": "soul_guard",
+      "name": "Soul Guard",
+      "description_tiers": {
+        "tier1": "Après avoir été soignée ou après t’être relevé de l’état agonisant, gagne l’effet Endurance pendant 4 secondes. Si tu es affectée par l’état Cursed, tu peux te soigner complètement depuis l’état agonisant.",
+        "tier2": "Après avoir été soignée ou après t’être relevé de l’état agonisant, gagne l’effet Endurance pendant 6 secondes. Si tu es affectée par l’état Cursed, tu peux te soigner complètement depuis l’état agonisant.",
+        "tier3": "Après avoir été soignée ou après t’être relevé de l’état agonisant, gagne l’effet Endurance pendant 8 secondes. Si tu es affectée par l’état Cursed, tu peux te soigner complètement depuis l’état agonisant."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/67/Perk_SoulGuard.png"
+    },
+    {
+      "id": "blood_pact",
+      "name": "Blood Pact",
+      "description_tiers": {
+        "tier1": "Quand toi ou l’Obsession êtes blessés, vos auras sont révélées l’une à l’autre. Guérir l’Obsession ou être guérie par l’Obsession vous accorde à tous les deux l’effet Haste de 5 % tant que vous restez à moins de 16 m l’un de l’autre.",
+        "tier2": "Quand toi ou l’Obsession êtes blessés, vos auras sont révélées l’une à l’autre. Guérir l’Obsession ou être guérie par l’Obsession vous accorde à tous les deux l’effet Haste de 6 % tant que vous restez à moins de 16 m l’un de l’autre.",
+        "tier3": "Quand toi ou l’Obsession êtes blessés, vos auras sont révélées l’une à l’autre. Guérir l’Obsession ou être guérie par l’Obsession vous accorde à tous les deux l’effet Haste de 7 % tant que vous restez à moins de 16 m l’un de l’autre."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1e/Perk_BloodPact.png"
+    },
+    {
+      "id": "repressed_alliance",
+      "name": "Repressed Alliance",
+      "description_tiers": {
+        "tier1": "Après avoir réparé des générateurs pendant 55 s au total, Repressed Alliance s’active : appuie sur la touche d’action pour appeler L’Entité et bloquer le générateur que tu répares pendant 30 s. L’aura du générateur bloqué est révélée en blanc à tous.",
+        "tier2": "Après avoir réparé des générateurs pendant 50 s au total, Repressed Alliance s’active : appuie sur la touche d’action pour appeler L’Entité et bloquer le générateur que tu répares pendant 30 s. L’aura du générateur bloqué est révélée en blanc à tous.",
+        "tier3": "Après avoir réparé des générateurs pendant 45 s au total, Repressed Alliance s’active : appuie sur la touche d’action pour appeler L’Entité et bloquer le générateur que tu répares pendant 30 s. L’aura du générateur bloqué est révélée en blanc à tous."
+      },
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/22/Perk_RepressedAlliance.png"
+    }
+  ]
+}
