@@ -54,20 +54,15 @@ const commandFiles = fs
 
 for (const file of commandFiles) {
   const command = require(path.join(commandsPath, file));
-
-  if (!command.data || !command.execute) {
-    console.warn(`⚠️ Commande invalide : ${file}`);
-    continue;
-  }
-
+  if (!command.data || !command.execute) continue;
   client.commands.set(command.data.name, command);
 }
 
 /* =======================
-   READY
+   READY (v15 OK)
 ======================= */
 
-client.once("clientReady", client => {
+client.once("clientReady", () => {
   console.log(`✅ Connecté en tant que ${client.user.tag}`);
 });
 
@@ -77,97 +72,77 @@ client.once("clientReady", client => {
 
 client.on("interactionCreate", async interaction => {
   try {
-    /* 🔍 AUTOCOMPLETE (PAS DE BLOQUAGE) */
+    /* 🔍 AUTOCOMPLETE (JAMAIS BLOQUÉ) */
     if (interaction.isAutocomplete()) {
       const command = client.commands.get(interaction.commandName);
       if (!command?.autocomplete) return;
       return await command.autocomplete(interaction);
     }
 
-    /* 🚫 BLOQUAGE HORS SALON */
-    if (interaction.channelId !== ALLOWED_CHANNEL_ID) {
-      return interaction.reply({
-        content: "❌ Les commandes sont autorisées uniquement dans le salon prévu.",
-        flags: MessageFlags.Ephemeral
-      });
-    }
-
     /* 🔘 BOUTONS & SELECT MENUS */
     if (interaction.isButton() || interaction.isStringSelectMenu()) {
 
+      // Toujours deferUpdate pour éviter l’expiration
+      if (!interaction.deferred) {
+        await interaction.deferUpdate().catch(() => {});
+      }
+
       if (interaction.customId.startsWith("addons_")) {
-        return await handleAddons(interaction);
+        return handleAddons(interaction);
       }
 
       if (interaction.customId.startsWith("perk_")) {
-        return await handlePerks(interaction);
+        return handlePerks(interaction);
       }
 
       if (interaction.customId.startsWith("build_")) {
         const [, action, camp, category] =
           interaction.customId.split("_");
 
-        if (action !== "reroll") {
-          return interaction.deferUpdate();
-        }
+        if (action !== "reroll") return;
 
         const build = generateBuild(perksData, camp, category);
-
-        if (!Array.isArray(build) || build.length === 0) {
-          return interaction.update({
-            content: "❌ Impossible de reroll ce build.",
-            embeds: [],
-            components: []
-          });
-        }
+        if (!build?.length) return;
 
         const embed = EmbedBuilder.from(interaction.message.embeds[0]);
 
-        const perksText = build
-          .map(p => `• **${p.name}**`)
-          .join("\n");
+        embed.spliceFields(0, 1, {
+          name: "Perks",
+          value: build.map(p => `• **${p.name}**`).join("\n")
+        });
 
-        const fieldIndex =
-          embed.data.fields?.findIndex(f => f.name === "Perks") ?? -1;
-
-        if (fieldIndex !== -1) {
-          embed.spliceFields(fieldIndex, 1, {
-            name: "Perks",
-            value: perksText
-          });
-        } else {
-          embed.addFields({
-            name: "Perks",
-            value: perksText
-          });
-        }
-
-        return interaction.update({ embeds: [embed] });
+        return interaction.editReply({ embeds: [embed] }).catch(() => {});
       }
 
-      return interaction.deferUpdate();
+      return;
     }
 
     /* 💬 SLASH COMMAND */
     if (!interaction.isChatInputCommand()) return;
 
+    /* 🚫 BLOQUAGE HORS SALON (SLASH SEULEMENT) */
+    if (interaction.channelId !== ALLOWED_CHANNEL_ID) {
+      return interaction.reply({
+        content: "❌ Les commandes sont autorisées uniquement dans le salon prévu.",
+        flags: MessageFlags.Ephemeral
+      }).catch(() => {});
+    }
+
     const command = client.commands.get(interaction.commandName);
     if (!command) return;
 
+    // Sécurité anti-timeout
+    await interaction.deferReply().catch(() => {});
     await command.execute(interaction);
 
   } catch (error) {
     console.error("❌ Erreur interaction :", error);
 
-    const reply = {
-      content: "❌ Une erreur est survenue.",
-      flags: MessageFlags.Ephemeral
-    };
-
     if (interaction.deferred || interaction.replied) {
-      await interaction.followUp(reply).catch(() => {});
-    } else {
-      await interaction.reply(reply).catch(() => {});
+      await interaction.followUp({
+        content: "❌ Une erreur est survenue.",
+        flags: MessageFlags.Ephemeral
+      }).catch(() => {});
     }
   }
 });
