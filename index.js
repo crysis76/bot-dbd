@@ -76,16 +76,11 @@ client.on("interactionCreate", async interaction => {
     if (interaction.isAutocomplete()) {
       const command = client.commands.get(interaction.commandName);
       if (!command?.autocomplete) return;
-      return await command.autocomplete(interaction);
+      return command.autocomplete(interaction);
     }
 
     /* 🔘 BOUTONS & SELECT MENUS */
     if (interaction.isButton() || interaction.isStringSelectMenu()) {
-
-      // Toujours deferUpdate pour éviter l’expiration
-      if (!interaction.deferred) {
-        await interaction.deferUpdate().catch(() => {});
-      }
 
       if (interaction.customId.startsWith("addons_")) {
         return handleAddons(interaction);
@@ -99,10 +94,14 @@ client.on("interactionCreate", async interaction => {
         const [, action, camp, category] =
           interaction.customId.split("_");
 
-        if (action !== "reroll") return;
+        if (action !== "reroll") {
+          return interaction.deferUpdate().catch(() => {});
+        }
 
         const build = generateBuild(perksData, camp, category);
-        if (!build?.length) return;
+        if (!build?.length) {
+          return interaction.deferUpdate().catch(() => {});
+        }
 
         const embed = EmbedBuilder.from(interaction.message.embeds[0]);
 
@@ -111,16 +110,16 @@ client.on("interactionCreate", async interaction => {
           value: build.map(p => `• **${p.name}**`).join("\n")
         });
 
-        return interaction.editReply({ embeds: [embed] }).catch(() => {});
+        return interaction.update({ embeds: [embed] }).catch(() => {});
       }
 
-      return;
+      return interaction.deferUpdate().catch(() => {});
     }
 
     /* 💬 SLASH COMMAND */
     if (!interaction.isChatInputCommand()) return;
 
-    /* 🚫 BLOQUAGE HORS SALON (SLASH SEULEMENT) */
+    /* 🚫 BLOQUAGE HORS SALON (SLASH UNIQUEMENT) */
     if (interaction.channelId !== ALLOWED_CHANNEL_ID) {
       return interaction.reply({
         content: "❌ Les commandes sont autorisées uniquement dans le salon prévu.",
@@ -131,15 +130,14 @@ client.on("interactionCreate", async interaction => {
     const command = client.commands.get(interaction.commandName);
     if (!command) return;
 
-    // Sécurité anti-timeout
-    await interaction.deferReply().catch(() => {});
+    // ⚠️ IMPORTANT : PAS de reply / defer ici
     await command.execute(interaction);
 
   } catch (error) {
     console.error("❌ Erreur interaction :", error);
 
-    if (interaction.deferred || interaction.replied) {
-      await interaction.followUp({
+    if (!interaction.replied && !interaction.deferred) {
+      await interaction.reply({
         content: "❌ Une erreur est survenue.",
         flags: MessageFlags.Ephemeral
       }).catch(() => {});
