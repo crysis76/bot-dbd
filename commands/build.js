@@ -30,44 +30,56 @@ module.exports = {
     ),
 
   /* =====================
-     AUTOCOMPLETE
+     AUTOCOMPLETE (SAFE)
   ===================== */
   async autocomplete(interaction) {
-    const focused = interaction.options.getFocused(true);
-    if (focused.name !== "tag") return;
+    try {
+      if (!interaction.isAutocomplete()) return;
 
-    const type = interaction.options.getString("type");
-    if (!type) return interaction.respond([]);
+      const focused = interaction.options.getFocused(true);
+      if (focused.name !== "tag") {
+        return interaction.respond([]);
+      }
 
-    const pool =
-      type === "killer"
-        ? perks.common.filter(p => p.type === "killer")
-        : [
-            ...perks.common.filter(p => p.type === "survivor"),
-            ...(perks.survivor || [])
-          ];
+      const type = interaction.options.getString("type");
+      if (!type) {
+        return interaction.respond([]);
+      }
 
-    const tags = [
-      ...new Set(
-        pool.flatMap(p => Array.isArray(p.tags) ? p.tags : [])
-      )
-    ];
+      const pool =
+        type === "killer"
+          ? perks.common.filter(p => p.type === "killer")
+          : [
+              ...perks.common.filter(p => p.type === "survivor"),
+              ...(perks.survivor || [])
+            ];
 
-    const value = focused.value.toLowerCase();
+      const tags = [
+        ...new Set(
+          pool.flatMap(p => Array.isArray(p.tags) ? p.tags : [])
+        )
+      ];
 
-    return interaction.respond(
-      tags
-        .filter(t => t.toLowerCase().includes(value))
-        .slice(0, 25)
-        .map(t => ({ name: t, value: t }))
-    );
+      const value = focused.value.toLowerCase();
+
+      return interaction.respond(
+        tags
+          .filter(t => t.toLowerCase().includes(value))
+          .slice(0, 25)
+          .map(t => ({ name: t, value: t }))
+      );
+
+    } catch {
+      // ❌ autocomplete ne doit JAMAIS crash
+      return;
+    }
   },
 
   /* =====================
      EXECUTION
   ===================== */
   async execute(interaction) {
-    // ❌ PAS de deferReply ici
+    // ⚠️ deferReply est DÉJÀ fait dans index.js
 
     const type = interaction.options.getString("type");
     const tag = interaction.options.getString("tag");
