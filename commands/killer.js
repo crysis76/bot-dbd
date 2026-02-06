@@ -29,9 +29,7 @@ module.exports = {
   async autocomplete(interaction) {
     try {
       const focused = interaction.options.getFocused(true);
-      if (focused.name !== "nom") {
-        return interaction.respond([]);
-      }
+      if (focused.name !== "nom") return interaction.respond([]);
 
       const value = focused.value.toLowerCase();
 
@@ -45,7 +43,7 @@ module.exports = {
           }))
       );
     } catch {
-      // ❌ autocomplete ne doit JAMAIS crash
+      // autocomplete ne doit jamais throw
       return;
     }
   },
@@ -54,7 +52,10 @@ module.exports = {
      EXECUTE
   ===================== */
   async execute(interaction) {
-    // ⚠️ deferReply est géré dans index.js
+    // ✅ SAFE deferReply
+    if (!interaction.deferred && !interaction.replied) {
+      await interaction.deferReply();
+    }
 
     const id = interaction.options.getString("nom");
     const killer = loadOne(dataPath, id);
