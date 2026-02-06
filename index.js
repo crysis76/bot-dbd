@@ -1,5 +1,24 @@
 require("dotenv").config();
 
+/* =======================
+   WEB SERVER (RENDER)
+======================= */
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("🤖 Bot DBD en ligne !");
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`🌐 Serveur web actif sur le port ${PORT}`);
+});
+
+/* =======================
+   DISCORD BOT
+======================= */
+
 const fs = require("fs");
 const path = require("path");
 const {
@@ -40,18 +59,17 @@ for (const file of commandFiles) {
   client.commands.set(command.data.name, command);
 }
 
-/* =========
+/* =======================
    READY
-========= */
+======================= */
 
-// v15 friendly
 client.once("clientReady", () => {
   console.log(`✅ Connecté en tant que ${client.user.tag}`);
 });
 
-/* ==========================
+/* =======================
    INTERACTION CREATE
-========================== */
+======================= */
 
 client.on("interactionCreate", async interaction => {
   try {
@@ -65,12 +83,12 @@ client.on("interactionCreate", async interaction => {
     /* 🔘 BOUTONS & SELECT MENUS */
     if (interaction.isButton() || interaction.isStringSelectMenu()) {
 
-      // 🧩 ADD-ONS (boutons + select rareté)
+      // 🧩 ADD-ONS
       if (interaction.customId.startsWith("addons_")) {
         return await handleAddons(interaction);
       }
 
-      // 🧩 PERKS (catégories / retour)
+      // 🧩 PERKS
       if (interaction.customId.startsWith("perk_")) {
         return await handlePerks(interaction);
       }
@@ -118,7 +136,6 @@ client.on("interactionCreate", async interaction => {
         return interaction.update({ embeds: [embed] });
       }
 
-      // 🛑 sécurité : interaction non reconnue
       return interaction.deferUpdate();
     }
 
@@ -146,4 +163,9 @@ client.on("interactionCreate", async interaction => {
   }
 });
 
-client.login(process.env.TOKEN);
+/* =======================
+   LOGIN
+======================= */
+
+// ⚠️ important : Render → variable d’environnement
+client.login(process.env.DISCORD_TOKEN);
