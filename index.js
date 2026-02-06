@@ -63,7 +63,7 @@ for (const file of commandFiles) {
    READY
 ======================= */
 
-client.once("clientReady", () => {
+client.once("ready", () => {
   console.log(`✅ Connecté en tant que ${client.user.tag}`);
 });
 
@@ -167,5 +167,5 @@ client.on("interactionCreate", async interaction => {
    LOGIN
 ======================= */
 
-// ⚠️ important : Render → variable d’environnement
-client.login(process.env.DISCORD_TOKEN);
+// Render → variable d’environnement : TOKEN
+client.login(process.env.TOKEN);
