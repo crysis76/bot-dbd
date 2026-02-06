@@ -35,8 +35,7 @@ const {
   Client,
   Collection,
   GatewayIntentBits,
-  EmbedBuilder,
-  MessageFlags
+  EmbedBuilder
 } = require("discord.js");
 
 const perksData = require("./data/perks.json");
@@ -59,12 +58,13 @@ client.commands = new Collection();
 const commandsPath = path.join(__dirname, "commands");
 const commandFiles = fs
   .readdirSync(commandsPath)
-  .filter(file => file.endsWith(".js"));
+  .filter(f => f.endsWith(".js"));
 
 for (const file of commandFiles) {
   const command = require(path.join(commandsPath, file));
-  if (!command.data || !command.execute) continue;
-  client.commands.set(command.data.name, command);
+  if (command?.data && command?.execute) {
+    client.commands.set(command.data.name, command);
+  }
 }
 
 /* =======================
@@ -79,20 +79,17 @@ client.once("clientReady", () => {
 ======================= */
 client.on("interactionCreate", async interaction => {
   try {
-    /* 🔍 AUTOCOMPLETE (JAMAIS BLOQUÉ) */
+    /* 🔍 AUTOCOMPLETE */
     if (interaction.isAutocomplete()) {
       const command = client.commands.get(interaction.commandName);
-      if (!command?.autocomplete) return;
-      return command.autocomplete(interaction);
+      if (command?.autocomplete) {
+        return command.autocomplete(interaction);
+      }
+      return;
     }
 
     /* 🔘 BOUTONS & SELECT */
     if (interaction.isButton() || interaction.isStringSelectMenu()) {
-
-      // Toujours deferUpdate pour éviter expiration
-      if (!interaction.deferred && !interaction.replied) {
-        await interaction.deferUpdate().catch(() => {});
-      }
 
       if (interaction.customId.startsWith("addons_")) {
         return handleAddons(interaction);
@@ -103,22 +100,19 @@ client.on("interactionCreate", async interaction => {
       }
 
       if (interaction.customId.startsWith("build_")) {
-        const [, action, camp, category] =
-          interaction.customId.split("_");
-
+        const [, action, camp, category] = interaction.customId.split("_");
         if (action !== "reroll") return;
 
         const build = generateBuild(perksData, camp, category);
         if (!build?.length) return;
 
         const embed = EmbedBuilder.from(interaction.message.embeds[0]);
-
         embed.spliceFields(0, 1, {
           name: "Perks",
           value: build.map(p => `• **${p.name}**`).join("\n")
         });
 
-        return interaction.editReply({ embeds: [embed] }).catch(() => {});
+        return interaction.update({ embeds: [embed] });
       }
 
       return;
@@ -127,28 +121,30 @@ client.on("interactionCreate", async interaction => {
     /* 💬 SLASH COMMAND */
     if (!interaction.isChatInputCommand()) return;
 
-    /* 🚫 BLOQUAGE HORS SALON */
+    /* 🚫 BLOQUAGE SALON */
     if (interaction.channelId !== ALLOWED_CHANNEL_ID) {
       return interaction.reply({
         content: "❌ Les commandes sont autorisées uniquement dans le salon prévu.",
-        flags: MessageFlags.Ephemeral
-      }).catch(() => {});
+        ephemeral: true
+      });
     }
 
     const command = client.commands.get(interaction.commandName);
     if (!command) return;
 
-    // ✅ TOUJOURS deferReply pour éviter Unknown interaction
-    await interaction.deferReply().catch(() => {});
+    /* ✅ DEFER UNIQUE CENTRALISÉ */
+    if (!interaction.deferred && !interaction.replied) {
+      await interaction.deferReply();
+    }
+
     await command.execute(interaction);
 
   } catch (error) {
     console.error("❌ Erreur interaction :", error);
 
-    if (!interaction.replied && !interaction.deferred) {
-      await interaction.reply({
-        content: "❌ Une erreur est survenue.",
-        flags: MessageFlags.Ephemeral
+    if (interaction.deferred || interaction.replied) {
+      await interaction.editReply({
+        content: "❌ Une erreur est survenue."
       }).catch(() => {});
     }
   }
