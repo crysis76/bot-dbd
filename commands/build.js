@@ -34,6 +34,8 @@ module.exports = {
   ===================== */
   async autocomplete(interaction) {
     try {
+      if (!interaction.isAutocomplete()) return;
+
       const focused = interaction.options.getFocused(true);
       if (focused.name !== "tag") {
         return interaction.respond([]);
@@ -67,16 +69,20 @@ module.exports = {
           .map(t => ({ name: t, value: t }))
       );
     } catch {
-      // ⚠️ autocomplete ne doit JAMAIS throw
+      // ❌ autocomplete ne doit JAMAIS crash
       return;
     }
   },
 
   /* =====================
-     EXECUTION
+     EXECUTION (SAFE)
   ===================== */
   async execute(interaction) {
-    // ⚠️ deferReply est GÉRÉ dans index.js
+
+    // ✅ GARANTIE D’ACK (corrige InteractionNotReplied)
+    if (!interaction.deferred && !interaction.replied) {
+      await interaction.deferReply().catch(() => {});
+    }
 
     const type = interaction.options.getString("type");
     const tag = interaction.options.getString("tag");

@@ -22,6 +22,7 @@ function loadAddons() {
 }
 
 const rarityLabels = {
+  all: "Toutes",
   common: "Commun",
   uncommon: "Peu commun",
   rare: "Rare",
@@ -31,93 +32,90 @@ const rarityLabels = {
 
 // ===== MAIN HANDLER =====
 async function handleAddons(interaction) {
-  const data = loadAddons();
+  try {
+    const data = loadAddons();
 
-  /* 📂 OUVERTURE ADD-ONS */
-  if (interaction.isButton() && interaction.customId.startsWith("addons_open_")) {
-    await interaction.deferUpdate();
+    /* 📂 OUVERTURE ADD-ONS */
+    if (interaction.isButton() && interaction.customId.startsWith("addons_open_")) {
+      const killerId = interaction.customId.replace("addons_open_", "");
+      const addons = data[killerId] ?? [];
 
-    const killerId = interaction.customId.replace("addons_open_", "");
-    const addons = data[killerId] ?? [];
-
-    if (!addons.length) {
-      return interaction.message.edit({
-        content: "❌ Aucun add-on trouvé pour ce tueur.",
-        embeds: [],
-        components: []
-      });
-    }
-
-    return showAddons(interaction, killerId, addons, 0, "all");
-  }
-
-  /* 🔁 PAGINATION */
-  if (interaction.isButton() && interaction.customId.startsWith("addons_page_")) {
-    await interaction.deferUpdate();
-
-    const raw = interaction.customId.replace("addons_page_", "");
-    const [killerId, page, rarity] = raw.split("|");
-
-    const addons = data[killerId] ?? [];
-    return showAddons(interaction, killerId, addons, Number(page), rarity);
-  }
-
-  /* 🎯 FILTRE RARETÉ */
-  if (interaction.isStringSelectMenu() && interaction.customId.startsWith("addons_rarity_")) {
-    await interaction.deferUpdate();
-
-    const killerId = interaction.customId.replace("addons_rarity_", "");
-    const rarity = interaction.values[0];
-    const addons = data[killerId] ?? [];
-
-    return showAddons(interaction, killerId, addons, 0, rarity);
-  }
-
-  /* ⬅ RETOUR AU TUEUR */
-  if (interaction.isButton() && interaction.customId.startsWith("addons_back_")) {
-    await interaction.deferUpdate();
-
-    const killerId = interaction.customId.replace("addons_back_", "");
-    const killer = loadOne(KILLERS_PATH, killerId);
-
-    if (!killer) {
-      return interaction.message.edit({
-        content: "❌ Impossible de revenir au tueur.",
-        embeds: [],
-        components: []
-      });
-    }
-
-    const embed = new EmbedBuilder()
-      .setTitle(killer.name)
-      .setDescription(killer.description ?? "Aucune description.")
-      .setColor(0xb71c1c);
-
-    if (killer.image) embed.setThumbnail(killer.image);
-
-    if (killer.power) {
-      embed.addFields({
-        name: "🔪 Pouvoir",
-        value:
-          typeof killer.power === "string"
-            ? killer.power
-            : `**${killer.power.name}**\n${killer.power.description}`
-      });
-    }
-
-    if (Array.isArray(killer.perks)) {
-      killer.perks.slice(0, 3).forEach(perk => {
-        embed.addFields({
-          name: `🧠 ${perk.name}`,
-          value: perk.description ?? "Pas de description."
+      if (!addons.length) {
+        return interaction.update({
+          content: "❌ Aucun add-on trouvé pour ce tueur.",
+          embeds: [],
+          components: []
         });
+      }
+
+      return showAddons(interaction, killerId, addons, 0, "all");
+    }
+
+    /* 🔁 PAGINATION */
+    if (interaction.isButton() && interaction.customId.startsWith("addons_page_")) {
+      const raw = interaction.customId.replace("addons_page_", "");
+      const [killerId, page, rarity] = raw.split("|");
+
+      const addons = data[killerId] ?? [];
+      return showAddons(interaction, killerId, addons, Number(page), rarity);
+    }
+
+    /* 🎯 FILTRE RARETÉ */
+    if (interaction.isStringSelectMenu() && interaction.customId.startsWith("addons_rarity_")) {
+      const killerId = interaction.customId.replace("addons_rarity_", "");
+      const rarity = interaction.values[0];
+      const addons = data[killerId] ?? [];
+
+      return showAddons(interaction, killerId, addons, 0, rarity);
+    }
+
+    /* ⬅ RETOUR AU TUEUR */
+    if (interaction.isButton() && interaction.customId.startsWith("addons_back_")) {
+      const killerId = interaction.customId.replace("addons_back_", "");
+      const killer = loadOne(KILLERS_PATH, killerId);
+
+      if (!killer) {
+        return interaction.update({
+          content: "❌ Impossible de revenir au tueur.",
+          embeds: [],
+          components: []
+        });
+      }
+
+      const embed = new EmbedBuilder()
+        .setTitle(killer.name)
+        .setDescription(killer.description ?? "Aucune description.")
+        .setColor(0xb71c1c);
+
+      if (killer.image) embed.setThumbnail(killer.image);
+
+      if (killer.power) {
+        embed.addFields({
+          name: "🔪 Pouvoir",
+          value:
+            typeof killer.power === "string"
+              ? killer.power
+              : `**${killer.power.name}**\n${killer.power.description}`
+        });
+      }
+
+      if (Array.isArray(killer.perks)) {
+        killer.perks.slice(0, 3).forEach(perk => {
+          embed.addFields({
+            name: `🧠 ${perk.name}`,
+            value: perk.description ?? "Pas de description."
+          });
+        });
+      }
+
+      return interaction.update({
+        embeds: [embed],
+        components: []
       });
     }
 
-    return interaction.message.edit({
-      embeds: [embed],
-      components: []
-    });
+  } catch (err) {
+    console.error("❌ Addons handler error:", err);
   }
 }
 
@@ -127,7 +125,7 @@ async function showAddons(interaction, killerId, addons, page, rarity) {
     rarity === "all" ? addons : addons.filter(a => a.rarity === rarity);
 
   if (!filtered.length) {
-    return interaction.message.edit({
+    return interaction.update({
       content: "❌ Aucun add-on pour cette rareté.",
       embeds: [],
       components: []
@@ -147,7 +145,7 @@ async function showAddons(interaction, killerId, addons, page, rarity) {
   const embed = new EmbedBuilder()
     .setTitle(`🎒 Add-ons — ${killer?.name ?? killerId}`)
     .setColor(0x8b0000)
-    .setFooter({ text: `Page ${page + 1} / ${maxPage + 1}` });
+    .setFooter({ text: `Page ${page + 1} / ${maxPage + 1} • ${rarityLabels[rarity]}` });
 
   pageAddons.forEach(addon => {
     embed.addFields({
@@ -187,7 +185,7 @@ async function showAddons(interaction, killerId, addons, page, rarity) {
       .setStyle(ButtonStyle.Danger)
   );
 
-  return interaction.message.edit({
+  return interaction.update({
     embeds: [embed],
     components: [
       new ActionRowBuilder().addComponents(selectMenu),
