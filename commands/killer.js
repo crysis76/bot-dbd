@@ -26,7 +26,7 @@ module.exports = {
   async autocomplete(interaction) {
     const focused = interaction.options.getFocused().toLowerCase();
 
-    await interaction.respond(
+    return interaction.respond(
       killers
         .filter(k => k.name.toLowerCase().includes(focused))
         .slice(0, 25)
@@ -38,13 +38,15 @@ module.exports = {
   },
 
   async execute(interaction) {
+    // ✅ STRATÉGIE UNIQUE
+    await interaction.deferReply();
+
     const id = interaction.options.getString('nom');
     const killer = loadOne(dataPath, id);
 
     if (!killer) {
-      return interaction.reply({
-        content: '❌ Killer introuvable.',
-        ephemeral: true
+      return interaction.editReply({
+        content: '❌ Killer introuvable.'
       });
     }
 
@@ -87,9 +89,9 @@ module.exports = {
           const tiers = perk.description_tiers;
 
           perkDescription = [
-            tiers.tier1 ? `**Tier I** : ${tiers.tier1}` : null,
-            tiers.tier2 ? `**Tier II** : ${tiers.tier2}` : null,
-            tiers.tier3 ? `**Tier III** : ${tiers.tier3}` : null
+            tiers.tier1 && `**Tier I** : ${tiers.tier1}`,
+            tiers.tier2 && `**Tier II** : ${tiers.tier2}`,
+            tiers.tier3 && `**Tier III** : ${tiers.tier3}`
           ]
             .filter(Boolean)
             .join('\n');
@@ -97,8 +99,7 @@ module.exports = {
 
         embed.addFields({
           name: `🧠 ${perk?.name ?? 'Perk inconnu'}`,
-          value: perkDescription,
-          inline: false
+          value: perkDescription
         });
       });
     }
@@ -108,12 +109,12 @@ module.exports = {
     ================= */
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
-        .setCustomId(`addons_open_${id}`) // ✅ CORRECT
+        .setCustomId(`addons_open_${id}`)
         .setLabel('🎒 Add-ons')
         .setStyle(ButtonStyle.Primary)
     );
 
-    await interaction.reply({
+    return interaction.editReply({
       embeds: [embed],
       components: [row]
     });

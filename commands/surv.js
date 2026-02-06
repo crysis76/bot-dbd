@@ -16,10 +16,13 @@ module.exports = {
         .setAutocomplete(true)
     ),
 
+  /* =====================
+     AUTOCOMPLETE
+  ===================== */
   async autocomplete(interaction) {
     const focused = interaction.options.getFocused().toLowerCase();
 
-    await interaction.respond(
+    return interaction.respond(
       survivors
         .filter(s => s.name.toLowerCase().includes(focused))
         .slice(0, 25)
@@ -27,38 +30,53 @@ module.exports = {
     );
   },
 
+  /* =====================
+     EXECUTION
+  ===================== */
   async execute(interaction) {
+    // ✅ sécurité anti double réponse
+    if (!interaction.deferred && !interaction.replied) {
+      await interaction.deferReply();
+    }
+
     const id = interaction.options.getString('nom');
     const surv = loadOne(dataPath, id);
 
     if (!surv) {
-      return interaction.reply({
-        content: '❌ Survivant introuvable.',
-        ephemeral: true
+      return interaction.editReply({
+        content: '❌ Survivant introuvable.'
       });
     }
 
     const embed = new EmbedBuilder()
       .setTitle(surv.name)
-      .setDescription(surv.description)
-      .setThumbnail(surv.image)
+      .setDescription(surv.description ?? 'Aucune description')
+      .setThumbnail(surv.image ?? null)
       .setColor('#4CAF50')
       .setFooter({ text: 'Dead by Daylight — Survivant' });
 
     // 🧠 PERKS AVEC TIERS + ICÔNES
-    surv.perks.forEach(perk => {
-      const desc =
-`**Tier I:** ${perk.description_tiers.tier1}
-**Tier II:** ${perk.description_tiers.tier2}
-**Tier III:** ${perk.description_tiers.tier3}`;
+    if (Array.isArray(surv.perks)) {
+      surv.perks.forEach(perk => {
+        const tiers = perk.description_tiers ?? {};
 
-      embed.addFields({
-        name: `🧠 ${perk.name}`,
-        value: `[🖼️ Icône](${perk.icon})\n${desc}`,
-        inline: false
+        const desc = [
+          tiers.tier1 ? `**Tier I** : ${tiers.tier1}` : null,
+          tiers.tier2 ? `**Tier II** : ${tiers.tier2}` : null,
+          tiers.tier3 ? `**Tier III** : ${tiers.tier3}` : null
+        ]
+          .filter(Boolean)
+          .join('\n');
+
+        embed.addFields({
+          name: `🧠 ${perk.name ?? 'Perk inconnu'}`,
+          value:
+            `${perk.icon ? `[🖼️ Icône](${perk.icon})\n` : ''}${desc || 'Pas de description'}`,
+          inline: false
+        });
       });
-    });
+    }
 
-    await interaction.reply({ embeds: [embed] });
+    return interaction.editReply({ embeds: [embed] });
   }
 };

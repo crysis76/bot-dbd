@@ -10,6 +10,11 @@ const perksData = require("../data/perks.json");
 const PER_PAGE = 20;
 
 module.exports.handlePerks = async interaction => {
+  // 🔒 Sécurité absolue : toujours deferUpdate
+  if (!interaction.deferred && !interaction.replied) {
+    await interaction.deferUpdate().catch(() => {});
+  }
+
   const id = interaction.customId;
 
   /* 🔙 RETOUR MENU PRINCIPAL */
@@ -39,7 +44,10 @@ module.exports.handlePerks = async interaction => {
         .setStyle(ButtonStyle.Danger)
     );
 
-    return interaction.update({ embeds: [embed], components: [row] });
+    return interaction.editReply({
+      embeds: [embed],
+      components: [row]
+    }).catch(() => {});
   }
 
   /* 📦 CATEGORY + PAGE */
@@ -65,30 +73,32 @@ module.exports.handlePerks = async interaction => {
   }
 
   if (!perks.length) {
-    return interaction.reply({
+    return interaction.editReply({
       content: "❌ Aucune perk trouvée.",
-      flags: 64
-    });
+      embeds: [],
+      components: []
+    }).catch(() => {});
   }
 
   const maxPage = Math.ceil(perks.length / PER_PAGE) - 1;
-  const start = page * PER_PAGE;
+  const safePage = Math.max(0, Math.min(page, maxPage));
+  const start = safePage * PER_PAGE;
   const current = perks.slice(start, start + PER_PAGE);
 
   const embed = new EmbedBuilder()
     .setTitle(`📚 Perks ${category}`)
     .setColor(color)
-    .setFooter({ text: `Page ${page + 1} / ${maxPage + 1}` })
+    .setFooter({ text: `Page ${safePage + 1} / ${maxPage + 1}` })
     .setDescription(
       current.map(p => `• **${p.name}**`).join("\n")
     );
 
   const row = new ActionRowBuilder().addComponents(
     new ButtonBuilder()
-      .setCustomId(`perk_${category}_${page - 1}`)
+      .setCustomId(`perk_${category}_${safePage - 1}`)
       .setEmoji("⬅️")
       .setStyle(ButtonStyle.Secondary)
-      .setDisabled(page <= 0),
+      .setDisabled(safePage <= 0),
 
     new ButtonBuilder()
       .setCustomId("perk_back")
@@ -96,14 +106,14 @@ module.exports.handlePerks = async interaction => {
       .setStyle(ButtonStyle.Secondary),
 
     new ButtonBuilder()
-      .setCustomId(`perk_${category}_${page + 1}`)
+      .setCustomId(`perk_${category}_${safePage + 1}`)
       .setEmoji("➡️")
       .setStyle(ButtonStyle.Secondary)
-      .setDisabled(page >= maxPage)
+      .setDisabled(safePage >= maxPage)
   );
 
-  return interaction.update({
+  return interaction.editReply({
     embeds: [embed],
     components: [row]
-  });
+  }).catch(() => {});
 };
