@@ -81,7 +81,7 @@ client.once("clientReady", () => {
 client.on("interactionCreate", async interaction => {
   try {
     /* =====================
-       AUTOCOMPLETE (SAFE)
+       AUTOCOMPLETE
     ===================== */
     if (interaction.isAutocomplete()) {
       const command = client.commands.get(interaction.commandName);
@@ -90,7 +90,7 @@ client.on("interactionCreate", async interaction => {
       try {
         await command.autocomplete(interaction);
       } catch {
-        // silence total (autocomplete expire très vite)
+        // autocomplete expire très vite → silence
       }
       return;
     }
@@ -100,20 +100,19 @@ client.on("interactionCreate", async interaction => {
     ===================== */
     if (interaction.isButton() || interaction.isStringSelectMenu()) {
 
-      // ACK SAFE
-      if (!interaction.deferred && !interaction.replied) {
-        await interaction.deferUpdate().catch(() => {});
-      }
-
       if (interaction.customId.startsWith("addons_")) {
-        return handleAddons(interaction).catch(() => {});
+        await handleAddons(interaction);
+        return;
       }
 
       if (interaction.customId.startsWith("perk_")) {
-        return handlePerks(interaction).catch(() => {});
+        await handlePerks(interaction);
+        return;
       }
 
       if (interaction.customId.startsWith("build_")) {
+        await interaction.deferUpdate().catch(() => {});
+
         const [, action, camp, category] =
           interaction.customId.split("_");
 
@@ -131,7 +130,8 @@ client.on("interactionCreate", async interaction => {
           value: build.map(p => `• **${p.name}**`).join("\n")
         });
 
-        return interaction.editReply({ embeds: [embed] }).catch(() => {});
+        await interaction.editReply({ embeds: [embed] }).catch(() => {});
+        return;
       }
 
       return;
@@ -144,16 +144,17 @@ client.on("interactionCreate", async interaction => {
 
     /* 🚫 BLOQUAGE SALON */
     if (interaction.channelId !== ALLOWED_CHANNEL_ID) {
-      return interaction.reply({
+      await interaction.reply({
         content: "❌ Les commandes sont autorisées uniquement dans le salon prévu.",
         flags: MessageFlags.Ephemeral
       }).catch(() => {});
+      return;
     }
 
     const command = client.commands.get(interaction.commandName);
     if (!command) return;
 
-    /* ✅ DEFER CENTRALISÉ UNIQUE */
+    /* ✅ DEFER CENTRALISÉ */
     if (!interaction.deferred && !interaction.replied) {
       await interaction.deferReply().catch(() => {});
     }
