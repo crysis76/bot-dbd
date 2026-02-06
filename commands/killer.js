@@ -38,8 +38,10 @@ module.exports = {
   },
 
   async execute(interaction) {
-    // ✅ STRATÉGIE UNIQUE
-    await interaction.deferReply();
+    // ✅ ACK SAFE (anti InteractionAlreadyReplied)
+    if (!interaction.deferred && !interaction.replied) {
+      await interaction.deferReply();
+    }
 
     const id = interaction.options.getString('nom');
     const killer = loadOne(dataPath, id);

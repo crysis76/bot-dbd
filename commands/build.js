@@ -55,20 +55,23 @@ module.exports = {
 
     const value = focused.value.toLowerCase();
 
-    const choices = tags
-      .filter(t => t.toLowerCase().includes(value))
-      .slice(0, 25)
-      .map(t => ({ name: t, value: t }));
-
-    return interaction.respond(choices);
+    return interaction.respond(
+      tags
+        .filter(t => t.toLowerCase().includes(value))
+        .slice(0, 25)
+        .map(t => ({ name: t, value: t }))
+    );
   },
 
   /* =====================
      EXECUTION
   ===================== */
   async execute(interaction) {
-    // 🔒 Sécurité anti-timeout
-    await interaction.deferReply();
+
+    // ✅ ACK SAFE (ne jamais defer deux fois)
+    if (!interaction.deferred && !interaction.replied) {
+      await interaction.deferReply();
+    }
 
     const type = interaction.options.getString("type");
     const tag = interaction.options.getString("tag");
@@ -91,14 +94,13 @@ module.exports = {
 
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
-        .setCustomId(`build_reroll_${type}_${tag}_normal`)
+        .setCustomId(`build_reroll_${type}_${tag}`)
         .setLabel("Reroll")
         .setEmoji("🔄")
         .setStyle(ButtonStyle.Secondary)
     );
 
-    // ✅ JAMAIS reply ici
-    await interaction.editReply({
+    return interaction.editReply({
       embeds: [embed],
       components: [row]
     });

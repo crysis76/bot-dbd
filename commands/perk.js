@@ -31,33 +31,29 @@ module.exports = {
      AUTOCOMPLETE
   ===================== */
   async autocomplete(interaction) {
-    const focusedValue =
-      interaction.options.getFocused()?.toLowerCase() ?? "";
+    const focused = interaction.options.getFocused()?.toLowerCase() ?? "";
 
-    const filtered = allPerks
-      .filter(perk =>
-        perk.name.toLowerCase().includes(focusedValue)
-      )
-      .slice(0, 25);
+    const results = allPerks
+      .filter(p => p.name.toLowerCase().includes(focused))
+      .slice(0, 25)
+      .map(p => ({
+        name: p.name,
+        value: p.id
+      }));
 
-    await interaction.respond(
-      filtered.map(perk => ({
-        name: perk.name,
-        value: perk.id
-      }))
-    );
+    return interaction.respond(results);
   },
 
   /* =====================
-     EXECUTION
+     EXECUTE
   ===================== */
   async execute(interaction) {
-    // ⏳ ACK immédiat (anti Unknown interaction)
-    await interaction.deferReply().catch(() => {});
+    // ⏳ ACK IMMÉDIAT (obligatoire)
+    await interaction.deferReply();
 
     const perkId = interaction.options.getString("nom");
 
-    /* 🔍 AFFICHAGE D’UNE PERK */
+    /* 🔍 PERK UNIQUE */
     if (perkId) {
       const perk = allPerks.find(p => p.id === perkId);
 
@@ -95,9 +91,7 @@ module.exports = {
         });
       }
 
-      return interaction.editReply({
-        embeds: [embed]
-      });
+      return interaction.editReply({ embeds: [embed] });
     }
 
     /* 📚 MENU CATÉGORIES */
@@ -113,17 +107,17 @@ module.exports = {
 
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
-        .setCustomId("perk_common")
+        .setCustomId("perk_common_0")
         .setLabel("Communes")
         .setStyle(ButtonStyle.Secondary),
 
       new ButtonBuilder()
-        .setCustomId("perk_survivor")
+        .setCustomId("perk_survivor_0")
         .setLabel("Survivants")
         .setStyle(ButtonStyle.Success),
 
       new ButtonBuilder()
-        .setCustomId("perk_killer")
+        .setCustomId("perk_killer_0")
         .setLabel("Tueurs")
         .setStyle(ButtonStyle.Danger)
     );
