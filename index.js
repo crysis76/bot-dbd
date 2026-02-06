@@ -35,7 +35,8 @@ const {
   Client,
   Collection,
   GatewayIntentBits,
-  EmbedBuilder
+  EmbedBuilder,
+  MessageFlags
 } = require("discord.js");
 
 const perksData = require("./data/perks.json");
@@ -79,62 +80,82 @@ client.once("clientReady", () => {
 ======================= */
 client.on("interactionCreate", async interaction => {
   try {
-    /* 🔍 AUTOCOMPLETE */
+    /* =====================
+       AUTOCOMPLETE (SAFE)
+    ===================== */
     if (interaction.isAutocomplete()) {
       const command = client.commands.get(interaction.commandName);
-      if (command?.autocomplete) {
-        return command.autocomplete(interaction);
+      if (!command?.autocomplete) return;
+
+      try {
+        await command.autocomplete(interaction);
+      } catch {
+        // silence total (autocomplete expire très vite)
       }
       return;
     }
 
-    /* 🔘 BOUTONS & SELECT */
+    /* =====================
+       BOUTONS / SELECT
+    ===================== */
     if (interaction.isButton() || interaction.isStringSelectMenu()) {
 
+      // ACK SAFE
+      if (!interaction.deferred && !interaction.replied) {
+        await interaction.deferUpdate().catch(() => {});
+      }
+
       if (interaction.customId.startsWith("addons_")) {
-        return handleAddons(interaction);
+        return handleAddons(interaction).catch(() => {});
       }
 
       if (interaction.customId.startsWith("perk_")) {
-        return handlePerks(interaction);
+        return handlePerks(interaction).catch(() => {});
       }
 
       if (interaction.customId.startsWith("build_")) {
-        const [, action, camp, category] = interaction.customId.split("_");
+        const [, action, camp, category] =
+          interaction.customId.split("_");
+
         if (action !== "reroll") return;
 
         const build = generateBuild(perksData, camp, category);
         if (!build?.length) return;
 
-        const embed = EmbedBuilder.from(interaction.message.embeds[0]);
+        const embed = EmbedBuilder.from(
+          interaction.message.embeds[0]
+        );
+
         embed.spliceFields(0, 1, {
           name: "Perks",
           value: build.map(p => `• **${p.name}**`).join("\n")
         });
 
-        return interaction.update({ embeds: [embed] });
+        return interaction.editReply({ embeds: [embed] }).catch(() => {});
       }
 
       return;
     }
 
-    /* 💬 SLASH COMMAND */
+    /* =====================
+       SLASH COMMAND
+    ===================== */
     if (!interaction.isChatInputCommand()) return;
 
     /* 🚫 BLOQUAGE SALON */
     if (interaction.channelId !== ALLOWED_CHANNEL_ID) {
       return interaction.reply({
         content: "❌ Les commandes sont autorisées uniquement dans le salon prévu.",
-        ephemeral: true
-      });
+        flags: MessageFlags.Ephemeral
+      }).catch(() => {});
     }
 
     const command = client.commands.get(interaction.commandName);
     if (!command) return;
 
-    /* ✅ DEFER UNIQUE CENTRALISÉ */
+    /* ✅ DEFER CENTRALISÉ UNIQUE */
     if (!interaction.deferred && !interaction.replied) {
-      await interaction.deferReply();
+      await interaction.deferReply().catch(() => {});
     }
 
     await command.execute(interaction);
@@ -142,9 +163,10 @@ client.on("interactionCreate", async interaction => {
   } catch (error) {
     console.error("❌ Erreur interaction :", error);
 
-    if (interaction.deferred || interaction.replied) {
-      await interaction.editReply({
-        content: "❌ Une erreur est survenue."
+    if (!interaction.replied && !interaction.deferred) {
+      await interaction.reply({
+        content: "❌ Une erreur est survenue.",
+        flags: MessageFlags.Ephemeral
       }).catch(() => {});
     }
   }

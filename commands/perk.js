@@ -28,27 +28,37 @@ module.exports = {
     ),
 
   /* =====================
-     AUTOCOMPLETE
+     AUTOCOMPLETE (SAFE)
   ===================== */
   async autocomplete(interaction) {
-    const focused = interaction.options.getFocused()?.toLowerCase() ?? "";
+    try {
+      const focused = interaction.options.getFocused(true);
+      if (focused.name !== "nom") {
+        return interaction.respond([]);
+      }
 
-    const results = allPerks
-      .filter(p => p.name.toLowerCase().includes(focused))
-      .slice(0, 25)
-      .map(p => ({
-        name: p.name,
-        value: p.id
-      }));
+      const value = focused.value.toLowerCase();
 
-    return interaction.respond(results);
+      const results = allPerks
+        .filter(p => p.name.toLowerCase().includes(value))
+        .slice(0, 25)
+        .map(p => ({
+          name: p.name,
+          value: p.id
+        }));
+
+      return interaction.respond(results);
+    } catch {
+      // ⚠️ autocomplete ne doit JAMAIS throw
+      return;
+    }
   },
 
   /* =====================
      EXECUTE
   ===================== */
   async execute(interaction) {
-    // ❌ PLUS DE deferReply ICI
+    // ⚠️ deferReply est géré dans index.js
 
     const perkId = interaction.options.getString("nom");
 

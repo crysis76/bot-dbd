@@ -4,83 +4,99 @@ const {
   ActionRowBuilder,
   ButtonBuilder,
   ButtonStyle
-} = require('discord.js');
+} = require("discord.js");
 
-const path = require('path');
-const { loadAll, loadOne } = require('../utils/loadData');
+const path = require("path");
+const { loadAll, loadOne } = require("../utils/loadData");
 
-const dataPath = path.join(__dirname, '../data/killers');
+const dataPath = path.join(__dirname, "../data/killers");
 const killers = loadAll(dataPath);
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName('killer')
-    .setDescription('Infos complètes sur un killer DBD')
+    .setName("killer")
+    .setDescription("Infos complètes sur un killer DBD")
     .addStringOption(o =>
-      o.setName('nom')
-        .setDescription('Choisis un killer')
+      o.setName("nom")
+        .setDescription("Choisis un killer")
         .setRequired(true)
         .setAutocomplete(true)
     ),
 
+  /* =====================
+     AUTOCOMPLETE (SAFE)
+  ===================== */
   async autocomplete(interaction) {
-    const focused = interaction.options.getFocused().toLowerCase();
+    try {
+      const focused = interaction.options.getFocused(true);
+      if (focused.name !== "nom") {
+        return interaction.respond([]);
+      }
 
-    return interaction.respond(
-      killers
-        .filter(k => k.name.toLowerCase().includes(focused))
-        .slice(0, 25)
-        .map(k => ({
-          name: k.name,
-          value: k.id
-        }))
-    );
+      const value = focused.value.toLowerCase();
+
+      return interaction.respond(
+        killers
+          .filter(k => k.name?.toLowerCase().includes(value))
+          .slice(0, 25)
+          .map(k => ({
+            name: k.name,
+            value: k.id
+          }))
+      );
+    } catch {
+      // ❌ autocomplete ne doit JAMAIS crash
+      return;
+    }
   },
 
+  /* =====================
+     EXECUTE
+  ===================== */
   async execute(interaction) {
-    // ❌ PLUS JAMAIS deferReply ICI
+    // ⚠️ deferReply est géré dans index.js
 
-    const id = interaction.options.getString('nom');
+    const id = interaction.options.getString("nom");
     const killer = loadOne(dataPath, id);
 
     if (!killer) {
       return interaction.editReply({
-        content: '❌ Killer introuvable.'
+        content: "❌ Killer introuvable."
       });
     }
 
     /* =================
        🔪 POUVOIR
     ================= */
-    let powerText = 'Pouvoir inconnu';
+    let powerText = "Pouvoir inconnu";
 
     if (killer.power) {
-      if (typeof killer.power === 'string') {
+      if (typeof killer.power === "string") {
         powerText = killer.power;
       } else {
         powerText =
-          `**${killer.power.name ?? 'Pouvoir'}**\n` +
-          (killer.power.description ?? 'Pas de description');
+          `**${killer.power.name ?? "Pouvoir"}**\n` +
+          (killer.power.description ?? "Pas de description");
       }
     }
 
     const embed = new EmbedBuilder()
-      .setTitle(killer.name ?? 'Killer inconnu')
-      .setDescription(killer.description ?? 'Aucune description')
+      .setTitle(killer.name ?? "Killer inconnu")
+      .setDescription(killer.description ?? "Aucune description")
       .setThumbnail(killer.image ?? null)
       .addFields({
-        name: '🔪 Pouvoir',
+        name: "🔪 Pouvoir",
         value: powerText
       })
-      .setColor('#B71C1C')
-      .setFooter({ text: 'Dead by Daylight — Killer' });
+      .setColor(0xb71c1c)
+      .setFooter({ text: "Dead by Daylight — Killer" });
 
     /* =================
        🧠 PERKS
     ================= */
     if (Array.isArray(killer.perks)) {
       killer.perks.forEach(perk => {
-        let perkDescription = 'Pas de description';
+        let perkDescription = "Pas de description";
 
         if (perk?.description) {
           perkDescription = perk.description;
@@ -93,11 +109,11 @@ module.exports = {
             tiers.tier3 && `**Tier III** : ${tiers.tier3}`
           ]
             .filter(Boolean)
-            .join('\n');
+            .join("\n");
         }
 
         embed.addFields({
-          name: `🧠 ${perk?.name ?? 'Perk inconnu'}`,
+          name: `🧠 ${perk?.name ?? "Perk inconnu"}`,
           value: perkDescription
         });
       });
@@ -109,7 +125,7 @@ module.exports = {
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
         .setCustomId(`addons_open_${id}`)
-        .setLabel('🎒 Add-ons')
+        .setLabel("🎒 Add-ons")
         .setStyle(ButtonStyle.Primary)
     );
 

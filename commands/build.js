@@ -34,8 +34,6 @@ module.exports = {
   ===================== */
   async autocomplete(interaction) {
     try {
-      if (!interaction.isAutocomplete()) return;
-
       const focused = interaction.options.getFocused(true);
       if (focused.name !== "tag") {
         return interaction.respond([]);
@@ -68,9 +66,8 @@ module.exports = {
           .slice(0, 25)
           .map(t => ({ name: t, value: t }))
       );
-
     } catch {
-      // ❌ autocomplete ne doit JAMAIS crash
+      // ⚠️ autocomplete ne doit JAMAIS throw
       return;
     }
   },
@@ -79,7 +76,7 @@ module.exports = {
      EXECUTION
   ===================== */
   async execute(interaction) {
-    // ⚠️ deferReply est DÉJÀ fait dans index.js
+    // ⚠️ deferReply est GÉRÉ dans index.js
 
     const type = interaction.options.getString("type");
     const tag = interaction.options.getString("tag");
