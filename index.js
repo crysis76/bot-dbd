@@ -1,6 +1,17 @@
 require("dotenv").config();
 
 /* =======================
+   PROTECTION ANTI-CRASH
+======================= */
+process.on("unhandledRejection", error => {
+  console.error("🔥 Unhandled Rejection:", error);
+});
+
+process.on("uncaughtException", error => {
+  console.error("🔥 Uncaught Exception:", error);
+});
+
+/* =======================
    WEB SERVER (RENDER)
 ======================= */
 const express = require("express");
@@ -18,7 +29,6 @@ app.listen(PORT, () => {
 /* =======================
    DISCORD BOT
 ======================= */
-
 const fs = require("fs");
 const path = require("path");
 const {
@@ -46,7 +56,6 @@ client.commands = new Collection();
 /* =======================
    COMMANDES
 ======================= */
-
 const commandsPath = path.join(__dirname, "commands");
 const commandFiles = fs
   .readdirSync(commandsPath)
@@ -59,17 +68,15 @@ for (const file of commandFiles) {
 }
 
 /* =======================
-   READY (v15 OK)
+   READY
 ======================= */
-
 client.once("clientReady", () => {
   console.log(`✅ Connecté en tant que ${client.user.tag}`);
 });
 
 /* =======================
-   INTERACTION CREATE
+   INTERACTIONS
 ======================= */
-
 client.on("interactionCreate", async interaction => {
   try {
     /* 🔍 AUTOCOMPLETE (JAMAIS BLOQUÉ) */
@@ -79,8 +86,13 @@ client.on("interactionCreate", async interaction => {
       return command.autocomplete(interaction);
     }
 
-    /* 🔘 BOUTONS & SELECT MENUS */
+    /* 🔘 BOUTONS & SELECT */
     if (interaction.isButton() || interaction.isStringSelectMenu()) {
+
+      // Toujours deferUpdate pour éviter expiration
+      if (!interaction.deferred && !interaction.replied) {
+        await interaction.deferUpdate().catch(() => {});
+      }
 
       if (interaction.customId.startsWith("addons_")) {
         return handleAddons(interaction);
@@ -94,14 +106,10 @@ client.on("interactionCreate", async interaction => {
         const [, action, camp, category] =
           interaction.customId.split("_");
 
-        if (action !== "reroll") {
-          return interaction.deferUpdate().catch(() => {});
-        }
+        if (action !== "reroll") return;
 
         const build = generateBuild(perksData, camp, category);
-        if (!build?.length) {
-          return interaction.deferUpdate().catch(() => {});
-        }
+        if (!build?.length) return;
 
         const embed = EmbedBuilder.from(interaction.message.embeds[0]);
 
@@ -110,16 +118,16 @@ client.on("interactionCreate", async interaction => {
           value: build.map(p => `• **${p.name}**`).join("\n")
         });
 
-        return interaction.update({ embeds: [embed] }).catch(() => {});
+        return interaction.editReply({ embeds: [embed] }).catch(() => {});
       }
 
-      return interaction.deferUpdate().catch(() => {});
+      return;
     }
 
     /* 💬 SLASH COMMAND */
     if (!interaction.isChatInputCommand()) return;
 
-    /* 🚫 BLOQUAGE HORS SALON (SLASH UNIQUEMENT) */
+    /* 🚫 BLOQUAGE HORS SALON */
     if (interaction.channelId !== ALLOWED_CHANNEL_ID) {
       return interaction.reply({
         content: "❌ Les commandes sont autorisées uniquement dans le salon prévu.",
@@ -130,7 +138,8 @@ client.on("interactionCreate", async interaction => {
     const command = client.commands.get(interaction.commandName);
     if (!command) return;
 
-    // ⚠️ IMPORTANT : PAS de reply / defer ici
+    // ✅ TOUJOURS deferReply pour éviter Unknown interaction
+    await interaction.deferReply().catch(() => {});
     await command.execute(interaction);
 
   } catch (error) {
@@ -148,5 +157,4 @@ client.on("interactionCreate", async interaction => {
 /* =======================
    LOGIN
 ======================= */
-
 client.login(process.env.TOKEN);
