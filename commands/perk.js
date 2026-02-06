@@ -48,8 +48,7 @@ module.exports = {
      EXECUTE
   ===================== */
   async execute(interaction) {
-    // ⏳ ACK IMMÉDIAT (obligatoire)
-    await interaction.deferReply();
+    // ❌ PLUS DE deferReply ICI
 
     const perkId = interaction.options.getString("nom");
 

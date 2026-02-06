@@ -67,11 +67,7 @@ module.exports = {
      EXECUTION
   ===================== */
   async execute(interaction) {
-
-    // ✅ ACK SAFE (ne jamais defer deux fois)
-    if (!interaction.deferred && !interaction.replied) {
-      await interaction.deferReply();
-    }
+    // ❌ PAS de deferReply ici
 
     const type = interaction.options.getString("type");
     const tag = interaction.options.getString("tag");

@@ -34,10 +34,7 @@ module.exports = {
      EXECUTION
   ===================== */
   async execute(interaction) {
-    // ✅ sécurité anti double réponse
-    if (!interaction.deferred && !interaction.replied) {
-      await interaction.deferReply();
-    }
+    // ❌ PAS de deferReply ici
 
     const id = interaction.options.getString('nom');
     const surv = loadOne(dataPath, id);
@@ -49,34 +46,37 @@ module.exports = {
     }
 
     const embed = new EmbedBuilder()
-      .setTitle(surv.name)
+      .setTitle(surv.name ?? 'Survivant inconnu')
       .setDescription(surv.description ?? 'Aucune description')
       .setThumbnail(surv.image ?? null)
       .setColor('#4CAF50')
       .setFooter({ text: 'Dead by Daylight — Survivant' });
 
-    // 🧠 PERKS AVEC TIERS + ICÔNES
+    /* =================
+       🧠 PERKS
+    ================= */
     if (Array.isArray(surv.perks)) {
       surv.perks.forEach(perk => {
         const tiers = perk.description_tiers ?? {};
 
         const desc = [
-          tiers.tier1 ? `**Tier I** : ${tiers.tier1}` : null,
-          tiers.tier2 ? `**Tier II** : ${tiers.tier2}` : null,
-          tiers.tier3 ? `**Tier III** : ${tiers.tier3}` : null
+          tiers.tier1 && `**Tier I** : ${tiers.tier1}`,
+          tiers.tier2 && `**Tier II** : ${tiers.tier2}`,
+          tiers.tier3 && `**Tier III** : ${tiers.tier3}`
         ]
           .filter(Boolean)
-          .join('\n');
+          .join('\n') || 'Pas de description';
 
         embed.addFields({
           name: `🧠 ${perk.name ?? 'Perk inconnu'}`,
-          value:
-            `${perk.icon ? `[🖼️ Icône](${perk.icon})\n` : ''}${desc || 'Pas de description'}`,
+          value: `${perk.icon ? `[🖼️ Icône](${perk.icon})\n` : ''}${desc}`,
           inline: false
         });
       });
     }
 
-    return interaction.editReply({ embeds: [embed] });
+    return interaction.editReply({
+      embeds: [embed]
+    });
   }
 };

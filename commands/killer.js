@@ -38,10 +38,7 @@ module.exports = {
   },
 
   async execute(interaction) {
-    // ✅ ACK SAFE (anti InteractionAlreadyReplied)
-    if (!interaction.deferred && !interaction.replied) {
-      await interaction.deferReply();
-    }
+    // ❌ PLUS JAMAIS deferReply ICI
 
     const id = interaction.options.getString('nom');
     const killer = loadOne(dataPath, id);
