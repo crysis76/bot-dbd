@@ -33,6 +33,9 @@ const { handleAddons } = require("./handlers/addons");
 const { handlePerks } = require("./handlers/perks");
 const { generateBuild } = require("./scripts/buildGenerator");
 
+/* 🔒 SALON AUTORISÉ */
+const ALLOWED_CHANNEL_ID = "1469340654696927458";
+
 const client = new Client({
   intents: [GatewayIntentBits.Guilds]
 });
@@ -73,6 +76,14 @@ client.once("ready", () => {
 
 client.on("interactionCreate", async interaction => {
   try {
+    /* 🚫 BLOQUAGE HORS SALON AUTORISÉ */
+    if (interaction.channelId !== ALLOWED_CHANNEL_ID) {
+      return interaction.reply({
+        content: "❌ Les commandes sont autorisées uniquement dans le salon prévu.",
+        ephemeral: true
+      });
+    }
+
     /* 🔍 AUTOCOMPLETE */
     if (interaction.isAutocomplete()) {
       const command = client.commands.get(interaction.commandName);
@@ -167,5 +178,4 @@ client.on("interactionCreate", async interaction => {
    LOGIN
 ======================= */
 
-// Render → variable d’environnement : TOKEN
 client.login(process.env.TOKEN);
