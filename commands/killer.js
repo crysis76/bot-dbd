@@ -43,7 +43,6 @@ module.exports = {
           }))
       );
     } catch {
-      // autocomplete ne doit jamais throw
       return;
     }
   },
@@ -52,10 +51,7 @@ module.exports = {
      EXECUTE
   ===================== */
   async execute(interaction) {
-    // ✅ SAFE deferReply
-    if (!interaction.deferred && !interaction.replied) {
-      await interaction.deferReply();
-    }
+    // ❌ PAS de deferReply ici (géré UNE FOIS dans index.js)
 
     const id = interaction.options.getString("nom");
     const killer = loadOne(dataPath, id);
@@ -66,9 +62,6 @@ module.exports = {
       });
     }
 
-    /* =================
-       🔪 POUVOIR
-    ================= */
     let powerText = "Pouvoir inconnu";
 
     if (killer.power) {
@@ -92,9 +85,6 @@ module.exports = {
       .setColor(0xb71c1c)
       .setFooter({ text: "Dead by Daylight — Killer" });
 
-    /* =================
-       🧠 PERKS
-    ================= */
     if (Array.isArray(killer.perks)) {
       killer.perks.forEach(perk => {
         let perkDescription = "Pas de description";
@@ -120,9 +110,6 @@ module.exports = {
       });
     }
 
-    /* =================
-       ➕ BOUTON ADD-ONS
-    ================= */
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
         .setCustomId(`addons_open_${id}`)
