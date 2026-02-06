@@ -25,7 +25,8 @@ const {
   Client,
   Collection,
   GatewayIntentBits,
-  EmbedBuilder
+  EmbedBuilder,
+  MessageFlags
 } = require("discord.js");
 
 const perksData = require("./data/perks.json");
@@ -66,7 +67,7 @@ for (const file of commandFiles) {
    READY
 ======================= */
 
-client.once("ready", () => {
+client.once("clientReady", client => {
   console.log(`✅ Connecté en tant que ${client.user.tag}`);
 });
 
@@ -76,35 +77,32 @@ client.once("ready", () => {
 
 client.on("interactionCreate", async interaction => {
   try {
-    /* 🚫 BLOQUAGE HORS SALON AUTORISÉ */
-    if (interaction.channelId !== ALLOWED_CHANNEL_ID) {
-      return interaction.reply({
-        content: "❌ Les commandes sont autorisées uniquement dans le salon prévu.",
-        ephemeral: true
-      });
-    }
-
-    /* 🔍 AUTOCOMPLETE */
+    /* 🔍 AUTOCOMPLETE (PAS DE BLOQUAGE) */
     if (interaction.isAutocomplete()) {
       const command = client.commands.get(interaction.commandName);
       if (!command?.autocomplete) return;
       return await command.autocomplete(interaction);
     }
 
+    /* 🚫 BLOQUAGE HORS SALON */
+    if (interaction.channelId !== ALLOWED_CHANNEL_ID) {
+      return interaction.reply({
+        content: "❌ Les commandes sont autorisées uniquement dans le salon prévu.",
+        flags: MessageFlags.Ephemeral
+      });
+    }
+
     /* 🔘 BOUTONS & SELECT MENUS */
     if (interaction.isButton() || interaction.isStringSelectMenu()) {
 
-      // 🧩 ADD-ONS
       if (interaction.customId.startsWith("addons_")) {
         return await handleAddons(interaction);
       }
 
-      // 🧩 PERKS
       if (interaction.customId.startsWith("perk_")) {
         return await handlePerks(interaction);
       }
 
-      // 🔄 BUILD REROLL
       if (interaction.customId.startsWith("build_")) {
         const [, action, camp, category] =
           interaction.customId.split("_");
@@ -163,7 +161,7 @@ client.on("interactionCreate", async interaction => {
 
     const reply = {
       content: "❌ Une erreur est survenue.",
-      ephemeral: true
+      flags: MessageFlags.Ephemeral
     };
 
     if (interaction.deferred || interaction.replied) {
